@@ -1,0 +1,10 @@
+language: go
+sudo: required
+git:
+  submodules: true
+install:
+  - go get -v github.com/spf13/hugo
+  script: bash ./deploy.sh
+  notifications:
+  email:
+    on_failure: always
