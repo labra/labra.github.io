@@ -12,5 +12,8 @@ For development, run:
 
 > hugo server --watch
 
+# Automatic deploy using Travis
+
+Steps described [here](https://haruair.github.io/post/setup-hugo-blog-on-github-pages-with-travis-ci/)
 
 
