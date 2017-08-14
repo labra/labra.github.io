@@ -16,4 +16,4 @@ For development, run:
 
 Steps described [here](https://haruair.github.io/post/setup-hugo-blog-on-github-pages-with-travis-ci/)
 
-
+Note: I had [a problem](https://github.com/travis-ci/travis-ci/issues/4746) using Windows when generating the ssh-key gen, so I had to use a Linux virtual machine.
