@@ -1,5 +1,5 @@
 +++
-date = "2017-05-30T09:30:00"
+date = "2010-05-30T09:30:00"
 title = "XML technologies"
 abstract = "Several courses about XML Technologies"
 abstract_short = ""

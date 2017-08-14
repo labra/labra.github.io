@@ -1,5 +1,5 @@
 +++
-date = "2010-05-30T09:30:00"
+date = "2017-05-30T09:30:00"
 title = "RDF and Linked Data Validation - ESWC Tutorial"
 abstract = "A tutorial describing ShEx and SHACL"
 abstract_short = ""
