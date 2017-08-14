@@ -1,4 +1,5 @@
 # Hugo default output directory
+travis_key
 /public/
 
 ## OS Files
