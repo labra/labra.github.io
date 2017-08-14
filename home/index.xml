@@ -8,7 +8,83 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://labra.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://labra.github.io/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/home/about/</guid>
+      <description>Biography Associate Professor, University of Oviedo, Spain. Founder and main researcher of WESO (Web Semantics Oviedo) research group, which collaborates with different companies around the world applying semantic web technologies to solve practical problems.
+Member of the W3C Web of Things Working Group and past member of the W3C Data Shapes Working Group. He is also member of three W3C community groups: Shape Expressions, SHACL and RAX (RDF and XML interoperability) and Chairman of the Best practices of Multilingual Linked Open Data community group.</description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>http://labra.github.io/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://labra.github.io/home/publications/</link>
+      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/home/publications/</guid>
+      <description>More publications My old list of publications was here</description>
+    </item>
+    
+    <item>
+      <title>Talks &amp; Tutorials</title>
+      <link>http://labra.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>http://labra.github.io/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://labra.github.io/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>http://labra.github.io/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/home/teaching/</guid>
+      <description>I teach the following courses:
+ Software architecture - Bachelor of Software Engineering, University of Oviedo, Spain. This course is taught in Spanish and English. Semantic Web - Master in Web Engineering, University of Oviedo, Spain Advances in Semantic Web - Master in Web Engineering, University of Oviedo, Spain Object Oriented Programming - Master in Web Engineering, University of Oviedo, Spain Web systems and applications - Master in Information Technology, Technical University Federico Santa María, Chile  I also taught the courses:</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://labra.github.io/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
