@@ -25,8 +25,7 @@
       <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/validating-rdf-book/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -35,9 +34,12 @@
       <pubDate>Mon, 31 Jul 2017 12:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/post/getting-started/</guid>
-      <description>&lt;p&gt;This is the first post included in my home page. I already have a &lt;a href=&#34;http://jelabra.blogspot.com.es/&#34; target=&#34;_blank&#34;&gt;personal blog&lt;/a&gt;, so I am not sure if I will really use this place.&lt;/p&gt;
+      <description>&lt;p&gt;This is the first post included in my home page.
+I already have a &lt;a href=&#34;http://jelabra.blogspot.com.es/&#34; target=&#34;_blank&#34;&gt;personal blog&lt;/a&gt;,
+so I am not sure if I will really use this place.&lt;/p&gt;
 
-&lt;p&gt;Anyway, who knows&amp;hellip;it seems quite easy to create posts here using the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34;&gt;Academic theme&lt;/a&gt; from &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Anyway, who knows&amp;hellip;it seems quite easy to create posts here using
+the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34;&gt;Academic theme&lt;/a&gt; from &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -60,11 +62,47 @@
     </item>
     
     <item>
+      <title>Multilingual linked data patterns </title>
+      <link>http://labra.github.io/publication/mlodpatterns/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/mlodpatterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multilingual Linked Open Data Patterns</title>
+      <link>http://labra.github.io/talk/multilingual_linked_open_data_patterns/</link>
+      <pubDate>Tue, 12 Mar 2013 09:30:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/talk/multilingual_linked_open_data_patterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multilingual Linked Data Patterns</title>
+      <link>http://labra.github.io/project/mlodpatterns/</link>
+      <pubDate>Fri, 08 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/project/mlodpatterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Best Practices for Multilingual Linked Open Data</title>
       <link>http://labra.github.io/talk/best_practices_multilingual_linked_data/</link>
       <pubDate>Tue, 12 Jun 2012 09:30:00 +0000</pubDate>
       
       <guid>http://labra.github.io/talk/best_practices_multilingual_linked_data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Semántica: comprendiendo el cambio hacia la Web 3.0</title>
+      <link>http://labra.github.io/publication/websemantica/</link>
+      <pubDate>Mon, 16 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/websemantica/</guid>
       <description></description>
     </item>
     
