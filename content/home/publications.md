@@ -22,5 +22,7 @@ detailed_list = false
 
 # More publications
 
-My old list of publications was [here](static/old/publications.html)
+My old list of publications was [here](http://di002.edv.uniovi.es/~labra/Publications.html)
+
+
 

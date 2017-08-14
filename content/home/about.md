@@ -29,13 +29,19 @@ weight = 1
 
 Associate Professor, [University of Oviedo](http://uniovi.es), Spain. 
 Founder and main researcher of [WESO (Web Semantics Oviedo)](http://www.weso.es) research group, 
-which collaborates with different companies around the world applying semantic web technologies to solve practical problems.
+which collaborates with different companies around the world applying semantic web technologies 
+to solve practical problems.
 
-Member of the W3C Web of Things Working Group and past member of the W3C Data Shapes Working Group.
-He is also member of three W3C community groups: 
- Shape Expressions, SHACL and RAX (RDF and XML interoperability) and 
-Chairman of the Best practices of Multilingual Linked Open Data community group. 
-He implemented the [SHACLex](http://labra.github.io/shaclex) library and maintains an online RDF validator service. 
+Member of the [W3C Web of Things Working Group](https://www.w3.org/WoT/WG/) and 
+past member of the [W3C Data Shapes Working Group](https://www.w3.org/2014/data-shapes/wiki/Main_Page).
+
+Member of : 
+ [Shape Expressions](https://www.w3.org/community/shex/), 
+ [SHACL](https://www.w3.org/community/shacl/) and 
+ [RAX (RDF and XML interoperability)](https://www.w3.org/community/rax/).
+Chairman of the [Best practices of Multilingual Linked Open Data W3c](https://www.w3.org/community/bpmlod/) community group. 
+
+Implemented the [SHACLex](http://labra.github.io/shaclex) library and maintains an online RDF validator service. 
 
 He is the coordinator of the [Master in Web Engineering](http://miw.uniovi.es) - University of Oviedo. 
 

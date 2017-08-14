@@ -128,12 +128,12 @@ defaultContentLanguageInSubdir = false
 #    icon_pack = "fa"
 #    link = "mailto:labra at uniovi.es"
  
- [[params.social]]
+[[params.social]]
     icon = "linkedin"
     icon_pack = "fa"
     link = "//www.linkedin.com/in/jelabra/"
 
-  [[params.social]]
+[[params.social]]
     icon = "twitter"
     icon_pack = "fa"
     link = "//twitter.com/jelabra"
@@ -143,17 +143,17 @@ defaultContentLanguageInSubdir = false
     icon_pack = "ai"
     link = "https://scholar.google.com/citations?user=TGfRNZkAAAAJ"
 
-  [[params.social]]
+[[params.social]]
     icon = "orcid"
     icon_pack = "ai"
     link = "http://orcid.org/0000-0001-8907-5348"
 
-  [[params.social]]
+[[params.social]]
     icon = "dblp"
     icon_pack = "ai"
     link = "http://dblp.uni-trier.de/pers/hd/g/Gayo:Jos=eacute=_Emilio_Labra"    
 
-  [[params.social]]
+[[params.social]]
     icon = "github"
     icon_pack = "fa"
     link = "//github.com/labra"
@@ -183,11 +183,6 @@ defaultContentLanguageInSubdir = false
   url = "#publications_selected"
   weight = 2
 
-#[[menu.main]]
-#  name = "Posts"
-#  url = "#posts"
-#  weight = 3
-
 [[menu.main]]
   name = "Projects"
   url = "#projects"
@@ -204,9 +199,20 @@ defaultContentLanguageInSubdir = false
   weight = 6
 
 [[menu.main]]
+  name = "Personal"
+  url = "#personal"
+  weight = 16
+  
+[[menu.main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 18
+
+  
+[[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 7
+  weight = 20
 
 # Taxonomies.
 [taxonomies]

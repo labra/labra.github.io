@@ -18,4 +18,3 @@ url = "http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?pro
 
 +++
 
-More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
