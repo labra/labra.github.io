@@ -1,13 +1,9 @@
 +++
 
-abstract = "In this work we present a formal description of a learning environment framework that gives support to learning analytics. 
- The framework is based on techniques that educational data mining and social network analysis provide. 
- The purpose is to study or discover collaborative relationships that students generate during their learning process and make predictions or assessments about student learning. 
- We also present a new model in the way the learning process is evaluated. 
- This model is more personal and contributes to new possibilities that the digital technologies offer in technology-enhanced assessment."
+abstract = "In this work we present a formal description of a learning environment framework that gives support to learning analytics. The framework is based on techniques that educational data mining and social network analysis provide.  The purpose is to study or discover collaborative relationships that students generate during their learning process and make predictions or assessments about student learning. We also present a new model in the way the learning process is evaluated.  This model is more personal and contributes to new possibilities that the digital technologies offer in technology-enhanced assessment."
 
 authors = ["Hernan Sagastegui Chigne", "Jose Emilio Labra Gayo", "María Elena Alva Obeso", "Patricia Ordóñez De Pablos", "Juan Manuel Cueva Lovelle"]
-date = "2016_12_01"
+date = "2016-12-01"
 image_preview = ""
 math = false
 publication_types = ["2"]
