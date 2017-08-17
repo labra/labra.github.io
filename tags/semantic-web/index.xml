@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Semantic Web on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/tags/semantic-web/</link>
+    <description>Recent content in Semantic Web on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Mon, 23 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/semantic-web/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Semantics and Validation of Shapes Schemas for RDF</title>
+      <link>http://labra.github.io/publication/2017_semantics-validation-shapes-schemas/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2017_semantics-validation-shapes-schemas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RDF Ventures to Boldly Meet Your Most Pedestrian Needs</title>
+      <link>http://labra.github.io/publication/2015_rdfventures/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2015_rdfventures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Representing Statistical Indexes as Linked Data Including Metadata about Their Computation Process</title>
+      <link>http://labra.github.io/publication/2014_representingstatisticalindexes/</link>
+      <pubDate>Thu, 27 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2014_representingstatisticalindexes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ACOTA: A multilingual and Semi-automatic collaborative tagging system</title>
+      <link>http://labra.github.io/publication/2014_acota/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2014_acota/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

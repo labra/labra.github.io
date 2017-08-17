@@ -113,8 +113,125 @@
     
     <url>
     
+      <loc>http://labra.github.io/publication/2015_rdfventures/</loc>
+      <lastmod>2015-05-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/publication/2015_complexityexpressivenessshexrdf/</loc>
+      <lastmod>2015-03-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/publication/2015_regularexpressionderivatives/</loc>
+      <lastmod>2015-03-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.github.io/publication/2015_mlodpatterns/</loc>
       <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/publication/2014_representingstatisticalindexes/</loc>
+      <lastmod>2014-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/publication/2014_interoperabilitybetweenplatforms/</loc>
+      <lastmod>2014-11-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/publication/2014_knowledgebasedpublicservicetransactions/</loc>
+      <lastmod>2014-11-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/publication/2014_creatingrecommendationselectronicbooks/</loc>
+      <lastmod>2014-10-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/publication/2014_newtrendseprocurement/</loc>
+      <lastmod>2014-04-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/publication/2014_newtrendseprocurementstatus/</loc>
+      <lastmod>2014-04-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/publication/2014_acota/</loc>
+      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/publication/2013_inductivetriplegraphs/</loc>
+      <lastmod>2013-12-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/publication/2014_empoweringaccesspublicprocurement/</loc>
+      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/publication/2013_towardsjournalistbasedrecommendations/</loc>
+      <lastmod>2013-06-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -133,6 +250,15 @@
     
       <loc>http://labra.github.io/project/mlodpatterns/</loc>
       <lastmod>2013-03-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/publication/2012_datagrounding/</loc>
+      <lastmod>2012-11-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -206,6 +332,16 @@
     
     <url>
     
+      <loc>http://labra.github.io/tags/eprocurement/</loc>
+      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.github.io/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -217,7 +353,17 @@
     <url>
     
       <loc>http://labra.github.io/tags/linked-data/</loc>
-      <lastmod>2013-03-08T00:00:00+00:00</lastmod>
+      <lastmod>2015-05-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/tags/multilingual/</loc>
+      <lastmod>2015-05-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -228,6 +374,16 @@
     
       <loc>http://labra.github.io/tags/multilingualism/</loc>
       <lastmod>2013-03-08T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/tags/patterns/</loc>
+      <lastmod>2015-05-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -267,7 +423,37 @@
     <url>
     
       <loc>http://labra.github.io/tags/rdf/</loc>
-      <lastmod>2017-07-31T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-23T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/tags/rdf-validation/</loc>
+      <lastmod>2015-03-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/tags/regular-expression-derivatives/</loc>
+      <lastmod>2015-03-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/tags/semantic-web/</loc>
+      <lastmod>2017-10-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -296,8 +482,28 @@
     
     <url>
     
+      <loc>http://labra.github.io/tags/statistics/</loc>
+      <lastmod>2014-11-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.github.io/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/tags/validation/</loc>
+      <lastmod>2017-10-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

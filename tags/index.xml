@@ -21,11 +21,29 @@
     </item>
     
     <item>
+      <title>Eprocurement</title>
+      <link>http://labra.github.io/tags/eprocurement/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/tags/eprocurement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Linked Data</title>
       <link>http://labra.github.io/tags/linked-data/</link>
-      <pubDate>Fri, 08 Mar 2013 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/tags/linked-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multilingual</title>
+      <link>http://labra.github.io/tags/multilingual/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/tags/multilingual/</guid>
       <description></description>
     </item>
     
@@ -35,6 +53,15 @@
       <pubDate>Fri, 08 Mar 2013 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/tags/multilingualism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Patterns</title>
+      <link>http://labra.github.io/tags/patterns/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/tags/patterns/</guid>
       <description></description>
     </item>
     
@@ -50,9 +77,36 @@
     <item>
       <title>Rdf</title>
       <link>http://labra.github.io/tags/rdf/</link>
-      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/tags/rdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rdf Validation</title>
+      <link>http://labra.github.io/tags/rdf-validation/</link>
+      <pubDate>Fri, 27 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/tags/rdf-validation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regular Expression Derivatives</title>
+      <link>http://labra.github.io/tags/regular-expression-derivatives/</link>
+      <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/tags/regular-expression-derivatives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic Web</title>
+      <link>http://labra.github.io/tags/semantic-web/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/tags/semantic-web/</guid>
       <description></description>
     </item>
     
@@ -71,6 +125,24 @@
       <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/tags/shex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>http://labra.github.io/tags/statistics/</link>
+      <pubDate>Thu, 27 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/tags/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Validation</title>
+      <link>http://labra.github.io/tags/validation/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/tags/validation/</guid>
       <description></description>
     </item>
     
