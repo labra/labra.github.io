@@ -12,10 +12,12 @@ selected = true
 title = "Semantics and Validation of Shapes Schemas for RDF"
 url_code = ""
 url_dataset = ""
-url_pdf = "pdf/BonevaLabraEric_ISWC17.pdf"
+url_pdf = "pdf/2017_SemanticsValidationShapesSchemas.pdf"
 url_project = "project/shaclex/"
 url_slides = ""
 url_video = ""
+
+tags=["RDF", "Validation", "Semantic web"]
 
 +++
 

@@ -8,7 +8,7 @@ math = false
 publication_types = ["2"]
 publication = "IEEE Transactions on Learning Technologies"
 publication_short = ""
-selected = false
+selected = true
 title = "Enhancing e-Learning content by using Semantic Web technologies"
 url_code = ""
 url_dataset = ""
@@ -24,6 +24,8 @@ url = "http://ieeexplore.ieee.org/document/7745940/"
 [[url_custom]]
 name = "doi"
 url = "https://doi.org/10.1109/TLT.2016.2629475"
+
+tags=["Semantic web", "Linked data", "eLearning"]
 
 +++
 

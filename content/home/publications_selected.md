@@ -18,3 +18,5 @@ detailed_list = false
 
 +++
 
+See full list of publications [here](#publications)
+

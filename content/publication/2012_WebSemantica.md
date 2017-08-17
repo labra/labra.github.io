@@ -16,4 +16,6 @@ url_video = ""
 name = "Amazon link"
 url = "https://www.amazon.es/Semantica-Pocket-Innova-Emilio-Labra/dp/8497455711"
 
+tags=["Semantic web", "Book", "Spanish"]
+
 +++

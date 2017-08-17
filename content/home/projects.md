@@ -24,6 +24,10 @@ view = 1
 [[filter]]
   name = "All"
   tag = "*"
+
+[[filter]]
+  name = "RDF"
+  tag = ".rdf"
   
 +++
 

@@ -18,9 +18,17 @@ count = 100
 # Show publication details (such as abstract)? (true/false)
 detailed_list = false
 
-+++
+view = 1
 
-# More publications
+[[filter]]
+  name = "All"
+  tag = "*"
+
+[[filter]]
+  name = "RDF"
+  tag = ".RDF"
+  
++++
 
 My old list of publications was [here](http://di002.edv.uniovi.es/~labra/Publications.html)
 
