@@ -18,7 +18,7 @@ count = 100
 # Show publication details (such as abstract)? (true/false)
 detailed_list = false
 
-view = 1
+view = 0
 
 [[filter]]
   name = "All"

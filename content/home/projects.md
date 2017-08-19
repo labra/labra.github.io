@@ -15,7 +15,7 @@ weight = 50
 # View.
 # Customize how projects are displayed.
 # Legend: 0 = list, 1 = cards.
-view = 1
+view = 0
 
 # Filter toolbar.
 # Add or remove as many filters (`[[filter]]` instances) as you like.
@@ -27,7 +27,23 @@ view = 1
 
 [[filter]]
   name = "RDF"
-  tag = ".rdf"
+  tag = ".RDF"
+
+[[filter]]
+  name = "Scala"
+  tag = ".Scala"
+
+[[filter]]
+  name = "ShEx"
+  tag = ".ShEx"
+
+[[filter]]
+  name = "SHACL"
+  tag = ".SHACL"
+  
+[[filter]]
+  name = "Haskell"
+  tag = ".Haskell"
   
 +++
 

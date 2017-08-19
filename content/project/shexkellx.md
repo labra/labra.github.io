@@ -3,16 +3,16 @@
 date = "2017-07-31"
 
 # Project title.
-title = "SHACLex"
+title = "ShExkell"
 
 # Project summary to display on homepage.
-summary = "SHACL & ShEx implementation"
+summary = "ShEx implementation in Haskell"
 
 # Tags: can be used for filtering projects.
-tags = ["SHACL", "ShEx", "RDF","Scala"]
+tags = ["ShEx", "RDF", "Haskell", "Functional Programming"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "http://labra.github.io/shaclex/"
+external_link = "http://weso.github.io/shexkell/"
 
 # Does the project detail page use math formatting?
 math = false

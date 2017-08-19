@@ -1,18 +1,18 @@
 +++
 # Date this page was created.
-date = "2017-07-31"
+date = "2013-03-08"
 
 # Project title.
-title = "SHACLex"
+title = "Language Prototyping System"
 
 # Project summary to display on homepage.
-summary = "SHACL & ShEx implementation"
+summary = ""
 
 # Tags: can be used for filtering projects.
-tags = ["SHACL", "ShEx", "RDF","Scala"]
+tags = ["Functional programming", "Haskell", "Semantics", "Modular Monadic Semantics"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "http://labra.github.io/shaclex/"
+external_link = ""
 
 # Does the project detail page use math formatting?
 math = false

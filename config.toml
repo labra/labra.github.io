@@ -138,7 +138,7 @@ defaultContentLanguageInSubdir = false
     icon_pack = "fa"
     link = "//twitter.com/jelabra"
 
-  [[params.social]]
+[[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
     link = "https://scholar.google.com/citations?user=TGfRNZkAAAAJ"
@@ -226,3 +226,9 @@ defaultContentLanguageInSubdir = false
 # Configure the English version of the website.
 [languages.en]
   languageCode = "en-us"
+
+[languages.es]
+  languageCode = "es"
+  
+#[permalinks] 
+#  publication = "/:year/:title/"

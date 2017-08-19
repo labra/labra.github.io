@@ -21,7 +21,7 @@ url_video = ""
 #name = "doi"
 #url = "http://dx.doi.org/10.1016/j.compind.2014.04.005"
 
-tags=["eProcurement","Semantic web"]
+tags=["Multilingualism","Semantic web","Annotations", "Collaborative tagging", "Academic"]
 
 +++
 
