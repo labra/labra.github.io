@@ -21,11 +21,65 @@
     </item>
     
     <item>
-      <title>Eprocurement</title>
-      <link>http://labra.github.io/tags/eprocurement/</link>
+      <title>Annotations</title>
+      <link>http://labra.github.io/tags/annotations/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/tags/eprocurement/</guid>
+      <guid>http://labra.github.io/tags/annotations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collaborative Tagging</title>
+      <link>http://labra.github.io/tags/collaborative-tagging/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/tags/collaborative-tagging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conference</title>
+      <link>http://labra.github.io/tags/conference/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/tags/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elearning</title>
+      <link>http://labra.github.io/tags/elearning/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/tags/elearning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functional Programming</title>
+      <link>http://labra.github.io/tags/functional-programming/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/tags/functional-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Haskell</title>
+      <link>http://labra.github.io/tags/haskell/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/tags/haskell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Language Prototyping System</title>
+      <link>http://labra.github.io/tags/language-prototyping-system/</link>
+      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/tags/language-prototyping-system/</guid>
       <description></description>
     </item>
     
@@ -35,6 +89,24 @@
       <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/tags/linked-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logic Programming</title>
+      <link>http://labra.github.io/tags/logic-programming/</link>
+      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/tags/logic-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modular Monadic Semantics</title>
+      <link>http://labra.github.io/tags/modular-monadic-semantics/</link>
+      <pubDate>Fri, 08 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/tags/modular-monadic-semantics/</guid>
       <description></description>
     </item>
     
@@ -50,99 +122,27 @@
     <item>
       <title>Multilingualism</title>
       <link>http://labra.github.io/tags/multilingualism/</link>
-      <pubDate>Fri, 08 Mar 2013 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/tags/multilingualism/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Patterns</title>
-      <link>http://labra.github.io/tags/patterns/</link>
-      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
+      <title>Ontologies</title>
+      <link>http://labra.github.io/tags/ontologies/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/tags/patterns/</guid>
+      <guid>http://labra.github.io/tags/ontologies/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Personal</title>
-      <link>http://labra.github.io/tags/personal/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Ontospread</title>
+      <link>http://labra.github.io/tags/ontospread/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/tags/personal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rdf</title>
-      <link>http://labra.github.io/tags/rdf/</link>
-      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/tags/rdf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rdf Validation</title>
-      <link>http://labra.github.io/tags/rdf-validation/</link>
-      <pubDate>Fri, 27 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/tags/rdf-validation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Regular Expression Derivatives</title>
-      <link>http://labra.github.io/tags/regular-expression-derivatives/</link>
-      <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/tags/regular-expression-derivatives/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Semantic Web</title>
-      <link>http://labra.github.io/tags/semantic-web/</link>
-      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/tags/semantic-web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shacl</title>
-      <link>http://labra.github.io/tags/shacl/</link>
-      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/tags/shacl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shex</title>
-      <link>http://labra.github.io/tags/shex/</link>
-      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/tags/shex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Statistics</title>
-      <link>http://labra.github.io/tags/statistics/</link>
-      <pubDate>Thu, 27 Nov 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/tags/statistics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Validation</title>
-      <link>http://labra.github.io/tags/validation/</link>
-      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/tags/validation/</guid>
+      <guid>http://labra.github.io/tags/ontospread/</guid>
       <description></description>
     </item>
     

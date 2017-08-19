@@ -46,5 +46,41 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Applying MapReduce to Spreading Activation Algorithm on Large RDF Graphs</title>
+      <link>http://labra.github.io/publication/2013_mapreducespreadingactivation/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2013_mapreducespreadingactivation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ONTOSPREAD: A Framework for Supporting the Activation of Concepts in Graph-Based Structures through the Spreading Activation Technique</title>
+      <link>http://labra.github.io/publication/2013_ontospreadframework/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2013_ontospreadframework/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A proposal for a Semantic Intelligent Document Repository Architecture</title>
+      <link>http://labra.github.io/publication/2009_sidra-cerma/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2009_sidra-cerma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Searching over Public Administration Legal Documents Using Ontologies</title>
+      <link>http://labra.github.io/publication/2006_searchiingpublicadministration/</link>
+      <pubDate>Tue, 07 Nov 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2006_searchiingpublicadministration/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
