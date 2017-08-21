@@ -7,15 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
-    <lastBuildDate>Fri, 01 May 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Nov 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/linked-data/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>RDF Ventures to Boldly Meet Your Most Pedestrian Needs</title>
-      <link>http://labra.github.io/publication/2015_rdfventures/</link>
-      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
+      <title>Enhancing e-Learning content by using Semantic Web technologies</title>
+      <link>http://labra.github.io/publication/2016_enhancing_elearningcontent/</link>
+      <pubDate>Wed, 16 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/publication/2015_rdfventures/</guid>
+      <guid>http://labra.github.io/publication/2016_enhancing_elearningcontent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multilingual linked data patterns </title>
+      <link>http://labra.github.io/publication/2015_mlodpatterns/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2015_mlodpatterns/</guid>
       <description></description>
     </item>
     
@@ -25,6 +34,15 @@
       <pubDate>Thu, 27 Nov 2014 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/2014_representingstatisticalindexes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Empowering the access to public procurement opportunities by means of linking controlled vocabularies. A case study of Product Scheme Classifications in the European e-Procurement sector</title>
+      <link>http://labra.github.io/publication/2014_empoweringaccesspublicprocurement/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2014_empoweringaccesspublicprocurement/</guid>
       <description></description>
     </item>
     

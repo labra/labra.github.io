@@ -20,11 +20,38 @@
     </item>
     
     <item>
+      <title>Validating RDF</title>
+      <link>http://labra.github.io/publication/2017_validating-rdf-book/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2017_validating-rdf-book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancing e-Learning content by using Semantic Web technologies</title>
+      <link>http://labra.github.io/publication/2016_enhancing_elearningcontent/</link>
+      <pubDate>Wed, 16 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2016_enhancing_elearningcontent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>RDF Ventures to Boldly Meet Your Most Pedestrian Needs</title>
       <link>http://labra.github.io/publication/2015_rdfventures/</link>
       <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/2015_rdfventures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multilingual linked data patterns </title>
+      <link>http://labra.github.io/publication/2015_mlodpatterns/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2015_mlodpatterns/</guid>
       <description></description>
     </item>
     
@@ -38,11 +65,47 @@
     </item>
     
     <item>
+      <title>Knowledge-based public service transactions: An intelligent model-driven approach in co-learning contexts</title>
+      <link>http://labra.github.io/publication/2014_knowledgebasedpublicservicetransactions/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2014_knowledgebasedpublicservicetransactions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New trends on e-Procurement applying semantic technologies</title>
+      <link>http://labra.github.io/publication/2014_newtrendseprocurement/</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2014_newtrendseprocurement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New trends on e-Procurement applying semantic technologies: current status and future challenges</title>
+      <link>http://labra.github.io/publication/2014_newtrendseprocurementstatus/</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2014_newtrendseprocurementstatus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ACOTA: A multilingual and Semi-automatic collaborative tagging system</title>
       <link>http://labra.github.io/publication/2014_acota/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/2014_acota/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Empowering the access to public procurement opportunities by means of linking controlled vocabularies. A case study of Product Scheme Classifications in the European e-Procurement sector</title>
+      <link>http://labra.github.io/publication/2014_empoweringaccesspublicprocurement/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2014_empoweringaccesspublicprocurement/</guid>
       <description></description>
     </item>
     
@@ -65,20 +128,20 @@
     </item>
     
     <item>
-      <title>A proposal for a Semantic Intelligent Document Repository Architecture</title>
-      <link>http://labra.github.io/publication/2009_sidra-cerma/</link>
-      <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
+      <title>Towards a Practical Solution for Data Grounding in a Semantic Web Services Environment</title>
+      <link>http://labra.github.io/publication/2012_datagrounding/</link>
+      <pubDate>Thu, 01 Nov 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/publication/2009_sidra-cerma/</guid>
+      <guid>http://labra.github.io/publication/2012_datagrounding/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Searching over Public Administration Legal Documents Using Ontologies</title>
-      <link>http://labra.github.io/publication/2006_searchiingpublicadministration/</link>
-      <pubDate>Tue, 07 Nov 2006 00:00:00 +0000</pubDate>
+      <title>Web Semántica: comprendiendo el cambio hacia la Web 3.0</title>
+      <link>http://labra.github.io/publication/2012_websemantica/</link>
+      <pubDate>Mon, 16 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/publication/2006_searchiingpublicadministration/</guid>
+      <guid>http://labra.github.io/publication/2012_websemantica/</guid>
       <description></description>
     </item>
     

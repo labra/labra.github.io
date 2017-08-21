@@ -20,6 +20,15 @@
     </item>
     
     <item>
+      <title>Validating RDF</title>
+      <link>http://labra.github.io/publication/2017_validating-rdf-book/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2017_validating-rdf-book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>SHACLex</title>
       <link>http://labra.github.io/project/shaclex/</link>
       <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
@@ -65,11 +74,29 @@
     </item>
     
     <item>
+      <title>Multilingual linked data patterns </title>
+      <link>http://labra.github.io/publication/2015_mlodpatterns/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2015_mlodpatterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Representing Statistical Indexes as Linked Data Including Metadata about Their Computation Process</title>
       <link>http://labra.github.io/publication/2014_representingstatisticalindexes/</link>
       <pubDate>Thu, 27 Nov 2014 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/2014_representingstatisticalindexes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inductive Representations of RDF Graphs</title>
+      <link>http://labra.github.io/publication/2013_inductivetriplegraphs/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2013_inductivetriplegraphs/</guid>
       <description></description>
     </item>
     
@@ -97,6 +124,15 @@
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/2013_ontospreadframework/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Searching over Public Administration Legal Documents Using Ontologies</title>
+      <link>http://labra.github.io/publication/2006_searchiingpublicadministration/</link>
+      <pubDate>Tue, 07 Nov 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2006_searchiingpublicadministration/</guid>
       <description></description>
     </item>
     

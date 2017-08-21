@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Big Data on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/tags/big-data/</link>
+    <description>Recent content in Big Data on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/big-data/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Applying MapReduce to Spreading Activation Algorithm on Large RDF Graphs</title>
+      <link>http://labra.github.io/publication/2013_mapreducespreadingactivation/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2013_mapreducespreadingactivation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

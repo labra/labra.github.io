@@ -20,6 +20,15 @@
     </item>
     
     <item>
+      <title>Inductive Representations of RDF Graphs</title>
+      <link>http://labra.github.io/publication/2013_inductivetriplegraphs/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2013_inductivetriplegraphs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Language Prototyping System</title>
       <link>http://labra.github.io/project/lps/</link>
       <pubDate>Fri, 08 Mar 2013 00:00:00 +0000</pubDate>
@@ -43,6 +52,15 @@
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/1998_mms_usingfoldsmonadicfolds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introducción al lenguaje Haskell</title>
+      <link>http://labra.github.io/publication/1995_introhaskell/</link>
+      <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/1995_introhaskell/</guid>
       <description></description>
     </item>
     

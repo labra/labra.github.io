@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/tags/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Sun, 01 Jan 1995 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/lecture-notes/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Introducción al lenguaje Haskell</title>
+      <link>http://labra.github.io/publication/1995_introhaskell/</link>
+      <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/1995_introhaskell/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
