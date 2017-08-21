@@ -17,6 +17,8 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
+tags=["Image-classification", "Collaborative-tagging", "Image-retrieval", "Interaction"]
+
 [[url_custom]]
 name = "doi"
 url = "http://dx.doi.org/10.1016/j.chb.2009.10.004"
@@ -25,7 +27,6 @@ url = "http://dx.doi.org/10.1016/j.chb.2009.10.004"
 #name = "2012"
 #url = ""
 
-tags=["Image classification", "Collaborative tagging", "Image retrieval"]
 
 +++
 

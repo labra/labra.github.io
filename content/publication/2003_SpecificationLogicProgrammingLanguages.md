@@ -17,7 +17,7 @@ url_project = "project/lps/"
 url_slides = ""
 url_video = ""
 
-tags=["Language Prototyping System", "Logic Programming", "Functional Programming", "Modular Monadic Semantics"]
+tags=["Language-Prototyping-System", "Logic-Programming", "Functional-Programming", "Modular-Monadic-Semantics"]
 
 +++
 

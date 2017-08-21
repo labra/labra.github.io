@@ -17,11 +17,12 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
+tags=["eBooks","Recommendations"]
+
 [[url_custom]]
 name = "doi"
 url = "http://dx.doi.org/10.1016/j.chb.2014.10.057"
 
-tags=["eBooks","recommendations"]
 
 +++
 

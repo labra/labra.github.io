@@ -10,13 +10,15 @@ publication = "In *Third International Conference on Advances in Semantic Proces
 publication_short = ""
 selected = false
 title = "Ontologies in Checking for Inconsistency of Requirements Specification"
-subtitle = "2009"
+subtitle = ""
 url_code = ""
 url_dataset = ""
 url_pdf = "pdf/2009_OntologiesRequirementSpecifications.pdf"
 url_project = ""
 url_slides = ""
 url_video = ""
+
+tags=["Ontologies", "Requirements-specification", "Semantic-web"]
 
 #[[url_custom]]
 #name = "doi"
@@ -26,7 +28,6 @@ url_video = ""
 #name = "2009"
 #url = ""
 
-tags=["Ontologies", "Requirements specification"]
 
 +++
 

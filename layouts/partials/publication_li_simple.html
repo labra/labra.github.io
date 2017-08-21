@@ -1,0 +1,16 @@
+<li itemscope itemtype="http://schema.org/CreativeWork" class="isotope-item 
+ {{ if isset .Params "tags" }} {{ delimit .Params.tags " " }}{{ end }}
+">
+  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="name">{{ .Title }}</span>,
+  <span itemprop="authors" style="color:blue">
+  {{ with .Params.authors }}
+  {{ delimit . ", " | markdownify }}
+  {{ end }},
+  </span>
+  <span itemprop="publication" style="color: green">
+  {{ with .Params.publication }}{{ markdownify . }}{{ end }}
+  </span>- 
+  <span itemprop="year">{{ .Date.Year }}</span>
+  <p>{{ partial "publication_links" (dict "content" . "is_list" 1) }}</p>
+</li>

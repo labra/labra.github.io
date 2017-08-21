@@ -17,7 +17,7 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
-tags=["RDF", "ShEx", "RDF Validation"]
+tags=["RDF", "ShEx", "RDF-validation"]
 
 +++
 

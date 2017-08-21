@@ -17,11 +17,12 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
+tags=["News","Recommendations", "Journal"]
+
 [[url_custom]]
 name = "doi"
 url = "http://dx.doi.org/10.1016/j.eswa.2013.06.032"
 
-tags=["News","Recommendations"]
 
 +++
 

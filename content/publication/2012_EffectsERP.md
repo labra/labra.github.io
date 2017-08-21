@@ -17,11 +17,12 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
+tags=["ERP", "Technology-management"]
+
 [[url_custom]]
 name = "doi"
 url = "http://dx.doi.org/0.1504/IJTM.2012.047254"
 
-tags=["ERP"]
 
 +++
 

@@ -20,6 +20,6 @@ count = 5
 
 +++
 
-I have [another blog](http://jelabra.blogspot.com.es/) about personal matters in Spanish and 
+I maintain [another blog](http://jelabra.blogspot.com.es/) about personal matters in Spanish and 
  another one about [shaping data](http://shapingdata.blogspot.com.es/) in English
 

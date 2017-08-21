@@ -17,7 +17,7 @@ url_project = "project/shaclex/"
 url_slides = ""
 url_video = ""
 
-tags=["RDF", "Validation", "Semantic web"]
+tags=["RDF", "Validation", "Semantic-web", "Shapes", "ShEx"]
 
 +++
 

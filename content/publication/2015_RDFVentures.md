@@ -16,11 +16,11 @@ title = "RDF Ventures to Boldly Meet Your Most Pedestrian Needs"
 #url_video = "#"
 url_pdf = "pdf/2015_RDFVentures.pdf"
 
+tags=["RDF", "Multilingual", "Semantic-web", "ShEx", "SHACL"]
 
 #[[url_custom]]
 #name = "Publishers link"
 #url = ""
 
-tags=["RDF", "Multilingual", "Semantic web", "Patterns", "Linked data"]
 
 +++

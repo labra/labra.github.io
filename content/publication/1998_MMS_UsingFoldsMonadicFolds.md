@@ -25,7 +25,7 @@ url_video = ""
 #name = "2012"
 #url = ""
 
-tags=["Modular monadic semantics", "Functional programming", "Programming language Semantics"]
+tags=["Modular-monadic-semantics", "Functional-programming", "Programming-language-Semantics"]
 
 +++
 

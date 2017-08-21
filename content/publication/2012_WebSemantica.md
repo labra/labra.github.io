@@ -12,10 +12,11 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
+tags=["Semantic-web", "Book", "Spanish"]
+
 [[url_custom]]
 name = "Amazon link"
 url = "https://www.amazon.es/Semantica-Pocket-Innova-Emilio-Labra/dp/8497455711"
 
-tags=["Semantic web", "Book", "Spanish"]
 
 +++

@@ -18,6 +18,8 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
+tags = ["Web-based-tool", "Healthcare", "Social-network-analysis", "eHealth"]
+
 [[url_custom]]
 name = "journal"
 url = "https://www.hindawi.com/journals/cmmm/2017/2579848/"
@@ -25,6 +27,7 @@ url = "https://www.hindawi.com/journals/cmmm/2017/2579848/"
 [[url_custom]]
 name = "doi"
 url = "https://doi.org/10.1155/2017/2579848"
+
 
 +++
 

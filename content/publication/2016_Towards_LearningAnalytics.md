@@ -18,10 +18,11 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
+tags = ["Learning-analytics", "eLearning"]
+
 [[url_custom]]
 name = "journal"
 url = "https://www.ijee.ie/contents/c320416.html"
-
 
 +++
 

@@ -17,11 +17,12 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
+tags=["RDF", "Functional-programming", "Graphs", "Inductive-graphs"]
+
 [[url_custom]]
 name = "doi"
 url = "http://dx.doi.org/10.1016/j.scico.2013.12.011"
 
-tags=["RDF", "Functional Programming", "Graphs", "Inductive graphs"]
 
 +++
 

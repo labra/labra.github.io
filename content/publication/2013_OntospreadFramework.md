@@ -16,11 +16,12 @@ title = "ONTOSPREAD: A Framework for Supporting the Activation of Concepts in Gr
 #url_video = "#"
 #url_pdf = ""
 
+tags=["RDF", "Semantic-web", "Ontospread", "Spreading-activation"]
+
 
 #[[url_custom]]
 #name = "Publishers link"
 #url = ""
 
-tags=["RDF", "Semantic web", "Ontospread"]
 
 +++

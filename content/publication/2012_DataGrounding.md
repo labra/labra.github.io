@@ -17,6 +17,8 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
+tags=["Data-grounding","Semantic-web"]
+
 [[url_custom]]
 name = "doi"
 url = "http://dx.doi.org/10.3217/jucs-018-11-1576"
@@ -25,7 +27,6 @@ url = "http://dx.doi.org/10.3217/jucs-018-11-1576"
 name = "publisher"
 url = "http://www.jucs.org/jucs_18_11/towards_a_practical_solution"
 
-tags=["Data grounding","Semantic web services"]
 
 +++
 

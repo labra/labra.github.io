@@ -18,6 +18,8 @@ url_project = ""
 url_slides = "pdf/2006_SearchingPublicAdministration_Slides.pdf"
 url_video = ""
 
+tags=["Public-Administration", "Semantic-Web", "Semantic-search", "RDF"]
+
 #[[url_custom]]
 #name = "doi"
 #url = "http://dx.doi.org/10.1016/j.chb.2009.10.004"
@@ -26,7 +28,6 @@ url_video = ""
 #name = "2006"
 #url = ""
 
-tags=["Public Administration", "Semantic Web", "Semantic search"]
 
 +++
 

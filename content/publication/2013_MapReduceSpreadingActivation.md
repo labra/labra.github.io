@@ -16,11 +16,11 @@ title = "Applying MapReduce to Spreading Activation Algorithm on Large RDF Graph
 #url_video = "#"
 #url_pdf = ""
 
+tags=["RDF", "Semantic-web", "Ontospread", "MapReduce", "Big-data"]
 
 #[[url_custom]]
 #name = "Publishers link"
 #url = ""
 
-tags=["RDF", "Semantic web", "Ontospread"]
 
 +++

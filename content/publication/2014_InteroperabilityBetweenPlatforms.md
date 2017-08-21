@@ -17,6 +17,8 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
+tags = ["Interoperability", "eLearning"]
+
 [[url_custom]]
 name = "doi"
 url = "http://dx.doi.org/10.1016/j.chb.2014.11.011"

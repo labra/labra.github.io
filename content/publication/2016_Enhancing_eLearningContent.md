@@ -17,6 +17,9 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
+tags=["Semantic-web", "Linked-data", "eLearning"]
+
+
 [[url_custom]]
 name = "journal"
 url = "http://ieeexplore.ieee.org/document/7745940/"
@@ -25,7 +28,6 @@ url = "http://ieeexplore.ieee.org/document/7745940/"
 name = "doi"
 url = "https://doi.org/10.1109/TLT.2016.2629475"
 
-tags=["Semantic web", "Linked data", "eLearning"]
 
 +++
 

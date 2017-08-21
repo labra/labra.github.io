@@ -17,11 +17,12 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
+tags=["eProcurement","Semantic-web"]
+
 [[url_custom]]
 name = "doi"
 url = "http://dx.doi.org/10.1016/j.compind.2014.04.005"
 
-tags=["eProcurement","Semantic web"]
 
 +++
 

@@ -12,11 +12,11 @@ title = "Validating RDF"
 #url_slides = "#"
 #url_video = "#"
 
+tags=["RDF", "Validation", "Semantic-web", "Shapes", "ShEx", "SHACL"]
+
 [[url_custom]]
 name = "Publishers pre-order link"
 url = "http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1091"
-
-tags=["RDF", "Validation", "Semantic web"]
 
 +++
 

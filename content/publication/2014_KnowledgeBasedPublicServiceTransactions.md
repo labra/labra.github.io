@@ -17,11 +17,12 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
+tags=["Model-driven-architecture", "Public-services", "Semantic-web"]
+
 [[url_custom]]
 name = "doi"
 url = "http://dx.doi.org/10.1016/j.chb.2014.09.044"
 
-tags=["Model driven architecture"]
 
 +++
 

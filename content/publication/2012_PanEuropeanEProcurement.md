@@ -17,6 +17,8 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
+tags=["Ontospread", "Moldeas", "Spreading-activation", "eProcurement"]
+
 [[url_custom]]
 name = "doi"
 url = "http://dx.doi.org/10.1142/S0218194012400086"
@@ -25,7 +27,6 @@ url = "http://dx.doi.org/10.1142/S0218194012400086"
 #name = "2012"
 #url = ""
 
-tags=["Ontospread", "Moldeas", "Spreading activation", "eProcurement"]
 
 +++
 

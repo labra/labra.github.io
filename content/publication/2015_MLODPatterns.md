@@ -17,11 +17,12 @@ url_project = "project/mlodPatterns/"
 #url_video = "#"
 url_pdf = "http://www.semantic-web-journal.net/system/files/swj495.pdf"
 
+tags=["RDF", "Multilingual", "Semantic-web", "Patterns", "Linked-data"]
+
 
 [[url_custom]]
 name = "Publishers link"
 url = "http://content.iospress.com/articles/semantic-web/sw136"
 
-tags=["RDF", "Multilingual", "Semantic web", "Patterns", "Linked data"]
 
 +++

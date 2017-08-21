@@ -17,7 +17,7 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
-tags=[ "Semantic web", "Conference" ]
+tags=[ "Semantic-web", "Conference" ]
 
 +++
 
