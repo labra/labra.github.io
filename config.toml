@@ -200,8 +200,8 @@ defaultContentLanguageInSubdir = false
   weight = 6
 
 [[menu.main]]
-  name = "Personal"
-  url = "#personal"
+  name = "Other"
+  url = "#other"
   weight = 16
   
 [[menu.main]]
