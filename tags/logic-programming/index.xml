@@ -7,8 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
-    <lastBuildDate>Wed, 01 Jan 2003 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jun 2004 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/logic-programming/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Representaciones gráficas y Mundos Virtuales infinitos en las Prácticas de Programación Lógica y Funcional</title>
+      <link>http://labra.github.io/publication/2003_graphicalrepresentationslogicfunctionalprogrammingjenui/</link>
+      <pubDate>Tue, 01 Jun 2004 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2003_graphicalrepresentationslogicfunctionalprogrammingjenui/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Specification of Logic Programming Languages from Reusable Semantic Building Blocks</title>

@@ -56,6 +56,15 @@
     </item>
     
     <item>
+      <title>Shape Expression Schemas</title>
+      <link>http://labra.github.io/publication/2016_shapeexpressionschemas/</link>
+      <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2016_shapeexpressionschemas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>RDF Ventures to Boldly Meet Your Most Pedestrian Needs</title>
       <link>http://labra.github.io/publication/2015_rdfventures/</link>
       <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
@@ -79,6 +88,15 @@
       <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/2015_regularexpressionderivatives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Validating and Describing Linked Data Portals using RDF Shape Expressions</title>
+      <link>http://labra.github.io/publication/2015_validatinglinkeddataportals/</link>
+      <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2015_validatinglinkeddataportals/</guid>
       <description></description>
     </item>
     
@@ -124,24 +142,6 @@
       <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/2014_creatingrecommendationselectronicbooks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>New trends on e-Procurement applying semantic technologies</title>
-      <link>http://labra.github.io/publication/2014_newtrendseprocurement/</link>
-      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2014_newtrendseprocurement/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>New trends on e-Procurement applying semantic technologies: current status and future challenges</title>
-      <link>http://labra.github.io/publication/2014_newtrendseprocurementstatus/</link>
-      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2014_newtrendseprocurementstatus/</guid>
       <description></description>
     </item>
     

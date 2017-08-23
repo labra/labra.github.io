@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pilar Marqués Sánchez on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/authors/pilar-marqu%C3%A9s-s%C3%A1nchez/</link>
+    <description>Recent content in Pilar Marqués Sánchez on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Wed, 26 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/authors/pilar-marqu%C3%A9s-s%C3%A1nchez/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A Web-Based Tool for Automatic Data Collection, Curation, and Visualization of Complex Healthcare Survey Studies including Social Network Analysis</title>
+      <link>http://labra.github.io/publication/2017_computationalmathematicalmethods/</link>
+      <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2017_computationalmathematicalmethods/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

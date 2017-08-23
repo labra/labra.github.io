@@ -5,6 +5,18 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="http://labra.github.io/es/authors/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="http://labra.github.io/authors/" hreflang="en"/>
+    
+      <loc>http://labra.github.io/es/authors/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <xhtml:link rel="alternate" href="http://labra.github.io/es/categories/" hreflang="es"/>
       <xhtml:link rel="alternate" href="http://labra.github.io/categories/" hreflang="en"/>
     

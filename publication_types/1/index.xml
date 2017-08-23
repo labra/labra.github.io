@@ -38,11 +38,38 @@
     </item>
     
     <item>
+      <title>Validating and Describing Linked Data Portals using RDF Shape Expressions</title>
+      <link>http://labra.github.io/publication/2015_validatinglinkeddataportals/</link>
+      <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2015_validatinglinkeddataportals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Representing Statistical Indexes as Linked Data Including Metadata about Their Computation Process</title>
       <link>http://labra.github.io/publication/2014_representingstatisticalindexes/</link>
       <pubDate>Thu, 27 Nov 2014 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/2014_representingstatisticalindexes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shape Expressions: An RDF validation and transformation language</title>
+      <link>http://labra.github.io/publication/2014_shex/</link>
+      <pubDate>Wed, 03 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2014_shex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards an architecture and adoption process for Linked Data technologies in Open Government contexts</title>
+      <link>http://labra.github.io/publication/2011_linkeddatalibrarycongress/</link>
+      <pubDate>Sat, 03 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2011_linkeddatalibrarycongress/</guid>
       <description></description>
     </item>
     
@@ -65,6 +92,33 @@
     </item>
     
     <item>
+      <title>Analysis of XBRL documents representing financial statements using Semantic Web Technologies</title>
+      <link>http://labra.github.io/publication/2007_analysisxbrl/</link>
+      <pubDate>Wed, 03 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2007_analysisxbrl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Combining Collaborative Tagging and Ontologies in Image Retrieval Systems</title>
+      <link>http://labra.github.io/publication/2007_combiningcollaborativetaggingimageretrieval/</link>
+      <pubDate>Wed, 03 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2007_combiningcollaborativetaggingimageretrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mailing lists meet the semantic web</title>
+      <link>http://labra.github.io/publication/2007_mailinglistssemanticweb/</link>
+      <pubDate>Sun, 01 Apr 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2007_mailinglistssemanticweb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Searching over Public Administration Legal Documents Using Ontologies</title>
       <link>http://labra.github.io/publication/2006_searchiingpublicadministration/</link>
       <pubDate>Tue, 07 Nov 2006 00:00:00 +0000</pubDate>
@@ -74,11 +128,20 @@
     </item>
     
     <item>
-      <title>An Implementation of Modular Monadic Semantics using Folds and Monadic Folds</title>
-      <link>http://labra.github.io/publication/1998_mms_usingfoldsmonadicfolds/</link>
-      <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
+      <title>Utilización de herramientas colaborativas de desarrollo de software libre en un modelo de aprendizaje basado en proyectos</title>
+      <link>http://labra.github.io/publication/2006_herramientascolaborativas/</link>
+      <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/publication/1998_mms_usingfoldsmonadicfolds/</guid>
+      <guid>http://labra.github.io/publication/2006_herramientascolaborativas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Formal Method for program Slicing</title>
+      <link>http://labra.github.io/publication/2005_formalmethodprogramslicing/</link>
+      <pubDate>Mon, 03 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2005_formalmethodprogramslicing/</guid>
       <description></description>
     </item>
     

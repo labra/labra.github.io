@@ -20,6 +20,24 @@
     </item>
     
     <item>
+      <title>A monadic program slicer</title>
+      <link>http://labra.github.io/publication/2006_monadicprogramslicer/</link>
+      <pubDate>Mon, 01 May 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2006_monadicprogramslicer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Formal Method for program Slicing</title>
+      <link>http://labra.github.io/publication/2005_formalmethodprogramslicing/</link>
+      <pubDate>Mon, 03 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2005_formalmethodprogramslicing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Specification of Logic Programming Languages from Reusable Semantic Building Blocks</title>
       <link>http://labra.github.io/publication/2003_specificationlogicprogramminglanguages/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>

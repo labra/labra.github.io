@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jose María Alvarez Rodríguez on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/authors/jose-mar%C3%ADa-alvarez-rodr%C3%ADguez/</link>
+    <description>Recent content in Jose María Alvarez Rodríguez on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/authors/jose-mar%C3%ADa-alvarez-rodr%C3%ADguez/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Applying MapReduce to Spreading Activation Algorithm on Large RDF Graphs</title>
+      <link>http://labra.github.io/publication/2013_mapreducespreadingactivation/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2013_mapreducespreadingactivation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards a Practical Solution for Data Grounding in a Semantic Web Services Environment</title>
+      <link>http://labra.github.io/publication/2012_datagrounding/</link>
+      <pubDate>Thu, 01 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2012_datagrounding/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

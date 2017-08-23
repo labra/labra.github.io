@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks on Jose Emilio Labra Gayo</title>
+    <title>Talks on Jose Emilio Labra Gayo</title>
     <link>http://labra.github.io/talk/</link>
-    <description>Recent content in Recent &amp; Upcoming Talks on Jose Emilio Labra Gayo</description>
+    <description>Recent content in Talks on Jose Emilio Labra Gayo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
@@ -16,6 +16,15 @@
       <pubDate>Tue, 30 May 2017 09:30:00 +0000</pubDate>
       
       <guid>http://labra.github.io/talk/rdf_validation_tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ShEx by Example</title>
+      <link>http://labra.github.io/talk/2014_shexbyexample/</link>
+      <pubDate>Fri, 12 Dec 2014 09:30:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/talk/2014_shexbyexample/</guid>
       <description></description>
     </item>
     
