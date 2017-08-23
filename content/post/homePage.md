@@ -2,7 +2,7 @@
 date = "2017-08-21T10:39:00"
 draft = false
 tags = ["academic", "homePage"]
-title = "Home page"
+title = "Home page revamped"
 math = false
 summary = """
 Description of my new home page  
