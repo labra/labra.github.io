@@ -19,11 +19,12 @@ count = 5
 
 +++
 
-# Supervised thesis
+# Supervised PhD students
 
 - Jose María Álvarez Rodríguez: 
   Métodos semánticos de reutilización de datos abiertos enlazados en las licitaciones públicas, 
   2012
+  
 - Hernán Sagastegui Chigne:
   Desarrollo de Tecnologías Colaborativas para Entornos virtuales de apoyo al aprendizaje,
   2015
@@ -37,7 +38,15 @@ count = 5
 
 # Member of Scientific/Organizing committee
 
+- [8th Workshop on Ontology Design and Patterns](http://ontologydesignpatterns.org/wiki/WOP:2017#WOP2017_Chairs), WOP, 2017
+- Jornadas de enseñanza universitaria de informática, JENUI, 2018
+- [Workshop on Linked Enterprise Data Services, Provenance, Linking and QualitY](https://informatik2017.de/ws29-ledsplay17/), LEDSPLaY17, 2017
+- Linked Data Quality Workshop, 2017
+- ISW-LOD2016 (4th International Workshop on Semantic Web and Linked Open Data)
+- SEMANTiCS 2016 (SEMANTiCS 2016), Senior PC member
 - W3c workshop on Multilingual web, 2015
+- SEMANTiCS 2015 Research Track (11th International Conference on Semantic Systems, Research Track), Senior PC member
+- ReCert 2015 (1st International Workshop on Linked Data Repair and Certification), 2015
 - International Conference on Knowledge Engineering and Semantic Web, 2014
 - 16th International Simposium on Computers in Education, 2014
 - Workshop on Ontology and Semantic Web Patterns, WOP, 2014, 2015, 2016, 2017

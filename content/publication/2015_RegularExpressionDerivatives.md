@@ -14,7 +14,7 @@ url_code = ""
 url_dataset = ""
 url_pdf = "pdf/2015_RegularExpressionDerivatives.pdf"
 url_project = ""
-url_slides = ""
+url_slides = "http://www.slideshare.net/jelabra/towards-an-rdf-validation-language-based-on-regular-expression-derivatives"
 url_video = ""
 
 tags=["RDF", "ShEx", "RDF-validation", "Regular-expression-derivatives"]
