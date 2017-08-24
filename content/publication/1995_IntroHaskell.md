@@ -1,6 +1,6 @@
 +++
 
-abstract = "Course notes for the *Logic and Functional Programming* course. It is mainly a summary of *The Gentle Introduction to Haskell* in spanish." 
+abstract = "Course notes for the Logic and Functional Programming course. It is mainly a summary of The Gentle Introduction to Haskell in spanish." 
 authors = ["Jose Emilio Labra Gayo"]
 date = "1995-01-01"
 image_preview = ""
@@ -12,7 +12,7 @@ selected = false
 title = "Introducción al lenguaje Haskell"
 url_code = ""
 url_dataset = ""
-url_pdf = "http://www.di.uniovi.es/~labra/FTP/IntHaskell98.pdf"
+url_pdf = "pdf/1998_Introduccion_al_lenguaje_Haskell.pdf"
 url_project = ""
 url_slides = ""
 url_video = ""

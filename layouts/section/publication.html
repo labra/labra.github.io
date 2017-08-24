@@ -40,8 +40,8 @@
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	{{ .Title }},
 		<span itemprop="authors" style="color:blue">
-         {{ with .Params.authors }}
-          {{ delimit . ", " | markdownify }}
+         {{ range .Params.authors }}
+           <a href="/authors/{{ urlize . }}">{{ . }}</a>,
          {{ end }}
         </span>,
         <span itemprop="publication" style="color: green">

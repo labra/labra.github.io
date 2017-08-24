@@ -6,9 +6,9 @@
    <a href="{{ .Permalink }}" itemprop="url">{{ .Title }}</a>
   </span>,
   <span itemprop="authors" style="color:blue">
-  {{ with .Params.authors }}
-  {{ delimit . ", " | markdownify }}
-  {{ end }},
+     {{ range .Params.authors }}
+       <a href="/authors/{{ urlize . }}">{{ . }}</a>,
+     {{ end }}
   </span>
   <span itemprop="publication" style="color: green">
   {{ with .Params.publication }}{{ markdownify . }}{{ end }}

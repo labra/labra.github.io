@@ -32,18 +32,14 @@ Founder and main researcher of [WESO (Web Semantics Oviedo)](http://www.weso.es)
 which collaborates with different companies around the world applying semantic web technologies 
 to solve practical problems.
 
-Member of the [W3C Web of Things Working Group](https://www.w3.org/WoT/WG/) and 
-past member of the [W3C Data Shapes Working Group](https://www.w3.org/2014/data-shapes/wiki/Main_Page).
-
-Member of : 
+Member of [Web of Things](https://www.w3.org/WoT/WG/) and 
+ [Data Shapes](https://www.w3.org/2014/data-shapes/wiki/Main_Page) W3C Working Groups 
+ and of 
  [Shape Expressions](https://www.w3.org/community/shex/), 
- [SHACL](https://www.w3.org/community/shacl/) and 
- [RAX (RDF and XML interoperability)](https://www.w3.org/community/rax/).
-Chairman of the [Best practices of Multilingual Linked Open Data W3c](https://www.w3.org/community/bpmlod/) community group. 
+ [SHACL](https://www.w3.org/community/shacl/),
+ [RAX (RDF and XML interoperability)](https://www.w3.org/community/rax/) and 
+ [Best practices of Multilingual Linked Open Data](https://www.w3.org/community/bpmlod/) W3C community groups. 
 
-Implemented the [SHACLex](http://labra.github.io/shaclex) library and maintains an online RDF validator service. 
-
-He is the coordinator of the [Master in Web Engineering](http://miw.uniovi.es) - University of Oviedo. 
-
-He was the Dean of the [School of Computer Science Engineering](http://ingenieriainformatica.uniovi.es) - [University of Oviedo](http://uniovi.es) from 2004 to 2012.
+He is the coordinator of the [Master in Web Engineering](http://miw.uniovi.es) - University of Oviedo, 
+ and  was the Dean of the [School of Computer Science Engineering](http://ingenieriainformatica.uniovi.es) - [University of Oviedo](http://uniovi.es) between 2004 and 2012.
 

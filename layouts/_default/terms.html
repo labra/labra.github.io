@@ -6,19 +6,18 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <h1>Co-authors</h1>
+      <h1>List of {{ .Data.Plural }}</h1>
 
-	  <p>Authors: 
-	  {{ range .Data.Authors }} 
-	  {{ . }}
-	  {{ end }} </p>
-	<ul>  
-    {{ range .Pages }} 
-	 <li>{{ .Title }} </li>
-	{{ end }} 
-    </ul>
-    </div>
+   <ul>	  
+    {{ range .Data.Pages }}
+    <li>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}	 
+  </ul>	
+  </div>
   </div>
 </div>
+
 {{ partial "footer_container.html" . }}
 {{ partial "footer.html" . }}
