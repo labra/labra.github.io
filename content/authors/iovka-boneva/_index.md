@@ -1,6 +1,6 @@
 +++
 
-url = "http://www.lifl.fr/~boneva/"
+# url = "http://www.lifl.fr/~boneva/"
 
 +++
 
