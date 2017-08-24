@@ -77,7 +77,16 @@
     
     <url>
     
-      <loc>http://labra.github.io/tag/academic/</loc>
+      <loc>http://labra.github.io/authors/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -104,16 +113,7 @@
     
     <url>
     
-      <loc>http://labra.github.io/author/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.github.io/tag/</loc>
+      <loc>http://labra.github.io/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -707,6 +707,15 @@
     
     <url>
     
+      <loc>http://labra.github.io/authors/iovka-boneva/</loc>
+      <lastmod>2017-10-23T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.github.io/publication_types/0/</loc>
       <lastmod>2001-07-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -769,16 +778,6 @@
     
       <loc>http://labra.github.io/publication_types/7/</loc>
       <lastmod>1998-11-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.github.io/tags/academic/</loc>
-      <lastmod>2017-08-21T10:39:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -889,16 +888,6 @@
     
       <loc>http://labra.github.io/authors/aquilino-adolfo-juan-fuente/</loc>
       <lastmod>2014-11-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.github.io/authors/</loc>
-      <lastmod>2006-06-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1448,16 +1437,6 @@
     
       <loc>http://labra.github.io/tags/interoperability/</loc>
       <lastmod>2014-11-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.github.io/authors/iovka-boneva/</loc>
-      <lastmod>2017-10-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2518,16 +2497,6 @@
     
       <loc>http://labra.github.io/authors/s%C3%B6ren-auer/</loc>
       <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.github.io/tags/</loc>
-      <lastmod>2017-08-21T10:39:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Jose Emilio Labra Gayo</title>
+    <title>Co-authors on Jose Emilio Labra Gayo</title>
     <link>http://labra.github.io/authors/</link>
-    <description>Recent content in Authors on Jose Emilio Labra Gayo</description>
+    <description>Recent content in Co-authors on Jose Emilio Labra Gayo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
-    <lastBuildDate>Thu, 01 Jun 2006 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/authors/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://labra.github.io/authors/iovka-boneva/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/authors/iovka-boneva/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Agustín Cernuda Del Río</title>
@@ -133,15 +142,6 @@
       <pubDate>Mon, 14 Jul 2003 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/authors/bernardo-mart%C3%ADn-gonz%C3%A1lez-rodr%C3%ADguez/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>C. Sánchez</title>
-      <link>http://labra.github.io/authors/c.-s%C3%A1nchez/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/authors/c.-s%C3%A1nchez/</guid>
       <description></description>
     </item>
     
