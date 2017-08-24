@@ -8,15 +8,18 @@
     <div class="col-md-12">
       <h1>Co-authors</h1>
 
-	  <p>Authors: 
-	  {{ range .Data.Authors }} 
-	  {{ . }}
-	  {{ end }} </p>
-	<ul>  
-    {{ range .Pages }} 
-	 <li>{{ .Title }} </li>
+	 <p> Writing all taxonomies...</p>
+{{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+{{ $taxonomyname }}
+
+    {{ range $key, $value := $taxonomy }}
+    {{ $key }}
+        {{ range $value.Pages }}
+        {{ .LinkTitle }}
+        {{ end }} 
 	{{ end }} 
-    </ul>
+
+{{ end }}
     </div>
   </div>
 </div>

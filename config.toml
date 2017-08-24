@@ -229,8 +229,5 @@ defaultContentLanguageInSubdir = false
 [languages.en]
   languageCode = "en-us"
 
-[languages.es]
-  languageCode = "es"
-  
 #[permalinks] 
 #  publication = "/:year/:title/"
