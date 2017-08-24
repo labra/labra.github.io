@@ -20,7 +20,7 @@
     </item>
     
     <item>
-      <title>Home page</title>
+      <title>Home page revamped</title>
       <link>http://labra.github.io/post/homepage/</link>
       <pubDate>Mon, 21 Aug 2017 10:39:00 +0000</pubDate>
       
@@ -151,6 +151,15 @@ the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_b
     </item>
     
     <item>
+      <title>Linked Data Validation and Quality</title>
+      <link>http://labra.github.io/publication/2015_linkeddataqualityepsi/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2015_linkeddataqualityepsi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>RDF Ventures to Boldly Meet Your Most Pedestrian Needs</title>
       <link>http://labra.github.io/publication/2015_rdfventures/</link>
       <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
@@ -174,15 +183,6 @@ the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_b
       <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/2015_regularexpressionderivatives/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Validating and Describing Linked Data Portals using RDF Shape Expressions</title>
-      <link>http://labra.github.io/publication/2015_validatinglinkeddataportals/</link>
-      <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2015_validatinglinkeddataportals/</guid>
       <description></description>
     </item>
     

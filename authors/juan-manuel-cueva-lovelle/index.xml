@@ -65,11 +65,29 @@
     </item>
     
     <item>
+      <title>Web Engineering</title>
+      <link>http://labra.github.io/publication/2003_webengineering/</link>
+      <pubDate>Mon, 14 Jul 2003 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2003_webengineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Specification of Logic Programming Languages from Reusable Semantic Building Blocks</title>
       <link>http://labra.github.io/publication/2003_specificationlogicprogramminglanguages/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/2003_specificationlogicprogramminglanguages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harmony: a functional system for musical composition</title>
+      <link>http://labra.github.io/publication/1997_harmony/</link>
+      <pubDate>Wed, 01 Oct 1997 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/1997_harmony/</guid>
       <description></description>
     </item>
     

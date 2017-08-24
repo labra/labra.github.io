@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Content tagged as &#39;Academic&#39; on Jose Emilio Labra Gayo</title>
+    <title>Academic on Jose Emilio Labra Gayo</title>
     <link>http://labra.github.io/tags/academic/</link>
-    <description>Recent content in Content tagged as &#39;Academic&#39; on Jose Emilio Labra Gayo</description>
+    <description>Recent content in Academic on Jose Emilio Labra Gayo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Aug 2017 10:39:00 +0000</lastBuildDate>
     <atom:link href="/tags/academic/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Home page</title>
+      <title>Home page revamped</title>
       <link>http://labra.github.io/post/homepage/</link>
       <pubDate>Mon, 21 Aug 2017 10:39:00 +0000</pubDate>
       

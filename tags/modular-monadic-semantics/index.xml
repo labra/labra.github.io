@@ -47,6 +47,15 @@
     </item>
     
     <item>
+      <title>Modular development of Language Processors from Reusable Semantic Specifications</title>
+      <link>http://labra.github.io/publication/2001_phdthesis/</link>
+      <pubDate>Sun, 01 Jul 2001 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2001_phdthesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>An Implementation of Modular Monadic Semantics using Folds and Monadic Folds</title>
       <link>http://labra.github.io/publication/1998_mms_usingfoldsmonadicfolds/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>

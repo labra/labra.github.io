@@ -7,17 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Aug 2017 10:39:00 +0000</lastBuildDate>
     <atom:link href="/tags/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Content tagged as &#39;Academic&#39;</title>
+      <title>Academic</title>
       <link>http://labra.github.io/tags/academic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 21 Aug 2017 10:39:00 +0000</pubDate>
       
       <guid>http://labra.github.io/tags/academic/</guid>
-      <description>&lt;p&gt;Here is a list of all the content that has been tagged as &lt;em&gt;academic&lt;/em&gt;.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -102,6 +101,15 @@
     </item>
     
     <item>
+      <title>Data Quality</title>
+      <link>http://labra.github.io/tags/data-quality/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/tags/data-quality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Declarative Programming</title>
       <link>http://labra.github.io/tags/declarative-programming/</link>
       <pubDate>Sun, 01 Nov 1998 00:00:00 +0000</pubDate>
@@ -134,15 +142,6 @@
       <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/tags/ehealth/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Elearning</title>
-      <link>http://labra.github.io/tags/elearning/</link>
-      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/tags/elearning/</guid>
       <description></description>
     </item>
     
