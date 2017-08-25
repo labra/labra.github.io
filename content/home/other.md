@@ -40,20 +40,19 @@ count = 5
 # Member of Scientific/Organizing committee
 
 - [8th Workshop on Ontology Design and Patterns](http://ontologydesignpatterns.org/wiki/WOP:2017#WOP2017_Chairs), WOP, 2017
-- Jornadas de enseñanza universitaria de informática, JENUI, 2018
 - [Workshop on Linked Enterprise Data Services, Provenance, Linking and QualitY](https://informatik2017.de/ws29-ledsplay17/), LEDSPLaY17, 2017
-- Linked Data Quality Workshop, 2017
-- ISW-LOD2016 (4th International Workshop on Semantic Web and Linked Open Data)
-- SEMANTiCS 2016 (SEMANTiCS 2016), Senior PC member
-- W3c workshop on Multilingual web, 2015
-- SEMANTiCS 2015 Research Track (11th International Conference on Semantic Systems, Research Track), Senior PC member
-- ReCert 2015 (1st International Workshop on Linked Data Repair and Certification), 2015
-- International Conference on Knowledge Engineering and Semantic Web, 2014
+- [Linked Data Quality Workshop](http://ldq.semanticmultimedia.org/), 2017
+- [ISW-LOD2016](http://ciep.ing.uaslp.mx/sw-lod/) (4th International Workshop on Semantic Web and Linked Open Data), Puerto Rico, 2016
+- [SEMANTiCS 2016](https://2016.semantics.cc/), Senior PC member
+- [W3c workshop on Multilingual web](https://www.multilingualweb.eu/documents/2015-riga-workshop/2015-riga-cfp), 2015
+- [SEMANTiCS 2015](https://2015.semantics.cc/) Research Track (11th International Conference on Semantic Systems, Research Track), Senior PC member
+- [ReCert 2015 (1st International Workshop on Linked Data Repair and Certification)](http://recert-ld.github.io/2015/), 2015
+- [International Conference on Knowledge Engineering and Semantic Web](http://2014.kesw.ru/), 2014
 - 16th International Simposium on Computers in Education, 2014
-- Workshop on Ontology and Semantic Web Patterns, WOP, 2014, 2015, 2016, 2017
-- Spanish conference on service science and engineering, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014
-- Encuentro Nacional en Ciencias de la Computación, Mexico, 2014
-- Jornadas de Enseñanza Universitaria de Informática, Jenui, 2014, 2015
+- [Workshop on Ontology and Semantic Web Patterns](http://ontologydesignpatterns.org/wiki/WOP:2016), WOP, 2014, 2015, 2016, 2017
+- [Spanish conference on service science and engineering](www.congresocedi.es/es/jcis), 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014
+- [Encuentro Nacional en Ciencias de la Computación](http://enc2014.cicese.mx/index.html), Mexico, 2014
+- Jornadas de Enseñanza Universitaria de Informática, Jenui, 2014, 2015, 2016, [2017](http://jenui2017.unex.es/)
 - 12th International Semantic Web Conference - Evaluation Track, 2012
 - 9th Extended Semantic Web Conference, 2012
 - Metadata and Semantics Research Conference, MTSR, 2012
