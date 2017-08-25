@@ -21,20 +21,21 @@ count = 5
 
 # Supervised PhD students
 
-- Jose María Álvarez Rodríguez: 
+- [Jose María Álvarez Rodríguez](http://www.josemalvarez.es/): 
   Métodos semánticos de reutilización de datos abiertos enlazados en las licitaciones públicas, 
   2012
   
-- Hernán Sagastegui Chigne:
+- [Hernán Sagastegui Chigne](https://www.linkedin.com/in/hernan-sagastegui-chigne-48264025/):
   Desarrollo de Tecnologías Colaborativas para Entornos virtuales de apoyo al aprendizaje,
   2015
 
 # Current PhD Students
 
-- Daniel Fernández Álvarez
-- Herminio García González
-- Ángel Retamar Arias
-- Jose Alberto Benítez Andrades
+- [Victor Hugo Aravena Díaz](https://www.linkedin.com/in/victoraravena/)
+- [Jose Alberto Benítez Andrades](http://www.jabenitez.com/)
+- [Daniel Fernández Álvarez](https://www.linkedin.com/in/daniel-fern%C3%A1ndez-%C3%A1lvarez-817121ab/)
+- [Herminio García González](http://herminiogarcia.com/)
+- [Ángel Retamar Arias](http://www.jabenitez.com/)
 
 # Member of Scientific/Organizing committee
 
@@ -66,38 +67,35 @@ count = 5
 
 # Reviewer of papers in the following journals
 
-- Computer Standards and Interfaces, Reviewer, 2017
-- Bioinformatics, 2015
-- Computers and Human Behaviour, Reviewer, 2013-2016
-- Computers in Industry, Reviewer and Special issue editor, 2014
-- Revista Telematics and Informatics, Reviewer, 2016, 2017
-- Revista Expert Systems with Applications, Reviewer, 2017
-- Engineering Applications of Artificial Intelligence, reviewer, 2016
-- Information Sciences, reviewer, 2014
-- International Journal of Universal Computer Science, reviewer, 2013
-- Science of Computer Programming, reviewer, 2013
-- Semantic Web Journal, reviewer, 2013
-- Web Semantics: Science, Services and Agents on the World Wide Web, reviewer, 2013
+- [Computer Standards and Interfaces](https://www.journals.elsevier.com/computer-standards-and-interfaces), Reviewer, 2017
+- [Bioinformatics](https://academic.oup.com/bioinformatics), 2015
+- [Computers and Human Behaviour](https://www.journals.elsevier.com/computers-in-human-behavior), Reviewer, 2013-2016
+- [Computers in Industry](https://www.journals.elsevier.com/computers-in-industry), Reviewer and Special issue editor, 2014
+- [Telematics and Informatics](https://www.journals.elsevier.com/telematics-and-informatics), Reviewer, 2016, 2017
+- [Expert Systems with Applications](https://www.journals.elsevier.com/expert-systems-with-applications), Reviewer, 2017
+- [Engineering Applications of Artificial Intelligence](https://www.journals.elsevier.com/engineering-applications-of-artificial-intelligence/), reviewer, 2016
+- [Information Sciences](https://www.journals.elsevier.com/information-sciences/), reviewer, 2014
+- [International Journal of Universal Computer Science](http://www.jucs.org/), reviewer, 2013
+- [Science of Computer Programming](https://www.journals.elsevier.com/science-of-computer-programming/), reviewer, 2013
+- [Semantic Web Journal](http://www.semantic-web-journal.net/), reviewer, 2013
+- [Web Semantics: Science, Services and Agents on the World Wide Web](http://www.sciencedirect.com/science/journal/15708268), reviewer, 2013
 
 # Advisory board of the following publications
-- Global Hospitality and Tourism Management Technologies: Applications and Issues, 
+- [Global Hospitality and Tourism Management Technologies: Applications and Issues](https://www.igi-global.com/book/global-hospitality-tourism-management-technologies/51923), 
 Editors: Patricia Ordóñez de Pablos, R. Tennyson, and J-Y. Zhao, 2011, IGI-Global. Pp. 1-270
 ISBN DOI: 10.4018/978-1-61350-041-5, ISBN13: 978-1-61350-041-5, ISBN10: 1-61350-041-6
-- Semantic Web Personalization and Context Awareness: Management of  Personal Identities and Social Networking 
-Editores: Lytras, M.D., Ordóñez de Pablos, P. and Damiani, E., IGI-Global, pp.1-232, 2011, 
+- [Semantic Web Personalization and Context Awareness: Management of  Personal Identities and Social Networking](https://www.igi-global.com/book/semantic-web-personalization-context-awareness/47405), 
+Editors: Lytras, M.D., Ordóñez de Pablos, P. and Damiani, E., IGI-Global, pp.1-232, 2011, 
 DOI: 10.4018/978-1-61520-921-7, ISBN13: 9781615209217, ISBN10: 1615209212, EISBN13: 9781615209224. 
-- Digital Culture and E-Tourism: Technologies, Applications and Management Approaches, 
+- [Digital Culture and E-Tourism: Technologies, Applications and Management Approaches](https://www.igi-global.com/book/digital-culture-tourism/45944), 
 Editors: Lytras, M.D., Ordóñez de Pablos, P., Damiani, E. and Diaz, L. (2011), Editorial IGI-Global. Pp. 1-270. 
 ISBN  9781615208678.
-- Technology Enhanced Learning for People with Disabilities: Approaches and Applications
-Editores: Ordóñez de Pablos, P., Zhao, Y. and Tennyson, R., 2010, Editorial IGI-Global, pp- 1-276. 
+- [Technology Enhanced Learning for People with Disabilities: Approaches and Applications](https://www.igi-global.com/book/technology-enhanced-learning-people-disabilities/41739), 
+Editors: Ordóñez de Pablos, P., Zhao, Y. and Tennyson, R., 2010, Editorial IGI-Global, pp- 1-276. 
 ISBN-10: 1615209239 -ISBN-13: 978-1615209231. DOI: 10.4018/978-1-61520-923-1
 
 
-
-
-
-# Personal information
+# More personal information
 
 I was the drummer of [Kactus Jack](https://es.wikipedia.org/wiki/Kactus_Jack). 
  You can see an [unofficial home page](http://di002.edv.uniovi.es/~labra/Kactus/Welcome.html), 
