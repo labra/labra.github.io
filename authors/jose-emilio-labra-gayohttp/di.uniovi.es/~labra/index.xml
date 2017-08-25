@@ -7,80 +7,8 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
-    <lastBuildDate>Sun, 01 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 May 2006 00:00:00 +0000</lastBuildDate>
     <atom:link href="/authors/jose-emilio-labra-gayohttp/di.uniovi.es/~labra/" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Linked Data Validation and Quality</title>
-      <link>http://labra.github.io/publication/2015_linkeddataqualityepsi/</link>
-      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2015_linkeddataqualityepsi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shape Expressions: An RDF validation and transformation language</title>
-      <link>http://labra.github.io/publication/2014_shex/</link>
-      <pubDate>Wed, 03 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2014_shex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Towards an architecture and adoption process for Linked Data technologies in Open Government contexts</title>
-      <link>http://labra.github.io/publication/2011_linkeddatalibrarycongress/</link>
-      <pubDate>Sat, 03 Sep 2011 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2011_linkeddatalibrarycongress/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Doing Business by selling free services</title>
-      <link>http://labra.github.io/publication/2009_doingbusinesssellingfreeservices/</link>
-      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2009_doingbusinesssellingfreeservices/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Analysis of XBRL documents representing financial statements using Semantic Web Technologies</title>
-      <link>http://labra.github.io/publication/2007_analysisxbrl/</link>
-      <pubDate>Wed, 03 Oct 2007 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2007_analysisxbrl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Combining Collaborative Tagging and Ontologies in Image Retrieval Systems</title>
-      <link>http://labra.github.io/publication/2007_combiningcollaborativetaggingimageretrieval/</link>
-      <pubDate>Wed, 03 Oct 2007 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2007_combiningcollaborativetaggingimageretrieval/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mailing lists meet the semantic web</title>
-      <link>http://labra.github.io/publication/2007_mailinglistssemanticweb/</link>
-      <pubDate>Sun, 01 Apr 2007 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2007_mailinglistssemanticweb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Utilización de herramientas colaborativas de desarrollo de software libre en un modelo de aprendizaje basado en proyectos</title>
-      <link>http://labra.github.io/publication/2006_herramientascolaborativas/</link>
-      <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2006_herramientascolaborativas/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>A monadic program slicer</title>
@@ -88,60 +16,6 @@
       <pubDate>Mon, 01 May 2006 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/2006_monadicprogramslicer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Formal Method for program Slicing</title>
-      <link>http://labra.github.io/publication/2005_formalmethodprogramslicing/</link>
-      <pubDate>Mon, 03 Oct 2005 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2005_formalmethodprogramslicing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Representaciones gráficas y Mundos Virtuales infinitos en las Prácticas de Programación Lógica y Funcional</title>
-      <link>http://labra.github.io/publication/2003_graphicalrepresentationslogicfunctionalprogrammingjenui/</link>
-      <pubDate>Tue, 01 Jun 2004 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2003_graphicalrepresentationslogicfunctionalprogrammingjenui/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>¿Hay Lógica en la situación actual de las titulaciones informáticas?</title>
-      <link>http://labra.github.io/publication/2004_logicaspainjenui/</link>
-      <pubDate>Tue, 01 Jun 2004 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2004_logicaspainjenui/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web Engineering</title>
-      <link>http://labra.github.io/publication/2003_webengineering/</link>
-      <pubDate>Mon, 14 Jul 2003 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2003_webengineering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Generic e-Learning Multiparadigm Programming Language System: IDEFIX Project</title>
-      <link>http://labra.github.io/publication/2002_agenericelearningmultiparadigm_idefixsigcse/</link>
-      <pubDate>Sat, 01 Feb 2003 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2002_agenericelearningmultiparadigm_idefixsigcse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Plataforma de enseñanza de lenguajes de programación a través de Internet: Proyecto IDEFIX</title>
-      <link>http://labra.github.io/publication/2002_plataformaensenianzalenguajesprogramacion_idefix/</link>
-      <pubDate>Mon, 01 Jul 2002 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2002_plataformaensenianzalenguajesprogramacion_idefix/</guid>
       <description></description>
     </item>
     
