@@ -2,7 +2,7 @@
 
 abstract = "En el esquema de prácticas de la asignatura de programación lógica y funcional se ha incorporado la generación de representaciones gráficas y de quadtrees y octrees para la enseñanza de las diferentes características de este tipo de lenguajes: funciones de orden superior, evaluación perezosa, polimorfismo, variables lógicas, satisfacción de restricciones, etc. La utilización de vocabularios XML estándar: SVG para gráficos y X3D para realidad virtual permite disponer de numerosas herramientas de visualización. La incorporación de este tipo de ejercicios puede facilitar la enseñanza y motivación de los estudiantes." 
 authors = [
- "[Jose Emilio Labra Gayo](http://di.uniovi.es/~labra)"]
+ "Jose Emilio Labra Gayo"]
 
 date = "2004-06-01"
 image_preview = ""

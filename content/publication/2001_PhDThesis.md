@@ -2,7 +2,7 @@
 
 abstract = ""
 authors = [
- "[Jose Emilio Labra Gayo](http://di.uniovi.es/~labra)"
+ "Jose Emilio Labra Gayo"
  ]
 date = "2001-07-01"
 image_preview = ""

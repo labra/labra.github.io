@@ -4,7 +4,7 @@ abstract = "Mailing list archives (i.e., the compilation of the messages posted 
 authors = [
  "Sergio Fernández",
  "Diego Berrueta",
- "[Jose Emilio Labra Gayo](http://di.uniovi.es/~labra)"]
+ "Jose Emilio Labra Gayo"]
 
 date = "2007-04-01"
 image_preview = ""

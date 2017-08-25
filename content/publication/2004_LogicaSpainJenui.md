@@ -2,7 +2,7 @@
 
 abstract = "En este artículo se realiza un pequeño estudio del planteamiento seguido para impartir la disciplina de la lógica en las titulaciones informáticas de las universidades españolas. Se comparan los tipos de asignaturas que incluyen dicha disciplina, las áreas de conocimiento que la imparten y los contenidos considerados. Finaliza el artículo con una serie de reflexiones generales sobre la situación actual de las titulaciones informáticas y las áreas de conocimiento." 
 authors = [
- "[Jose Emilio Labra Gayo](http://di.uniovi.es/~labra)"]
+ "Jose Emilio Labra Gayo"]
 
 date = "2004-06-01"
 image_preview = ""

@@ -4,7 +4,7 @@ abstract = ""
 authors = ["Juan Manuel Cueva Lovelle", 
  "Bernardo Martín González Rodríguez",
  "Luis Joyanes Aguilar",
- "[Jose Emilio Labra Gayo](http://di.uniovi.es/~labra)",
+ "Jose Emilio Labra Gayo",
  "María del Puerto Paule" 
  ]
 date = "2003-07-14"

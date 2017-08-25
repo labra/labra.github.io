@@ -2,7 +2,7 @@
 
 abstract = "This paper describes HARMONY: a system that integrates the phases that take part in the creation of a musical composition. The kernel deals with automatic melody generation through fractal algorithms and harmonisation of generated melodies based on traditional theory. The system has been developed in Haskell and works on top of the musical description system Haskore." 
 authors = [
- "[Jose Emilio Labra Gayo](http://di.uniovi.es/~labra)",
+ "Jose Emilio Labra Gayo",
  "Juan Manuel Cueva Lovelle",
  "Luis Ángel Oliveira"
  ]

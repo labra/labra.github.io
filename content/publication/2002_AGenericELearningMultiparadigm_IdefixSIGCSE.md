@@ -2,7 +2,7 @@
 
 abstract = ""
 authors = [
- "[Jose Emilio Labra Gayo](http://di.uniovi.es/~labra)",
+ "Jose Emilio Labra Gayo",
  "Jose Manuel Morales Gil",
  "Alberto Manuel Fernández Álvarez",
  "Hernán Sagastegui Chigne"

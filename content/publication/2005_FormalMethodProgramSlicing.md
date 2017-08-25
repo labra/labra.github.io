@@ -4,7 +4,7 @@ abstract = "Program slicing is a well-known program analysis technique that extr
 authors = [
  "Yingzhou Zhang",
  "Baowen Xu", 
- "[Jose Emilio Labra Gayo](http://di.uniovi.es/~labra)"
+ "Jose Emilio Labra Gayo"
  ]
 
 date = "2005-10-03"
