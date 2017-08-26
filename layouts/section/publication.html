@@ -43,7 +43,7 @@
          {{ range .Params.authors }}
            <a href="/authors/{{ urlize . }}">{{ . }}</a>,
          {{ end }}
-        </span>,
+        </span>
         <span itemprop="publication" style="color: green">
         {{ with .Params.publication }}
         {{ markdownify . }}

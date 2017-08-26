@@ -44,6 +44,7 @@ count = 5
 - [Linked Data Quality Workshop](http://ldq.semanticmultimedia.org/), 2017
 - [ISW-LOD2016](http://ciep.ing.uaslp.mx/sw-lod/) (4th International Workshop on Semantic Web and Linked Open Data), Puerto Rico, 2016
 - [SEMANTiCS 2016](https://2016.semantics.cc/), Senior PC member
+- [Latin American Symposium on Data Management Systems](http://www.clei2016.cl/Sim7.html), Co-chair
 - [W3c workshop on Multilingual web](https://www.multilingualweb.eu/documents/2015-riga-workshop/2015-riga-cfp), 2015
 - [SEMANTiCS 2015](https://2015.semantics.cc/) Research Track (11th International Conference on Semantic Systems, Research Track), Senior PC member
 - [ReCert 2015 (1st International Workshop on Linked Data Repair and Certification)](http://recert-ld.github.io/2015/), 2015
