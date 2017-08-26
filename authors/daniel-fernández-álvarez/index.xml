@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daniel Fernández Álvarez on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/authors/daniel-fern%C3%A1ndez-%C3%A1lvarez/</link>
+    <description>Recent content in Daniel Fernández Álvarez on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Thu, 13 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/authors/daniel-fern%C3%A1ndez-%C3%A1lvarez/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Inference and Serialization of Latent Graph Schemata using ShEx</title>
+      <link>http://labra.github.io/publication/2016_inferenceserializationshex/</link>
+      <pubDate>Thu, 13 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2016_inferenceserializationshex/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

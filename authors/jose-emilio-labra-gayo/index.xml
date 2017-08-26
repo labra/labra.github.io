@@ -56,6 +56,24 @@
     </item>
     
     <item>
+      <title>Inference and Serialization of Latent Graph Schemata using ShEx</title>
+      <link>http://labra.github.io/publication/2016_inferenceserializationshex/</link>
+      <pubDate>Thu, 13 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2016_inferenceserializationshex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identifying potential suppliers for competitive bidding using Latent Semantic Analysis</title>
+      <link>http://labra.github.io/publication/2016_identifyingpotentialsuppliers/</link>
+      <pubDate>Mon, 10 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2016_identifyingpotentialsuppliers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Shape Expression Schemas</title>
       <link>http://labra.github.io/publication/2016_shapeexpressionschemas/</link>
       <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
@@ -124,24 +142,6 @@
       <pubDate>Thu, 27 Nov 2014 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/2014_representingstatisticalindexes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Interoperability between platforms without a defined referential model: A semi-automatic learning system for structural pairing</title>
-      <link>http://labra.github.io/publication/2014_interoperabilitybetweenplatforms/</link>
-      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2014_interoperabilitybetweenplatforms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Knowledge-based public service transactions: An intelligent model-driven approach in co-learning contexts</title>
-      <link>http://labra.github.io/publication/2014_knowledgebasedpublicservicetransactions/</link>
-      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2014_knowledgebasedpublicservicetransactions/</guid>
       <description></description>
     </item>
     
