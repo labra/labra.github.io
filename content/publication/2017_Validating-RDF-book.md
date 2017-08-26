@@ -1,6 +1,7 @@
 +++
 authors = ["Jose Emilio Labra Gayo", "Eric Prud'hommeaux", "Iovka Boneva", "Dimitris Kontokostas"]
 date = "2017-08-20"
+image = "2017_ValidatingRDFDataCoverQuarter.jpg"
 image_preview = ""
 publication_types = ["5"]
 publication = "Morgan and Claypool Publishers"

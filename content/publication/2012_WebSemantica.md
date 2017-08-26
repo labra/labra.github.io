@@ -1,7 +1,7 @@
 +++
 date = "2012-01-16"
 authors = ["Jose Emilio Labra Gayo"]
-image_preview = "webSemanticaBookCover.jpg"
+image = "2012_WebSemanticaBookCoverQuarter.jpg"
 publication_types = ["5"]
 publication = "Pocket Innova"
 selected = false
