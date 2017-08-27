@@ -68,6 +68,24 @@
     
     <url>
     
+      <loc>http://labra.github.io/publication/2017_shacltestsuite/</loc>
+      <lastmod>2017-07-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/publication/2017_shexspec/</loc>
+      <lastmod>2017-07-13T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.github.io/talk/rdf_validation_tutorial/</loc>
       <lastmod>2017-05-30T09:30:00+00:00</lastmod>
     </url>
@@ -383,7 +401,34 @@
     
     <url>
     
+      <loc>http://labra.github.io/publication/2013_caseslinkedopendata/</loc>
+      <lastmod>2013-01-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/publication/2013_eprocurementmanagement/</loc>
+      <lastmod>2013-01-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.github.io/publication/2013_mapreducespreadingactivation/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/publication/2013_adonisbookchapter/</loc>
       <lastmod>2013-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -527,8 +572,26 @@
     
     <url>
     
+      <loc>http://labra.github.io/publication/2011_adonis/</loc>
+      <lastmod>2009-05-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.github.io/publication/2009_doingbusinesssellingfreeservices/</loc>
       <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/publication/2008_semanticindexingcollaborativetagging/</loc>
+      <lastmod>2008-12-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -761,16 +824,6 @@
     
     <url>
     
-      <loc>http://labra.github.io/publication_types/0/</loc>
-      <lastmod>2001-07-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://labra.github.io/publication_types/1/</loc>
       <lastmod>2017-10-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -823,6 +876,26 @@
     
       <loc>http://labra.github.io/publication_types/7/</loc>
       <lastmod>1998-11-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/publication_types/8/</loc>
+      <lastmod>2001-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/publication_types/9/</loc>
+      <lastmod>2017-07-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -893,6 +966,16 @@
     
       <loc>http://labra.github.io/authors/ana-bel%C3%A9n-mart%C3%ADnez-prieto/</loc>
       <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/authors/ana-cernea-doina/</loc>
+      <lastmod>2008-12-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1181,7 +1264,7 @@
     <url>
     
       <loc>http://labra.github.io/tags/description-logics/</loc>
-      <lastmod>2011-05-03T00:00:00+00:00</lastmod>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1230,6 +1313,26 @@
     
     <url>
     
+      <loc>http://labra.github.io/tags/e-government/</loc>
+      <lastmod>2013-01-02T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/tags/e-procurement/</loc>
+      <lastmod>2013-01-02T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.github.io/tags/ebooks/</loc>
       <lastmod>2014-10-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1270,6 +1373,16 @@
     
     <url>
     
+      <loc>http://labra.github.io/tags/emergent-semantics/</loc>
+      <lastmod>2008-12-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.github.io/authors/enedina-quiroga/</loc>
       <lastmod>2017-04-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1292,6 +1405,16 @@
     
       <loc>http://labra.github.io/tags/erp/</loc>
       <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/authors/ester-del-moral/</loc>
+      <lastmod>2008-12-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1370,6 +1493,16 @@
     
     <url>
     
+      <loc>http://labra.github.io/authors/giner-alor-hern%C3%A1ndez/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.github.io/authors/giner-h%C3%A9rnandez/</loc>
       <lastmod>2012-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1382,6 +1515,16 @@
     
       <loc>http://labra.github.io/tags/graphs/</loc>
       <lastmod>2013-12-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/authors/gregg-kellogg/</loc>
+      <lastmod>2017-07-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1472,6 +1615,16 @@
     
       <loc>http://labra.github.io/authors/hern%C3%A1n-sagastegui-chigne/</loc>
       <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/authors/holger-knublauch/</loc>
+      <lastmod>2017-07-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1760,6 +1913,16 @@
     
     <url>
     
+      <loc>http://labra.github.io/authors/juan-miguel-g%C3%B3mez-berbis/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.github.io/authors/krishnamurthy-vidyasankar/</loc>
       <lastmod>2009-06-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1981,7 +2144,7 @@
     <url>
     
       <loc>http://labra.github.io/tags/medical-diagnosis/</loc>
-      <lastmod>2011-05-03T00:00:00+00:00</lastmod>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2022,6 +2185,16 @@
     
       <loc>http://labra.github.io/authors/miguel-riesco-albizu/</loc>
       <lastmod>1991-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/authors/miltiadis-d.-lytras/</loc>
+      <lastmod>2013-01-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2121,7 +2294,7 @@
     <url>
     
       <loc>http://labra.github.io/tags/ontologies/</loc>
-      <lastmod>2011-05-03T00:00:00+00:00</lastmod>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2331,7 +2504,7 @@
     <url>
     
       <loc>http://labra.github.io/publication_types/</loc>
-      <lastmod>2001-07-01T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2440,8 +2613,28 @@
     
     <url>
     
+      <loc>http://labra.github.io/authors/ricardo-colomo-palacios/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.github.io/authors/ricardo-gacitua/</loc>
       <lastmod>2016-10-10T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/authors/robert-d.-tennyson/</loc>
+      <lastmod>2013-01-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2531,7 +2724,7 @@
     <url>
     
       <loc>http://labra.github.io/tags/semantic-search/</loc>
-      <lastmod>2006-11-07T00:00:00+00:00</lastmod>
+      <lastmod>2008-12-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2772,6 +2965,16 @@
     
       <loc>http://labra.github.io/authors/yingzhou-zhang/</loc>
       <lastmod>2006-05-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/authors/%C3%A1ngel-garc%C3%ADa-crespo/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

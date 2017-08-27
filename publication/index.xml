@@ -29,6 +29,24 @@
     </item>
     
     <item>
+      <title>SHACL Test Suite and Implementation Report</title>
+      <link>http://labra.github.io/publication/2017_shacltestsuite/</link>
+      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2017_shacltestsuite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shape Expressions Language 2.0</title>
+      <link>http://labra.github.io/publication/2017_shexspec/</link>
+      <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2017_shexspec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Web-Based Tool for Automatic Data Collection, Curation, and Visualization of Complex Healthcare Survey Studies including Social Network Analysis</title>
       <link>http://labra.github.io/publication/2017_computationalmathematicalmethods/</link>
       <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
@@ -124,24 +142,6 @@
       <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/2015_validatinglinkeddataportals/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multilingual linked data patterns </title>
-      <link>http://labra.github.io/publication/2015_mlodpatterns/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2015_mlodpatterns/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Representing Statistical Indexes as Linked Data Including Metadata about Their Computation Process</title>
-      <link>http://labra.github.io/publication/2014_representingstatisticalindexes/</link>
-      <pubDate>Thu, 27 Nov 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2014_representingstatisticalindexes/</guid>
       <description></description>
     </item>
     

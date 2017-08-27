@@ -141,6 +141,24 @@ the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_b
     </item>
     
     <item>
+      <title>SHACL Test Suite and Implementation Report</title>
+      <link>http://labra.github.io/publication/2017_shacltestsuite/</link>
+      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2017_shacltestsuite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shape Expressions Language 2.0</title>
+      <link>http://labra.github.io/publication/2017_shexspec/</link>
+      <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2017_shexspec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>RDF and Linked Data Validation - ESWC Tutorial</title>
       <link>http://labra.github.io/talk/rdf_validation_tutorial/</link>
       <pubDate>Tue, 30 May 2017 09:30:00 +0000</pubDate>
@@ -191,24 +209,6 @@ the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_b
       <pubDate>Mon, 10 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/2016_identifyingpotentialsuppliers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shape Expression Schemas</title>
-      <link>http://labra.github.io/publication/2016_shapeexpressionschemas/</link>
-      <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2016_shapeexpressionschemas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linked Data Validation and Quality</title>
-      <link>http://labra.github.io/publication/2015_linkeddataqualityepsi/</link>
-      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2015_linkeddataqualityepsi/</guid>
       <description></description>
     </item>
     

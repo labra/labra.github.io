@@ -29,6 +29,24 @@
     </item>
     
     <item>
+      <title>SHACL Test Suite and Implementation Report</title>
+      <link>http://labra.github.io/publication/2017_shacltestsuite/</link>
+      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2017_shacltestsuite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shape Expressions Language 2.0</title>
+      <link>http://labra.github.io/publication/2017_shexspec/</link>
+      <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2017_shexspec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Enhancing e-Learning content by using Semantic Web technologies</title>
       <link>http://labra.github.io/publication/2016_enhancing_elearningcontent/</link>
       <pubDate>Wed, 16 Nov 2016 00:00:00 +0000</pubDate>
@@ -124,24 +142,6 @@
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/2014_empoweringaccesspublicprocurement/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kukulcan: Semantic Web Framework for Knowledge Management in the Domain of Digital Circuits</title>
-      <link>http://labra.github.io/publication/2013_kukulkan/</link>
-      <pubDate>Sat, 01 Jun 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2013_kukulkan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Applying MapReduce to Spreading Activation Algorithm on Large RDF Graphs</title>
-      <link>http://labra.github.io/publication/2013_mapreducespreadingactivation/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2013_mapreducespreadingactivation/</guid>
       <description></description>
     </item>
     

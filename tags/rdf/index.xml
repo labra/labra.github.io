@@ -47,6 +47,24 @@
     </item>
     
     <item>
+      <title>SHACL Test Suite and Implementation Report</title>
+      <link>http://labra.github.io/publication/2017_shacltestsuite/</link>
+      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2017_shacltestsuite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shape Expressions Language 2.0</title>
+      <link>http://labra.github.io/publication/2017_shexspec/</link>
+      <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2017_shexspec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Inference and Serialization of Latent Graph Schemata using ShEx</title>
       <link>http://labra.github.io/publication/2016_inferenceserializationshex/</link>
       <pubDate>Thu, 13 Oct 2016 00:00:00 +0000</pubDate>
@@ -124,24 +142,6 @@
       <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/2013_inductivetriplegraphs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multilingual Linked Data Patterns</title>
-      <link>http://labra.github.io/project/mlodpatterns/</link>
-      <pubDate>Fri, 08 Mar 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/project/mlodpatterns/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Applying MapReduce to Spreading Activation Algorithm on Large RDF Graphs</title>
-      <link>http://labra.github.io/publication/2013_mapreducespreadingactivation/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2013_mapreducespreadingactivation/</guid>
       <description></description>
     </item>
     
