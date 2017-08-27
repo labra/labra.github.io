@@ -8,6 +8,7 @@ authors = ["Juan Manuel Cueva Lovelle",
  "María del Puerto Paule" 
  ]
 date = "2003-07-14"
+image = "2003_WebEngineering.jpg"
 image_preview = ""
 math = false
 publication_types = ["5"]

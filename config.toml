@@ -98,12 +98,15 @@ defaultContentLanguageInSubdir = false
   publication_types = [
     'Uncategorized',  # 0
     'Conference proceedings',  # 1
-    'Journal',  # 2
-    'Work in progress',  # 3
+    'Journal (JCR Indexed)',  # 2
+    'Journal',  # 3
     'Technical report',  # 4
     'Book',  # 5
     'Book chapter',  # 6
-	'Lecture notes' # 7
+	'Lecture notes', # 7
+	'Phd thesis', # 8
+	'Specifications', # 9
+	'Book (edited)', # 10
   ]
 
   # Social/Academic Networking
