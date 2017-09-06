@@ -20,6 +20,15 @@
     </item>
     
     <item>
+      <title>MERA: A Musical Entities Reconciliation Architecture Based on Semantic Technologies</title>
+      <link>http://labra.github.io/publication/2017_mera/</link>
+      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2017_mera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Validating RDF Data</title>
       <link>http://labra.github.io/publication/2017_validating-rdf-book/</link>
       <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
@@ -133,15 +142,6 @@
       <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/2015_regularexpressionderivatives/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Validating and Describing Linked Data Portals using RDF Shape Expressions</title>
-      <link>http://labra.github.io/publication/2015_validatinglinkeddataportals/</link>
-      <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2015_validatinglinkeddataportals/</guid>
       <description></description>
     </item>
     

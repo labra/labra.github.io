@@ -23,6 +23,15 @@
     
     <url>
     
+      <loc>http://labra.github.io/publication/2017_mera/</loc>
+      <lastmod>2017-09-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.github.io/post/elarteylacienciadenohacernada/</loc>
       <lastmod>2017-08-26T19:42:00+00:00</lastmod>
     </url>
@@ -907,7 +916,7 @@
     <url>
     
       <loc>http://labra.github.io/publication_types/2/</loc>
-      <lastmod>2017-04-26T00:00:00+00:00</lastmod>
+      <lastmod>2017-09-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1276,7 +1285,17 @@
     <url>
     
       <loc>http://labra.github.io/authors/daniel-fern%C3%A1ndez-%C3%A1lvarez/</loc>
-      <lastmod>2016-10-13T00:00:00+00:00</lastmod>
+      <lastmod>2017-09-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/authors/daniel-gayo-avello/</loc>
+      <lastmod>2017-09-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1457,6 +1476,16 @@
     
       <loc>http://labra.github.io/authors/enedina-quiroga/</loc>
       <lastmod>2017-04-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.github.io/tags/entity-reconciliation/</loc>
+      <lastmod>2017-09-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2335,6 +2364,16 @@
     
     <url>
     
+      <loc>http://labra.github.io/tags/music/</loc>
+      <lastmod>2017-09-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.github.io/tags/musical-composition/</loc>
       <lastmod>1997-10-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -2416,7 +2455,7 @@
     <url>
     
       <loc>http://labra.github.io/authors/patricia-ord%C3%B3%C3%B1ez-de-pablos/</loc>
-      <lastmod>2016-12-01T00:00:00+00:00</lastmod>
+      <lastmod>2017-09-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
