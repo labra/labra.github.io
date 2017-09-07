@@ -35,7 +35,7 @@ count = 5
 - [Jose Alberto Benítez Andrades](http://www.jabenitez.com/)
 - [Daniel Fernández Álvarez](https://www.linkedin.com/in/daniel-fern%C3%A1ndez-%C3%A1lvarez-817121ab/)
 - [Herminio García González](http://herminiogarcia.com/)
-- [Ángel Retamar Arias](http://www.jabenitez.com/)
+- [Ángel Retamar Arias](https://www.linkedin.com/in/angel-retamar-arias-383b416/)
 
 # Member of Scientific/Organizing committee
 
