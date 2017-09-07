@@ -23,7 +23,7 @@ Once I did the first draft and started to add content,
  some extra-information like the journal, year or authors, so I had 
  to customize the academic theme.
 
-In order to browse Hugo documentation while being online, I found useful [this project](https://github.com/hamoid/long-hugo-doc), 
+In order to browse Hugo documentation while being offline, I found useful [this project](https://github.com/hamoid/long-hugo-doc), 
  which generated all Hugo documentation in a single HTML page. 
  
 It seems that the customization can be easily done by replacing 
