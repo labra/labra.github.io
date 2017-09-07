@@ -91,7 +91,7 @@ the quick creation of the fist draft.&lt;/p&gt;
  some extra-information like the journal, year or authors, so I had
  to customize the academic theme.&lt;/p&gt;
 
-&lt;p&gt;In order to browse Hugo documentation while being online, I found useful &lt;a href=&#34;https://github.com/hamoid/long-hugo-doc&#34; target=&#34;_blank&#34;&gt;this project&lt;/a&gt;,
+&lt;p&gt;In order to browse Hugo documentation while being offline, I found useful &lt;a href=&#34;https://github.com/hamoid/long-hugo-doc&#34; target=&#34;_blank&#34;&gt;this project&lt;/a&gt;,
  which generated all Hugo documentation in a single HTML page.&lt;/p&gt;
 
 &lt;p&gt;It seems that the customization can be easily done by replacing
