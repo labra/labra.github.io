@@ -11,7 +11,7 @@ selected = false
 math = false
 
 url_pdf = "https://www.oviedo.es/documents/12103/51d39e1f-8bc7-4c28-b555-6b2fad65cee9"
-url_slides = ""
+url_slides = "https://www.slideshare.net/jelabra/como-publicar-datos-hacia-los-datos-abiertos-enlazados"
 url_video = ""
 
 +++
