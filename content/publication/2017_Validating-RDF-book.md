@@ -16,7 +16,7 @@ title = "Validating RDF Data"
 tags=["RDF", "Validation", "Semantic-web", "Shapes", "ShEx", "SHACL"]
 
 [[url_custom]]
-name = "Publishers pre-order link"
+name = "Publishers link"
 url = "http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1091"
 
 +++
