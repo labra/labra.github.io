@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Edward Rolando Núñez Valdez on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/authors/edward-rolando-n%C3%BA%C3%B1ez-valdez/</link>
+    <description>Recent content in Edward Rolando Núñez Valdez on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Sat, 01 Nov 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/authors/edward-rolando-n%C3%BA%C3%B1ez-valdez/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Knowledge-based public service transactions: An intelligent model-driven approach in co-learning contexts</title>
+      <link>http://labra.github.io/publication/2014_knowledgebasedpublicservicetransactions/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2014_knowledgebasedpublicservicetransactions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating recommendations on electronic books: A collaborative learning implicit approach</title>
+      <link>http://labra.github.io/publication/2014_creatingrecommendationselectronicbooks/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2014_creatingrecommendationselectronicbooks/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Functional Programming on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/tags/functional-programming/</link>
+    <description>Recent content in Functional Programming on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Mon, 31 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/functional-programming/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ShExkell</title>
+      <link>http://labra.github.io/project/shexkellx/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/project/shexkellx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inductive Representations of RDF Graphs</title>
+      <link>http://labra.github.io/publication/2013_inductivetriplegraphs/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2013_inductivetriplegraphs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Language Prototyping System</title>
+      <link>http://labra.github.io/project/lps/</link>
+      <pubDate>Fri, 08 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/project/lps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Formal Method for program Slicing</title>
+      <link>http://labra.github.io/publication/2005_formalmethodprogramslicing/</link>
+      <pubDate>Mon, 03 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2005_formalmethodprogramslicing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Representaciones gráficas y Mundos Virtuales infinitos en las Prácticas de Programación Lógica y Funcional</title>
+      <link>http://labra.github.io/publication/2003_graphicalrepresentationslogicfunctionalprogrammingjenui/</link>
+      <pubDate>Tue, 01 Jun 2004 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2003_graphicalrepresentationslogicfunctionalprogrammingjenui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Generic e-Learning Multiparadigm Programming Language System: IDEFIX Project</title>
+      <link>http://labra.github.io/publication/2002_agenericelearningmultiparadigm_idefixsigcse/</link>
+      <pubDate>Sat, 01 Feb 2003 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2002_agenericelearningmultiparadigm_idefixsigcse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Specification of Logic Programming Languages from Reusable Semantic Building Blocks</title>
+      <link>http://labra.github.io/publication/2003_specificationlogicprogramminglanguages/</link>
+      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2003_specificationlogicprogramminglanguages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plataforma de enseñanza de lenguajes de programación a través de Internet: Proyecto IDEFIX</title>
+      <link>http://labra.github.io/publication/2002_plataformaensenianzalenguajesprogramacion_idefix/</link>
+      <pubDate>Mon, 01 Jul 2002 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2002_plataformaensenianzalenguajesprogramacion_idefix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modular development of Language Processors from Reusable Semantic Specifications</title>
+      <link>http://labra.github.io/publication/2001_phdthesis/</link>
+      <pubDate>Sun, 01 Jul 2001 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2001_phdthesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Implementation of Modular Monadic Semantics using Folds and Monadic Folds</title>
+      <link>http://labra.github.io/publication/1998_mms_usingfoldsmonadicfolds/</link>
+      <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/1998_mms_usingfoldsmonadicfolds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harmony: a functional system for musical composition</title>
+      <link>http://labra.github.io/publication/1997_harmony/</link>
+      <pubDate>Wed, 01 Oct 1997 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/1997_harmony/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introducción al lenguaje Haskell</title>
+      <link>http://labra.github.io/publication/1995_introhaskell/</link>
+      <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/1995_introhaskell/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Propositional Logic on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/tags/propositional-logic/</link>
+    <description>Recent content in Propositional Logic on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Thu, 01 Oct 1998 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/propositional-logic/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ejercicios de lógica informática</title>
+      <link>http://labra.github.io/publication/1998_ejercicioslogica/</link>
+      <pubDate>Thu, 01 Oct 1998 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/1998_ejercicioslogica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lógica proposicional para informática</title>
+      <link>http://labra.github.io/publication/1998_propositionallogic/</link>
+      <pubDate>Thu, 01 Oct 1998 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/1998_propositionallogic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lógica de predicados de primer orden</title>
+      <link>http://labra.github.io/publication/1993_logica/</link>
+      <pubDate>Fri, 01 Jan 1993 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/1993_logica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulación Entorno Operativo Unix</title>
+      <link>http://labra.github.io/publication/1991_simulacionunix/</link>
+      <pubDate>Tue, 01 Jan 1991 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/1991_simulacionunix/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

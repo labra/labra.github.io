@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>5 on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/publication_types/5/</link>
+    <description>Recent content in 5 on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Sun, 20 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication_types/5/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Validating RDF Data</title>
+      <link>http://labra.github.io/publication/2017_validating-rdf-book/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2017_validating-rdf-book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cases on Open-Linked Data and Semantic Web Applications</title>
+      <link>http://labra.github.io/publication/2013_caseslinkedopendata/</link>
+      <pubDate>Thu, 03 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2013_caseslinkedopendata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>E-Procurement Management for Successful Electronic Government Systems</title>
+      <link>http://labra.github.io/publication/2013_eprocurementmanagement/</link>
+      <pubDate>Wed, 02 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2013_eprocurementmanagement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Semántica: comprendiendo el cambio hacia la Web 3.0</title>
+      <link>http://labra.github.io/publication/2012_websemantica/</link>
+      <pubDate>Mon, 16 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2012_websemantica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Engineering</title>
+      <link>http://labra.github.io/publication/2003_webengineering/</link>
+      <pubDate>Mon, 14 Jul 2003 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2003_webengineering/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

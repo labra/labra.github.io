@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linked Data on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/tags/linked-data/</link>
+    <description>Recent content in Linked Data on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Wed, 16 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/linked-data/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Enhancing e-Learning content by using Semantic Web technologies</title>
+      <link>http://labra.github.io/publication/2016_enhancing_elearningcontent/</link>
+      <pubDate>Wed, 16 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2016_enhancing_elearningcontent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linked Data Validation and Quality</title>
+      <link>http://labra.github.io/publication/2015_linkeddataqualityepsi/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2015_linkeddataqualityepsi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multilingual linked data patterns </title>
+      <link>http://labra.github.io/publication/2015_mlodpatterns/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2015_mlodpatterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Representing Statistical Indexes as Linked Data Including Metadata about Their Computation Process</title>
+      <link>http://labra.github.io/publication/2014_representingstatisticalindexes/</link>
+      <pubDate>Thu, 27 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2014_representingstatisticalindexes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Empowering the access to public procurement opportunities by means of linking controlled vocabularies. A case study of Product Scheme Classifications in the European e-Procurement sector</title>
+      <link>http://labra.github.io/publication/2014_empoweringaccesspublicprocurement/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2014_empoweringaccesspublicprocurement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multilingual Linked Data Patterns</title>
+      <link>http://labra.github.io/project/mlodpatterns/</link>
+      <pubDate>Fri, 08 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/project/mlodpatterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cases on Open-Linked Data and Semantic Web Applications</title>
+      <link>http://labra.github.io/publication/2013_caseslinkedopendata/</link>
+      <pubDate>Thu, 03 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2013_caseslinkedopendata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards an architecture and adoption process for Linked Data technologies in Open Government contexts</title>
+      <link>http://labra.github.io/publication/2011_linkeddatalibrarycongress/</link>
+      <pubDate>Sat, 03 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2011_linkeddatalibrarycongress/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

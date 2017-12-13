@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Jose Emilio Labra Gayo</title>
-    <link>http://labra.github.io/publication/</link>
-    <description>Recent content in Publications on Jose Emilio Labra Gayo</description>
+    <title>Jose Emilio Labra Gayo on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/</link>
+    <description>Recent content in Jose Emilio Labra Gayo on Jose Emilio Labra Gayo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>RDF, Linked data and Semantic Web</title>
+      <link>http://labra.github.io/talk/2017_rdf_linkeddata_semanticweb/</link>
+      <pubDate>Mon, 11 Dec 2017 17:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/talk/2017_rdf_linkeddata_semanticweb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing data with the Shape Expressions Language</title>
+      <link>http://labra.github.io/talk/2017_testing_data_with_shex/</link>
+      <pubDate>Sat, 28 Oct 2017 09:30:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/talk/2017_testing_data_with_shex/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Semantics and Validation of Shapes Schemas for RDF</title>
@@ -16,6 +34,15 @@
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/2017_semantics-validation-shapes-schemas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cómo publicar los datos: hacia los datos abiertos y enlazados</title>
+      <link>http://labra.github.io/talk/2017_opendataytransparenciaoviedo/</link>
+      <pubDate>Mon, 11 Sep 2017 16:30:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/talk/2017_opendataytransparenciaoviedo/</guid>
       <description></description>
     </item>
     
@@ -29,11 +56,123 @@
     </item>
     
     <item>
+      <title>El arte y la ciencia de no hacer nada</title>
+      <link>http://labra.github.io/post/elarteylacienciadenohacernada/</link>
+      <pubDate>Sat, 26 Aug 2017 19:42:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/post/elarteylacienciadenohacernada/</guid>
+      <description>&lt;p&gt;Durante mi pasado viaje a Chile (hace 6 meses) compré el libro
+ &lt;a href=&#34;https://www.amazon.es/Arte-Ciencia-Hacer-Nada-Psicolog%C3%ADa/dp/8494207318&#34; target=&#34;_blank&#34;&gt;El Arte y la ciencia de no hacer nada&lt;/a&gt;, de Andrew J. Smart, un libro pequeño cuyo título me llamó la atención.&lt;/p&gt;
+
+&lt;p&gt;Desde entonces, lo había dejado olvidado en una estantería, sin tocarlo.
+ Justo antes de partir de vacaciones la semana pasada decidí darle una oportunidad y la verdad que me gustó mucho la tesis del libro.&lt;/p&gt;
+
+&lt;p&gt;El autor mantiene que cuando creemos que no estamos haciendo nada, en los típicos momentos en los que
+  estamos aburridos sin hacer nada, dejando a nuestra mente vagar, en realidad, el cerebro está funcionando
+  y está estableciendo conexiones que son muy útiles y que pueden aumentar nuestra creatividad.&lt;/p&gt;
+
+&lt;p&gt;El autor mantiene que es fundamental dejar tiempo para esos momentos de no hacer nada y que
+  en el mundo actual corremos el peligro de organizar demasiado nuestro tiempo para evitar
+  momentos de ocio, lo cual puede llegar a pasarnos factura en el futuro.&lt;/p&gt;
+
+&lt;p&gt;El autor lo razona de varias formas y a mí me convenció. En mi caso, tiendo a ser bastante
+  desordenado y a dejarme llevar bastante por mi propio impulso. Puesto que en mi trabajo
+   se requiere un elevado nivel de creatividad para investigar, publicar artículos o programar,
+   es un tema que me interesa mucho.&lt;/p&gt;
+
+&lt;p&gt;Además, coincido con el autor en que muchas veces es mejor parar un momento de trabajar,
+    dar un paseo, dormir, o dedicarse a no hacer nada&amp;hellip;para que de repente se te ocurra una
+    idea que hasta entonces no se te había ocurrido, cuando llevabas bastante tiempo delante del ordenador.&lt;/p&gt;
+
+&lt;p&gt;En definitiva, un libro y una tesis que recomendaré a partir de ahora.
+    Cuando quieras avanzar en ciertos trabajos creativos, relájate un poco, y no hagas nada&amp;hellip;
+    a lo mejor, aparece la idea que llevabas un tiempo buscando.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Home page revamped</title>
+      <link>http://labra.github.io/post/homepage/</link>
+      <pubDate>Mon, 21 Aug 2017 10:39:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/post/homepage/</guid>
+      <description>&lt;p&gt;These days, in my spare time while on vacation, I decided to rewrite my home page.
+ The task was not easy as I was doing it in a hotel in Lanzarote, without internet connection in my room,
+ and using &lt;a href=&#34;http://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;, a website framework, that I hadn&amp;rsquo;t used before.&lt;/p&gt;
+
+&lt;p&gt;Anyway, Hugo seems quite intuitive and is very fast to compile and run, so it is funny for trial-and-error.
+Also, there is a very nice &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34;&gt;Academic theme&lt;/a&gt; which facilitated
+the quick creation of the fist draft.&lt;/p&gt;
+
+&lt;p&gt;Once I did the first draft and started to add content,
+ I noticed that I had a long list of publications that required
+ some extra-information like the journal, year or authors, so I had
+ to customize the academic theme.&lt;/p&gt;
+
+&lt;p&gt;In order to browse Hugo documentation while being offline, I found useful &lt;a href=&#34;https://github.com/hamoid/long-hugo-doc&#34; target=&#34;_blank&#34;&gt;this project&lt;/a&gt;,
+ which generated all Hugo documentation in a single HTML page.&lt;/p&gt;
+
+&lt;p&gt;It seems that the customization can be easily done by replacing
+ the pages that are in the themes folder by the equivalent ones in the root folder.&lt;/p&gt;
+
+&lt;p&gt;I had to change the pages:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;layouts/widgets/publication&lt;/code&gt;: declares how to visualize publications in the home page. I added a link at the end to show all publications.
+I had also added some code to add filtering by tags, but the result is not nice, so I commented it. It seems that commenting code in HTML in Hugo requires to remove the &lt;code&gt;{{&lt;/code&gt; in the comments.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;layouts/partials/publication_li_simple.html&lt;/code&gt;: defines how to visualize a single publication (I added there the authors, publication and year)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;layouts/section/publication.html&lt;/code&gt;: declares how to filter publications by type and repeats the previous code. It would be better to use a partial, but I didn&amp;rsquo;t want to break things from the academic theme.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I also managed to integrate Travis with github so when I push some changes to github, it automatically deploys the content via Travis.
+ Notice that there are 2 branches, the &lt;code&gt;source&lt;/code&gt; branch contains the source code, and the &lt;code&gt;master&lt;/code&gt; branch contains the result (in Hugo, the result is by default created in the folder &lt;code&gt;/public&lt;/code&gt;)&lt;/p&gt;
+
+&lt;p&gt;The source code is located &lt;a href=&#34;https://github.com/labra/labra.github.io&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and
+ the resulting web page is &lt;a href=&#34;http://www.di.uniovi.es/~labra&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Validating RDF Data</title>
       <link>http://labra.github.io/publication/2017_validating-rdf-book/</link>
       <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/2017_validating-rdf-book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>First post</title>
+      <link>http://labra.github.io/post/getting-started/</link>
+      <pubDate>Mon, 31 Jul 2017 12:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/post/getting-started/</guid>
+      <description>&lt;p&gt;This is the first post included in my home page.
+I already have a &lt;a href=&#34;http://jelabra.blogspot.com.es/&#34; target=&#34;_blank&#34;&gt;personal blog&lt;/a&gt;,
+so I am not sure if I will really use this place.&lt;/p&gt;
+
+&lt;p&gt;Anyway, who knows&amp;hellip;it seems quite easy to create posts here using
+the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34;&gt;Academic theme&lt;/a&gt; from &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SHACLex</title>
+      <link>http://labra.github.io/project/shaclex/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/project/shaclex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ShExkell</title>
+      <link>http://labra.github.io/project/shexkellx/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/project/shexkellx/</guid>
       <description></description>
     </item>
     
@@ -70,78 +209,6 @@
       <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>http://labra.github.io/publication/2016_towards_learninganalytics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Enhancing e-Learning content by using Semantic Web technologies</title>
-      <link>http://labra.github.io/publication/2016_enhancing_elearningcontent/</link>
-      <pubDate>Wed, 16 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2016_enhancing_elearningcontent/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Inference and Serialization of Latent Graph Schemata using ShEx</title>
-      <link>http://labra.github.io/publication/2016_inferenceserializationshex/</link>
-      <pubDate>Thu, 13 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2016_inferenceserializationshex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Identifying potential suppliers for competitive bidding using Latent Semantic Analysis</title>
-      <link>http://labra.github.io/publication/2016_identifyingpotentialsuppliers/</link>
-      <pubDate>Mon, 10 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2016_identifyingpotentialsuppliers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shape Expression Schemas</title>
-      <link>http://labra.github.io/publication/2016_shapeexpressionschemas/</link>
-      <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2016_shapeexpressionschemas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linked Data Validation and Quality</title>
-      <link>http://labra.github.io/publication/2015_linkeddataqualityepsi/</link>
-      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2015_linkeddataqualityepsi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RDF Ventures to Boldly Meet Your Most Pedestrian Needs</title>
-      <link>http://labra.github.io/publication/2015_rdfventures/</link>
-      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2015_rdfventures/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Expressiveness and Complexity of ShEx for RDF</title>
-      <link>http://labra.github.io/publication/2015_complexityexpressivenessshexrdf/</link>
-      <pubDate>Fri, 27 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2015_complexityexpressivenessshexrdf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Towards an RDF validation language based on Regular Expression derivatives</title>
-      <link>http://labra.github.io/publication/2015_regularexpressionderivatives/</link>
-      <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2015_regularexpressionderivatives/</guid>
       <description></description>
     </item>
     

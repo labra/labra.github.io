@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Luis Ángel Oliveira on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/authors/luis-%C3%A1ngel-oliveira/</link>
+    <description>Recent content in Luis Ángel Oliveira on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Wed, 01 Oct 1997 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/authors/luis-%C3%A1ngel-oliveira/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Harmony: a functional system for musical composition</title>
+      <link>http://labra.github.io/publication/1997_harmony/</link>
+      <pubDate>Wed, 01 Oct 1997 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/1997_harmony/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

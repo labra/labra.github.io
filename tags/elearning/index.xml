@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elearning on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/tags/elearning/</link>
+    <description>Recent content in Elearning on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Thu, 01 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/elearning/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Towards the Implementation of the Learning Analytics in the Social Learning Environments for the Technology-Enhanced Assessment in Computer Engineering Education</title>
+      <link>http://labra.github.io/publication/2016_towards_learninganalytics/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2016_towards_learninganalytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancing e-Learning content by using Semantic Web technologies</title>
+      <link>http://labra.github.io/publication/2016_enhancing_elearningcontent/</link>
+      <pubDate>Wed, 16 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2016_enhancing_elearningcontent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interoperability between platforms without a defined referential model: A semi-automatic learning system for structural pairing</title>
+      <link>http://labra.github.io/publication/2014_interoperabilitybetweenplatforms/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2014_interoperabilitybetweenplatforms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards the evaluation of usability in educative websites</title>
+      <link>http://labra.github.io/publication/2010_towardsevaluationusability/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2010_towardsevaluationusability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Generic e-Learning Multiparadigm Programming Language System: IDEFIX Project</title>
+      <link>http://labra.github.io/publication/2002_agenericelearningmultiparadigm_idefixsigcse/</link>
+      <pubDate>Sat, 01 Feb 2003 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2002_agenericelearningmultiparadigm_idefixsigcse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plataforma de enseñanza de lenguajes de programación a través de Internet: Proyecto IDEFIX</title>
+      <link>http://labra.github.io/publication/2002_plataformaensenianzalenguajesprogramacion_idefix/</link>
+      <pubDate>Mon, 01 Jul 2002 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2002_plataformaensenianzalenguajesprogramacion_idefix/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
