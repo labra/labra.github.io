@@ -40,6 +40,6 @@ Member of [Web of Things](https://www.w3.org/WoT/WG/) and
  [RAX (RDF and XML interoperability)](https://www.w3.org/community/rax/) and 
  [Best practices of Multilingual Linked Open Data](https://www.w3.org/community/bpmlod/) W3C community groups. 
 
-He is the coordinator of the [Master in Web Engineering](http://miw.uniovi.es) - University of Oviedo, 
- and  was the Dean of the [School of Computer Science Engineering](http://ingenieriainformatica.uniovi.es) - [University of Oviedo](http://uniovi.es) between 2004 and 2012.
+Previously, He was coordinator of the [Master in Web Engineering](http://miw.uniovi.es) - University of Oviedo (2016-2017), 
+ and  Dean of the [School of Computer Science Engineering](http://ingenieriainformatica.uniovi.es) - [University of Oviedo](http://uniovi.es) (2004-2012).
 
