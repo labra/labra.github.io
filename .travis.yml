@@ -11,6 +11,7 @@ install:
 # Build the website
 script:
   # Build our site
+  - chmod +x binaries/hugo
   - binaries/hugo --theme=fresh
   # Create a CNAME file which maps our site to our custom domain
   # - echo 'freshswift.net' > public/CNAME
