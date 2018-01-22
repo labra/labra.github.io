@@ -1,5 +1,8 @@
 +++
 date = "2012-06-12T09:30:00"
+time_start = "2012-06-12T09:30:00"
+time_end = "2012-06-12T12:30:00"
+
 title = "Best Practices for Multilingual Linked Open Data"
 abstract = "This presentation gives an overview of guidelines and best practices for publishing multilingual linked open data. There are many projects that publish linked open data with the data in multiple languages and this presentation will address some of the issues and how to resolve them for these kinds of projects."
 abstract_short = ""

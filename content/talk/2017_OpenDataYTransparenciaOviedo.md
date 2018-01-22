@@ -1,5 +1,7 @@
 +++
 date = "2017-09-11T16:30:00"
+time_start = "2017-09-11T16:30:00"
+time_end = "2017-09-11T18:30:00"
 title = "Cómo publicar los datos: hacia los datos abiertos y enlazados"
 abstract = ""
 abstract_short = ""

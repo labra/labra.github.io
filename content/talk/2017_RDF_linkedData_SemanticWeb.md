@@ -1,5 +1,8 @@
 +++
 date = "2017-12-11T17:00:00"
+time_start = "2017-12-11T17:00:00"
+time_end = "2017-12-11T19:00:00"
+
 title = "RDF, Linked data and Semantic Web"
 #authors = ["Jose Emilio Labra Gayo" ]
 

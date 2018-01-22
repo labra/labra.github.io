@@ -1,5 +1,7 @@
 +++
 date = "2013-03-12T09:30:00"
+time_start = "2013-03-12T09:30:00"
+time_end = "2013-03-12T11:30:00"
 title = "Multilingual Linked Open Data Patterns"
 abstract = "This talk presents a catalog of patterns and best practices to publish Multilingual Linked Data and identifies some issues that should be taken into account. Each pattern contains a description, a context, an example and a short discussion of its usage."
 abstract_short = ""

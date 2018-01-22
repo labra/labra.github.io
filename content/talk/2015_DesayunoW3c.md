@@ -1,5 +1,7 @@
 +++
 date = "2015-06-23T09:30:00"
+time_start = "2015-06-23T09:30:00"
+time_end = "2015-06-23T09:30:00"
 title = "RDF Data shapes and WESO Research group"
 abstract = ""
 abstract_short = ""
