@@ -29,10 +29,12 @@ count = 5
   Desarrollo de Tecnologías Colaborativas para Entornos virtuales de apoyo al aprendizaje,
   2015
 
+- [Jose Alberto Benítez Andrades](http://www.jabenitez.com/):
+  Tecnologías Semánticas aplicadas al Análisis de Redes Sociales en el ámbito de la Salud, 2017
+
 # Current PhD Students
 
 - [Victor Hugo Aravena Díaz](https://www.linkedin.com/in/victoraravena/)
-- [Jose Alberto Benítez Andrades](http://www.jabenitez.com/)
 - [Daniel Fernández Álvarez](https://www.linkedin.com/in/daniel-fern%C3%A1ndez-%C3%A1lvarez-817121ab/)
 - [Herminio García González](http://herminiogarcia.com/)
 - [Ángel Retamar Arias](https://www.linkedin.com/in/angel-retamar-arias-383b416/)
