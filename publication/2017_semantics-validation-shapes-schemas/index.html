@@ -20,7 +20,7 @@
   <meta name="description" content="We present a formal semantics and proof of soundness for shapes schemas, an expressive schema language for RDF graphs that is the foundation of Shape expressions Language 2.0. It can be used to describe the vocabulary and the structure of an RDF graph, and to constrain the admissible properties and values for nodes in that graph. The language defines a typing mechanism called shapes against which nodes of the graph can be checked. It includes an algebraic grouping operator, a choice operator and cardinality constraints for the number of allowed occurrences of a property. Shapes can be combined using Boolean operators, and can use possibly recursive references to other shapes. We describe the syntax of the language and define its semantics. The semantics is proven to be well-defined for schemas that satisfy a reasonable syntactic restriction, namely stratified use of negation and recursion. We present two algorithms for the validation of an RDF graph against a shapes schema. The first algorithm is a direct implementation of the semantics, whereas the second is a non-trivial improvement. We also briefly give implementation guidelines.">
 
   
-  <link rel="alternate" hreflang="en-us" href="http://labra.github.io/publication/2017_semantics-validation-shapes-schemas/">
+  <link rel="alternate" hreflang="en-us" href="http://labra.weso.es/publication/2017_semantics-validation-shapes-schemas/">
 
   
 
@@ -74,24 +74,24 @@
   
 
   
-  <link rel="alternate" href="http://labra.github.io/index.xml" type="application/rss+xml" title="Jose Emilio Labra Gayo">
-  <link rel="feed" href="http://labra.github.io/index.xml" type="application/rss+xml" title="Jose Emilio Labra Gayo">
+  <link rel="alternate" href="http://labra.weso.es/index.xml" type="application/rss+xml" title="Labra&#39;s home page">
+  <link rel="feed" href="http://labra.weso.es/index.xml" type="application/rss+xml" title="Labra&#39;s home page">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="http://labra.github.io/publication/2017_semantics-validation-shapes-schemas/">
+  <link rel="canonical" href="http://labra.weso.es/publication/2017_semantics-validation-shapes-schemas/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="twitter:site" content="@jelabra">
   <meta property="twitter:creator" content="@jelabra">
   
-  <meta property="og:site_name" content="Jose Emilio Labra Gayo">
-  <meta property="og:url" content="http://labra.github.io/publication/2017_semantics-validation-shapes-schemas/">
-  <meta property="og:title" content="Semantics and Validation of Shapes Schemas for RDF | Jose Emilio Labra Gayo">
+  <meta property="og:site_name" content="Labra&#39;s home page">
+  <meta property="og:url" content="http://labra.weso.es/publication/2017_semantics-validation-shapes-schemas/">
+  <meta property="og:title" content="Semantics and Validation of Shapes Schemas for RDF | Labra&#39;s home page">
   <meta property="og:description" content="We present a formal semantics and proof of soundness for shapes schemas, an expressive schema language for RDF graphs that is the foundation of Shape expressions Language 2.0. It can be used to describe the vocabulary and the structure of an RDF graph, and to constrain the admissible properties and values for nodes in that graph. The language defines a typing mechanism called shapes against which nodes of the graph can be checked. It includes an algebraic grouping operator, a choice operator and cardinality constraints for the number of allowed occurrences of a property. Shapes can be combined using Boolean operators, and can use possibly recursive references to other shapes. We describe the syntax of the language and define its semantics. The semantics is proven to be well-defined for schemas that satisfy a reasonable syntactic restriction, namely stratified use of negation and recursion. We present two algorithms for the validation of an RDF graph against a shapes schema. The first algorithm is a direct implementation of the semantics, whereas the second is a non-trivial improvement. We also briefly give implementation guidelines.">
   <meta property="og:locale" content="en-us">
   
@@ -102,7 +102,7 @@
 
   
 
-  <title>Semantics and Validation of Shapes Schemas for RDF | Jose Emilio Labra Gayo</title>
+  <title>Semantics and Validation of Shapes Schemas for RDF | Labra&#39;s home page</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -121,7 +121,7 @@
         <span class="icon-bar"></span>
       </button>
       
-      <a class="navbar-brand" href="/">Jose Emilio Labra Gayo</a>
+      <a class="navbar-brand" href="/">Labra&#39;s home page</a>
     </div>
 
     
@@ -163,6 +163,25 @@
           <a href="/#publications">
             
             <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
             
           </a>
         </li>
@@ -255,25 +274,6 @@
         
 
         <li class="nav-item">
-          <a href="/#posts">
-            
-            <span>Posts</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
           <a href="/#contact">
             
             <span>Contact</span>
@@ -314,35 +314,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Semantics%20and%20Validation%20of%20Shapes%20Schemas%20for%20RDF&amp;url=http%3a%2f%2flabra.github.io%2fpublication%2f2017_semantics-validation-shapes-schemas%2f"
+         href="https://twitter.com/intent/tweet?text=Semantics%20and%20Validation%20of%20Shapes%20Schemas%20for%20RDF&amp;url=http%3a%2f%2flabra.weso.es%2fpublication%2f2017_semantics-validation-shapes-schemas%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flabra.github.io%2fpublication%2f2017_semantics-validation-shapes-schemas%2f"
+         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flabra.weso.es%2fpublication%2f2017_semantics-validation-shapes-schemas%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flabra.github.io%2fpublication%2f2017_semantics-validation-shapes-schemas%2f&amp;title=Semantics%20and%20Validation%20of%20Shapes%20Schemas%20for%20RDF"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flabra.weso.es%2fpublication%2f2017_semantics-validation-shapes-schemas%2f&amp;title=Semantics%20and%20Validation%20of%20Shapes%20Schemas%20for%20RDF"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2flabra.github.io%2fpublication%2f2017_semantics-validation-shapes-schemas%2f&amp;title=Semantics%20and%20Validation%20of%20Shapes%20Schemas%20for%20RDF"
+         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2flabra.weso.es%2fpublication%2f2017_semantics-validation-shapes-schemas%2f&amp;title=Semantics%20and%20Validation%20of%20Shapes%20Schemas%20for%20RDF"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Semantics%20and%20Validation%20of%20Shapes%20Schemas%20for%20RDF&amp;body=http%3a%2f%2flabra.github.io%2fpublication%2f2017_semantics-validation-shapes-schemas%2f">
+         href="mailto:?subject=Semantics%20and%20Validation%20of%20Shapes%20Schemas%20for%20RDF&amp;body=http%3a%2f%2flabra.weso.es%2fpublication%2f2017_semantics-validation-shapes-schemas%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -443,7 +443,7 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="http://labra.github.io/pdf/2017_SemanticsValidationShapesSchemas.pdf" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="http://labra.weso.es/pdf/2017_SemanticsValidationShapesSchemas.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -454,7 +454,7 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="http://labra.github.io/project/shaclex/" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="http://labra.weso.es/project/shaclex/" target="_blank" rel="noopener">
   Project
 </a>
 
@@ -485,7 +485,7 @@
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="http://labra.github.io/publication/2017_mera/" rel="prev">MERA: A Musical Entities Reconciliation Architecture Based on Semantic Technologies</a>
+    <a href="http://labra.weso.es/publication/2017_mera/" rel="prev">MERA: A Musical Entities Reconciliation Architecture Based on Semantic Technologies</a>
   </div>
   
 </div>
@@ -496,7 +496,7 @@
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2017 Jose Emilio Labra Gayo &middot; 
+      &copy; 2018 Jose Emilio Labra Gayo &middot; 
 
       Powered by the
       <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

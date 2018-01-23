@@ -1,147 +1,147 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks on Jose Emilio Labra Gayo</title>
-    <link>http://labra.github.io/talk/</link>
-    <description>Recent content in Recent &amp; Upcoming Talks on Jose Emilio Labra Gayo</description>
+    <title>Recent &amp; Upcoming Talks on Labra&#39;s home page</title>
+    <link>http://labra.weso.es/talk/</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on Labra&#39;s home page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <copyright>&amp;copy; 2018 Jose Emilio Labra Gayo</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/talk/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>RDF, Linked data and Semantic Web</title>
-      <link>http://labra.github.io/talk/2017_rdf_linkeddata_semanticweb/</link>
+      <link>http://labra.weso.es/talk/2017_rdf_linkeddata_semanticweb/</link>
       <pubDate>Mon, 11 Dec 2017 17:00:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/talk/2017_rdf_linkeddata_semanticweb/</guid>
+      <guid>http://labra.weso.es/talk/2017_rdf_linkeddata_semanticweb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Testing data with the Shape Expressions Language</title>
-      <link>http://labra.github.io/talk/2017_testing_data_with_shex/</link>
+      <link>http://labra.weso.es/talk/2017_testing_data_with_shex/</link>
       <pubDate>Sat, 28 Oct 2017 09:30:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/talk/2017_testing_data_with_shex/</guid>
+      <guid>http://labra.weso.es/talk/2017_testing_data_with_shex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cómo publicar los datos: hacia los datos abiertos y enlazados</title>
-      <link>http://labra.github.io/talk/2017_opendataytransparenciaoviedo/</link>
+      <link>http://labra.weso.es/talk/2017_opendataytransparenciaoviedo/</link>
       <pubDate>Mon, 11 Sep 2017 16:30:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/talk/2017_opendataytransparenciaoviedo/</guid>
+      <guid>http://labra.weso.es/talk/2017_opendataytransparenciaoviedo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>RDF and Linked Data Validation - ESWC Tutorial</title>
-      <link>http://labra.github.io/talk/2016_rdf_validation_tutorial/</link>
+      <link>http://labra.weso.es/talk/2016_rdf_validation_tutorial/</link>
       <pubDate>Mon, 30 May 2016 09:30:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/talk/2016_rdf_validation_tutorial/</guid>
+      <guid>http://labra.weso.es/talk/2016_rdf_validation_tutorial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Datos abiertos y enlazados: caminando hacia la web semántica</title>
-      <link>http://labra.github.io/talk/2015_bogota/</link>
+      <link>http://labra.weso.es/talk/2015_bogota/</link>
       <pubDate>Mon, 14 Dec 2015 16:10:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/talk/2015_bogota/</guid>
+      <guid>http://labra.weso.es/talk/2015_bogota/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Datos abiertos enlazados y portales de datos</title>
-      <link>http://labra.github.io/talk/2015_puno/</link>
+      <link>http://labra.weso.es/talk/2015_puno/</link>
       <pubDate>Tue, 23 Jun 2015 09:30:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/talk/2015_puno/</guid>
+      <guid>http://labra.weso.es/talk/2015_puno/</guid>
       <description></description>
     </item>
     
     <item>
       <title>RDF Data shapes and WESO Research group</title>
-      <link>http://labra.github.io/talk/2015_desayunow3c/</link>
+      <link>http://labra.weso.es/talk/2015_desayunow3c/</link>
       <pubDate>Tue, 23 Jun 2015 09:30:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/talk/2015_desayunow3c/</guid>
+      <guid>http://labra.weso.es/talk/2015_desayunow3c/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ShEx by Example</title>
-      <link>http://labra.github.io/talk/2014_shexbyexample/</link>
+      <link>http://labra.weso.es/talk/2014_shexbyexample/</link>
       <pubDate>Fri, 12 Dec 2014 09:30:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/talk/2014_shexbyexample/</guid>
+      <guid>http://labra.weso.es/talk/2014_shexbyexample/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Transparencia y liderazgo: datos abiertos y enlazados</title>
-      <link>http://labra.github.io/talk/2014_transparenciayliderazgodatosabiertosenlazados/</link>
+      <link>http://labra.weso.es/talk/2014_transparenciayliderazgodatosabiertosenlazados/</link>
       <pubDate>Wed, 17 Sep 2014 16:30:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/talk/2014_transparenciayliderazgodatosabiertosenlazados/</guid>
+      <guid>http://labra.weso.es/talk/2014_transparenciayliderazgodatosabiertosenlazados/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Caminando hacia la web semántica: datos abiertos y enlazados</title>
-      <link>http://labra.github.io/talk/2013_morelia/</link>
+      <link>http://labra.weso.es/talk/2013_morelia/</link>
       <pubDate>Thu, 31 Oct 2013 16:10:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/talk/2013_morelia/</guid>
+      <guid>http://labra.weso.es/talk/2013_morelia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multilingual Linked Open Data Patterns</title>
-      <link>http://labra.github.io/talk/2013_multilingual_linked_open_data_patterns/</link>
+      <link>http://labra.weso.es/talk/2013_multilingual_linked_open_data_patterns/</link>
       <pubDate>Tue, 12 Mar 2013 09:30:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/talk/2013_multilingual_linked_open_data_patterns/</guid>
+      <guid>http://labra.weso.es/talk/2013_multilingual_linked_open_data_patterns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Best Practices for Multilingual Linked Open Data</title>
-      <link>http://labra.github.io/talk/2012_best_practices_multilingual_linked_data/</link>
+      <link>http://labra.weso.es/talk/2012_best_practices_multilingual_linked_data/</link>
       <pubDate>Tue, 12 Jun 2012 09:30:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/talk/2012_best_practices_multilingual_linked_data/</guid>
+      <guid>http://labra.weso.es/talk/2012_best_practices_multilingual_linked_data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Datos abiertos: reutilización de información en el sector público</title>
-      <link>http://labra.github.io/talk/2010_jornadasempleouniversidad/</link>
+      <link>http://labra.weso.es/talk/2010_jornadasempleouniversidad/</link>
       <pubDate>Thu, 10 Jun 2010 16:10:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/talk/2010_jornadasempleouniversidad/</guid>
+      <guid>http://labra.weso.es/talk/2010_jornadasempleouniversidad/</guid>
       <description></description>
     </item>
     
     <item>
       <title>XML technologies</title>
-      <link>http://labra.github.io/talk/xml_courses/</link>
+      <link>http://labra.weso.es/talk/xml_courses/</link>
       <pubDate>Sun, 30 May 2010 09:30:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/talk/xml_courses/</guid>
+      <guid>http://labra.weso.es/talk/xml_courses/</guid>
       <description></description>
     </item>
     
     <item>
       <title>¿Qué es la Web 2.0?</title>
-      <link>http://labra.github.io/talk/2009_ildefe/</link>
+      <link>http://labra.weso.es/talk/2009_ildefe/</link>
       <pubDate>Wed, 25 Mar 2009 16:10:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/talk/2009_ildefe/</guid>
+      <guid>http://labra.weso.es/talk/2009_ildefe/</guid>
       <description></description>
     </item>
     

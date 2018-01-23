@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Jose Emilio Labra Gayo</title>
-    <link>http://labra.github.io/post/</link>
-    <description>Recent content in Posts on Jose Emilio Labra Gayo</description>
+    <title>Posts on Labra&#39;s home page</title>
+    <link>http://labra.weso.es/post/</link>
+    <description>Recent content in Posts on Labra&#39;s home page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <copyright>&amp;copy; 2018 Jose Emilio Labra Gayo</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>El arte y la ciencia de no hacer nada</title>
-      <link>http://labra.github.io/post/elarteylacienciadenohacernada/</link>
+      <link>http://labra.weso.es/post/elarteylacienciadenohacernada/</link>
       <pubDate>Sat, 26 Aug 2017 19:42:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/post/elarteylacienciadenohacernada/</guid>
+      <guid>http://labra.weso.es/post/elarteylacienciadenohacernada/</guid>
       <description>&lt;p&gt;Durante mi pasado viaje a Chile (hace 6 meses) compré el libro
  &lt;a href=&#34;https://www.amazon.es/Arte-Ciencia-Hacer-Nada-Psicolog%C3%ADa/dp/8494207318&#34; target=&#34;_blank&#34;&gt;El Arte y la ciencia de no hacer nada&lt;/a&gt;, de Andrew J. Smart, un libro pequeño cuyo título me llamó la atención.&lt;/p&gt;
 
@@ -47,10 +47,10 @@
     
     <item>
       <title>Home page revamped</title>
-      <link>http://labra.github.io/post/homepage/</link>
+      <link>http://labra.weso.es/post/homepage/</link>
       <pubDate>Mon, 21 Aug 2017 10:39:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/post/homepage/</guid>
+      <guid>http://labra.weso.es/post/homepage/</guid>
       <description>&lt;p&gt;These days, in my spare time while on vacation, I decided to rewrite my home page.
  The task was not easy as I was doing it in a hotel in Lanzarote, without internet connection in my room,
  and using &lt;a href=&#34;http://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;, a website framework, that I hadn&amp;rsquo;t used before.&lt;/p&gt;
@@ -91,10 +91,10 @@ I had also added some code to add filtering by tags, but the result is not nice,
     
     <item>
       <title>First post</title>
-      <link>http://labra.github.io/post/getting-started/</link>
+      <link>http://labra.weso.es/post/getting-started/</link>
       <pubDate>Mon, 31 Jul 2017 12:00:00 +0000</pubDate>
       
-      <guid>http://labra.github.io/post/getting-started/</guid>
+      <guid>http://labra.weso.es/post/getting-started/</guid>
       <description>&lt;p&gt;This is the first post included in my home page.
 I already have a &lt;a href=&#34;http://jelabra.blogspot.com.es/&#34; target=&#34;_blank&#34;&gt;personal blog&lt;/a&gt;,
 so I am not sure if I will really use this place.&lt;/p&gt;

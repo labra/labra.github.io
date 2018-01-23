@@ -1,59 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jose Emilio Labra Gayo</title>
-    <link>http://labra.github.io/authors/iovka-boneva/</link>
-    <description>Recent content on Jose Emilio Labra Gayo</description>
+    <title>Labra&#39;s home page</title>
+    <link>http://labra.weso.es/authors/iovka-boneva/</link>
+    <description>Recent content on Labra&#39;s home page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
-    <lastBuildDate>Mon, 23 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2018 Jose Emilio Labra Gayo</copyright>
     <atom:link href="/authors/iovka-boneva/" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Semantics and Validation of Shapes Schemas for RDF</title>
-      <link>http://labra.github.io/publication/2017_semantics-validation-shapes-schemas/</link>
-      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2017_semantics-validation-shapes-schemas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Validating RDF Data</title>
-      <link>http://labra.github.io/publication/2017_validating-rdf-book/</link>
-      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2017_validating-rdf-book/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shape Expressions Language 2.0</title>
-      <link>http://labra.github.io/publication/2017_shexspec/</link>
-      <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2017_shexspec/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shape Expression Schemas</title>
-      <link>http://labra.github.io/publication/2016_shapeexpressionschemas/</link>
-      <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2016_shapeexpressionschemas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Expressiveness and Complexity of ShEx for RDF</title>
-      <link>http://labra.github.io/publication/2015_complexityexpressivenessshexrdf/</link>
-      <pubDate>Fri, 27 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.github.io/publication/2015_complexityexpressivenessshexrdf/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
