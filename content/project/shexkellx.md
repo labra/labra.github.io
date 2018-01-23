@@ -12,7 +12,7 @@ summary = "ShEx implementation in Haskell"
 tags = ["ShEx", "RDF", "Haskell", "Functional Programming"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "http://weso.github.io/shexkell/"
+external_link = "https://github.com/weso/shexkell/"
 
 # Does the project detail page use math formatting?
 math = false
