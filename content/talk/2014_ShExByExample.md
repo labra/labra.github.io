@@ -1,5 +1,7 @@
 +++
 date = "2014-12-12T09:30:00"
+time_start = "2014-12-12T09:30:00"
+time_end = "2014-12-12T09:30:00"
 title = "ShEx by Example"
 abstract = ""
 abstract_short = ""

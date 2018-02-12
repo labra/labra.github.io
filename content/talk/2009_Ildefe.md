@@ -1,5 +1,8 @@
 +++
 date = "2009-03-25T16:10:00"
+time_start = "2009-03-25T16:10:00"
+time_end = "2009-03-25T18:10:00"
+
 title = "¿Qué es la Web 2.0?"
 abstract = ""
 abstract_short = ""

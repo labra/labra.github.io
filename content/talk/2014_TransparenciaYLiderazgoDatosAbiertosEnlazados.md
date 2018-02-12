@@ -1,5 +1,7 @@
 +++
 date = "2014-09-17T16:30:00"
+time_start = "2014-09-17T16:30:00"
+time_end = "2014-09-17T16:30:00"
 title = "Transparencia y liderazgo: datos abiertos y enlazados"
 abstract = ""
 abstract_short = ""

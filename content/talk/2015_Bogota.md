@@ -1,5 +1,7 @@
 +++
 date = "2015-12-14T16:10:00"
+time_start = "2015-12-14T16:10:00"
+time_end = "2015-12-14T16:10:00"
 title = "Datos abiertos y enlazados: caminando hacia la web semántica"
 abstract = ""
 abstract_short = ""

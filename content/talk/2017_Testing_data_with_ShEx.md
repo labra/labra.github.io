@@ -1,5 +1,7 @@
 +++
 date = "2017-10-28T09:30:00"
+time_start = "2017-10-28T09:30:00"
+time_end = "2017-10-28T09:30:00"
 title = "Testing data with the Shape Expressions Language"
 #authors = ["Eric Prud'hommeaux", 
 #           "Jose Emilio Labra Gayo", 
