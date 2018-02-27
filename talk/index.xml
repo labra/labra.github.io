@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Jose Emilio Labra Gayo</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/talk/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://labra.weso.es/talk/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>RDF, Linked data and Semantic Web</title>
@@ -142,6 +144,15 @@
       <pubDate>Wed, 25 Mar 2009 16:10:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/talk/2009_ildefe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic Web and Image Information Mining</title>
+      <link>http://labra.weso.es/talk/2008_semanticwebimageinformationmining/</link>
+      <pubDate>Wed, 12 Mar 2008 09:30:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2008_semanticwebimageinformationmining/</guid>
       <description></description>
     </item>
     

@@ -8,7 +8,87 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Jose Emilio Labra Gayo</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://labra.weso.es/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://labra.weso.es/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/home/about/</guid>
+      <description>Biography Associate Professor, University of Oviedo, Spain. Founder and main researcher of WESO (Web Semantics Oviedo) research group, which collaborates with different companies around the world applying semantic web technologies to solve practical problems.
+Member of Web of Things and Data Shapes W3C Working Groups and of Shape Expressions, SHACL, RAX (RDF and XML interoperability) and Best practices of Multilingual Linked Open Data W3C community groups.
+Previously, He was coordinator of the Master in Web Engineering - University of Oviedo (2016-2017), and Dean of the School of Computer Science Engineering - University of Oviedo (2004-2012).</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://labra.weso.es/home/publications/</link>
+      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/home/publications/</guid>
+      <description>My old list of publications was here</description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>http://labra.weso.es/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Other info</title>
+      <link>http://labra.weso.es/home/other/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/home/other/</guid>
+      <description>Supervised PhD students  Jose María Álvarez Rodríguez: Métodos semánticos de reutilización de datos abiertos enlazados en las licitaciones públicas, 2012
+ Hernán Sagastegui Chigne: Desarrollo de Tecnologías Colaborativas para Entornos virtuales de apoyo al aprendizaje, 2015
+ Jose Alberto Benítez Andrades: Tecnologías Semánticas aplicadas al Análisis de Redes Sociales en el ámbito de la Salud, 2017
+  Current PhD Students  Victor Hugo Aravena Díaz Daniel Fernández Álvarez Herminio García González Ángel Retamar Arias  Member of Scientific/Organizing committee  8th Workshop on Ontology Design and Patterns, WOP, 2017 Workshop on Linked Enterprise Data Services, Provenance, Linking and QualitY, LEDSPLaY17, 2017 Linked Data Quality Workshop, 2017 ISW-LOD2016 (4th International Workshop on Semantic Web and Linked Open Data), Puerto Rico, 2016 SEMANTiCS 2016, Senior PC member Latin American Symposium on Data Management Systems, Co-chair W3c workshop on Multilingual web, 2015 SEMANTiCS 2015 Research Track (11th International Conference on Semantic Systems, Research Track), Senior PC member ReCert 2015 (1st International Workshop on Linked Data Repair and Certification), 2015 International Conference on Knowledge Engineering and Semantic Web, 2014 16th International Simposium on Computers in Education, 2014 Workshop on Ontology and Semantic Web Patterns, WOP, 2014, 2015, 2016, 2017 Spanish conference on service science and engineering, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014 Encuentro Nacional en Ciencias de la Computación, Mexico, 2014 Jornadas de Enseñanza Universitaria de Informática, Jenui, 2014, 2015, 2016, 2017 12th International Semantic Web Conference - Evaluation Track, 2012 9th Extended Semantic Web Conference, 2012 Metadata and Semantics Research Conference, MTSR, 2012 Social Data and Semantic Web, Workshop of the 10th International Conference on Semantic Web Workshop on LInked Data en Conferencia Española de la Asociación para La Inteligencia Artificial (CAEPIA, 2011) Workshop on Software Engineering and eLearning (ISELEAR), 2010, 2011 Brazilian Symposium on Programming Languages (SBLP), 2003, 2004, 2005, 2006, 2007, 2008, 2009 Jornadas sobre Programación y Lenguajes (PROLE), 2008 International Conference on Web Engineering, ICWE, 2003, 2004, 2006 Fourth International Workshop on Language, Descriptions, Tools and Applications, 2004  Reviewer of papers in the following journals  Computer Standards and Interfaces, Reviewer, 2017 Bioinformatics, 2015 Computers and Human Behaviour, Reviewer, 2013-2016 Computers in Industry, Reviewer and Special issue editor, 2014 Telematics and Informatics, Reviewer, 2016, 2017 Expert Systems with Applications, Reviewer, 2017 Engineering Applications of Artificial Intelligence, reviewer, 2016 Information Sciences, reviewer, 2014 International Journal of Universal Computer Science, reviewer, 2013 Science of Computer Programming, reviewer, 2013 Semantic Web Journal, reviewer, 2013 Web Semantics: Science, Services and Agents on the World Wide Web, reviewer, 2013  Advisory board of the following publications  Global Hospitality and Tourism Management Technologies: Applications and Issues, Editors: Patricia Ordóñez de Pablos, R.</description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>http://labra.weso.es/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://labra.weso.es/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>http://labra.weso.es/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/home/teaching/</guid>
+      <description>I teach the following courses:
+ Software architecture - Bachelor of Software Engineering, University of Oviedo, Spain. This course is taught in Spanish and English. Semantic Web - Master in Web Engineering, University of Oviedo, Spain Advances in Semantic Web - Master in Web Engineering, University of Oviedo, Spain Object Oriented Programming - Master in Web Engineering, University of Oviedo, Spain Web systems and applications - Master in Information Technology, Technical University Federico Santa María, Chile  I also taught the courses:</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://labra.weso.es/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
