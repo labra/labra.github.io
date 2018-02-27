@@ -20,6 +20,10 @@ name = "Publishers link"
 url = "http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1091"
 
 [[url_custom]]
+name = "Online HTML version"
+url = "http://book.validatingrdf.com"
+
+[[url_custom]]
 name = "Amazon"
 url = "https://www.amazon.com/Validating-Data-Synthesis-Lectures-Semantic/dp/1681731649/ref=sr_1_1?ie=UTF8&qid=1507362712&sr=8-1&keywords=validating+rdf+data"
 
