@@ -13,7 +13,7 @@ selected = false
 title = "Semantic Modeling of Administrative Procedures from a Spanish Regional Public Administration"
 url_code = ""
 url_dataset = ""
-url_pdf = "http://www.mdpi.com/2071-1050/10/3/633/pdf"
+url_pdf = "pdf/2018_sustainability-10-00633.pdf"
 url_project = ""
 url_slides = ""
 url_video = ""
@@ -23,5 +23,10 @@ tags = ["Administrative file", "Administrative procedure", "Sustainability", "Op
 [[url_custom]]
 name = "journal"
 url = "http://www.mdpi.com/2071-1050/10/3/633"
+
+[[url_custom]]
+name = "doi"
+url = "https://doi.org/10.3390/su10030633"
+
 
 +++
