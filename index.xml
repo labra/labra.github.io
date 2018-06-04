@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>XMLSchema2ShEx: Converting XML validation to RDF validation</title>
+      <link>http://labra.weso.es/publication/2018_swj_xmlschema2shex/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2018_swj_xmlschema2shex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Semantic Modeling of Administrative Procedures from a Spanish Regional Public Administration</title>
       <link>http://labra.weso.es/publication/2018_sustainability/</link>
       <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
@@ -200,15 +209,6 @@ the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_b
       <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2017_shacltestsuite/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shape Expressions Language 2.0</title>
-      <link>http://labra.weso.es/publication/2017_shexspec/</link>
-      <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2017_shexspec/</guid>
       <description></description>
     </item>
     
