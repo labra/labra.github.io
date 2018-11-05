@@ -11,11 +11,38 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Inference of Latent Shape Expressions Associated to DBpedia Ontology</title>
+      <link>http://labra.weso.es/publication/2018_shexerposter/</link>
+      <pubDate>Fri, 12 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2018_shexerposter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RDFShape: An RDF playground based on Shapes</title>
+      <link>http://labra.weso.es/publication/2018_rdfshape_iswcdemo/</link>
+      <pubDate>Fri, 12 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2018_rdfshape_iswcdemo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Validating RDF data - ISWC Tutorial</title>
       <link>http://labra.weso.es/talk/2018_validatingrdfdata_tutorial/</link>
       <pubDate>Tue, 09 Oct 2018 14:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/talk/2018_validatingrdfdata_tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data models and visualizations</title>
+      <link>http://labra.weso.es/talk/2018_datamodelsandvisualizations/</link>
+      <pubDate>Wed, 19 Sep 2018 09:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2018_datamodelsandvisualizations/</guid>
       <description></description>
     </item>
     
@@ -177,39 +204,6 @@ I had also added some code to add filtering by tags, but the result is not nice,
 &lt;p&gt;The source code is located &lt;a href=&#34;https://github.com/labra/labra.github.io&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and
  the resulting web page is &lt;a href=&#34;http://www.di.uniovi.es/~labra&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Validating RDF Data</title>
-      <link>http://labra.weso.es/publication/2017_validating-rdf-book/</link>
-      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2017_validating-rdf-book/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>First post</title>
-      <link>http://labra.weso.es/post/getting-started/</link>
-      <pubDate>Mon, 31 Jul 2017 12:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/post/getting-started/</guid>
-      <description>&lt;p&gt;This is the first post included in my home page.
-I already have a &lt;a href=&#34;http://jelabra.blogspot.com.es/&#34; target=&#34;_blank&#34;&gt;personal blog&lt;/a&gt;,
-so I am not sure if I will really use this place.&lt;/p&gt;
-
-&lt;p&gt;Anyway, who knows&amp;hellip;it seems quite easy to create posts here using
-the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34;&gt;Academic theme&lt;/a&gt; from &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>SHACLex</title>
-      <link>http://labra.weso.es/project/shaclex/</link>
-      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/project/shaclex/</guid>
-      <description></description>
     </item>
     
   </channel>

@@ -13,6 +13,24 @@
     
     
     <item>
+      <title>Inference of Latent Shape Expressions Associated to DBpedia Ontology</title>
+      <link>http://labra.weso.es/publication/2018_shexerposter/</link>
+      <pubDate>Fri, 12 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2018_shexerposter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RDFShape: An RDF playground based on Shapes</title>
+      <link>http://labra.weso.es/publication/2018_rdfshape_iswcdemo/</link>
+      <pubDate>Fri, 12 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2018_rdfshape_iswcdemo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>XMLSchema2ShEx: Converting XML validation to RDF validation</title>
       <link>http://labra.weso.es/publication/2018_swj_xmlschema2shex/</link>
       <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
