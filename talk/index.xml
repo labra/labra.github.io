@@ -13,6 +13,24 @@
     
     
     <item>
+      <title>Validating RDF data - ISWC Tutorial</title>
+      <link>http://labra.weso.es/talk/2018_validatingrdfdata_tutorial/</link>
+      <pubDate>Tue, 09 Oct 2018 14:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2018_validatingrdfdata_tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Negation and recursion validating RDF data</title>
+      <link>http://labra.weso.es/talk/2018_logicalreasoningcomputation/</link>
+      <pubDate>Mon, 06 Aug 2018 12:30:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2018_logicalreasoningcomputation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>RDF, Linked data and Semantic Web</title>
       <link>http://labra.weso.es/talk/2017_rdf_linkeddata_semanticweb/</link>
       <pubDate>Mon, 11 Dec 2017 17:00:00 +0000</pubDate>

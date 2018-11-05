@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Validating RDF data - ISWC Tutorial</title>
+      <link>http://labra.weso.es/talk/2018_validatingrdfdata_tutorial/</link>
+      <pubDate>Tue, 09 Oct 2018 14:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2018_validatingrdfdata_tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Negation and recursion validating RDF data</title>
+      <link>http://labra.weso.es/talk/2018_logicalreasoningcomputation/</link>
+      <pubDate>Mon, 06 Aug 2018 12:30:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2018_logicalreasoningcomputation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>XMLSchema2ShEx: Converting XML validation to RDF validation</title>
       <link>http://labra.weso.es/publication/2018_swj_xmlschema2shex/</link>
       <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
@@ -191,24 +209,6 @@ the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_b
       <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/project/shaclex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ShExkell</title>
-      <link>http://labra.weso.es/project/shexkellx/</link>
-      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/project/shexkellx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SHACL Test Suite and Implementation Report</title>
-      <link>http://labra.weso.es/publication/2017_shacltestsuite/</link>
-      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2017_shacltestsuite/</guid>
       <description></description>
     </item>
     
