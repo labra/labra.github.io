@@ -15,7 +15,7 @@ selected = false
 math = false
 
 url_pdf = ""
-url_slides = "http://www.dc.fi.udc.es/~cabalar/LRC18/labra.pdf"
+url_slides = "pdf/2018_SlidesNegationRecursionValidatingRDF.pdf"
 url_video = ""
 
 +++
