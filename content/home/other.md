@@ -102,7 +102,7 @@ ISBN-10: 1615209239 -ISBN-13: 978-1615209231. DOI: 10.4018/978-1-61520-923-1
 I was the drummer of [Kactus Jack](https://es.wikipedia.org/wiki/Kactus_Jack). 
  You can see an [unofficial home page](http://di002.edv.uniovi.es/~labra/Kactus/Welcome.html), 
  vintage style. 
- I was also the drummer of <i>Los Murciélagos</i> and <i>Los Aborígenes</i>.
+ I was also the drummer of <a href="http://no80s-gruposnacionales.blogspot.com.es/2009/01/los-murcielagos.html">Los Murciélagos</a> and <i>Los Aborígenes</i>.
  
  
  
