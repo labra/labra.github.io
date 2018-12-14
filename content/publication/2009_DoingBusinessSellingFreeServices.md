@@ -21,9 +21,9 @@ url_pdf = "pdf/2009_DoingBusinessSellingFreeServices.pdf"
 
 tags=["Web2.0", "Free-services"]
 
-#[[url_custom]]
-#name = "Publishers link"
-#url = ""
+[[url_custom]]
+name = "Publishers link"
+url = "https://link.springer.com/chapter/10.1007%2F978-0-387-85895-1_6"
 
 
 +++
