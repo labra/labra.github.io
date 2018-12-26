@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>http://labra.weso.es/publication/2018_validatingrdfdatachallenges/</loc>
+      <lastmod>2018-12-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/talk/2018_validatingrdfdata_stanford/</loc>
       <lastmod>2018-11-30T12:00:00+00:00</lastmod>
     </url>
@@ -1052,7 +1061,7 @@
     <url>
     
       <loc>http://labra.weso.es/publication_types/6/</loc>
-      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-12-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1212,6 +1221,16 @@
     
       <loc>http://labra.weso.es/tags/conference/</loc>
       <lastmod>2009-06-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/data-quality/</loc>
+      <lastmod>2018-12-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2071,7 +2090,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/rdf/</loc>
-      <lastmod>2018-10-12T00:00:00+00:00</lastmod>
+      <lastmod>2018-12-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2141,7 +2160,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/shacl/</loc>
-      <lastmod>2017-08-20T00:00:00+00:00</lastmod>
+      <lastmod>2018-12-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2231,7 +2250,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/shex/</loc>
-      <lastmod>2018-10-12T00:00:00+00:00</lastmod>
+      <lastmod>2018-12-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2332,6 +2351,16 @@
     
       <loc>http://labra.weso.es/tags/usability/</loc>
       <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/validating-data/</loc>
+      <lastmod>2018-12-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
