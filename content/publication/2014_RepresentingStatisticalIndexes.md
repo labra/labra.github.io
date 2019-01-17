@@ -16,11 +16,11 @@ title = "Representing Statistical Indexes as Linked Data Including Metadata abou
 #url_video = "#"
 url_pdf = "pdf/2014_RepresentingStatisticalIndexes.pdf"
 
-tags=["RDF", "Statistics", "Semantic-web", "Linked-data", "Data-portal"]
+tags=["RDF", "Statistics", "Semantic-web", "Linked-data", "Data-portal", "Open Science"]
 
-#[[url_custom]]
-#name = "Publishers link"
-#url = ""
+[[url_custom]]
+name = "doi"
+url = "https://doi.org/10.1007/978-3-319-13674-5_5"
 
 
 +++
