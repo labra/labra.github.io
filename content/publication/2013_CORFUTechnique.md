@@ -1,7 +1,7 @@
 +++
 
 abstract=""
-authors = ["Jose María Álvarez Rodríguez", "Patricia Ordoñez de Pablos", Michail Vafopoulos, "Jose Emilio Labra Gayo"]
+authors = ["Jose María Álvarez Rodríguez", "Patricia Ordoñez de Pablos", "Michail Vafopoulos", "Jose Emilio Labra Gayo"]
 date = "2013-11-19"
 image_preview = ""
 publication_types = ["1"]
