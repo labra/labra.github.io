@@ -1,7 +1,7 @@
 +++
 
 abstract = ""
-authors = ["Katherine Thornton", "Harold Solbrig", "Gregory Stupp", "Jose Emilio Labra Gayo", "Daniel Mietchen", Eric Prud'Hommeaux", "Andra Waagmeester"]
+authors = ["Katherine Thornton", "Harold Solbrig", "Gregory Stupp", "Jose Emilio Labra Gayo", "Daniel Mietchen", "Eric Prud'Hommeaux", "Andra Waagmeester"]
 date = "2019-06-04"
 image_preview = ""
 math = false
