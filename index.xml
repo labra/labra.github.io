@@ -21,6 +21,15 @@
     
     <item>
       <title>Validating RDF data: ShEx and SHACL compared</title>
+      <link>http://labra.weso.es/talk/2018_validatingrdfdata_chile/</link>
+      <pubDate>Fri, 30 Nov 2018 12:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2018_validatingrdfdata_chile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Validating RDF data: ShEx and SHACL compared</title>
       <link>http://labra.weso.es/talk/2018_validatingrdfdata_stanford/</link>
       <pubDate>Fri, 30 Nov 2018 12:00:00 +0000</pubDate>
       
@@ -133,15 +142,6 @@
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2017_semantics-validation-shapes-schemas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cómo publicar los datos: hacia los datos abiertos y enlazados</title>
-      <link>http://labra.weso.es/talk/2017_opendataytransparenciaoviedo/</link>
-      <pubDate>Mon, 11 Sep 2017 16:30:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2017_opendataytransparenciaoviedo/</guid>
       <description></description>
     </item>
     
