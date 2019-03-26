@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Legislative document content extraction based on Semantic Web technologies - A use case about processing the History of the Law</title>
+      <link>http://labra.weso.es/publication/2019_eswc_historylaw/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2019_eswc_historylaw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Shape Expressions (ShEx) to Share RDF Data Models and to Guide Curation with Rigorous Validation</title>
+      <link>http://labra.weso.es/publication/2019_eswc_shex/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2019_eswc_shex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Challenges in RDF validation</title>
       <link>http://labra.weso.es/publication/2018_validatingrdfdatachallenges/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
@@ -124,24 +142,6 @@
       <pubDate>Mon, 11 Dec 2017 17:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/talk/2017_rdf_linkeddata_semanticweb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Testing data with the Shape Expressions Language</title>
-      <link>http://labra.weso.es/talk/2017_testing_data_with_shex/</link>
-      <pubDate>Sat, 28 Oct 2017 09:30:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2017_testing_data_with_shex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Semantics and Validation of Shapes Schemas for RDF</title>
-      <link>http://labra.weso.es/publication/2017_semantics-validation-shapes-schemas/</link>
-      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2017_semantics-validation-shapes-schemas/</guid>
       <description></description>
     </item>
     

@@ -5,6 +5,24 @@
     
     <url>
     
+      <loc>http://labra.weso.es/publication/2019_eswc_historylaw/</loc>
+      <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/publication/2019_eswc_shex/</loc>
+      <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2018_validatingrdfdatachallenges/</loc>
       <lastmod>2018-12-24T00:00:00+00:00</lastmod>
     </url>
@@ -1039,7 +1057,7 @@
     <url>
     
       <loc>http://labra.weso.es/publication_types/1/</loc>
-      <lastmod>2018-10-12T00:00:00+00:00</lastmod>
+      <lastmod>2019-03-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1179,6 +1197,16 @@
     <url>
     
       <loc>http://labra.weso.es/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/chile/</loc>
+      <lastmod>2019-03-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1338,7 +1366,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/e-procurement/</loc>
-      <lastmod>2013-11-19T00:00:00+00:00</lastmod>
+      <lastmod>2013-01-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1348,7 +1376,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/e-procurement/</loc>
-      <lastmod>2013-01-02T00:00:00+00:00</lastmod>
+      <lastmod>2013-11-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1687,6 +1715,26 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/legislation/</loc>
+      <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/library-of-congress/</loc>
+      <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/tags/libros/</loc>
       <lastmod>2017-08-26T19:42:00+00:00</lastmod>
       <priority>0</priority>
@@ -1977,6 +2025,16 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/politics/</loc>
+      <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/tags/poster/</loc>
       <lastmod>2018-10-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -2118,7 +2176,7 @@
     <url>
     
       <loc>http://labra.weso.es/publication_types/</loc>
-      <lastmod>2018-10-12T00:00:00+00:00</lastmod>
+      <lastmod>2019-03-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2128,7 +2186,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/rdf/</loc>
-      <lastmod>2018-12-24T00:00:00+00:00</lastmod>
+      <lastmod>2019-03-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2148,7 +2206,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/rdf-validation/</loc>
-      <lastmod>2016-03-26T00:00:00+00:00</lastmod>
+      <lastmod>2019-03-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2248,7 +2306,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/semantic-web/</loc>
-      <lastmod>2006-11-07T00:00:00+00:00</lastmod>
+      <lastmod>2019-03-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2288,7 +2346,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/shex/</loc>
-      <lastmod>2018-12-24T00:00:00+00:00</lastmod>
+      <lastmod>2019-03-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
