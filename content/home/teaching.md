@@ -17,7 +17,7 @@ weight = 60
 
 I teach the following courses:
 
-- Software architecture - [Bachelor of Software Engineering](http://ingenieriainformatica.uniovi.es/web/ingenieriainformatica/infoacademica/grado), [University of Oviedo](http://uniovi.es), Spain. This course is taught in Spanish and English.
+- [Software architecture](https://arquisoft.github.io/) - [Bachelor of Software Engineering](http://ingenieriainformatica.uniovi.es/web/ingenieriainformatica/infoacademica/grado), [University of Oviedo](http://uniovi.es), Spain. This course is taught in Spanish and English.
 - Semantic Web - [Master in Web Engineering](http://miw.uniovi.es), [University of Oviedo](http://uniovi.es), Spain
 - Advances in Semantic Web - [Master in Web Engineering](http://miw.uniovi.es), [University of Oviedo](http://uniovi.es), Spain
 - Object Oriented Programming - [Master in Web Engineering](http://miw.uniovi.es),  [University of Oviedo](http://uniovi.es), Spain
