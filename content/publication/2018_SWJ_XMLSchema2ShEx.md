@@ -7,7 +7,7 @@ date = "2018-06-02"
 image_preview = ""
 math = false
 publication_types = ["2"]
-publication = "Semantic Web Journal, doi: 10.3390/su10030633"
+publication = "Semantic Web Journal"
 publication_short = ""
 selected = true
 title = "XMLSchema2ShEx: Converting XML validation to RDF validation"
@@ -24,9 +24,9 @@ tags = ["XML Schema", "ShEx", "RDF", "Validation", "XML", "JCR"]
 name = "journal"
 url = "http://www.semantic-web-journal.net/content/xmlschema2shex-converting-xml-validation-rdf-validation-1"
 
-#[[url_custom]]
-#name = "doi"
-#url = "https://doi.org/10.3390/su10030633"
+[[url_custom]]
+name = "doi"
+url = "https://doi.org/10.3233/SW-180329"
 
 
 +++
