@@ -11,6 +11,60 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Validating RDF data: Challenges and perspectives</title>
+      <link>http://labra.weso.es/talk/2019_kgswc_keynote/</link>
+      <pubDate>Wed, 26 Jun 2019 09:30:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2019_kgswc_keynote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Científico en España</title>
+      <link>http://labra.weso.es/post/cientificospain/</link>
+      <pubDate>Sun, 26 May 2019 08:23:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/post/cientificospain/</guid>
+      <description>&lt;p&gt;Hace un par de semanas me encontré en la sección de nuevos libros de la Biblioteca
+con el libro
+ &lt;a href=&#34;https://www.amazon.es/Guía-supervivencia-Científico-en-España/dp/8403519273&#34; target=&#34;_blank&#34;&gt;Científico en España&lt;/a&gt;,
+una guía de supervivencia en clave de humor para los futuros investigadores en España.&lt;/p&gt;
+
+&lt;p&gt;Según indican en el prólogo, el libro surgió a partir de la idea de crear una cuenta en twitter que
+reflejase la vida de un científico en España. La cuenta es &lt;a href=&#34;https://twitter.com/CientificoenEsp&#34; target=&#34;_blank&#34;&gt;CientificoEnEsp&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;El libro recorre las diferentes etapas por las que pasa un científico a lo largo de su carrera en España y
+en mi caso, como investigador en España me sentí reflejado en muchas de ellas.&lt;/p&gt;
+
+&lt;p&gt;Creo que debería ser casi lectura obligatoria para todos los futuros científicos en España,
+ para que sepan que la investigación es una carrera de fondo con muchos obstáculos.
+ Como dicen los autores, visto desde fuera, puede parecer una profesión bonita (y yo creo que lo es),
+ pero cuando te acercas y ves los detalles, te das cuenta que el sistema tiene muchos fallos y
+ muchas cosas a mejorar.&lt;/p&gt;
+
+&lt;p&gt;En mi entorno más cercano, uno de los fallos más gordos es la falta de incentivos para motivar a
+los investigadores una vez estabilizados. Tal y como indica el libro:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Uno pensaría que investigar es de por sí un incentivo, y lo es. Pero el problema es que,
+en el sistema actual, uno puede no investigar&amp;hellip;y tampoco pasa nada.
+El sistema no incentiva ni una ni otra cosa. Que investigas, bien; que no lo haces, también. [&amp;hellip;]
+los incentivos para hacer las cosas bien son muy muy escasos&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;El libro también habla del exceso de burocracia debido a la falta de confianza en los investigadores,
+que hace que estemos continuamente realizando tareas diferentes a lo que es investigar:
+ rellenando currículum en distintos formatos, justificando actividades, pidiendo certificados, etc. etc.&lt;/p&gt;
+
+&lt;p&gt;Para terminar de una forma positiva, coincido con la última frase del libro:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Hay brillantes científicas y científicos esperando una oportunidad, solo es necesario confiar en ellos.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Applying big data and stream processing to the real estate domain</title>
       <link>http://labra.weso.es/publication/2019_bigdatastream_bit/</link>
       <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
@@ -124,24 +178,6 @@
       <pubDate>Wed, 19 Sep 2018 09:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/talk/2018_datamodelsandvisualizations/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Negation and recursion validating RDF data</title>
-      <link>http://labra.weso.es/talk/2018_logicalreasoningcomputation/</link>
-      <pubDate>Mon, 06 Aug 2018 12:30:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2018_logicalreasoningcomputation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>XMLSchema2ShEx: Converting XML validation to RDF validation</title>
-      <link>http://labra.weso.es/publication/2018_swj_xmlschema2shex/</link>
-      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2018_swj_xmlschema2shex/</guid>
       <description></description>
     </item>
     
