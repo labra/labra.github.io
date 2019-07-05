@@ -18,9 +18,9 @@ title = "Applying MapReduce to Spreading Activation Algorithm on Large RDF Graph
 
 tags=["RDF", "Semantic-web", "Ontospread", "MapReduce", "Big-data"]
 
-#[[url_custom]]
-#name = "Publishers link"
-#url = ""
+[[url_custom]]
+name = "doi"
+url = "https://doi.org/10.1007/978-3-642-35879-1_76"
 
 
 +++
