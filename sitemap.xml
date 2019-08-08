@@ -14,6 +14,15 @@
     
     <url>
     
+      <loc>http://labra.weso.es/publication/2019_semantics_danishwikidatalexemes/</loc>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/post/cientificospain/</loc>
       <lastmod>2019-05-26T08:23:00+00:00</lastmod>
     </url>
@@ -1102,7 +1111,7 @@
     <url>
     
       <loc>http://labra.weso.es/publication_types/1/</loc>
-      <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1340,6 +1349,16 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/danish/</loc>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/tags/data-quality/</loc>
       <lastmod>2018-12-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1431,7 +1450,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/e-procurement/</loc>
-      <lastmod>2013-01-02T00:00:00+00:00</lastmod>
+      <lastmod>2013-11-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1441,7 +1460,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/e-procurement/</loc>
-      <lastmod>2013-11-19T00:00:00+00:00</lastmod>
+      <lastmod>2013-01-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1802,6 +1821,16 @@
     
       <loc>http://labra.weso.es/tags/legislation/</loc>
       <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/lexemes/</loc>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2261,7 +2290,7 @@
     <url>
     
       <loc>http://labra.weso.es/publication_types/</loc>
-      <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2271,7 +2300,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/rdf/</loc>
-      <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2291,7 +2320,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/rdf-validation/</loc>
-      <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2441,7 +2470,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/shex/</loc>
-      <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2602,6 +2631,16 @@
     
       <loc>http://labra.weso.es/tags/web2.0/</loc>
       <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/wikidata/</loc>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
