@@ -84,10 +84,10 @@ view = 0
 
 See [All publications](http://labra.weso.es/publication/). 
 Other lists: 
-* [DBLP](https://dblp.uni-trier.de/pers/hd/g/Gayo:Jos=eacute=_Emilio_Labra)
-* [Google scholar](https://scholar.google.com/citations?user=TGfRNZkAAAAJ)
-* [Semantic scholar](https://www.semanticscholar.org/author/José-Emilio-Labra-Gayo/1729679)
-* [Research gate](https://www.researchgate.net/profile/Jose_Labra_Gayo)
+[DBLP](https://dblp.uni-trier.de/pers/hd/g/Gayo:Jos=eacute=_Emilio_Labra),
+[Google scholar](https://scholar.google.com/citations?user=TGfRNZkAAAAJ),
+[Semantic scholar](https://www.semanticscholar.org/author/José-Emilio-Labra-Gayo/1729679),
+[Research gate](https://www.researchgate.net/profile/Jose_Labra_Gayo)
 
 
 
