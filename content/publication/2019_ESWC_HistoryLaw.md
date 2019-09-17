@@ -13,11 +13,16 @@ title = "Legislative document content extraction based on Semantic Web technolog
 url_code = ""
 url_dataset = ""
 url_pdf = "pdf/2019_eswc_HistoryLaw.pdf"
+[[url_custom]]
+name = "doi"
+url = "https://doi.org/10.1007/978-3-030-21348-0_36"
+
 url_project = ""
 url_slides = ""
 url_video = ""
 
 tags=["RDF", "Semantic-Web", "RDF-validation","Legislation","Politics","Library-of-congress","Chile"]
+
 
 +++
 

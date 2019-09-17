@@ -6,13 +6,18 @@ date = "2019-03-25"
 image_preview = ""
 math = false
 publication_types = ["1"]
-publication = "In *Extended Semantic Web Conference*, ESWC2019."
+publication = "In *Extended Semantic Web Conference*, ESWC2019. Lecture Notes in Compuer Science"
 publication_short = ""
 selected = true
 title = "Using Shape Expressions (ShEx) to Share RDF Data Models and to Guide Curation with Rigorous Validation"
+url_pdf = "pdf/2019_eswc_ShEx.pdf"
+
+[[url_custom]]
+name = "doi"
+url = "https://doi.org/10.1007/978-3-030-21348-0_39"
+
 url_code = ""
 url_dataset = ""
-url_pdf = "pdf/2019_eswc_ShEx.pdf"
 url_project = ""
 url_slides = ""
 url_video = ""
