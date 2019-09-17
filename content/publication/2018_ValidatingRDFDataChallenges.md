@@ -35,5 +35,9 @@ tags=["ShEx", "SHACL", "RDF", "Validating data", "Data quality"]
 name = "Publishers link"
 url = "https://www.springer.com/us/book/9783030061487"
 
+[[url_custom]]
+name = "doi"
+url = "https://doi.org/10.1007/978-3-030-06149-4"
+
 
 +++
