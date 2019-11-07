@@ -13,6 +13,24 @@
     
     
     <item>
+      <title>Legislative data portals and linked data quality</title>
+      <link>http://labra.weso.es/talk/2019_heldig_keynote/</link>
+      <pubDate>Thu, 07 Nov 2019 13:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2019_heldig_keynote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Entity Schema visualization and authoring tools</title>
+      <link>http://labra.weso.es/talk/2019_wikidataconberlin/</link>
+      <pubDate>Sat, 26 Oct 2019 11:30:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2019_wikidataconberlin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data models, visualizations and Shape Expressions for RDF. Combining RDFShape with Cytoscape</title>
       <link>http://labra.weso.es/talk/2019_datamodelsvisualizations_cytoscape/</link>
       <pubDate>Sun, 01 Sep 2019 15:30:00 +0000</pubDate>
