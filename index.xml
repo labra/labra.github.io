@@ -11,6 +11,29 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Challenges and applications of data shapes</title>
+      <link>http://labra.weso.es/talk/2020_challengesapplicationsdatashapes/</link>
+      <pubDate>Wed, 29 Jan 2020 12:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2020_challengesapplicationsdatashapes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>El arte de la tesis doctoral</title>
+      <link>http://labra.weso.es/post/2019_el_arte_de_la_tesisdoctoral/</link>
+      <pubDate>Thu, 14 Nov 2019 18:37:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/post/2019_el_arte_de_la_tesisdoctoral/</guid>
+      <description>&lt;p&gt;La semana pasada encontré en la Biblioteca de Avilés el libro &lt;a href=&#34;https://www.amazon.es/arte-tesis-doctoral-Ramos-Vivas/dp/8417797432/&#34; target=&#34;_blank&#34;&gt;El arte de la tesis doctoral&lt;/a&gt;, de &lt;a href=&#34;https://twitter.com/joseramosvivas&#34; target=&#34;_blank&#34;&gt;José Ramos Vivas&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;El libro consiste en una serie de capítulos cortos en las que el autor comenta su impresión sobre temas relacionados con la realización de una tesis doctoral. Es un libro de fácil lectura y que recomendaré a partir de ahora a los estudiantes que estén interesados en realizar el doctorado.&lt;/p&gt;
+
+&lt;p&gt;Aunque el autor es Doctor en Microbiología, creo que lo que comenta es extrapolable a otros campos científicos, y en concreto, al campo de la ingeniería informática, en el que también hay personas que nos dedicamos a la investigación y que padecemos muchas de las vicisitudes que se comentan en el libro.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Legislative data portals and linked data quality</title>
       <link>http://labra.weso.es/talk/2019_heldig_keynote/</link>
       <pubDate>Thu, 07 Nov 2019 13:00:00 +0000</pubDate>
@@ -196,24 +219,6 @@ que hace que estemos continuamente realizando tareas diferentes a lo que es inve
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2018_validatingrdfdatachallenges/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Validating RDF data: ShEx and SHACL compared</title>
-      <link>http://labra.weso.es/talk/2018_validatingrdfdata_chile/</link>
-      <pubDate>Mon, 17 Dec 2018 12:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2018_validatingrdfdata_chile/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Validating RDF data: ShEx and SHACL compared</title>
-      <link>http://labra.weso.es/talk/2018_validatingrdfdata_stanford/</link>
-      <pubDate>Fri, 30 Nov 2018 12:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2018_validatingrdfdata_stanford/</guid>
       <description></description>
     </item>
     
