@@ -166,17 +166,18 @@ defaultContentLanguageInSubdir = false
   #   For multilingual sites, `publication_types` can be copied to each language section at the end of this file and
   #   translated.
   publication_types = [
-    'Uncategorized',  # 0
-    'Conference proceedings',  # 1
-    'Journal (JCR Indexed)',  # 2
-    'Journal',  # 3
-    'Technical report',  # 4
-    'Book',  # 5
-    'Book chapter',  # 6
+  'Uncategorized',  # 0
+  'Conference proceedings',  # 1
+  'Journal (JCR Indexed)',  # 2
+  'Journal',  # 3
+  'Technical report',  # 4
+  'Book',  # 5
+  'Book chapter',  # 6
 	'Lecture notes', # 7
 	'Phd thesis', # 8
 	'Specifications', # 9
 	'Book (edited)', # 10
+  'Preprint', # 11
   ]
 
   # Configuration of talk pages.

@@ -36,11 +36,15 @@ count = 5
 
 - [Victor Hugo Aravena Díaz](https://www.linkedin.com/in/victoraravena/)
 - [Daniel Fernández Álvarez](https://www.linkedin.com/in/daniel-fern%C3%A1ndez-%C3%A1lvarez-817121ab/)
+- [Paulino Álvarez Ondina](https://www.linkedin.com/in/paulinoalvarez/)
 - [Herminio García González](http://herminiogarcia.com/)
 - [Ángel Retamar Arias](https://www.linkedin.com/in/angel-retamar-arias-383b416/)
 
 # Member of Scientific/Organizing committee
 
+- [International Semantic Web Conference, 2020](https://iswc2020.semanticweb.org/)
+- [Joint International Conference on Knowledge Graphs 2020](https://language-semantic.org/jist-kg-2020/)
+- [International Semantic Web Conference, 2019](https://iswc2019.semanticweb.org/)
 - [8th Workshop on Ontology Design and Patterns](http://ontologydesignpatterns.org/wiki/WOP:2017#WOP2017_Chairs), WOP, 2017
 - [Workshop on Linked Enterprise Data Services, Provenance, Linking and QualitY](https://informatik2017.de/ws29-ledsplay17/), LEDSPLaY17, 2017
 - [Linked Data Quality Workshop](http://ldq.semanticmultimedia.org/), 2017
