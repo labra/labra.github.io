@@ -39,15 +39,6 @@
     
     <item>
       <title>Challenges and applications of data shapes</title>
-      <link>http://labra.weso.es/talk/2020_asturiannotaries/</link>
-      <pubDate>Fri, 07 Feb 2020 12:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2020_asturiannotaries/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Challenges and applications of data shapes</title>
       <link>http://labra.weso.es/talk/2020_challengesapplicationsdatashapes_kth/</link>
       <pubDate>Fri, 07 Feb 2020 12:00:00 +0000</pubDate>
       
@@ -189,6 +180,15 @@ que hace que estemos continuamente realizando tareas diferentes a lo que es inve
       <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2019_bigdatastream_bit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ShEx @ Wikidata</title>
+      <link>http://labra.weso.es/talk/2019_shexatwikidata/</link>
+      <pubDate>Mon, 20 May 2019 15:30:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2019_shexatwikidata/</guid>
       <description></description>
     </item>
     
