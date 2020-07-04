@@ -302,6 +302,15 @@
     
     <url>
     
+      <loc>http://labra.weso.es/publication/2020_informationsystems_ontologybasedmultidomainmodel/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/project/varssha/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -1895,6 +1904,16 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/knowledge-based-systems/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -2125,6 +2144,16 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/multi-domain-ontology/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/tags/multi-paradigm/</loc>
       <lastmod>2003-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -2197,6 +2226,16 @@
     
       <loc>http://labra.weso.es/tags/ontology/</loc>
       <lastmod>2013-06-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/ontology-based-systems/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2555,6 +2594,16 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/semantic-technologies/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/tags/semantic-web/</loc>
       <lastmod>2020-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -2627,6 +2676,16 @@
     
       <loc>http://labra.weso.es/tags/slicer/</loc>
       <lastmod>2006-05-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/social-network-analysis/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
