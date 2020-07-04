@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Proyectos de investigación y propiedad intelectual</title>
+      <link>http://labra.weso.es/talk/2020_introduction_researchprojectsintellectualproperty/</link>
+      <pubDate>Fri, 03 Jul 2020 11:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2020_introduction_researchprojectsintellectualproperty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Publicaciones en investigación</title>
       <link>http://labra.weso.es/talk/2020_introduction_publications/</link>
       <pubDate>Fri, 26 Jun 2020 12:00:00 +0000</pubDate>
@@ -144,15 +153,6 @@ porque me pareció que la autora sabía de qué hablaba y no se trataba simpleme
       <pubDate>Wed, 26 Jun 2019 09:30:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/talk/2019_kgswc_keynote/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Validating Danish Wikidata Lexemes</title>
-      <link>http://labra.weso.es/publication/2019_semantics_danishwikidatalexemes/</link>
-      <pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2019_semantics_danishwikidatalexemes/</guid>
       <description></description>
     </item>
     
