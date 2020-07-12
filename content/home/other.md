@@ -32,13 +32,28 @@ count = 5
 - [Jose Alberto Benítez Andrades](http://www.jabenitez.com/):
   Tecnologías Semánticas aplicadas al Análisis de Redes Sociales en el ámbito de la Salud, 2017
 
-# Current PhD Students
+# PhD Students supervision (Current)
 
-- [Victor Hugo Aravena Díaz](https://www.linkedin.com/in/victoraravena/)
-- [Daniel Fernández Álvarez](https://www.linkedin.com/in/daniel-fern%C3%A1ndez-%C3%A1lvarez-817121ab/)
-- [Paulino Álvarez Ondina](https://www.linkedin.com/in/paulinoalvarez/)
+- [Daniel Fernández Álvarez](http://danifdez.weso.es/)
 - [Herminio García González](http://herminiogarcia.com/)
+- [Francisco Cifuentes Silva](http://www.fcifuentes.cl/)
+- [Paulino Álvarez Ondina](https://www.linkedin.com/in/paulinoalvarez/)
+- Claudio Andrés Navarro Cruces
+- Carla Sepúlveda Díaz
+- Any Navarro Cabrero
+- Fernando Bautista Sepúlveda
+
+{{/*
 - [Ángel Retamar Arias](https://www.linkedin.com/in/angel-retamar-arias-383b416/)
+- [Victor Hugo Aravena Díaz](https://www.linkedin.com/in/victoraravena/)
+*}}
+
+# PhD Thesis Committees
+
+- [Ben De Meester](https://work.de-meester.org/), [IDLab, University of Ghent, Belgium](https://www.ugent.be/ea/idlab/en/), May 2020, title: Improving and Assessing Data Quality of Knowledge Graphs.
+- [Mikko Koho](https://www.linkedin.com/in/mikko-koho/), [School of Science in Aalto University](http://cs.aalto.fi/), April 2020, title: Representing, Using, and Maintaining Military Historical Linked Data on the Semantic Web.
+- [Andrii Berezovskyi](https://www.kth.se/profile/andriib?l=en), [KTH](https://www.kth.se/en), Jan 2020, title: A generic framework for integration of Cyber-physical Systems by use of intelligent systems (Midterm PhD Examination)
+
 
 # Member of Scientific/Organizing committee
 
