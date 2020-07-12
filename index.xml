@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>An ontology-based multi-domain model in social network analysis: Experimental validation and case study</title>
+      <link>http://labra.weso.es/publication/2020_informationsystems_ontologybasedmultidomainmodel/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_informationsystems_ontologybasedmultidomainmodel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Proyectos de investigación y propiedad intelectual</title>
       <link>http://labra.weso.es/talk/2020_introduction_researchprojectsintellectualproperty/</link>
       <pubDate>Fri, 03 Jul 2020 11:00:00 +0000</pubDate>
@@ -144,15 +153,6 @@ porque me pareció que la autora sabía de qué hablaba y no se trataba simpleme
       <pubDate>Sun, 01 Sep 2019 15:30:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/talk/2019_datamodelsvisualizations_cytoscape/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Validating RDF data: Challenges and perspectives</title>
-      <link>http://labra.weso.es/talk/2019_kgswc_keynote/</link>
-      <pubDate>Wed, 26 Jun 2019 09:30:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2019_kgswc_keynote/</guid>
       <description></description>
     </item>
     
