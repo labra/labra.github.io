@@ -11,137 +11,204 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Shapes applications and tools</title>
-      <link>http://labra.weso.es/talk/2020_shapes_applications_and_tools_tutorial/</link>
-      <pubDate>Thu, 26 Nov 2020 12:00:00 +0000</pubDate>
+      <title>VARSSHA</title>
+      <link>http://labra.weso.es/project/varssha/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://labra.weso.es/talk/2020_shapes_applications_and_tools_tutorial/</guid>
+      <guid>http://labra.weso.es/project/varssha/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Introduction to ShEx/Entity Schemas</title>
-      <link>http://labra.weso.es/talk/2020_biohackathon/</link>
-      <pubDate>Wed, 25 Nov 2020 12:00:00 +0000</pubDate>
+      <title>RDF, Linked data and Semantic Web</title>
+      <link>http://labra.weso.es/talk/2017_rdf_linkeddata_semanticweb/</link>
+      <pubDate>Mon, 11 Dec 2017 17:00:00 +0000</pubDate>
       
-      <guid>http://labra.weso.es/talk/2020_biohackathon/</guid>
+      <guid>http://labra.weso.es/talk/2017_rdf_linkeddata_semanticweb/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Validating RDF data using Shapes</title>
-      <link>http://labra.weso.es/talk/2020_validatingrdfusingshapes_winterschool/</link>
-      <pubDate>Wed, 25 Nov 2020 12:00:00 +0000</pubDate>
+      <title>Testing data with the Shape Expressions Language</title>
+      <link>http://labra.weso.es/talk/2017_testing_data_with_shex/</link>
+      <pubDate>Sat, 28 Oct 2017 09:30:00 +0000</pubDate>
       
-      <guid>http://labra.weso.es/talk/2020_validatingrdfusingshapes_winterschool/</guid>
+      <guid>http://labra.weso.es/talk/2017_testing_data_with_shex/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>ShExML: improving the usability of heterogeneous data mapping languages for first-time users</title>
-      <link>http://labra.weso.es/publication/2020_shexml_peerj/</link>
-      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      <title>Semantics and Validation of Shapes Schemas for RDF</title>
+      <link>http://labra.weso.es/publication/2017_semantics-validation-shapes-schemas/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://labra.weso.es/publication/2020_shexml_peerj/</guid>
+      <guid>http://labra.weso.es/publication/2017_semantics-validation-shapes-schemas/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>ShEx-Lite: Automatic generation of domain object models from a Shape Expressions subset language</title>
-      <link>http://labra.weso.es/publication/2020_iswc_shexlite/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      <title>Cómo publicar los datos: hacia los datos abiertos y enlazados</title>
+      <link>http://labra.weso.es/talk/2017_opendataytransparenciaoviedo/</link>
+      <pubDate>Mon, 11 Sep 2017 16:30:00 +0000</pubDate>
       
-      <guid>http://labra.weso.es/publication/2020_iswc_shexlite/</guid>
+      <guid>http://labra.weso.es/talk/2017_opendataytransparenciaoviedo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>ASIO: A research management system based on semantic technologies</title>
-      <link>http://labra.weso.es/publication/2020_damalos_asio/</link>
-      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      <title>MERA: A Musical Entities Reconciliation Architecture Based on Semantic Technologies</title>
+      <link>http://labra.weso.es/publication/2017_mera/</link>
+      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://labra.weso.es/publication/2020_damalos_asio/</guid>
+      <guid>http://labra.weso.es/publication/2017_mera/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Automatic synchronization of RDF graphs representing ontologies and Wikibase instances</title>
-      <link>http://labra.weso.es/publication/2020_wikidataworkshop_synchronizing/</link>
-      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      <title>El arte y la ciencia de no hacer nada</title>
+      <link>http://labra.weso.es/post/elarteylacienciadenohacernada/</link>
+      <pubDate>Sat, 26 Aug 2017 19:42:00 +0000</pubDate>
       
-      <guid>http://labra.weso.es/publication/2020_wikidataworkshop_synchronizing/</guid>
+      <guid>http://labra.weso.es/post/elarteylacienciadenohacernada/</guid>
+      <description>&lt;p&gt;Durante mi pasado viaje a Chile (hace 6 meses) compré el libro
+ &lt;a href=&#34;https://www.amazon.es/Arte-Ciencia-Hacer-Nada-Psicolog%C3%ADa/dp/8494207318&#34; target=&#34;_blank&#34;&gt;El Arte y la ciencia de no hacer nada&lt;/a&gt;, de Andrew J. Smart, un libro pequeño cuyo título me llamó la atención.&lt;/p&gt;
+
+&lt;p&gt;Desde entonces, lo había dejado olvidado en una estantería, sin tocarlo.
+ Justo antes de partir de vacaciones la semana pasada decidí darle una oportunidad y la verdad que me gustó mucho la tesis del libro.&lt;/p&gt;
+
+&lt;p&gt;El autor mantiene que cuando creemos que no estamos haciendo nada, en los típicos momentos en los que
+  estamos aburridos sin hacer nada, dejando a nuestra mente vagar, en realidad, el cerebro está funcionando
+  y está estableciendo conexiones que son muy útiles y que pueden aumentar nuestra creatividad.&lt;/p&gt;
+
+&lt;p&gt;El autor mantiene que es fundamental dejar tiempo para esos momentos de no hacer nada y que
+  en el mundo actual corremos el peligro de organizar demasiado nuestro tiempo para evitar
+  momentos de ocio, lo cual puede llegar a pasarnos factura en el futuro.&lt;/p&gt;
+
+&lt;p&gt;El autor lo razona de varias formas y a mí me convenció. En mi caso, tiendo a ser bastante
+  desordenado y a dejarme llevar bastante por mi propio impulso. Puesto que en mi trabajo
+   se requiere un elevado nivel de creatividad para investigar, publicar artículos o programar,
+   es un tema que me interesa mucho.&lt;/p&gt;
+
+&lt;p&gt;Además, coincido con el autor en que muchas veces es mejor parar un momento de trabajar,
+    dar un paseo, dormir, o dedicarse a no hacer nada&amp;hellip;para que de repente se te ocurra una
+    idea que hasta entonces no se te había ocurrido, cuando llevabas bastante tiempo delante del ordenador.&lt;/p&gt;
+
+&lt;p&gt;En definitiva, un libro y una tesis que recomendaré a partir de ahora.
+    Cuando quieras avanzar en ciertos trabajos creativos, relájate un poco, y no hagas nada&amp;hellip;
+    a lo mejor, aparece la idea que llevabas un tiempo buscando.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Home page revamped</title>
+      <link>http://labra.weso.es/post/homepage/</link>
+      <pubDate>Mon, 21 Aug 2017 10:39:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/post/homepage/</guid>
+      <description>&lt;p&gt;These days, in my spare time while on vacation, I decided to rewrite my home page.
+ The task was not easy as I was doing it in a hotel in Lanzarote, without internet connection in my room,
+ and using &lt;a href=&#34;http://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;, a website framework, that I hadn&amp;rsquo;t used before.&lt;/p&gt;
+
+&lt;p&gt;Anyway, Hugo seems quite intuitive and is very fast to compile and run, so it is funny for trial-and-error.
+Also, there is a very nice &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34;&gt;Academic theme&lt;/a&gt; which facilitated
+the quick creation of the fist draft.&lt;/p&gt;
+
+&lt;p&gt;Once I did the first draft and started to add content,
+ I noticed that I had a long list of publications that required
+ some extra-information like the journal, year or authors, so I had
+ to customize the academic theme.&lt;/p&gt;
+
+&lt;p&gt;In order to browse Hugo documentation while being offline, I found useful &lt;a href=&#34;https://github.com/hamoid/long-hugo-doc&#34; target=&#34;_blank&#34;&gt;this project&lt;/a&gt;,
+ which generated all Hugo documentation in a single HTML page.&lt;/p&gt;
+
+&lt;p&gt;It seems that the customization can be easily done by replacing
+ the pages that are in the themes folder by the equivalent ones in the root folder.&lt;/p&gt;
+
+&lt;p&gt;I had to change the pages:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;layouts/widgets/publication&lt;/code&gt;: declares how to visualize publications in the home page. I added a link at the end to show all publications.
+I had also added some code to add filtering by tags, but the result is not nice, so I commented it. It seems that commenting code in HTML in Hugo requires to remove the &lt;code&gt;{{&lt;/code&gt; in the comments.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;layouts/partials/publication_li_simple.html&lt;/code&gt;: defines how to visualize a single publication (I added there the authors, publication and year)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;layouts/section/publication.html&lt;/code&gt;: declares how to filter publications by type and repeats the previous code. It would be better to use a partial, but I didn&amp;rsquo;t want to break things from the academic theme.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I also managed to integrate Travis with github so when I push some changes to github, it automatically deploys the content via Travis.
+ Notice that there are 2 branches, the &lt;code&gt;source&lt;/code&gt; branch contains the source code, and the &lt;code&gt;master&lt;/code&gt; branch contains the result (in Hugo, the result is by default created in the folder &lt;code&gt;/public&lt;/code&gt;)&lt;/p&gt;
+
+&lt;p&gt;The source code is located &lt;a href=&#34;https://github.com/labra/labra.github.io&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and
+ the resulting web page is &lt;a href=&#34;http://www.di.uniovi.es/~labra&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Validating RDF Data</title>
+      <link>http://labra.weso.es/publication/2017_validating-rdf-book/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2017_validating-rdf-book/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>An ontology-based multi-domain model in social network analysis: Experimental validation and case study</title>
-      <link>http://labra.weso.es/publication/2020_informationsystems_ontologybasedmultidomainmodel/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      <title>First post</title>
+      <link>http://labra.weso.es/post/getting-started/</link>
+      <pubDate>Mon, 31 Jul 2017 12:00:00 +0000</pubDate>
       
-      <guid>http://labra.weso.es/publication/2020_informationsystems_ontologybasedmultidomainmodel/</guid>
+      <guid>http://labra.weso.es/post/getting-started/</guid>
+      <description>&lt;p&gt;This is the first post included in my home page.
+I already have a &lt;a href=&#34;http://jelabra.blogspot.com.es/&#34; target=&#34;_blank&#34;&gt;personal blog&lt;/a&gt;,
+so I am not sure if I will really use this place.&lt;/p&gt;
+
+&lt;p&gt;Anyway, who knows&amp;hellip;it seems quite easy to create posts here using
+the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34;&gt;Academic theme&lt;/a&gt; from &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SHACLex</title>
+      <link>http://labra.weso.es/project/shaclex/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/project/shaclex/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Proyectos de investigación y propiedad intelectual</title>
-      <link>http://labra.weso.es/talk/2020_introduction_researchprojectsintellectualproperty/</link>
-      <pubDate>Fri, 03 Jul 2020 11:00:00 +0000</pubDate>
+      <title>ShExkell</title>
+      <link>http://labra.weso.es/project/shexkellx/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://labra.weso.es/talk/2020_introduction_researchprojectsintellectualproperty/</guid>
+      <guid>http://labra.weso.es/project/shexkellx/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Publicaciones en investigación</title>
-      <link>http://labra.weso.es/talk/2020_introduction_publications/</link>
-      <pubDate>Fri, 26 Jun 2020 12:00:00 +0000</pubDate>
+      <title>SHACL Test Suite and Implementation Report</title>
+      <link>http://labra.weso.es/publication/2017_shacltestsuite/</link>
+      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://labra.weso.es/talk/2020_introduction_publications/</guid>
+      <guid>http://labra.weso.es/publication/2017_shacltestsuite/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Introducción a la investigación/doctorado</title>
-      <link>http://labra.weso.es/talk/2020_introduction_research/</link>
-      <pubDate>Wed, 17 Jun 2020 12:00:00 +0000</pubDate>
+      <title>Shape Expressions Language 2.0</title>
+      <link>http://labra.weso.es/publication/2017_shexspec/</link>
+      <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://labra.weso.es/talk/2020_introduction_research/</guid>
+      <guid>http://labra.weso.es/publication/2017_shexspec/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>ShExML: improving the usability of heterogeneous data mapping languages for first-time users</title>
-      <link>http://labra.weso.es/publication/2020_protocolwikidata_biorxiv/</link>
-      <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
+      <title>A Web-Based Tool for Automatic Data Collection, Curation, and Visualization of Complex Healthcare Survey Studies including Social Network Analysis</title>
+      <link>http://labra.weso.es/publication/2017_computationalmathematicalmethods/</link>
+      <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://labra.weso.es/publication/2020_protocolwikidata_biorxiv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>National Budget Law as Linked Open Data: New tools for supporting the sustainability of public finances</title>
-      <link>http://labra.weso.es/publication/2020_budgetlawlodchile/</link>
-      <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2020_budgetlawlodchile/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Converting Asturian Notaries Public deeds to Linked Data using TEI and ShExML</title>
-      <link>http://labra.weso.es/publication/2020_asturiasnotarieslod/</link>
-      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2020_asturiasnotarieslod/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data validation and Schema Interoperability</title>
-      <link>http://labra.weso.es/publication/2020_datavalidation_schemainteroperability/</link>
-      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2020_datavalidation_schemainteroperability/</guid>
+      <guid>http://labra.weso.es/publication/2017_computationalmathematicalmethods/</guid>
       <description></description>
     </item>
     

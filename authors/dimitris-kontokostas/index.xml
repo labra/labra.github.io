@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dimitris Kontokostas on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/authors/dimitris-kontokostas/</link>
+    <description>Recent content in Dimitris Kontokostas on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Sun, 20 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/authors/dimitris-kontokostas/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Validating RDF Data</title>
+      <link>http://labra.github.io/publication/2017_validating-rdf-book/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2017_validating-rdf-book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SHACL Test Suite and Implementation Report</title>
+      <link>http://labra.github.io/publication/2017_shacltestsuite/</link>
+      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2017_shacltestsuite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multilingual linked data patterns </title>
+      <link>http://labra.github.io/publication/2015_mlodpatterns/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2015_mlodpatterns/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

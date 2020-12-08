@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4 on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/publication_types/4/</link>
+    <description>Recent content in 4 on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Sat, 26 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication_types/4/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Shape Expression Schemas</title>
+      <link>http://labra.github.io/publication/2016_shapeexpressionschemas/</link>
+      <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2016_shapeexpressionschemas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linked Data Validation and Quality</title>
+      <link>http://labra.github.io/publication/2015_linkeddataqualityepsi/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2015_linkeddataqualityepsi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulación Entorno Operativo Unix</title>
+      <link>http://labra.github.io/publication/1991_simulacionunix/</link>
+      <pubDate>Tue, 01 Jan 1991 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/1991_simulacionunix/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

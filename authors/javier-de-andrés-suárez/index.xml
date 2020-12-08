@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javier De Andrés Suárez on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/authors/javier-de-andr%C3%A9s-su%C3%A1rez/</link>
+    <description>Recent content in Javier De Andrés Suárez on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Wed, 03 Oct 2007 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/authors/javier-de-andr%C3%A9s-su%C3%A1rez/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Analysis of XBRL documents representing financial statements using Semantic Web Technologies</title>
+      <link>http://labra.github.io/publication/2007_analysisxbrl/</link>
+      <pubDate>Wed, 03 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2007_analysisxbrl/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ebooks on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/tags/ebooks/</link>
+    <description>Recent content in Ebooks on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Wed, 01 Oct 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/ebooks/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Creating recommendations on electronic books: A collaborative learning implicit approach</title>
+      <link>http://labra.github.io/publication/2014_creatingrecommendationselectronicbooks/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2014_creatingrecommendationselectronicbooks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recommendation System based on User Interaction data applied to Intelligent Electronic Books</title>
+      <link>http://labra.github.io/publication/2010_recommendationsystemselectronicbooks/</link>
+      <pubDate>Sun, 12 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2010_recommendationsystemselectronicbooks/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

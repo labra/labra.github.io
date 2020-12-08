@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multi Paradigm on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/tags/multi-paradigm/</link>
+    <description>Recent content in Multi Paradigm on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Sat, 01 Feb 2003 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/multi-paradigm/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A Generic e-Learning Multiparadigm Programming Language System: IDEFIX Project</title>
+      <link>http://labra.github.io/publication/2002_agenericelearningmultiparadigm_idefixsigcse/</link>
+      <pubDate>Sat, 01 Feb 2003 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2002_agenericelearningmultiparadigm_idefixsigcse/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
