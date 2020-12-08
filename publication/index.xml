@@ -13,11 +13,56 @@
     
     
     <item>
+      <title>ShExML: improving the usability of heterogeneous data mapping languages for first-time users</title>
+      <link>http://labra.weso.es/publication/2020_shexml_peerj/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_shexml_peerj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ShEx-Lite: Automatic generation of domain object models from a Shape Expressions subset language</title>
+      <link>http://labra.weso.es/publication/2020_iswc_shexlite/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_iswc_shexlite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ASIO: A research management system based on semantic technologies</title>
+      <link>http://labra.weso.es/publication/2020_damalos_asio/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_damalos_asio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic synchronization of RDF graphs representing ontologies and Wikibase instances</title>
+      <link>http://labra.weso.es/publication/2020_wikidataworkshop_synchronizing/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_wikidataworkshop_synchronizing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>An ontology-based multi-domain model in social network analysis: Experimental validation and case study</title>
       <link>http://labra.weso.es/publication/2020_informationsystems_ontologybasedmultidomainmodel/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2020_informationsystems_ontologybasedmultidomainmodel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ShExML: improving the usability of heterogeneous data mapping languages for first-time users</title>
+      <link>http://labra.weso.es/publication/2020_protocolwikidata_biorxiv/</link>
+      <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_protocolwikidata_biorxiv/</guid>
       <description></description>
     </item>
     

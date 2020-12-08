@@ -11,6 +11,69 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Shapes applications and tools</title>
+      <link>http://labra.weso.es/talk/2020_shapes_applications_and_tools_tutorial/</link>
+      <pubDate>Thu, 26 Nov 2020 12:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2020_shapes_applications_and_tools_tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to ShEx/Entity Schemas</title>
+      <link>http://labra.weso.es/talk/2020_biohackathon/</link>
+      <pubDate>Wed, 25 Nov 2020 12:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2020_biohackathon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Validating RDF data using Shapes</title>
+      <link>http://labra.weso.es/talk/2020_validatingrdfusingshapes_winterschool/</link>
+      <pubDate>Wed, 25 Nov 2020 12:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2020_validatingrdfusingshapes_winterschool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ShExML: improving the usability of heterogeneous data mapping languages for first-time users</title>
+      <link>http://labra.weso.es/publication/2020_shexml_peerj/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_shexml_peerj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ShEx-Lite: Automatic generation of domain object models from a Shape Expressions subset language</title>
+      <link>http://labra.weso.es/publication/2020_iswc_shexlite/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_iswc_shexlite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ASIO: A research management system based on semantic technologies</title>
+      <link>http://labra.weso.es/publication/2020_damalos_asio/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_damalos_asio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic synchronization of RDF graphs representing ontologies and Wikibase instances</title>
+      <link>http://labra.weso.es/publication/2020_wikidataworkshop_synchronizing/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_wikidataworkshop_synchronizing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>An ontology-based multi-domain model in social network analysis: Experimental validation and case study</title>
       <link>http://labra.weso.es/publication/2020_informationsystems_ontologybasedmultidomainmodel/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
@@ -47,6 +110,15 @@
     </item>
     
     <item>
+      <title>ShExML: improving the usability of heterogeneous data mapping languages for first-time users</title>
+      <link>http://labra.weso.es/publication/2020_protocolwikidata_biorxiv/</link>
+      <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_protocolwikidata_biorxiv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>National Budget Law as Linked Open Data: New tools for supporting the sustainability of public finances</title>
       <link>http://labra.weso.es/publication/2020_budgetlawlodchile/</link>
       <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
@@ -70,89 +142,6 @@
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2020_datavalidation_schemainteroperability/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Knowledge graphs</title>
-      <link>http://labra.weso.es/publication/2020_knowledgegraphs_arxiv/</link>
-      <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2020_knowledgegraphs_arxiv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Challenges and applications of data shapes</title>
-      <link>http://labra.weso.es/talk/2020_challengesapplicationsdatashapes_kth/</link>
-      <pubDate>Fri, 07 Feb 2020 12:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2020_challengesapplicationsdatashapes_kth/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Challenges and applications of data shapes</title>
-      <link>http://labra.weso.es/talk/2020_challengesapplicationsdatashapes/</link>
-      <pubDate>Wed, 29 Jan 2020 12:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2020_challengesapplicationsdatashapes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>El arte de la tesis doctoral</title>
-      <link>http://labra.weso.es/post/2019_el_arte_de_la_tesisdoctoral/</link>
-      <pubDate>Thu, 14 Nov 2019 18:37:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/post/2019_el_arte_de_la_tesisdoctoral/</guid>
-      <description>&lt;p&gt;La semana pasada encontré en la Biblioteca de Avilés el libro &lt;a href=&#34;https://www.amazon.es/arte-tesis-doctoral-Ramos-Vivas/dp/8417797432/&#34; target=&#34;_blank&#34;&gt;El arte de la tesis doctoral&lt;/a&gt;, de &lt;a href=&#34;https://twitter.com/joseramosvivas&#34; target=&#34;_blank&#34;&gt;José Ramos Vivas&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;El libro consiste en una serie de capítulos cortos en las que el autor comenta su impresión sobre temas relacionados con la realización de una tesis doctoral. Es un libro de fácil lectura y que recomendaré a partir de ahora a los estudiantes que estén interesados en realizar el doctorado.&lt;/p&gt;
-
-&lt;p&gt;Aunque el autor es Doctor en Microbiología, creo que lo que comenta es extrapolable a otros campos científicos, y en concreto, al campo de la ingeniería informática, en el que también hay personas que nos dedicamos a la investigación y que padecemos muchas de las vicisitudes que se comentan en el libro.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Datanomics</title>
-      <link>http://labra.weso.es/post/datanomics/</link>
-      <pubDate>Thu, 14 Nov 2019 18:23:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/post/datanomics/</guid>
-      <description>&lt;p&gt;Siguiendo con la lista de libros interesantes que encuentro en la biblioteca, la semana pasada saqué el libro &lt;a href=&#34;https://www.amazon.es/Longas-208-II-Cnig/dp/8423430200/&#34; target=&#34;_blank&#34;&gt;Datanomics&lt;/a&gt;, un libro que explica las implicaciones que tiene el dejar datos alegremente en diferentes redes sociales.&lt;/p&gt;
-
-&lt;p&gt;El libro está escrito por &lt;a href=&#34;https://twitter.com/PalomaLLaneza&#34; target=&#34;_blank&#34;&gt;Paloma Llaneza&lt;/a&gt; que indica que es abogada especializada en auditoría de sistemas y seguridad. Tengo que decir que me sorprendió positivamente
-porque me pareció que la autora sabía de qué hablaba y no se trataba simplemente de ser alarmista (que a veces puede ser necesario), sino de ampliar un poco más el conocimiento de qué se está haciendo con los datos y la importancia que el tratamiento de esos datos tiene para nosotros.&lt;/p&gt;
-
-&lt;p&gt;Me pareció un libro interesante como lectura complementaria a las personas que puedan estar interesadas en el proyecto &lt;a href=&#34;https://solidproject.org/&#34; target=&#34;_blank&#34;&gt;Solid&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Legislative data portals and linked data quality</title>
-      <link>http://labra.weso.es/talk/2019_heldig_keynote/</link>
-      <pubDate>Thu, 07 Nov 2019 13:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2019_heldig_keynote/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Entity Schema visualization and authoring tools</title>
-      <link>http://labra.weso.es/talk/2019_wikidataconberlin/</link>
-      <pubDate>Sat, 26 Oct 2019 11:30:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2019_wikidataconberlin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data models, visualizations and Shape Expressions for RDF. Combining RDFShape with Cytoscape</title>
-      <link>http://labra.weso.es/talk/2019_datamodelsvisualizations_cytoscape/</link>
-      <pubDate>Sun, 01 Sep 2019 15:30:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2019_datamodelsvisualizations_cytoscape/</guid>
       <description></description>
     </item>
     
