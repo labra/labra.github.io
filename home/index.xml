@@ -8,7 +8,87 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Jose Emilio Labra Gayo</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://labra.weso.es/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://labra.weso.es/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/home/about/</guid>
+      <description>Biography Associate Professor, University of Oviedo, Spain. Founder and main researcher of WESO (Web Semantics Oviedo) research group, which collaborates with different companies around the world applying semantic web technologies to solve practical problems.
+Member of Web of Things and Data Shapes W3C Working Groups and of Shape Expressions, SHACL, RAX (RDF and XML interoperability) and Best practices of Multilingual Linked Open Data W3C community groups.
+Previously, He was coordinator of the Master in Web Engineering - University of Oviedo (2016-2017), and Dean of the School of Computer Science Engineering - University of Oviedo (2004-2012).</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://labra.weso.es/home/publications/</link>
+      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/home/publications/</guid>
+      <description>See All publications. Other lists: DBLP, Google scholar, Semantic scholar, Research gate</description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>http://labra.weso.es/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Other info</title>
+      <link>http://labra.weso.es/home/other/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/home/other/</guid>
+      <description>Supervised PhD students  Jose María Álvarez Rodríguez: Métodos semánticos de reutilización de datos abiertos enlazados en las licitaciones públicas, 2012
+ Hernán Sagastegui Chigne: Desarrollo de Tecnologías Colaborativas para Entornos virtuales de apoyo al aprendizaje, 2015
+ Jose Alberto Benítez Andrades: Tecnologías Semánticas aplicadas al Análisis de Redes Sociales en el ámbito de la Salud, 2017
+  PhD Students supervision (Current)  Daniel Fernández Álvarez Herminio García González Francisco Cifuentes Silva Paulino Álvarez Ondina Claudio Andrés Navarro Cruces Carla Sepúlveda Díaz Any Navarro Cabrero Fernando Bautista Sepúlveda  {{/* - Ángel Retamar Arias - Victor Hugo Aravena Díaz *}}</description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>http://labra.weso.es/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://labra.weso.es/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>http://labra.weso.es/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/home/teaching/</guid>
+      <description>I teach the following courses:
+ Software architecture - Bachelor of Software Engineering, University of Oviedo, Spain. This course is taught in Spanish and English. Semantic Web - Master in Web Engineering, University of Oviedo, Spain Advances in Semantic Web - Master in Web Engineering, University of Oviedo, Spain Web systems and applications - Master in Information Technology, Technical University Federico Santa María, Chile  I also taught the courses:</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://labra.weso.es/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
