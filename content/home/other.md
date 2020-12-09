@@ -44,7 +44,12 @@ count = 5
 
 - [International Semantic Web Conference, 2020](https://iswc2020.semanticweb.org/)
 - [Joint International Conference on Knowledge Graphs 2020](https://language-semantic.org/jist-kg-2020/)
+- [DaMaLOS-2020: First workshop on Research data* management for linked open science (* and associated Research Objects)](https://zbmed.github.io/damalos/)
+- [3rd Workshop on Quality of Open Data](https://bisconf.org/2020/qod/)
+- [2nd Iberoamerican Knowledge Graph and Semantic Web Conference](http://www.kgswc.org/)
 - [International Semantic Web Conference, 2019](https://iswc2019.semanticweb.org/)
+- [24th European Conference on Artificial Intelligence](http://ecai2020.eu/)
+- [International Semantic Web Conference - ISWC 2019](http://iswc2019.semanticweb.org/)
 - [8th Workshop on Ontology Design and Patterns](http://ontologydesignpatterns.org/wiki/WOP:2017#WOP2017_Chairs), WOP, 2017
 - [Workshop on Linked Enterprise Data Services, Provenance, Linking and QualitY](https://informatik2017.de/ws29-ledsplay17/), LEDSPLaY17, 2017
 - [Linked Data Quality Workshop](http://ldq.semanticmultimedia.org/), 2017
