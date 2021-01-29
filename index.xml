@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Intestinal microbiota alterations by dietary exposure to chemicals from food cooking and processing. Application of Data Science for risk prediction</title>
+      <link>http://labra.weso.es/publication/2021_microbiota/</link>
+      <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2021_microbiota/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Shapes applications and tools</title>
       <link>http://labra.weso.es/talk/2020_shapes_applications_and_tools_tutorial/</link>
       <pubDate>Thu, 26 Nov 2020 12:00:00 +0000</pubDate>
@@ -133,15 +142,6 @@
       <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2020_protocolwikidata_biorxiv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>National Budget Law as Linked Open Data: New tools for supporting the sustainability of public finances</title>
-      <link>http://labra.weso.es/publication/2020_budgetlawlodchile/</link>
-      <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2020_budgetlawlodchile/</guid>
       <description></description>
     </item>
     

@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>http://labra.weso.es/publication/2021_microbiota/</loc>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/talk/2020_shapes_applications_and_tools_tutorial/</loc>
       <lastmod>2020-11-26T12:00:00+00:00</lastmod>
     </url>
@@ -1356,7 +1365,7 @@
     <url>
     
       <loc>http://labra.weso.es/publication_types/2/</loc>
-      <lastmod>2020-11-23T00:00:00+00:00</lastmod>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1605,7 +1614,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/data-integration/</loc>
-      <lastmod>2020-11-23T00:00:00+00:00</lastmod>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1615,7 +1624,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/data-mapping/</loc>
-      <lastmod>2020-11-23T00:00:00+00:00</lastmod>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1995,7 +2004,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/jcr/</loc>
-      <lastmod>2020-11-23T00:00:00+00:00</lastmod>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2715,7 +2724,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/sparql-generate/</loc>
-      <lastmod>2020-11-23T00:00:00+00:00</lastmod>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2755,7 +2764,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/semantic-technologies/</loc>
-      <lastmod>2020-11-23T00:00:00+00:00</lastmod>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2765,7 +2774,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/semantic-web/</loc>
-      <lastmod>2020-11-23T00:00:00+00:00</lastmod>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2815,7 +2824,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/shex/</loc>
-      <lastmod>2020-11-23T00:00:00+00:00</lastmod>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2825,7 +2834,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/shexml/</loc>
-      <lastmod>2020-11-23T00:00:00+00:00</lastmod>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2945,7 +2954,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/usability/</loc>
-      <lastmod>2020-11-23T00:00:00+00:00</lastmod>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3045,7 +3054,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/yarrrml/</loc>
-      <lastmod>2020-11-23T00:00:00+00:00</lastmod>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
