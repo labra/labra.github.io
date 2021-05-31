@@ -13,6 +13,33 @@
     
     
     <item>
+      <title>Validating RDF data using Shapes</title>
+      <link>http://labra.weso.es/talk/2021_zbmed/</link>
+      <pubDate>Thu, 27 May 2021 13:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2021_zbmed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adding COVID Information to Wikidata</title>
+      <link>http://labra.weso.es/talk/2021_addingcovidinformation_wikidata/</link>
+      <pubDate>Thu, 15 Apr 2021 20:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2021_addingcovidinformation_wikidata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Validating RDF data using Shapes</title>
+      <link>http://labra.weso.es/talk/2021_validatingrdfusingshapes_isic_conference-copy/</link>
+      <pubDate>Thu, 25 Feb 2021 12:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2021_validatingrdfusingshapes_isic_conference-copy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Shapes applications and tools</title>
       <link>http://labra.weso.es/talk/2020_shapes_applications_and_tools_tutorial/</link>
       <pubDate>Thu, 26 Nov 2020 12:00:00 +0000</pubDate>
@@ -32,10 +59,10 @@
     
     <item>
       <title>Validating RDF data using Shapes</title>
-      <link>http://labra.weso.es/talk/2020_validatingrdfusingshapes_winterschool/</link>
+      <link>http://labra.weso.es/talk/2020_validatingrdfusingshapes_winterschool-copy/</link>
       <pubDate>Wed, 25 Nov 2020 12:00:00 +0000</pubDate>
       
-      <guid>http://labra.weso.es/talk/2020_validatingrdfusingshapes_winterschool/</guid>
+      <guid>http://labra.weso.es/talk/2020_validatingrdfusingshapes_winterschool-copy/</guid>
       <description></description>
     </item>
     
