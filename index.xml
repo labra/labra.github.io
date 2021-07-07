@@ -11,6 +11,33 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Knowledge graphs</title>
+      <link>http://labra.weso.es/publication/2021_knowledgegraphs_acm_csur/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2021_knowledgegraphs_acm_csur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Representing COVID-19 information in collaborative knowledge graphs: the case of Wikidata</title>
+      <link>http://labra.weso.es/publication/2021_representingcovi_19_information/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2021_representingcovi_19_information/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approaches to measure class importance in Knowledge Graphs</title>
+      <link>http://labra.weso.es/publication/2021_classrank/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2021_classrank/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Validating RDF data using Shapes</title>
       <link>http://labra.weso.es/talk/2021_zbmed/</link>
       <pubDate>Thu, 27 May 2021 13:00:00 +0000</pubDate>
@@ -115,33 +142,6 @@
       <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2020_representingcovidinformationwikidata/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Using logical constraints to validate information in collaborative knowledge graphs: a study of COVID-19 on Wikidata</title>
-      <link>http://labra.weso.es/publication/2020_wikidatavalidationconstraints/</link>
-      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2020_wikidatavalidationconstraints/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An ontology-based multi-domain model in social network analysis: Experimental validation and case study</title>
-      <link>http://labra.weso.es/publication/2020_informationsystems_ontologybasedmultidomainmodel/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2020_informationsystems_ontologybasedmultidomainmodel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Proyectos de investigación y propiedad intelectual</title>
-      <link>http://labra.weso.es/talk/2020_introduction_researchprojectsintellectualproperty/</link>
-      <pubDate>Fri, 03 Jul 2020 11:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2020_introduction_researchprojectsintellectualproperty/</guid>
       <description></description>
     </item>
     

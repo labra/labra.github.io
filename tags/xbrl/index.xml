@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xbrl on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/tags/xbrl/</link>
+    <description>Recent content in Xbrl on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Wed, 03 Oct 2007 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://labra.github.io/tags/xbrl/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Analysis of XBRL documents representing financial statements using Semantic Web Technologies</title>
+      <link>http://labra.github.io/publication/2007_AnalysisXBRL/</link>
+      <pubDate>Wed, 03 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2007_AnalysisXBRL/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Combining Collaborative Tagging and Ontologies in Image Retrieval Systems</title>
+      <link>http://labra.github.io/publication/2007_CombiningCollaborativeTaggingImageRetrieval/</link>
+      <pubDate>Wed, 03 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2007_CombiningCollaborativeTaggingImageRetrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mailing lists meet the semantic web</title>
+      <link>http://labra.github.io/publication/2007_MailingListsSemanticWeb/</link>
+      <pubDate>Sun, 01 Apr 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2007_MailingListsSemanticWeb/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

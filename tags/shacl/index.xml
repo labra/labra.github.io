@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shacl on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/tags/shacl/</link>
+    <description>Recent content in Shacl on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Sun, 20 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://labra.github.io/tags/shacl/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Validating RDF Data</title>
+      <link>http://labra.github.io/publication/2017_Validating-RDF-book/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2017_Validating-RDF-book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SHACLex</title>
+      <link>http://labra.github.io/project/shaclex/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/project/shaclex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SHACL Test Suite and Implementation Report</title>
+      <link>http://labra.github.io/publication/2017_SHACLTestSuite/</link>
+      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2017_SHACLTestSuite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RDF Ventures to Boldly Meet Your Most Pedestrian Needs</title>
+      <link>http://labra.github.io/publication/2015_RDFVentures/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2015_RDFVentures/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

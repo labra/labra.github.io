@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shex on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/tags/shex/</link>
+    <description>Recent content in Shex on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Mon, 23 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://labra.github.io/tags/shex/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Semantics and Validation of Shapes Schemas for RDF</title>
+      <link>http://labra.github.io/publication/2017_Semantics-validation-shapes-schemas/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2017_Semantics-validation-shapes-schemas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Validating RDF Data</title>
+      <link>http://labra.github.io/publication/2017_Validating-RDF-book/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2017_Validating-RDF-book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SHACLex</title>
+      <link>http://labra.github.io/project/shaclex/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/project/shaclex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ShExkell</title>
+      <link>http://labra.github.io/project/shexkellx/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/project/shexkellx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shape Expressions Language 2.0</title>
+      <link>http://labra.github.io/publication/2017_ShExSpec/</link>
+      <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2017_ShExSpec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inference and Serialization of Latent Graph Schemata using ShEx</title>
+      <link>http://labra.github.io/publication/2016_InferenceSerializationShEx/</link>
+      <pubDate>Thu, 13 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2016_InferenceSerializationShEx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shape Expression Schemas</title>
+      <link>http://labra.github.io/publication/2016_ShapeExpressionSchemas/</link>
+      <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2016_ShapeExpressionSchemas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RDF Ventures to Boldly Meet Your Most Pedestrian Needs</title>
+      <link>http://labra.github.io/publication/2015_RDFVentures/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2015_RDFVentures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expressiveness and Complexity of ShEx for RDF</title>
+      <link>http://labra.github.io/publication/2015_ComplexityExpressivenessShExRDF/</link>
+      <pubDate>Fri, 27 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2015_ComplexityExpressivenessShExRDF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards an RDF validation language based on Regular Expression derivatives</title>
+      <link>http://labra.github.io/publication/2015_RegularExpressionDerivatives/</link>
+      <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2015_RegularExpressionDerivatives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Validating and Describing Linked Data Portals using RDF Shape Expressions</title>
+      <link>http://labra.github.io/publication/2015_ValidatingLinkedDataPortals/</link>
+      <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2015_ValidatingLinkedDataPortals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shape Expressions: An RDF validation and transformation language</title>
+      <link>http://labra.github.io/publication/2014_ShEx/</link>
+      <pubDate>Wed, 03 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2014_ShEx/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

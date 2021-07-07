@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>María Del Puerto Paule on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/authors/mar%C3%ADa-del-puerto-paule/</link>
+    <description>Recent content in María Del Puerto Paule on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Wed, 16 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://labra.github.io/authors/mar%C3%ADa-del-puerto-paule/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Enhancing e-Learning content by using Semantic Web technologies</title>
+      <link>http://labra.github.io/publication/2016_Enhancing_eLearningContent/</link>
+      <pubDate>Wed, 16 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2016_Enhancing_eLearningContent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Engineering</title>
+      <link>http://labra.github.io/publication/2003_WebEngineering/</link>
+      <pubDate>Mon, 14 Jul 2003 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2003_WebEngineering/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

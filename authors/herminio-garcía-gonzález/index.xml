@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Herminio García González on Jose Emilio Labra Gayo</title>
+    <link>http://labra.github.io/authors/herminio-garc%C3%ADa-gonz%C3%A1lez/</link>
+    <description>Recent content in Herminio García González on Jose Emilio Labra Gayo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2017 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Wed, 16 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://labra.github.io/authors/herminio-garc%C3%ADa-gonz%C3%A1lez/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Enhancing e-Learning content by using Semantic Web technologies</title>
+      <link>http://labra.github.io/publication/2016_Enhancing_eLearningContent/</link>
+      <pubDate>Wed, 16 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2016_Enhancing_eLearningContent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inference and Serialization of Latent Graph Schemata using ShEx</title>
+      <link>http://labra.github.io/publication/2016_InferenceSerializationShEx/</link>
+      <pubDate>Thu, 13 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.github.io/publication/2016_InferenceSerializationShEx/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
