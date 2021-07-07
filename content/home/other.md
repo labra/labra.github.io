@@ -21,32 +21,26 @@ count = 5
 
 # Supervised PhD students
 
-- [Jose María Álvarez Rodríguez](http://www.josemalvarez.es/): 
-  Métodos semánticos de reutilización de datos abiertos enlazados en las licitaciones públicas, 
-  2012
-  
-- [Hernán Sagastegui Chigne](https://www.linkedin.com/in/hernan-sagastegui-chigne-48264025/):
-  Desarrollo de Tecnologías Colaborativas para Entornos virtuales de apoyo al aprendizaje,
-  2015
+- [Herminio García González](http://herminiogarcia.com/): Integración semántica de grandes fuentes de datos heterogéneas, 2021
 
 - [Jose Alberto Benítez Andrades](http://www.jabenitez.com/):
   Tecnologías Semánticas aplicadas al Análisis de Redes Sociales en el ámbito de la Salud, 2017
 
+- [Hernán Sagastegui Chigne](https://www.linkedin.com/in/hernan-sagastegui-chigne-48264025/):
+  Desarrollo de Tecnologías Colaborativas para Entornos virtuales de apoyo al aprendizaje,
+  2015
+
+- [Jose María Álvarez Rodríguez](http://www.josemalvarez.es/): 
+  Métodos semánticos de reutilización de datos abiertos enlazados en las licitaciones públicas, 
+  2012
+  
 # PhD Students supervision (Current)
 
 - [Daniel Fernández Álvarez](http://danifdez.weso.es/)
-- [Herminio García González](http://herminiogarcia.com/)
 - [Francisco Cifuentes Silva](http://www.fcifuentes.cl/)
 - [Paulino Álvarez Ondina](https://www.linkedin.com/in/paulinoalvarez/)
 - Claudio Andrés Navarro Cruces
-- Carla Sepúlveda Díaz
 - Any Navarro Cabrero
-- Fernando Bautista Sepúlveda
-
-{{/*
-- [Ángel Retamar Arias](https://www.linkedin.com/in/angel-retamar-arias-383b416/)
-- [Victor Hugo Aravena Díaz](https://www.linkedin.com/in/victoraravena/)
-*}}
 
 # PhD Thesis Committees
 
