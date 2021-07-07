@@ -13,7 +13,7 @@ widget = "publications"
 weight = 20
 
 # Number of publications to list.
-count = 20
+count = 50
 
 # Show publication details (such as abstract)? (true/false)
 detailed_list = false
@@ -88,6 +88,3 @@ Other lists:
 [Google scholar](https://scholar.google.com/citations?user=TGfRNZkAAAAJ),
 [Semantic scholar](https://www.semanticscholar.org/author/José-Emilio-Labra-Gayo/1729679),
 [Research gate](https://www.researchgate.net/profile/Jose_Labra_Gayo)
-
-
-
