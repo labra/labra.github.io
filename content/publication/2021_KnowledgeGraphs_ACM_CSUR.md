@@ -17,7 +17,7 @@ url_dataset = ""
 name = "doi"
 url = "https://doi.org/10.1145/3447772"
 
-url_pdf = ""
+url_pdf = "pdf/2021_KnowledgeGraphs_ACM_Computing_Surveys.pdf"
 url_project = ""
 url_slides = ""
 url_video = ""
