@@ -12,18 +12,15 @@ selected = true
 title = "Knowledge graphs"
 url_code = ""
 url_dataset = ""
-
-[[url_custom]]
-name = "doi"
-url = "https://doi.org/10.1145/3447772"
-
 url_pdf = "pdf/2021_KnowledgeGraphs_ACM_Computing_Surveys.pdf"
 url_project = ""
 url_slides = ""
 url_video = ""
 
+tags=["RDF", "Knowledge graphs", "Semantic web"]
 
-
-tags=["RDF", "Knowledge graph", "Property graphs", "ShEx", "SHACL", "Semantic web"]
+[[url_custom]]
+name = "doi"
+url = "https://doi.org/10.1145/3447772"
 
 +++
