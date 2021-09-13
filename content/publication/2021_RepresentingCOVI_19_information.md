@@ -12,18 +12,16 @@ selected = true
 title = "Representing COVID-19 information in collaborative knowledge graphs: the case of Wikidata"
 url_code = ""
 url_dataset = ""
-
-[[url_custom]]
-name = "doi"
-url = "https://doi.org/10.1145/3447772"
-
 url_pdf = "pdf/2021_representingCOVID19.pdf"
 url_project = ""
 url_slides = ""
 url_video = ""
 
+tags=["RDF", "Knowledge graph", "Property graphs", "ShEx", "SHACL", "Semantic web", "COVID-19"]
 
+[[url_custom]]
+name = "doi"
+url = "https://doi.org/10.1145/3447772"
 
-tags=["RDF", "Knowledge graph", "Property graphs", "ShEx", "SHACL", "Semantic web"]
 
 +++

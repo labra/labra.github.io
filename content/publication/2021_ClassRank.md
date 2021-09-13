@@ -12,18 +12,15 @@ selected = true
 title = "Approaches to measure class importance in Knowledge Graphs"
 url_code = ""
 url_dataset = ""
-
-[[url_custom]]
-name = "doi"
-url = "https://doi.org/10.1371/journal.pone.0252862"
-
 url_pdf = "pdf/ClassRank.pdf"
 url_project = ""
 url_slides = ""
 url_video = ""
 
+tags=["RDF", "ClassRank", "Knowledge graphs", "Class", "Semantic web"]
 
-
-tags=["RDF", "Knowledge graph", "Property graphs", "ShEx", "SHACL", "Semantic web"]
+[[url_custom]]
+name = "doi"
+url = "https://doi.org/10.1371/journal.pone.0252862"
 
 +++
