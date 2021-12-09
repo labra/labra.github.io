@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Semantics, knowledge graphs and ontologies in practice</title>
+      <link>http://labra.weso.es/talk/2021_training/</link>
+      <pubDate>Mon, 29 Nov 2021 15:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2021_training/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knowledge graphs</title>
+      <link>http://labra.weso.es/publication/2021_knowledgegraphs_book/</link>
+      <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2021_knowledgegraphs_book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Knowledge graphs</title>
       <link>http://labra.weso.es/publication/2021_knowledgegraphs_acm_csur/</link>
       <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
@@ -124,24 +142,6 @@
       <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2020_damalos_asio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Automatic synchronization of RDF graphs representing ontologies and Wikibase instances</title>
-      <link>http://labra.weso.es/publication/2020_wikidataworkshop_synchronizing/</link>
-      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2020_wikidataworkshop_synchronizing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Representing COVID-19 information in collaborative knowledge graphs: a study of Wikidata</title>
-      <link>http://labra.weso.es/publication/2020_representingcovidinformationwikidata/</link>
-      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2020_representingcovidinformationwikidata/</guid>
       <description></description>
     </item>
     
