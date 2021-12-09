@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Labra&#39;s home page</title>
+    <link>http://labra.weso.es/publication/</link>
+    <description>Recent content in Publications on Labra&#39;s home page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://labra.weso.es/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Knowledge graphs</title>
+      <link>http://labra.weso.es/publication/2021_knowledgegraphs_book/</link>
+      <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2021_knowledgegraphs_book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knowledge graphs</title>
+      <link>http://labra.weso.es/publication/2021_knowledgegraphs_acm_csur/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2021_knowledgegraphs_acm_csur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Representing COVID-19 information in collaborative knowledge graphs: the case of Wikidata</title>
+      <link>http://labra.weso.es/publication/2021_representingcovi_19_information/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2021_representingcovi_19_information/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approaches to measure class importance in Knowledge Graphs</title>
+      <link>http://labra.weso.es/publication/2021_classrank/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2021_classrank/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intestinal microbiota alterations by dietary exposure to chemicals from food cooking and processing. Application of Data Science for risk prediction</title>
+      <link>http://labra.weso.es/publication/2021_microbiota/</link>
+      <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2021_microbiota/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ShExML: improving the usability of heterogeneous data mapping languages for first-time users</title>
+      <link>http://labra.weso.es/publication/2020_shexml_peerj/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_shexml_peerj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ShEx-Lite: Automatic generation of domain object models from a Shape Expressions subset language</title>
+      <link>http://labra.weso.es/publication/2020_iswc_shexlite/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_iswc_shexlite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ASIO: A research management system based on semantic technologies</title>
+      <link>http://labra.weso.es/publication/2020_damalos_asio/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_damalos_asio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic synchronization of RDF graphs representing ontologies and Wikibase instances</title>
+      <link>http://labra.weso.es/publication/2020_wikidataworkshop_synchronizing/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_wikidataworkshop_synchronizing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Representing COVID-19 information in collaborative knowledge graphs: a study of Wikidata</title>
+      <link>http://labra.weso.es/publication/2020_representingcovidinformationwikidata/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_representingcovidinformationwikidata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using logical constraints to validate information in collaborative knowledge graphs: a study of COVID-19 on Wikidata</title>
+      <link>http://labra.weso.es/publication/2020_wikidatavalidationconstraints/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_wikidatavalidationconstraints/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An ontology-based multi-domain model in social network analysis: Experimental validation and case study</title>
+      <link>http://labra.weso.es/publication/2020_informationsystems_ontologybasedmultidomainmodel/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_informationsystems_ontologybasedmultidomainmodel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A protocol for adding knowledge to Wikidata, a case report</title>
+      <link>http://labra.weso.es/publication/2020_protocolwikidata_biorxiv/</link>
+      <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_protocolwikidata_biorxiv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>National Budget Law as Linked Open Data: New tools for supporting the sustainability of public finances</title>
+      <link>http://labra.weso.es/publication/2020_budgetlawlodchile/</link>
+      <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_budgetlawlodchile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Converting Asturian Notaries Public deeds to Linked Data using TEI and ShExML</title>
+      <link>http://labra.weso.es/publication/2020_asturiasnotarieslod/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_asturiasnotarieslod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data validation and Schema Interoperability</title>
+      <link>http://labra.weso.es/publication/2020_datavalidation_schemainteroperability/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_datavalidation_schemainteroperability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knowledge graphs</title>
+      <link>http://labra.weso.es/publication/2020_knowledgegraphs_arxiv/</link>
+      <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2020_knowledgegraphs_arxiv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Validating Danish Wikidata Lexemes</title>
+      <link>http://labra.weso.es/publication/2019_semantics_danishwikidatalexemes/</link>
+      <pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2019_semantics_danishwikidatalexemes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Applying big data and stream processing to the real estate domain</title>
+      <link>http://labra.weso.es/publication/2019_bigdatastream_bit/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2019_bigdatastream_bit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Legislative document content extraction based on Semantic Web technologies - A use case about processing the History of the Law</title>
+      <link>http://labra.weso.es/publication/2019_eswc_historylaw/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2019_eswc_historylaw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Shape Expressions (ShEx) to Share RDF Data Models and to Guide Curation with Rigorous Validation</title>
+      <link>http://labra.weso.es/publication/2019_eswc_shex/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2019_eswc_shex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Challenges in RDF validation</title>
+      <link>http://labra.weso.es/publication/2018_validatingrdfdatachallenges/</link>
+      <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2018_validatingrdfdatachallenges/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inference of Latent Shape Expressions Associated to DBpedia Ontology</title>
+      <link>http://labra.weso.es/publication/2018_shexerposter/</link>
+      <pubDate>Fri, 12 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2018_shexerposter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RDFShape: An RDF playground based on Shapes</title>
+      <link>http://labra.weso.es/publication/2018_rdfshape_iswcdemo/</link>
+      <pubDate>Fri, 12 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2018_rdfshape_iswcdemo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XMLSchema2ShEx: Converting XML validation to RDF validation</title>
+      <link>http://labra.weso.es/publication/2018_swj_xmlschema2shex/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2018_swj_xmlschema2shex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic Modeling of Administrative Procedures from a Spanish Regional Public Administration</title>
+      <link>http://labra.weso.es/publication/2018_sustainability/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2018_sustainability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantics and Validation of Shapes Schemas for RDF</title>
+      <link>http://labra.weso.es/publication/2017_semantics-validation-shapes-schemas/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2017_semantics-validation-shapes-schemas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MERA: A Musical Entities Reconciliation Architecture Based on Semantic Technologies</title>
+      <link>http://labra.weso.es/publication/2017_mera.1/</link>
+      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2017_mera.1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Validating RDF Data</title>
+      <link>http://labra.weso.es/publication/2017_validating-rdf-book/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2017_validating-rdf-book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SHACL Test Suite and Implementation Report</title>
+      <link>http://labra.weso.es/publication/2017_shacltestsuite/</link>
+      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2017_shacltestsuite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shape Expressions Language 2.0</title>
+      <link>http://labra.weso.es/publication/2017_shexspec/</link>
+      <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2017_shexspec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Web-Based Tool for Automatic Data Collection, Curation, and Visualization of Complex Healthcare Survey Studies including Social Network Analysis</title>
+      <link>http://labra.weso.es/publication/2017_computationalmathematicalmethods/</link>
+      <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2017_computationalmathematicalmethods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards the Implementation of the Learning Analytics in the Social Learning Environments for the Technology-Enhanced Assessment in Computer Engineering Education</title>
+      <link>http://labra.weso.es/publication/2016_towards_learninganalytics/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2016_towards_learninganalytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancing e-Learning content by using Semantic Web technologies</title>
+      <link>http://labra.weso.es/publication/2016_enhancing_elearningcontent/</link>
+      <pubDate>Wed, 16 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2016_enhancing_elearningcontent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inference and Serialization of Latent Graph Schemata using ShEx</title>
+      <link>http://labra.weso.es/publication/2016_inferenceserializationshex/</link>
+      <pubDate>Thu, 13 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2016_inferenceserializationshex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identifying potential suppliers for competitive bidding using Latent Semantic Analysis</title>
+      <link>http://labra.weso.es/publication/2016_identifyingpotentialsuppliers/</link>
+      <pubDate>Mon, 10 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2016_identifyingpotentialsuppliers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shape Expression Schemas</title>
+      <link>http://labra.weso.es/publication/2016_shapeexpressionschemas/</link>
+      <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2016_shapeexpressionschemas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linked Data Validation and Quality</title>
+      <link>http://labra.weso.es/publication/2015_linkeddataqualityepsi/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2015_linkeddataqualityepsi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RDF Ventures to Boldly Meet Your Most Pedestrian Needs</title>
+      <link>http://labra.weso.es/publication/2015_rdfventures/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2015_rdfventures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expressiveness and Complexity of ShEx for RDF</title>
+      <link>http://labra.weso.es/publication/2015_complexityexpressivenessshexrdf/</link>
+      <pubDate>Fri, 27 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2015_complexityexpressivenessshexrdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards an RDF validation language based on Regular Expression derivatives</title>
+      <link>http://labra.weso.es/publication/2015_regularexpressionderivatives/</link>
+      <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2015_regularexpressionderivatives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Validating and Describing Linked Data Portals using RDF Shape Expressions</title>
+      <link>http://labra.weso.es/publication/2015_validatinglinkeddataportals/</link>
+      <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2015_validatinglinkeddataportals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multilingual linked data patterns </title>
+      <link>http://labra.weso.es/publication/2015_mlodpatterns/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2015_mlodpatterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Representing Statistical Indexes as Linked Data Including Metadata about Their Computation Process</title>
+      <link>http://labra.weso.es/publication/2014_representingstatisticalindexes/</link>
+      <pubDate>Thu, 27 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2014_representingstatisticalindexes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interoperability between platforms without a defined referential model: A semi-automatic learning system for structural pairing</title>
+      <link>http://labra.weso.es/publication/2014_interoperabilitybetweenplatforms/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2014_interoperabilitybetweenplatforms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knowledge-based public service transactions: An intelligent model-driven approach in co-learning contexts</title>
+      <link>http://labra.weso.es/publication/2014_knowledgebasedpublicservicetransactions/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2014_knowledgebasedpublicservicetransactions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating recommendations on electronic books: A collaborative learning implicit approach</title>
+      <link>http://labra.weso.es/publication/2014_creatingrecommendationselectronicbooks/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2014_creatingrecommendationselectronicbooks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shape Expressions: An RDF validation and transformation language</title>
+      <link>http://labra.weso.es/publication/2014_shex/</link>
+      <pubDate>Wed, 03 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2014_shex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New trends on e-Procurement applying semantic technologies</title>
+      <link>http://labra.weso.es/publication/2014_newtrendseprocurement/</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2014_newtrendseprocurement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New trends on e-Procurement applying semantic technologies: current status and future challenges</title>
+      <link>http://labra.weso.es/publication/2014_newtrendseprocurementstatus/</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2014_newtrendseprocurementstatus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ACOTA: A multilingual and Semi-automatic collaborative tagging system</title>
+      <link>http://labra.weso.es/publication/2014_acota/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2014_acota/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inductive Representations of RDF Graphs</title>
+      <link>http://labra.weso.es/publication/2013_inductivetriplegraphs/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2013_inductivetriplegraphs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards a Stepwise Method for Unifying and Reconciling Corporate Names in Public Contracts Metadata: The CORFU Technique</title>
+      <link>http://labra.weso.es/publication/2013_corfutechnique/</link>
+      <pubDate>Tue, 19 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2013_corfutechnique/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Empowering the access to public procurement opportunities by means of linking controlled vocabularies. A case study of Product Scheme Classifications in the European e-Procurement sector</title>
+      <link>http://labra.weso.es/publication/2014_empoweringaccesspublicprocurement/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2014_empoweringaccesspublicprocurement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kukulcan: Semantic Web Framework for Knowledge Management in the Domain of Digital Circuits</title>
+      <link>http://labra.weso.es/publication/2013_kukulkan/</link>
+      <pubDate>Sat, 01 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2013_kukulkan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards a Journalist-Based News Recommendation System: The Wesomender Approach</title>
+      <link>http://labra.weso.es/publication/2013_towardsjournalistbasedrecommendations/</link>
+      <pubDate>Sat, 01 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2013_towardsjournalistbasedrecommendations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cases on Open-Linked Data and Semantic Web Applications</title>
+      <link>http://labra.weso.es/publication/2013_caseslinkedopendata/</link>
+      <pubDate>Thu, 03 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2013_caseslinkedopendata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>E-Procurement Management for Successful Electronic Government Systems</title>
+      <link>http://labra.weso.es/publication/2013_eprocurementmanagement/</link>
+      <pubDate>Wed, 02 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2013_eprocurementmanagement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Applying MapReduce to Spreading Activation Algorithm on Large RDF Graphs</title>
+      <link>http://labra.weso.es/publication/2013_mapreducespreadingactivation/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2013_mapreducespreadingactivation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated Diagnosis through Ontologies and Logical Descriptions: The ADONIS Approach</title>
+      <link>http://labra.weso.es/publication/2013_adonisbookchapter/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2013_adonisbookchapter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ONTOSPREAD: A Framework for Supporting the Activation of Concepts in Graph-Based Structures through the Spreading Activation Technique</title>
+      <link>http://labra.weso.es/publication/2013_ontospreadframework/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2013_ontospreadframework/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards a Practical Solution for Data Grounding in a Semantic Web Services Environment</title>
+      <link>http://labra.weso.es/publication/2012_datagrounding/</link>
+      <pubDate>Thu, 01 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2012_datagrounding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Semántica: comprendiendo el cambio hacia la Web 3.0</title>
+      <link>http://labra.weso.es/publication/2012_websemantica/</link>
+      <pubDate>Mon, 16 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2012_websemantica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The effects of ERP implementations on the profitability of big firms: the case of Spain</title>
+      <link>http://labra.weso.es/publication/2012_effectserp/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2012_effectserp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards a Pan-European E-Procurement platform to Aggregate, Publish and Search Public Procurement Notices powered by Linked Open Data: The MOLDEAS Approach</title>
+      <link>http://labra.weso.es/publication/2012_paneuropeaneprocurement/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2012_paneuropeaneprocurement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards an architecture and adoption process for Linked Data technologies in Open Government contexts</title>
+      <link>http://labra.weso.es/publication/2011_linkeddatalibrarycongress/</link>
+      <pubDate>Sat, 03 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2011_linkeddatalibrarycongress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SeDeLo: Using Semantics and Description Logics to Support Aided Clinical Diagnosis</title>
+      <link>http://labra.weso.es/publication/2011_sedelo/</link>
+      <pubDate>Tue, 03 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2011_sedelo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recommendation System based on User Interaction data applied to Intelligent Electronic Books</title>
+      <link>http://labra.weso.es/publication/2010_recommendationsystemselectronicbooks/</link>
+      <pubDate>Sun, 12 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2010_recommendationsystemselectronicbooks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards the evaluation of usability in educative websites</title>
+      <link>http://labra.weso.es/publication/2010_towardsevaluationusability/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2010_towardsevaluationusability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive web environment for collaborative and extensible diagram based learning</title>
+      <link>http://labra.weso.es/publication/2009_interactivewebenvironment/</link>
+      <pubDate>Sat, 07 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2009_interactivewebenvironment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WESONet: Applying semantic web technologies and collaborative tagging to multimedia web information systems</title>
+      <link>http://labra.weso.es/publication/2009_wesonet/</link>
+      <pubDate>Sat, 07 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2009_wesonet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A proposal for a Semantic Intelligent Document Repository Architecture</title>
+      <link>http://labra.weso.es/publication/2009_sidra-cerma/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2009_sidra-cerma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ontologies in Checking for Inconsistency of Requirements Specification</title>
+      <link>http://labra.weso.es/publication/2009_ontologiesrequirementspecifications/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2009_ontologiesrequirementspecifications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated Diagnosis through Ontologies and Logical Descriptions: The ADONIS Approach</title>
+      <link>http://labra.weso.es/publication/2011_adonis/</link>
+      <pubDate>Sun, 03 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2011_adonis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Doing Business by selling free services</title>
+      <link>http://labra.weso.es/publication/2009_doingbusinesssellingfreeservices/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2009_doingbusinesssellingfreeservices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SOAF: Semantic Indexing System Based on Collaborative Tagging</title>
+      <link>http://labra.weso.es/publication/2008_semanticindexingcollaborativetagging/</link>
+      <pubDate>Mon, 01 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2008_semanticindexingcollaborativetagging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis of XBRL documents representing financial statements using Semantic Web Technologies</title>
+      <link>http://labra.weso.es/publication/2007_analysisxbrl/</link>
+      <pubDate>Wed, 03 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2007_analysisxbrl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Combining Collaborative Tagging and Ontologies in Image Retrieval Systems</title>
+      <link>http://labra.weso.es/publication/2007_combiningcollaborativetaggingimageretrieval/</link>
+      <pubDate>Wed, 03 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2007_combiningcollaborativetaggingimageretrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mailing lists meet the semantic web</title>
+      <link>http://labra.weso.es/publication/2007_mailinglistssemanticweb/</link>
+      <pubDate>Sun, 01 Apr 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2007_mailinglistssemanticweb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Searching over Public Administration Legal Documents Using Ontologies</title>
+      <link>http://labra.weso.es/publication/2006_searchiingpublicadministration/</link>
+      <pubDate>Tue, 07 Nov 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2006_searchiingpublicadministration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Utilización de herramientas colaborativas de desarrollo de software libre en un modelo de aprendizaje basado en proyectos</title>
+      <link>http://labra.weso.es/publication/2006_herramientascolaborativas/</link>
+      <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2006_herramientascolaborativas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A monadic program slicer</title>
+      <link>http://labra.weso.es/publication/2006_monadicprogramslicer/</link>
+      <pubDate>Mon, 01 May 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2006_monadicprogramslicer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Formal Method for program Slicing</title>
+      <link>http://labra.weso.es/publication/2005_formalmethodprogramslicing/</link>
+      <pubDate>Mon, 03 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2005_formalmethodprogramslicing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Representaciones gráficas y Mundos Virtuales infinitos en las Prácticas de Programación Lógica y Funcional</title>
+      <link>http://labra.weso.es/publication/2003_graphicalrepresentationslogicfunctionalprogrammingjenui/</link>
+      <pubDate>Tue, 01 Jun 2004 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2003_graphicalrepresentationslogicfunctionalprogrammingjenui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>¿Hay Lógica en la situación actual de las titulaciones informáticas?</title>
+      <link>http://labra.weso.es/publication/2004_logicaspainjenui/</link>
+      <pubDate>Tue, 01 Jun 2004 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2004_logicaspainjenui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Engineering</title>
+      <link>http://labra.weso.es/publication/2003_webengineering/</link>
+      <pubDate>Mon, 14 Jul 2003 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2003_webengineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Generic e-Learning Multiparadigm Programming Language System: IDEFIX Project</title>
+      <link>http://labra.weso.es/publication/2002_agenericelearningmultiparadigm_idefixsigcse/</link>
+      <pubDate>Sat, 01 Feb 2003 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2002_agenericelearningmultiparadigm_idefixsigcse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Specification of Logic Programming Languages from Reusable Semantic Building Blocks</title>
+      <link>http://labra.weso.es/publication/2003_specificationlogicprogramminglanguages/</link>
+      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2003_specificationlogicprogramminglanguages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plataforma de enseñanza de lenguajes de programación a través de Internet: Proyecto IDEFIX</title>
+      <link>http://labra.weso.es/publication/2002_plataformaensenianzalenguajesprogramacion_idefix/</link>
+      <pubDate>Mon, 01 Jul 2002 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2002_plataformaensenianzalenguajesprogramacion_idefix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modular development of Language Processors from Reusable Semantic Specifications</title>
+      <link>http://labra.weso.es/publication/2001_phdthesis/</link>
+      <pubDate>Sun, 01 Jul 2001 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2001_phdthesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programación Práctica en Prolog</title>
+      <link>http://labra.weso.es/publication/1998_progpracticaprolog/</link>
+      <pubDate>Sun, 01 Nov 1998 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/1998_progpracticaprolog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ejercicios de lógica informática</title>
+      <link>http://labra.weso.es/publication/1998_ejercicioslogica/</link>
+      <pubDate>Thu, 01 Oct 1998 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/1998_ejercicioslogica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lógica proposicional para informática</title>
+      <link>http://labra.weso.es/publication/1998_propositionallogic/</link>
+      <pubDate>Thu, 01 Oct 1998 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/1998_propositionallogic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Implementation of Modular Monadic Semantics using Folds and Monadic Folds</title>
+      <link>http://labra.weso.es/publication/1998_mms_usingfoldsmonadicfolds/</link>
+      <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/1998_mms_usingfoldsmonadicfolds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harmony: a functional system for musical composition</title>
+      <link>http://labra.weso.es/publication/1997_harmony/</link>
+      <pubDate>Wed, 01 Oct 1997 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/1997_harmony/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introducción al lenguaje Haskell</title>
+      <link>http://labra.weso.es/publication/1995_introhaskell/</link>
+      <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/1995_introhaskell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lógica de predicados de primer orden</title>
+      <link>http://labra.weso.es/publication/1993_logica/</link>
+      <pubDate>Fri, 01 Jan 1993 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/1993_logica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulación Entorno Operativo Unix</title>
+      <link>http://labra.weso.es/publication/1991_simulacionunix/</link>
+      <pubDate>Tue, 01 Jan 1991 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/1991_simulacionunix/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
