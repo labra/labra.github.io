@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Describe and Validate your RDF Data with Data Shapes</title>
+      <link>http://labra.weso.es/talk/2022_lotico/</link>
+      <pubDate>Thu, 24 Mar 2022 17:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2022_lotico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Semantics, knowledge graphs and ontologies in practice</title>
       <link>http://labra.weso.es/talk/2021_training/</link>
       <pubDate>Mon, 29 Nov 2021 15:00:00 +0000</pubDate>
@@ -25,6 +34,15 @@
       <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2021_knowledgegraphs_book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linking Data and Descriptions on Moths Using the Wikimedia Ecosystem</title>
+      <link>http://labra.weso.es/publication/2021_moths/</link>
+      <pubDate>Fri, 03 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2021_moths/</guid>
       <description></description>
     </item>
     
@@ -124,24 +142,6 @@
       <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2020_shexml_peerj/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ShEx-Lite: Automatic generation of domain object models from a Shape Expressions subset language</title>
-      <link>http://labra.weso.es/publication/2020_iswc_shexlite/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2020_iswc_shexlite/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ASIO: A research management system based on semantic technologies</title>
-      <link>http://labra.weso.es/publication/2020_damalos_asio/</link>
-      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2020_damalos_asio/</guid>
       <description></description>
     </item>
     
