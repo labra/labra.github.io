@@ -1,6 +1,7 @@
+hugo=binaries/hugo
 # Empty for now
 dev:
-	hugo server --watch --buildDrafts
+	$(hugo) server --watch --buildDrafts
 
 build:
-	hugo -D	
+	$(hugo) -D	
