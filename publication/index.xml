@@ -13,6 +13,78 @@
     
     
     <item>
+      <title>Wikidata subsetting: approaches, tools, and evaluation</title>
+      <link>http://labra.weso.es/publication/2023_wikidatasubsetting/</link>
+      <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2023_wikidatasubsetting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WShEx: A language to describe and validate Wikibase entities</title>
+      <link>http://labra.weso.es/publication/2023_shexvisualization/</link>
+      <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2023_shexvisualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Editorial on Knowledge Graphs Validation and Quality</title>
+      <link>http://labra.weso.es/publication/2023_editorial_kgvq/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2023_editorial_kgvq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WShEx: A language to describe and validate Wikibase entities</title>
+      <link>http://labra.weso.es/publication/2022_wshex/</link>
+      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2022_wshex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using logical constraints to validate statistical information about disease outbreaks in collaborative knowledge graphs: the case of COVID-19 epidemiology in Wikidata</title>
+      <link>http://labra.weso.es/publication/2022_constraints_wikidata/</link>
+      <pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2022_constraints_wikidata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A comparison between traditional and Serverless technologies in a microservices setting</title>
+      <link>http://labra.weso.es/publication/2023_serverless/</link>
+      <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2023_serverless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ontolo-CI: Continuous data validation with ShEx</title>
+      <link>http://labra.weso.es/publication/2022_ontoloci/</link>
+      <pubDate>Tue, 13 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2022_ontoloci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic extraction of shapes using sheXer</title>
+      <link>http://labra.weso.es/publication/2022_shexer/</link>
+      <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2022_shexer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Knowledge graphs</title>
       <link>http://labra.weso.es/publication/2021_knowledgegraphs_book/</link>
       <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
