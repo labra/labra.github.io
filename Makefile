@@ -1,4 +1,4 @@
-hugo=binaries/hugo
+hugo=binaries/hugo_old
 # Empty for now
 dev:
 	$(hugo) server --watch --buildDrafts
