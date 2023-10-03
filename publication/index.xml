@@ -13,6 +13,42 @@
     
     
     <item>
+      <title>Using Pregel to create Knowledge Graphs subsets described by non-recursive Shape Expressions</title>
+      <link>http://labra.weso.es/publication/2023_kg_subsets_pregel/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2023_kg_subsets_pregel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A comparison between traditional and Serverless technologies in a microservices setting</title>
+      <link>http://labra.weso.es/publication/2023_serverless/</link>
+      <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2023_serverless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Redesign of the validation framework in LinkML</title>
+      <link>http://labra.weso.es/publication/2023_linkml/</link>
+      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2023_linkml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RDF Data integration using Shape Expressions</title>
+      <link>http://labra.weso.es/publication/2023_rdf_data_integration/</link>
+      <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2023_rdf_data_integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Wikidata subsetting: approaches, tools, and evaluation</title>
       <link>http://labra.weso.es/publication/2023_wikidatasubsetting/</link>
       <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
@@ -40,6 +76,15 @@
     </item>
     
     <item>
+      <title>Enhancement and Reusage of Biomedical Knowledge Graph Subsets</title>
+      <link>http://labra.weso.es/publication/2022_enhancement_reusage_biomedical_subsets/</link>
+      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2022_enhancement_reusage_biomedical_subsets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>WShEx: A language to describe and validate Wikibase entities</title>
       <link>http://labra.weso.es/publication/2022_wshex/</link>
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
@@ -54,15 +99,6 @@
       <pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2022_constraints_wikidata/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A comparison between traditional and Serverless technologies in a microservices setting</title>
-      <link>http://labra.weso.es/publication/2023_serverless/</link>
-      <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2023_serverless/</guid>
       <description></description>
     </item>
     

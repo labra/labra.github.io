@@ -5,6 +5,42 @@
     
     <url>
     
+      <loc>http://labra.weso.es/publication/2023_kg_subsets_pregel/</loc>
+      <lastmod>2023-10-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/publication/2023_serverless/</loc>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/publication/2023_linkml/</loc>
+      <lastmod>2023-07-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/publication/2023_rdf_data_integration/</loc>
+      <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2023_wikidatasubsetting/</loc>
       <lastmod>2023-06-19T00:00:00+00:00</lastmod>
     </url>
@@ -32,6 +68,15 @@
     
     <url>
     
+      <loc>http://labra.weso.es/publication/2022_enhancement_reusage_biomedical_subsets/</loc>
+      <lastmod>2022-11-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2022_wshex/</loc>
       <lastmod>2022-10-15T00:00:00+00:00</lastmod>
     </url>
@@ -43,15 +88,6 @@
     
       <loc>http://labra.weso.es/publication/2022_constraints_wikidata/</loc>
       <lastmod>2022-10-04T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/publication/2023_serverless/</loc>
-      <lastmod>2022-09-15T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -1507,7 +1543,7 @@
     <url>
     
       <loc>http://labra.weso.es/publication_types/1/</loc>
-      <lastmod>2022-10-15T00:00:00+00:00</lastmod>
+      <lastmod>2023-10-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1517,7 +1553,7 @@
     <url>
     
       <loc>http://labra.weso.es/publication_types/11/</loc>
-      <lastmod>2023-05-15T00:00:00+00:00</lastmod>
+      <lastmod>2023-07-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1607,7 +1643,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/aws/</loc>
-      <lastmod>2022-09-15T00:00:00+00:00</lastmod>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1647,7 +1683,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/amazon-web-services/</loc>
-      <lastmod>2022-09-15T00:00:00+00:00</lastmod>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1796,7 +1832,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/cloud-computing/</loc>
-      <lastmod>2022-09-15T00:00:00+00:00</lastmod>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1896,7 +1932,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/covid/</loc>
-      <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+      <lastmod>2023-07-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2046,7 +2082,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/documentdb/</loc>
-      <lastmod>2022-09-15T00:00:00+00:00</lastmod>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2056,7 +2092,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/dynamodb/</loc>
-      <lastmod>2022-09-15T00:00:00+00:00</lastmod>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2076,7 +2112,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/e-procurement/</loc>
-      <lastmod>2013-11-19T00:00:00+00:00</lastmod>
+      <lastmod>2013-01-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2086,7 +2122,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/e-procurement/</loc>
-      <lastmod>2013-01-02T00:00:00+00:00</lastmod>
+      <lastmod>2013-11-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2106,7 +2142,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/ecs-fargate/</loc>
-      <lastmod>2022-09-15T00:00:00+00:00</lastmod>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2196,7 +2232,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/faas/</loc>
-      <lastmod>2022-09-15T00:00:00+00:00</lastmod>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2257,6 +2293,16 @@
     
       <loc>http://labra.weso.es/tags/graphs/</loc>
       <lastmod>2013-12-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/graphs-algorithms/</loc>
+      <lastmod>2023-10-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2416,7 +2462,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/knowledge-graphs/</loc>
-      <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+      <lastmod>2023-10-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2436,7 +2482,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/kubernetes/</loc>
-      <lastmod>2022-09-15T00:00:00+00:00</lastmod>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2535,8 +2581,18 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/linkml/</loc>
+      <lastmod>2023-07-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/tags/linked-data/</loc>
-      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+      <lastmod>2023-10-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2626,7 +2682,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/microservices/</loc>
-      <lastmod>2022-09-15T00:00:00+00:00</lastmod>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2636,7 +2692,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/migration/</loc>
-      <lastmod>2022-09-15T00:00:00+00:00</lastmod>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2866,7 +2922,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/performance/</loc>
-      <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2895,8 +2951,18 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/pregel/</loc>
+      <lastmod>2023-10-02T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/tags/preprint/</loc>
-      <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+      <lastmod>2023-07-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3066,7 +3132,7 @@
     <url>
     
       <loc>http://labra.weso.es/publication_types/</loc>
-      <lastmod>2022-10-15T00:00:00+00:00</lastmod>
+      <lastmod>2023-10-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3076,7 +3142,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/rdf/</loc>
-      <lastmod>2023-01-14T00:00:00+00:00</lastmod>
+      <lastmod>2023-10-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3086,7 +3152,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/rdf-validation/</loc>
-      <lastmod>2014-09-03T00:00:00+00:00</lastmod>
+      <lastmod>2023-10-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3296,7 +3362,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/serverless/</loc>
-      <lastmod>2022-09-15T00:00:00+00:00</lastmod>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3306,7 +3372,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/shex/</loc>
-      <lastmod>2023-05-15T00:00:00+00:00</lastmod>
+      <lastmod>2023-07-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3326,7 +3392,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/shape-expressions/</loc>
-      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+      <lastmod>2023-10-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3376,7 +3442,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/software-architecture/</loc>
-      <lastmod>2022-09-15T00:00:00+00:00</lastmod>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3427,6 +3493,16 @@
     
       <loc>http://labra.weso.es/tags/streams/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/subsets/</loc>
+      <lastmod>2023-10-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3566,7 +3642,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/wikidata/</loc>
-      <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+      <lastmod>2023-07-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
