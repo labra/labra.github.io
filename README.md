@@ -1,3 +1,21 @@
+# Labra's home page
+
+This repo contains the source code of [Labra's homepage](https://labra.weso.es/).
+
+## Building Instructions
+
+In order to build the pages in the `public` folder, run:
+
+```
+make build
+```
+
+In order to build and deploy the pages locally for testing, run:
+
+```
+make dev
+```
+
 # Academic Kickstart
 
 **Academic** is a framework to help you create a beautiful website quickly. Perfect for personal, student, or academic websites. [Check out the latest demo](https://themes.gohugo.io/theme/academic/) of what you'll get in less than 10 minutes or [view the documentation](https://sourcethemes.com/academic/docs/).
@@ -24,10 +42,10 @@ Prerequisites:
 * [Download and install Git](https://git-scm.com/downloads)
 * [Download and install Hugo](https://gohugo.io/getting-started/installing/#quick-install)
 
-1. Clone (or [Fork](https://github.com/sourcethemes/academic-kickstart#fork-destination-box) or [download](https://github.com/sourcethemes/academic-kickstart/archive/master.zip)) the *Academic Kickstart* repository with Git: 
+1. Clone (or [Fork](https://github.com/sourcethemes/academic-kickstart#fork-destination-box) or [download](https://github.com/sourcethemes/academic-kickstart/archive/master.zip)) the *Academic Kickstart* repository with Git:
 
        git clone https://github.com/sourcethemes/academic-kickstart.git My_Website
-    
+
     *Note that if you forked Academic Kickstart, the above command should be edited to clone your fork.*
 
 2. Initialize the theme:
@@ -36,7 +54,7 @@ Prerequisites:
        git submodule update --init --recursive
 
 3. View your new website:
-      
+
        hugo server
 
     Now you can go to [localhost:1313](http://localhost:1313) and your new Academic powered website should appear.

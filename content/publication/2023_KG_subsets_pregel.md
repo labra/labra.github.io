@@ -17,6 +17,10 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
+[[url_custom]]
+name = "Publishers link"
+url = "https://doi.org/10.1007/978-3-031-47745-4_10"
+
 tags=["Knowledge graphs", "Graphs algorithms", "RDF", "Linked data", "RDF Validation", "Shape Expressions", "Subsets", "Pregel"]
 
 +++
