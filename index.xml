@@ -11,11 +11,38 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Let&#39;s dive into EntitySchemas</title>
+      <link>http://labra.weso.es/talk/2023_datamodelingdays/</link>
+      <pubDate>Thu, 30 Nov 2023 17:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2023_datamodelingdays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knowledge graphs: description, validation and subsetting</title>
+      <link>http://labra.weso.es/talk/2023_dresden/</link>
+      <pubDate>Thu, 05 Oct 2023 12:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2023_dresden/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Using Pregel to create Knowledge Graphs subsets described by non-recursive Shape Expressions</title>
       <link>http://labra.weso.es/publication/2023_kg_subsets_pregel/</link>
       <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2023_kg_subsets_pregel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RDFShape: A Web-based tool to teach Semantic Web Technologies</title>
+      <link>http://labra.weso.es/talk/2023_rdfshape_cost_action/</link>
+      <pubDate>Sun, 24 Sep 2023 12:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2023_rdfshape_cost_action/</guid>
       <description></description>
     </item>
     
@@ -65,6 +92,15 @@
     </item>
     
     <item>
+      <title>Knowledge graphs: how to define and how to describe them (in spanish)</title>
+      <link>http://labra.weso.es/talk/2023_sistedes/</link>
+      <pubDate>Tue, 17 Jan 2023 17:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2023_sistedes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Editorial on Knowledge Graphs Validation and Quality</title>
       <link>http://labra.weso.es/publication/2023_editorial_kgvq/</link>
       <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
@@ -106,42 +142,6 @@
       <pubDate>Tue, 13 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2022_ontoloci/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Describe and Validate your RDF Data with Data Shapes</title>
-      <link>http://labra.weso.es/talk/2022_lotico/</link>
-      <pubDate>Thu, 24 Mar 2022 17:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2022_lotico/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Automatic extraction of shapes using sheXer</title>
-      <link>http://labra.weso.es/publication/2022_shexer/</link>
-      <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2022_shexer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Semantics, knowledge graphs and ontologies in practice</title>
-      <link>http://labra.weso.es/talk/2021_training/</link>
-      <pubDate>Mon, 29 Nov 2021 15:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2021_training/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Knowledge graphs</title>
-      <link>http://labra.weso.es/publication/2021_knowledgegraphs_book/</link>
-      <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2021_knowledgegraphs_book/</guid>
       <description></description>
     </item>
     
