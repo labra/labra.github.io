@@ -4,6 +4,9 @@ This repo contains the source code of [Labra's homepage](https://labra.weso.es/)
 
 ## Building Instructions
 
+Uncompress `binaries\academic.zip" into `themes\academic`
+
+
 In order to build the pages in the `public` folder, run:
 
 ```
