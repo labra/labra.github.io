@@ -14,6 +14,15 @@
     
     <url>
     
+      <loc>http://labra.weso.es/publication/2023_polarization_icai/</loc>
+      <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/talk/2023_dresden/</loc>
       <lastmod>2023-10-05T12:00:00+00:00</lastmod>
     </url>
@@ -50,6 +59,33 @@
     
     <url>
     
+      <loc>http://labra.weso.es/project/shapes-rs/</loc>
+      <lastmod>2023-07-31T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/project/wshex/</loc>
+      <lastmod>2023-07-31T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/project/rdfshape/</loc>
+      <lastmod>2023-07-31T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2023_linkml/</loc>
       <lastmod>2023-07-17T00:00:00+00:00</lastmod>
     </url>
@@ -70,6 +106,24 @@
     
       <loc>http://labra.weso.es/publication/2023_wikidatasubsetting/</loc>
       <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/publication/2023_shex3d/</loc>
+      <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/publication/2023_yashe/</loc>
+      <lastmod>2023-05-17T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -1562,6 +1616,14 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/andra-waagmeester/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/authors/eric-prudhommeaux/</loc>
     </url>
     
@@ -1578,8 +1640,24 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/jose-emilio-labra-gayo/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/pablo-men%c3%a9ndez-su%c3%a1rez/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication_types/1/</loc>
-      <lastmod>2023-10-02T00:00:00+00:00</lastmod>
+      <lastmod>2023-10-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2148,7 +2226,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/e-procurement/</loc>
-      <lastmod>2013-01-02T00:00:00+00:00</lastmod>
+      <lastmod>2013-11-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2158,7 +2236,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/e-procurement/</loc>
-      <lastmod>2013-11-19T00:00:00+00:00</lastmod>
+      <lastmod>2013-01-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2488,7 +2566,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/knowledge-graphs/</loc>
-      <lastmod>2022-11-11T00:00:00+00:00</lastmod>
+      <lastmod>2023-07-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2957,6 +3035,16 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/playground/</loc>
+      <lastmod>2023-07-31T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/tags/poster/</loc>
       <lastmod>2018-10-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -3018,7 +3106,7 @@
     <url>
     
       <loc>http://labra.weso.es/project/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2023-07-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3148,7 +3236,7 @@
     <url>
     
       <loc>http://labra.weso.es/publication_types/</loc>
-      <lastmod>2023-10-02T00:00:00+00:00</lastmod>
+      <lastmod>2023-10-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3158,7 +3246,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/rdf/</loc>
-      <lastmod>2023-01-14T00:00:00+00:00</lastmod>
+      <lastmod>2023-07-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3257,8 +3345,18 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/rust/</loc>
+      <lastmod>2023-07-31T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/tags/shacl/</loc>
-      <lastmod>2023-01-14T00:00:00+00:00</lastmod>
+      <lastmod>2023-07-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3388,7 +3486,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/shex/</loc>
-      <lastmod>2023-07-17T00:00:00+00:00</lastmod>
+      <lastmod>2023-07-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3617,8 +3715,18 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/visualization/</loc>
+      <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/tags/wshex/</loc>
-      <lastmod>2022-10-15T00:00:00+00:00</lastmod>
+      <lastmod>2023-07-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

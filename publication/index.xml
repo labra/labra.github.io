@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Using Polarization and Alignment to Identify Quick-Approval Law Propositions: An Open Linked Data Application</title>
+      <link>http://labra.weso.es/publication/2023_polarization_icai/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2023_polarization_icai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Using Pregel to create Knowledge Graphs subsets described by non-recursive Shape Expressions</title>
       <link>http://labra.weso.es/publication/2023_kg_subsets_pregel/</link>
       <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
@@ -54,6 +63,24 @@
       <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2023_wikidatasubsetting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A dual approach to ShEx visualization with complexity management</title>
+      <link>http://labra.weso.es/publication/2023_shex3d/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2023_shex3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An approach to increase the usability of Shape Expressions editors</title>
+      <link>http://labra.weso.es/publication/2023_yashe/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2023_yashe/</guid>
       <description></description>
     </item>
     

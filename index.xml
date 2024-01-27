@@ -20,6 +20,15 @@
     </item>
     
     <item>
+      <title>Using Polarization and Alignment to Identify Quick-Approval Law Propositions: An Open Linked Data Application</title>
+      <link>http://labra.weso.es/publication/2023_polarization_icai/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2023_polarization_icai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Knowledge graphs: description, validation and subsetting</title>
       <link>http://labra.weso.es/talk/2023_dresden/</link>
       <pubDate>Thu, 05 Oct 2023 12:00:00 +0000</pubDate>
@@ -56,6 +65,33 @@
     </item>
     
     <item>
+      <title>Shapes-rs</title>
+      <link>http://labra.weso.es/project/shapes-rs/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/project/shapes-rs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WShEx</title>
+      <link>http://labra.weso.es/project/wshex/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/project/wshex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rdfshape</title>
+      <link>http://labra.weso.es/project/rdfshape/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/project/rdfshape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Redesign of the validation framework in LinkML</title>
       <link>http://labra.weso.es/publication/2023_linkml/</link>
       <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
@@ -83,65 +119,29 @@
     </item>
     
     <item>
+      <title>A dual approach to ShEx visualization with complexity management</title>
+      <link>http://labra.weso.es/publication/2023_shex3d/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2023_shex3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An approach to increase the usability of Shape Expressions editors</title>
+      <link>http://labra.weso.es/publication/2023_yashe/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2023_yashe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>WShEx: A language to describe and validate Wikibase entities</title>
       <link>http://labra.weso.es/publication/2023_shexvisualization/</link>
       <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2023_shexvisualization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Knowledge graphs: how to define and how to describe them (in spanish)</title>
-      <link>http://labra.weso.es/talk/2023_sistedes/</link>
-      <pubDate>Tue, 17 Jan 2023 17:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2023_sistedes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Editorial on Knowledge Graphs Validation and Quality</title>
-      <link>http://labra.weso.es/publication/2023_editorial_kgvq/</link>
-      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2023_editorial_kgvq/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Enhancement and Reusage of Biomedical Knowledge Graph Subsets</title>
-      <link>http://labra.weso.es/publication/2022_enhancement_reusage_biomedical_subsets/</link>
-      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2022_enhancement_reusage_biomedical_subsets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>WShEx: A language to describe and validate Wikibase entities</title>
-      <link>http://labra.weso.es/publication/2022_wshex/</link>
-      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2022_wshex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Using logical constraints to validate statistical information about disease outbreaks in collaborative knowledge graphs: the case of COVID-19 epidemiology in Wikidata</title>
-      <link>http://labra.weso.es/publication/2022_constraints_wikidata/</link>
-      <pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2022_constraints_wikidata/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ontolo-CI: Continuous data validation with ShEx</title>
-      <link>http://labra.weso.es/publication/2022_ontoloci/</link>
-      <pubDate>Tue, 13 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2022_ontoloci/</guid>
       <description></description>
     </item>
     
