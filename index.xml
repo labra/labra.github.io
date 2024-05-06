@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Extending Shape Expressions for different types of knowledge graphs</title>
+      <link>http://labra.weso.es/publication/2024_shex_extensions/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2024_shex_extensions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Extracting shapes from large RDF data collections</title>
       <link>http://labra.weso.es/publication/2024_extracting_shapes_consolidator/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
@@ -133,15 +142,6 @@
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2023_shex3d/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An approach to increase the usability of Shape Expressions editors</title>
-      <link>http://labra.weso.es/publication/2023_yashe/</link>
-      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2023_yashe/</guid>
       <description></description>
     </item>
     
