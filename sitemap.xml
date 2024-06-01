@@ -5,8 +5,26 @@
     
     <url>
     
+      <loc>http://labra.weso.es/publication/2024_towardsefficientlegislativeprocesses/</loc>
+      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2024_shex_extensions/</loc>
       <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/publication/2024_extracting_shapes_consolidator-copy/</loc>
+      <lastmod>2024-03-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -142,15 +160,6 @@
     
       <loc>http://labra.weso.es/publication/2023_yashe/</loc>
       <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/publication/2023_shexvisualization/</loc>
-      <lastmod>2023-05-15T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -1695,17 +1704,7 @@
     <url>
     
       <loc>http://labra.weso.es/publication_types/2/</loc>
-      <lastmod>2023-06-19T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/3d/</loc>
-      <lastmod>2023-05-15T00:00:00+00:00</lastmod>
+      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1983,16 +1982,6 @@
     
     <url>
     
-      <loc>http://labra.weso.es/tags/cognitive-load/</loc>
-      <lastmod>2023-05-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://labra.weso.es/tags/collaborative-curation/</loc>
       <lastmod>2022-10-04T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -2085,6 +2074,16 @@
     
       <loc>http://labra.weso.es/tags/data-quality/</loc>
       <lastmod>2022-09-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/data-analysis/</loc>
+      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2244,7 +2243,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/e-procurement/</loc>
-      <lastmod>2013-01-02T00:00:00+00:00</lastmod>
+      <lastmod>2013-11-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2254,7 +2253,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/e-procurement/</loc>
-      <lastmod>2013-11-19T00:00:00+00:00</lastmod>
+      <lastmod>2013-01-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2683,6 +2682,16 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/legal-informatics/</loc>
+      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/tags/lexemes/</loc>
       <lastmod>2019-06-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -2715,6 +2724,16 @@
     
       <loc>http://labra.weso.es/tags/linked-data/</loc>
       <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/linked-open-data/</loc>
+      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3055,6 +3074,26 @@
     
       <loc>http://labra.weso.es/tags/playground/</loc>
       <lastmod>2023-07-31T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/polarization/</loc>
+      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/political-alignment/</loc>
+      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3444,7 +3483,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/semantic-web/</loc>
-      <lastmod>2023-01-14T00:00:00+00:00</lastmod>
+      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3673,16 +3712,6 @@
     
     <url>
     
-      <loc>http://labra.weso.es/tags/uml/</loc>
-      <lastmod>2023-05-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://labra.weso.es/tags/usability/</loc>
       <lastmod>2021-01-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -3715,16 +3744,6 @@
     
       <loc>http://labra.weso.es/tags/validation-constraints/</loc>
       <lastmod>2022-10-04T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/visual-notation/</loc>
-      <lastmod>2023-05-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

@@ -13,11 +13,29 @@
     
     
     <item>
+      <title>Toward Efficient Legislative Processes: Analysis of Chilean Congressional Bill Votes Using Semantic Web Technologies</title>
+      <link>http://labra.weso.es/publication/2024_towardsefficientlegislativeprocesses/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2024_towardsefficientlegislativeprocesses/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Extending Shape Expressions for different types of knowledge graphs</title>
       <link>http://labra.weso.es/publication/2024_shex_extensions/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2024_shex_extensions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extracting shapes from large RDF data collections</title>
+      <link>http://labra.weso.es/publication/2024_extracting_shapes_consolidator-copy/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2024_extracting_shapes_consolidator-copy/</guid>
       <description></description>
     </item>
     
@@ -99,15 +117,6 @@
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2023_yashe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>WShEx: A language to describe and validate Wikibase entities</title>
-      <link>http://labra.weso.es/publication/2023_shexvisualization/</link>
-      <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2023_shexvisualization/</guid>
       <description></description>
     </item>
     
