@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Componentizing autonomous underwater vehicles by physical-running algorithms</title>
+      <link>http://labra.weso.es/publication/2024_underwater_vehicles_peerj/</link>
+      <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2024_underwater_vehicles_peerj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Toward Efficient Legislative Processes: Analysis of Chilean Congressional Bill Votes Using Semantic Web Technologies</title>
       <link>http://labra.weso.es/publication/2024_towardsefficientlegislativeprocesses/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
@@ -22,11 +31,29 @@
     </item>
     
     <item>
+      <title>rudof: A Rust Library for handling RDF data models and Shapes</title>
+      <link>http://labra.weso.es/publication/2024_rudof_demo/</link>
+      <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2024_rudof_demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Extending Shape Expressions for different types of knowledge graphs</title>
       <link>http://labra.weso.es/publication/2024_shex_extensions/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2024_shex_extensions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to ShEx and ShEx and SHACL Compared</title>
+      <link>http://labra.weso.es/publication/2024_dagsthulseminar/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2024_dagsthulseminar/</guid>
       <description></description>
     </item>
     

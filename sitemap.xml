@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>http://labra.weso.es/publication/2024_underwater_vehicles_peerj/</loc>
+      <lastmod>2024-10-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2024_towardsefficientlegislativeprocesses/</loc>
       <lastmod>2024-06-01T00:00:00+00:00</lastmod>
     </url>
@@ -14,7 +23,25 @@
     
     <url>
     
+      <loc>http://labra.weso.es/publication/2024_rudof_demo/</loc>
+      <lastmod>2024-05-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2024_shex_extensions/</loc>
+      <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/publication/2024_dagsthulseminar/</loc>
       <lastmod>2024-05-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -1684,7 +1711,7 @@
     <url>
     
       <loc>http://labra.weso.es/publication_types/1/</loc>
-      <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+      <lastmod>2024-05-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1704,7 +1731,7 @@
     <url>
     
       <loc>http://labra.weso.es/publication_types/2/</loc>
-      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+      <lastmod>2024-10-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2183,7 +2210,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/demo/</loc>
-      <lastmod>2018-10-12T00:00:00+00:00</lastmod>
+      <lastmod>2024-05-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3183,7 +3210,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/property-graphs/</loc>
-      <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+      <lastmod>2024-05-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3293,7 +3320,7 @@
     <url>
     
       <loc>http://labra.weso.es/publication_types/</loc>
-      <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+      <lastmod>2024-05-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3303,7 +3330,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/rdf/</loc>
-      <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+      <lastmod>2024-05-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3333,7 +3360,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/rdf-validation/</loc>
-      <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+      <lastmod>2024-05-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3403,7 +3430,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/rust/</loc>
-      <lastmod>2023-07-31T00:00:00+00:00</lastmod>
+      <lastmod>2024-05-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3493,7 +3520,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/semantic-web/</loc>
-      <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+      <lastmod>2024-05-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3543,7 +3570,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/shex/</loc>
-      <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+      <lastmod>2024-05-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3704,6 +3731,16 @@
     
       <loc>http://labra.weso.es/tags/technology-management/</loc>
       <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/underwater-vehicles/</loc>
+      <lastmod>2024-10-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
