@@ -1,7 +1,15 @@
-hugo=binaries/hugo_old
+HUGO=binaries/hugo_old
+LOCAL_GH_PAGES=../../gh_pages/labra.github.io
 # Empty for now
 dev:
-	$(hugo) server --watch --buildDrafts
+	$(HUGO) server --watch --buildDrafts
 
 build:
-	$(hugo) -D	
+	$(HUGO) -D	
+
+rm:
+	rm -r $(LOCAL_GH_PAGES)* 
+	
+local:
+	cp -r public/* $(LOCAL_GH_PAGES)/
+

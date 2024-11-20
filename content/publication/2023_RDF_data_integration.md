@@ -2,7 +2,7 @@
 
 abstract = "The paper contains a report of the activities that have been done during the Biohackathon 2023 in Shodoshima, Japan in a project about RDF data integration using Shape Expressions. The paper describes several approaches that have been discussed to create RDF data subsets and some preliminary results applying some of those technologies. It also describes the work that has been done comparing RDF data modeling approaches like ShEx, LinkML and YAML files from rdfconfig."
 
-authors = ["Jose Emilio Labra Gayo", "Andra Waagmeester", "Yasunori Yamamoto", "Ángel Iglesias-Préstamo", "Toshiaki Katayama", "Thomas Liener", "Deepak Unni", "Jerven Bolleman", "Kiyoko Flora Aoki-Kinoshita", "Masashi Yokochi", "Núria Queralt Rosinach", "Hiroshi Mori", "Daniel Fernández Álvarez", "Alberto Labarga", "Robert Hoehndorf", "Eric Prud'hommeaux", "Claude Nanjo", "Nishad Thalhath" ]
+authors = ["Jose Emilio Labra Gayo", "Andra Waagmeester", "Yasunori Yamamoto", "Ángel Iglesias-Préstamo", "Toshiaki Katayama", "Thomas Liener", "Deepak Unni", "Jerven Bolleman", "Kiyoko Flora Aoki-Kinoshita", "Masashi Yokochi", "Núria Queralt Rosinach", "Hiroshi Mori", "Daniel Fernández Álvarez", "Alberto Labarga", "Jose Alberto Benítez Andrades", "Robert Hoehndorf", "Eric Prud'hommeaux", "Claude Nanjo", "Nishad Thalhath" ]
 date = "2023-07-02"
 image_preview = ""
 math = false

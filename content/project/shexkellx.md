@@ -6,7 +6,7 @@ date = "2017-07-31"
 title = "ShExkell"
 
 # Project summary to display on homepage.
-summary = "ShEx implementation in Haskell"
+summary = "A preliminary implementation of ShEx in Haskell"
 
 # Tags: can be used for filtering projects.
 tags = ["ShEx", "RDF", "Haskell", "Functional Programming"]

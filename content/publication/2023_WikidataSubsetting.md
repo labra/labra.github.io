@@ -20,8 +20,11 @@ url_video = ""
 tags=["Knowledge graph", "Wikidata", "Subsetting", "Big Data", "Accuracy", "Performance"]
 
 [[url_custom]]
-name = "Semantic Web Journal"
+name = "SWJ"
 url = "https://www.semantic-web-journal.net/content/wikidata-subsetting-approaches-tools-and-evaluation-0"
 
+[[url_custom]]
+name = "doi"
+url = "http://dx.doi.org/"
 
 +++

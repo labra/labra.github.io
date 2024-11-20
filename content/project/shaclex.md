@@ -6,7 +6,7 @@ date = "2017-07-31"
 title = "SHACLex"
 
 # Project summary to display on homepage.
-summary = "SHACL & ShEx implementation"
+summary = "SHACL & ShEx implementation in Scala"
 
 # Tags: can be used for filtering projects.
 tags = ["SHACL", "ShEx", "RDF","Scala"]
