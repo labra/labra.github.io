@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Validating Knowledge Graphs</title>
+      <link>http://labra.weso.es/talk/2024_validating_kgs/</link>
+      <pubDate>Tue, 19 Nov 2024 18:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2024_validating_kgs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shaping Knowledge Graphs</title>
+      <link>http://labra.weso.es/talk/2024_shaping_kgs_iswc/</link>
+      <pubDate>Mon, 11 Nov 2024 09:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2024_shaping_kgs_iswc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Componentizing autonomous underwater vehicles by physical-running algorithms</title>
       <link>http://labra.weso.es/publication/2024_underwater_vehicles_peerj/</link>
       <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
@@ -124,24 +142,6 @@
       <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2023_serverless/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shapes-rs</title>
-      <link>http://labra.weso.es/project/shapes-rs/</link>
-      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/project/shapes-rs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>WShEx</title>
-      <link>http://labra.weso.es/project/wshex/</link>
-      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/project/wshex/</guid>
       <description></description>
     </item>
     
