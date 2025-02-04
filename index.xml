@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Common Foundations for SHACL, ShEx, and PG-Schema</title>
+      <link>http://labra.weso.es/publication/2025_common_foundations_shacl_shex_pgschema/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2025_common_foundations_shacl_shex_pgschema/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Validating Knowledge Graphs</title>
       <link>http://labra.weso.es/talk/2024_validating_kgs_laplata/</link>
       <pubDate>Wed, 11 Dec 2024 10:00:00 +0000</pubDate>
@@ -133,15 +142,6 @@
       <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2023_kg_subsets_pregel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RDFShape: A Web-based tool to teach Semantic Web Technologies</title>
-      <link>http://labra.weso.es/talk/2023_rdfshape_cost_action/</link>
-      <pubDate>Sun, 24 Sep 2023 12:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2023_rdfshape_cost_action/</guid>
       <description></description>
     </item>
     
