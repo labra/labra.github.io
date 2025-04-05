@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>http://labra.weso.es/publication/2025_shex_inheritance/</loc>
+      <lastmod>2025-04-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2025_common_foundations_shacl_shex_pgschema/</loc>
       <lastmod>2025-02-03T00:00:00+00:00</lastmod>
     </url>
@@ -1747,7 +1756,7 @@
     <url>
     
       <loc>http://labra.weso.es/publication_types/1/</loc>
-      <lastmod>2024-05-10T00:00:00+00:00</lastmod>
+      <lastmod>2025-04-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1757,7 +1766,7 @@
     <url>
     
       <loc>http://labra.weso.es/publication_types/11/</loc>
-      <lastmod>2025-02-03T00:00:00+00:00</lastmod>
+      <lastmod>2023-07-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2306,7 +2315,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/e-procurement/</loc>
-      <lastmod>2013-01-02T00:00:00+00:00</lastmod>
+      <lastmod>2013-11-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2316,7 +2325,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/e-procurement/</loc>
-      <lastmod>2013-11-19T00:00:00+00:00</lastmod>
+      <lastmod>2013-01-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3356,7 +3365,7 @@
     <url>
     
       <loc>http://labra.weso.es/publication_types/</loc>
-      <lastmod>2024-05-10T00:00:00+00:00</lastmod>
+      <lastmod>2025-04-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
