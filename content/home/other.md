@@ -30,8 +30,8 @@ count = 5
   Desarrollo de Tecnologías Colaborativas para Entornos virtuales de apoyo al aprendizaje,
   2015
 
-- [Jose María Álvarez Rodríguez](http://www.josemalvarez.es/): 
-  Métodos semánticos de reutilización de datos abiertos enlazados en las licitaciones públicas, 
+- [Jose María Álvarez Rodríguez](http://www.josemalvarez.es/):
+  Métodos semánticos de reutilización de datos abiertos enlazados en las licitaciones públicas,
   2012
   
 # PhD Students supervision (Current)
@@ -47,7 +47,6 @@ count = 5
 - [Ben De Meester](https://work.de-meester.org/), [IDLab, University of Ghent, Belgium](https://www.ugent.be/ea/idlab/en/), May 2020, title: Improving and Assessing Data Quality of Knowledge Graphs.
 - [Mikko Koho](https://www.linkedin.com/in/mikko-koho/), [School of Science in Aalto University](http://cs.aalto.fi/), April 2020, title: Representing, Using, and Maintaining Military Historical Linked Data on the Semantic Web.
 - [Andrii Berezovskyi](https://www.kth.se/profile/andriib?l=en), [KTH](https://www.kth.se/en), Jan 2020, title: A generic framework for integration of Cyber-physical Systems by use of intelligent systems (Midterm PhD Examination)
-
 
 # Member of Scientific/Organizing committee
 
@@ -78,7 +77,7 @@ count = 5
 - 9th Extended Semantic Web Conference, 2012
 - Metadata and Semantics Research Conference, MTSR, 2012
 - Social Data and Semantic Web, Workshop of the 10th International Conference on Semantic Web
-- Workshop on LInked Data en Conferencia Española de la Asociación para La Inteligencia Artificial (CAEPIA, 2011) 
+- Workshop on LInked Data en Conferencia Española de la Asociación para La Inteligencia Artificial (CAEPIA, 2011)
 - Workshop on Software Engineering and eLearning (ISELEAR), 2010, 2011
 - Brazilian Symposium on Programming Languages (SBLP), 2003, 2004, 2005, 2006, 2007, 2008, 2009
 - Jornadas sobre Programación y Lenguajes (PROLE), 2008
@@ -101,27 +100,29 @@ count = 5
 - [Web Semantics: Science, Services and Agents on the World Wide Web](http://www.sciencedirect.com/science/journal/15708268), reviewer, 2013
 
 # Advisory board of the following publications
-- [Global Hospitality and Tourism Management Technologies: Applications and Issues](https://www.igi-global.com/book/global-hospitality-tourism-management-technologies/51923), 
+
+- [Global Hospitality and Tourism Management Technologies: Applications and Issues](https://www.igi-global.com/book/global-hospitality-tourism-management-technologies/51923),
 Editors: Patricia Ordóñez de Pablos, R. Tennyson, and J-Y. Zhao, 2011, IGI-Global. Pp. 1-270
 ISBN DOI: 10.4018/978-1-61350-041-5, ISBN13: 978-1-61350-041-5, ISBN10: 1-61350-041-6
-- [Semantic Web Personalization and Context Awareness: Management of  Personal Identities and Social Networking](https://www.igi-global.com/book/semantic-web-personalization-context-awareness/47405), 
-Editors: Lytras, M.D., Ordóñez de Pablos, P. and Damiani, E., IGI-Global, pp.1-232, 2011, 
-DOI: 10.4018/978-1-61520-921-7, ISBN13: 9781615209217, ISBN10: 1615209212, EISBN13: 9781615209224. 
-- [Digital Culture and E-Tourism: Technologies, Applications and Management Approaches](https://www.igi-global.com/book/digital-culture-tourism/45944), 
-Editors: Lytras, M.D., Ordóñez de Pablos, P., Damiani, E. and Diaz, L. (2011), Editorial IGI-Global. Pp. 1-270. 
+- [Semantic Web Personalization and Context Awareness: Management of  Personal Identities and Social Networking](https://www.igi-global.com/book/semantic-web-personalization-context-awareness/47405),
+Editors: Lytras, M.D., Ordóñez de Pablos, P. and Damiani, E., IGI-Global, pp.1-232, 2011,
+DOI: 10.4018/978-1-61520-921-7, ISBN13: 9781615209217, ISBN10: 1615209212, EISBN13: 9781615209224.
+- [Digital Culture and E-Tourism: Technologies, Applications and Management Approaches](https://www.igi-global.com/book/digital-culture-tourism/45944),
+Editors: Lytras, M.D., Ordóñez de Pablos, P., Damiani, E. and Diaz, L. (2011), Editorial IGI-Global. Pp. 1-270.
 ISBN  9781615208678.
-- [Technology Enhanced Learning for People with Disabilities: Approaches and Applications](https://www.igi-global.com/book/technology-enhanced-learning-people-disabilities/41739), 
-Editors: Ordóñez de Pablos, P., Zhao, Y. and Tennyson, R., 2010, Editorial IGI-Global, pp- 1-276. 
+- [Technology Enhanced Learning for People with Disabilities: Approaches and Applications](https://www.igi-global.com/book/technology-enhanced-learning-people-disabilities/41739),
+Editors: Ordóñez de Pablos, P., Zhao, Y. and Tennyson, R., 2010, Editorial IGI-Global, pp- 1-276.
 ISBN-10: 1615209239 -ISBN-13: 978-1615209231. DOI: 10.4018/978-1-61520-923-1
-
 
 # More personal information
 
-I was the drummer of [Kactus Jack](https://es.wikipedia.org/wiki/Kactus_Jack). 
- You can see an [unofficial home page](http://di002.edv.uniovi.es/~labra/Kactus/Welcome.html), 
- vintage style. 
- I was also the drummer of <a href="http://no80s-gruposnacionales.blogspot.com.es/2009/01/los-murcielagos.html">Los Murciélagos</a> and <i>Los Aborígenes</i>.
- 
- 
- 
- 
+I was the drummer of [Kactus Jack](https://es.wikipedia.org/wiki/Kactus_Jack).
+ You can see the original [unofficial home page](Kactus/Welcome.html),
+ vintage style.
+
+I was also the drummer of <a href="http://no80s-gruposnacionales.blogspot.com.es/2009/01/los-murcielagos.html">Los Murciélagos</a> and <i>Los Aborígenes</i>.
+
+I think I wrote my first Web Page in 1994. I found 2 versions of my home page from:
+
+- <a href="https://web.archive.org/web/20031029101917/http://www.di.uniovi.es/~labra/">2003</a> (I found funny the Hobbies section...)
+- <a href="https://web.archive.org/web/20130616144520/http://di002.edv.uniovi.es/~labra/">2013</a>
