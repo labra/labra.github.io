@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Shaping Linked Data and Knowledge Graphs</title>
+      <link>http://labra.weso.es/talk/2025_dcmi_2025/</link>
+      <pubDate>Sat, 25 Oct 2025 09:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2025_dcmi_2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shaping Knowledge Graphs</title>
+      <link>http://labra.weso.es/talk/2025_eswc_2025/</link>
+      <pubDate>Wed, 11 Jun 2025 09:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2025_eswc_2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Shape Expressions with Inheritance</title>
       <link>http://labra.weso.es/publication/2025_shex_inheritance/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
@@ -124,24 +142,6 @@
       <pubDate>Thu, 30 Nov 2023 17:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/talk/2023_datamodelingdays/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Using Polarization and Alignment to Identify Quick-Approval Law Propositions: An Open Linked Data Application</title>
-      <link>http://labra.weso.es/publication/2023_polarization_icai/</link>
-      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2023_polarization_icai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Knowledge graphs: description, validation and subsetting</title>
-      <link>http://labra.weso.es/talk/2023_dresden/</link>
-      <pubDate>Thu, 05 Oct 2023 12:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2023_dresden/</guid>
       <description></description>
     </item>
     
