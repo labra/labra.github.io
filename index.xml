@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Common Foundations for Recursive Shape Languages</title>
+      <link>http://labra.weso.es/publication/2026_foundations_recursive_shapes_languages/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2026_foundations_recursive_shapes_languages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Shaping Knowledge and Interoperable Graphs</title>
       <link>http://labra.weso.es/talk/2026_shaping_knowledge_interoperable_graphs_poland/</link>
       <pubDate>Mon, 20 Apr 2026 06:00:00 +0000</pubDate>
@@ -133,15 +142,6 @@
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2024_shex_extensions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introduction to ShEx and ShEx and SHACL Compared</title>
-      <link>http://labra.weso.es/publication/2024_dagsthulseminar/</link>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2024_dagsthulseminar/</guid>
       <description></description>
     </item>
     
