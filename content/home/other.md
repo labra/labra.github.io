@@ -21,6 +21,10 @@ count = 5
 
 # Supervised PhD students
 
+- [Francisco Cifuentes Silva](http://www.fcifuentes.cl/): Tecnologías Semánticas en el ámbito político-legislativo, October, 2025
+
+- [Daniel Fernández Álvarez](http://danifdez.weso.es/): Extracción de conocimiento semántico estructurado mediante minería de medios sociales, Sept, 2022
+
 - [Herminio García González](http://herminiogarcia.com/): Integración semántica de grandes fuentes de datos heterogéneas, 2021
 
 - [Jose Alberto Benítez Andrades](http://www.jabenitez.com/):
@@ -36,16 +40,26 @@ count = 5
   
 # PhD Students supervision (Current)
 
-- [Daniel Fernández Álvarez](http://danifdez.weso.es/)
-- [Francisco Cifuentes Silva](http://www.fcifuentes.cl/)
-- [Paulino Álvarez Ondina](https://www.linkedin.com/in/paulinoalvarez/)
-- Claudio Andrés Navarro Cruces
-- Any Navarro Cabrero
+- Hugo Lebredo Buján: Aplicación de grafos de conocimiento en la interoperabilidad de datos descentralizados de ámbito privado
+
+- Claudio Andrés Navarro Cruces: Semantic Technologies Applied to Cyber-Physical Systems Modelling
+
+- Ángel García Menéndez
+
+- Enrique José Rodríguez Martín
+
+- Jorge Álvarez Fidalgo
+
+- Pablo Valdés Fernández
 
 # PhD Thesis Committees
 
+- [Ammar Ammar](https://www.linkedin.com/in/ammar-ammar/): July, 2025, Maastricht, Enhancing the interoperability and reusability of nanosafety data: a foundation towards deeper insights and intelligent applications
+
 - [Ben De Meester](https://work.de-meester.org/), [IDLab, University of Ghent, Belgium](https://www.ugent.be/ea/idlab/en/), May 2020, title: Improving and Assessing Data Quality of Knowledge Graphs.
+
 - [Mikko Koho](https://www.linkedin.com/in/mikko-koho/), [School of Science in Aalto University](http://cs.aalto.fi/), April 2020, title: Representing, Using, and Maintaining Military Historical Linked Data on the Semantic Web.
+
 - [Andrii Berezovskyi](https://www.kth.se/profile/andriib?l=en), [KTH](https://www.kth.se/en), Jan 2020, title: A generic framework for integration of Cyber-physical Systems by use of intelligent systems (Midterm PhD Examination)
 
 # Member of Scientific/Organizing committee

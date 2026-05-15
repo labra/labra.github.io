@@ -1,0 +1,38 @@
+name: Deploy Hugo site to Pages
+
+on:
+  push:
+    branches: ["source"] # Triggered when you push to your source branch
+
+permissions:
+  contents: write    # Needed if the deploy action creates commits/tags
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      # 1. Ensure the binary has execution permissions on the runner
+      - name: Make Hugo binary executable
+        run: chmod +x binaries/hugo_old
+
+      # 2. Build using your local binary (swapping 'hugo' for your path)
+      - name: Build with local Hugo binary
+        run: ./binaries/hugo_old -DEF --minify
+
+      # 3. Deploy the generated public folder to the master branch
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: master

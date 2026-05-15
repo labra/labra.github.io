@@ -5,7 +5,7 @@ dev:
 	$(HUGO) server --watch --buildDrafts
 
 build:
-	$(HUGO) -D	
+	$(HUGO) -DEF
 
 rm:
 	rm -r $(LOCAL_GH_PAGES)* 
