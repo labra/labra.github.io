@@ -28,7 +28,7 @@ jobs:
 
       # 2. Build using your local binary (swapping 'hugo' for your path)
       - name: Build with local Hugo binary
-        run: ./binaries/hugo_old -DEF --minify
+        run: ./binaries/hugo_old -DEF
 
       # 3. Deploy the generated public folder to the master branch
       - name: Deploy
