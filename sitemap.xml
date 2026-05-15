@@ -32,6 +32,15 @@
     
     <url>
     
+      <loc>http://labra.weso.es/publication/2026_shexer_software_x/</loc>
+      <lastmod>2026-03-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/talk/2025_iswc_2025/</loc>
       <lastmod>2025-11-02T09:00:00+00:00</lastmod>
     </url>
@@ -1848,7 +1857,7 @@
     <url>
     
       <loc>http://labra.weso.es/publication_types/2/</loc>
-      <lastmod>2024-10-05T00:00:00+00:00</lastmod>
+      <lastmod>2026-03-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3577,7 +3586,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/shacl/</loc>
-      <lastmod>2023-07-31T00:00:00+00:00</lastmod>
+      <lastmod>2026-03-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3737,7 +3746,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/shapes/</loc>
-      <lastmod>2017-10-23T00:00:00+00:00</lastmod>
+      <lastmod>2026-03-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3868,6 +3877,16 @@
     
       <loc>http://labra.weso.es/tags/technology-management/</loc>
       <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/uml/</loc>
+      <lastmod>2026-03-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
