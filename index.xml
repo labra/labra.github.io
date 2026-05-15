@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>rudof-MCP: A Model Context Protocol Server for Semantic Web Operations</title>
+      <link>http://labra.weso.es/publication/2026_mcp_rudof/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2026_mcp_rudof/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Common Foundations for Recursive Shape Languages</title>
       <link>http://labra.weso.es/publication/2026_foundations_recursive_shapes_languages/</link>
       <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
@@ -43,6 +52,15 @@
       <pubDate>Sat, 25 Oct 2025 09:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/talk/2025_dcmi_2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xpSHACL: Explainable SHACL Validation using Retrieval-Augmented Generation and Large Language Models</title>
+      <link>http://labra.weso.es/publication/2025_xp_shacl/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2025_xp_shacl/</guid>
       <description></description>
     </item>
     
@@ -124,24 +142,6 @@
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2024_towardsefficientlegislativeprocesses/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rudof: A Rust Library for handling RDF data models and Shapes</title>
-      <link>http://labra.weso.es/publication/2024_rudof_demo/</link>
-      <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2024_rudof_demo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Extending Shape Expressions for different types of knowledge graphs</title>
-      <link>http://labra.weso.es/publication/2024_shex_extensions/</link>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2024_shex_extensions/</guid>
       <description></description>
     </item>
     
