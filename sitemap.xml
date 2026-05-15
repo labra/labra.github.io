@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>http://labra.weso.es/publication/2026_mcp_rudof/</loc>
+      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2026_foundations_recursive_shapes_languages/</loc>
       <lastmod>2026-04-22T00:00:00+00:00</lastmod>
     </url>
@@ -34,6 +43,15 @@
     
       <loc>http://labra.weso.es/talk/2025_dcmi_2025/</loc>
       <lastmod>2025-10-25T09:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/publication/2025_xp_shacl/</loc>
+      <lastmod>2025-07-11T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -1810,7 +1828,7 @@
     <url>
     
       <loc>http://labra.weso.es/publication_types/1/</loc>
-      <lastmod>2026-04-22T00:00:00+00:00</lastmod>
+      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2309,7 +2327,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/demo/</loc>
-      <lastmod>2024-05-10T00:00:00+00:00</lastmod>
+      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2918,6 +2936,16 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/mcp/</loc>
+      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/tags/mapreduce/</loc>
       <lastmod>2013-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -2960,6 +2988,16 @@
     
       <loc>http://labra.weso.es/tags/migration/</loc>
       <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/model-context-protocol/</loc>
+      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3419,7 +3457,7 @@
     <url>
     
       <loc>http://labra.weso.es/publication_types/</loc>
-      <lastmod>2026-04-22T00:00:00+00:00</lastmod>
+      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3429,7 +3467,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/rdf/</loc>
-      <lastmod>2024-05-10T00:00:00+00:00</lastmod>
+      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3459,7 +3497,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/rdf-validation/</loc>
-      <lastmod>2024-05-10T00:00:00+00:00</lastmod>
+      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3529,7 +3567,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/rust/</loc>
-      <lastmod>2024-05-10T00:00:00+00:00</lastmod>
+      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3619,7 +3657,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/semantic-web/</loc>
-      <lastmod>2024-05-10T00:00:00+00:00</lastmod>
+      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3669,7 +3707,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/shex/</loc>
-      <lastmod>2024-05-10T00:00:00+00:00</lastmod>
+      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
