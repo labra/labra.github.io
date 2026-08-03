@@ -65,6 +65,15 @@
     </item>
     
     <item>
+      <title>On Property Constraints in PG-Schema</title>
+      <link>http://labra.weso.es/publication/2025_property_constraints_pg_schema/</link>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2025_property_constraints_pg_schema/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>PG-Schema with Property Constraints validator in Rudof</title>
       <link>http://labra.weso.es/publication/2026_rudof_pgschema_pc/</link>
       <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
@@ -133,15 +142,6 @@
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2025_common_foundations_shacl_shex_pgschema/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Validating Knowledge Graphs</title>
-      <link>http://labra.weso.es/talk/2024_validating_kgs_laplata/</link>
-      <pubDate>Wed, 11 Dec 2024 10:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2024_validating_kgs_laplata/</guid>
       <description></description>
     </item>
     
