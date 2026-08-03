@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>TogoMCP: natural language querying of life-science knowledge graphs via schema-guided LLMs and the Model Context Protocol</title>
+      <link>http://labra.weso.es/publication/2026_togomcp_database/</link>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2026_togomcp_database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>rudof-MCP: A Model Context Protocol Server for Semantic Web Operations</title>
       <link>http://labra.weso.es/publication/2026_mcp_rudof/</link>
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
@@ -36,6 +45,24 @@
       <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2026_shexer_software_x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MCP server tools with RDF shapes</title>
+      <link>http://labra.weso.es/publication/2025_mcp_server_tools_rdf/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2025_mcp_server_tools_rdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PG-Schema with Property Constraints validator in Rudof</title>
+      <link>http://labra.weso.es/publication/2026_rudof_pgschema_pc/</link>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2026_rudof_pgschema_pc/</guid>
       <description></description>
     </item>
     
