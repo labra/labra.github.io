@@ -13,6 +13,33 @@
     
     
     <item>
+      <title>Extending and Optimizing the rudof SHACL validator</title>
+      <link>http://labra.weso.es/publication/2026_shacl_rudof_dmkg/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2026_shacl_rudof_dmkg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Translating RDF 1.2 Graphs to Property Graphs</title>
+      <link>http://labra.weso.es/publication/2026_rdf12_pg_dmkg/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2026_rdf12_pg_dmkg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sheval: An RDF data shapes evaluation tool and test-suite for recursive shapes</title>
+      <link>http://labra.weso.es/publication/2026_sheval_dmkg/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2026_sheval_dmkg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>TogoMCP: natural language querying of life-science knowledge graphs via schema-guided LLMs and the Model Context Protocol</title>
       <link>http://labra.weso.es/publication/2026_togomcp_database/</link>
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>

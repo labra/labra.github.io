@@ -11,6 +11,51 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Shaping Different Types of Knowledge Graphs</title>
+      <link>http://labra.weso.es/talk/2026_shaping_different_kgs/</link>
+      <pubDate>Tue, 15 Sep 2026 14:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2026_shaping_different_kgs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rudof: a semantic-les tool for the semantic web</title>
+      <link>http://labra.weso.es/talk/2026_rudof_semantics/</link>
+      <pubDate>Tue, 15 Sep 2026 14:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/talk/2026_rudof_semantics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extending and Optimizing the rudof SHACL validator</title>
+      <link>http://labra.weso.es/publication/2026_shacl_rudof_dmkg/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2026_shacl_rudof_dmkg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Translating RDF 1.2 Graphs to Property Graphs</title>
+      <link>http://labra.weso.es/publication/2026_rdf12_pg_dmkg/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2026_rdf12_pg_dmkg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sheval: An RDF data shapes evaluation tool and test-suite for recursive shapes</title>
+      <link>http://labra.weso.es/publication/2026_sheval_dmkg/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2026_sheval_dmkg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>TogoMCP: natural language querying of life-science knowledge graphs via schema-guided LLMs and the Model Context Protocol</title>
       <link>http://labra.weso.es/publication/2026_togomcp_database/</link>
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
@@ -97,51 +142,6 @@
       <pubDate>Sat, 25 Oct 2025 09:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/talk/2025_dcmi_2025/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>xpSHACL: Explainable SHACL Validation using Retrieval-Augmented Generation and Large Language Models</title>
-      <link>http://labra.weso.es/publication/2025_xp_shacl/</link>
-      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2025_xp_shacl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Workshop on Data Validation</title>
-      <link>http://labra.weso.es/talk/2025_raildataforum/</link>
-      <pubDate>Thu, 12 Jun 2025 16:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2025_raildataforum/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shaping Knowledge Graphs</title>
-      <link>http://labra.weso.es/talk/2025_eswc_2025/</link>
-      <pubDate>Wed, 11 Jun 2025 09:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2025_eswc_2025/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shape Expressions with Inheritance</title>
-      <link>http://labra.weso.es/publication/2025_shex_inheritance/</link>
-      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2025_shex_inheritance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Common Foundations for SHACL, ShEx, and PG-Schema</title>
-      <link>http://labra.weso.es/publication/2025_common_foundations_shacl_shex_pgschema/</link>
-      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2025_common_foundations_shacl_shex_pgschema/</guid>
       <description></description>
     </item>
     

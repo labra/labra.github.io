@@ -52,11 +52,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="http://labra.weso.es/talk/2026_shaping_knowledge_interoperable_graphs_poland/">
+  <link rel="canonical" href="http://labra.weso.es/publication/2026_shacl_rudof_dmkg/">
 
   
 
-  <title>Shaping Knowledge and Interoperable Graphs | Labra&#39;s home page</title>
+  <title>Extending and Optimizing the rudof SHACL validator | Labra&#39;s home page</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -191,48 +191,54 @@
   
 
 
-  <div class="article-container">
-
-    <div class="pub-title">
-      <h1 itemprop="name">Shaping Knowledge and Interoperable Graphs</h1>
-      <span class="pub-authors" itemprop="author">
-        
-      </span>
-      <span class="pull-right">
-        
+  <div class="container pub-title">
+    <h1 itemprop="name">Extending and Optimizing the rudof SHACL validator</h1>
+    <span class="pub-authors" itemprop="author">
+      
+         <a href="/authors/%C3%A1lvaro-garc%C3%ADa-fern%C3%A1ndez">Álvaro García-Fernández</a>&nbsp;
+      
+         <a href="/authors/samuel-bustamante-larriet">Samuel Bustamante-Larriet</a>&nbsp;
+      
+         <a href="/authors/jose-emilio-labra-gayo">Jose Emilio Labra Gayo</a>&nbsp;
+      
+         <a href="/authors/%C3%B3scar-corcho-garc%C3%ADa">Óscar Corcho-García</a>&nbsp;
+      
+    </span>
+    <span class="pull-right">
+      
 <div class="share-box" aria-hidden="true">
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flabra.weso.es%2ftalk%2f2026_shaping_knowledge_interoperable_graphs_poland%2f"
+         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flabra.weso.es%2fpublication%2f2026_shacl_rudof_dmkg%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Shaping%20Knowledge%20and%20Interoperable%20Graphs&amp;url=http%3a%2f%2flabra.weso.es%2ftalk%2f2026_shaping_knowledge_interoperable_graphs_poland%2f"
+         href="https://twitter.com/intent/tweet?text=Extending%20and%20Optimizing%20the%20rudof%20SHACL%20validator&amp;url=http%3a%2f%2flabra.weso.es%2fpublication%2f2026_shacl_rudof_dmkg%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flabra.weso.es%2ftalk%2f2026_shaping_knowledge_interoperable_graphs_poland%2f&amp;title=Shaping%20Knowledge%20and%20Interoperable%20Graphs"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flabra.weso.es%2fpublication%2f2026_shacl_rudof_dmkg%2f&amp;title=Extending%20and%20Optimizing%20the%20rudof%20SHACL%20validator"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2flabra.weso.es%2ftalk%2f2026_shaping_knowledge_interoperable_graphs_poland%2f&amp;title=Shaping%20Knowledge%20and%20Interoperable%20Graphs"
+         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2flabra.weso.es%2fpublication%2f2026_shacl_rudof_dmkg%2f&amp;title=Extending%20and%20Optimizing%20the%20rudof%20SHACL%20validator"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Shaping%20Knowledge%20and%20Interoperable%20Graphs&amp;body=http%3a%2f%2flabra.weso.es%2ftalk%2f2026_shaping_knowledge_interoperable_graphs_poland%2f">
+         href="mailto:?subject=Extending%20and%20Optimizing%20the%20rudof%20SHACL%20validator&amp;body=http%3a%2f%2flabra.weso.es%2fpublication%2f2026_shacl_rudof_dmkg%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -240,112 +246,134 @@
 </div>
 
 
-      </span>
-    </div>
-
-    
-      <h3>Abstract</h3>
-      <p class="pub-abstract" itemprop="text">Since Google introduced the use of Knowledge Graphs to enhance search functionality and organize information internally, their adoption and application have grown significantly. Various technologies have been developed to implement Knowledge Graphs, like RDF, Property Graphs and Wikibase. The recent introduction of RDF 1.2 aims to bridge the gap between RDF and Property Graphs by enabling statements about statements, offering greater flexibility. Data quality is a critical aspect of Knowledge Graphs, often ensured through validation against predefined data models or shapes. This tutorial will explore several approaches developed for describing and validating RDF, such as ShEx and Shapes Constraint Language (SHACL). Notably, the Data Shapes Working Group has been tasked this year with developing SHACL 1.2, aligning it with RDF 1.2. We will briefly outline these approaches, highlighting their similarities, differences, and recent advancements. In the case of Property Graphs, PGSchema was proposed, as well as other proposals like PShEx or ProGS, and more recently GQL offers a way to define typed graphs. Wikidata adopted Entity Schemas, which are based on ShEx as well as its own property constraint system, and there is a proposal called WShEx. This tutorial will explore different types of Knowledge Graphs and approaches for their validation.</p>
-    
-
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
-          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            Mon, 20 Apr, 2026
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
-
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Event</div>
-          <div class="col-xs-12 col-sm-9">
-            
-            Invited talk at Faculty of Mathematics, Informatics and Mechanics, University of Warsaw, Poland
-            
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
-
-    
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Location</div>
-          <div class="col-xs-12 col-sm-9">Faculty of Mathematics, Informatics and Mechanics, University of Warsaw, Poland</div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
-    
-
-    
-    <div class="row" style="padding-top: 10px">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
-          <div class="col-xs-12 col-sm-9">
-
-            
-
-
-
-
-
-<a class="btn btn-primary btn-outline" href="https://doi.org/10.6084/m9.figshare.32062605">
-  Slides
-</a>
-
-
-
-<a class="btn btn-primary btn-outline" href="https://doi.org/10.6084/m9.figshare.32062605">
-  doi
-</a>
-
-
-
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
-    
-
-    <div class="space-below"></div>
-
-    <div class="article-style">
-      
-    </div>
-
+    </span>
   </div>
+
+</div>
+<div class="article-container">
+
+  
+
+  <h3>Abstract</h3>
+  <p class="pub-abstract" itemprop="text">This paper extends the rudof SHACL validator to include SHACL-SPARQL constraints, achieving full compliance with the SHACL Core reference test suite. It also details performance optimizations that reduce validation times for large RDF graphs by orders of magnitude. These improvements aim to make rudof an alternative to established SHACL validators. To confirm this, we evaluate its throughput against six established validators across the ICDD and LUBM benchmarks. On LUBM, rudof achieves a 215$	imes$ speedup over its previous version and ranks second overall, behind Jena and RDF4J and ahead of TopBraid. On ICDD, it leads all validators on the smallest building and remains competitive on mid-size cases, while the larger buildings expose the cost of complex SPARQL traversal in the current engine.</p>
+
+  
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
+        <div class="col-xs-12 col-sm-9">
+          
+          <a href="/publication/#1">
+            Conference proceedings
+          </a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="visible-xs space-below"></div>
+  
+
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
+        <div class="col-xs-12 col-sm-9"><em>2nd International Workshop on Data Management for Knowledge Graphs</em>, DMKG26 co-located with <em>International Semantic Web Conference</em>, ISWC26</div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="visible-xs space-below"></div>
+
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+        <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+          September, 2026
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="visible-xs space-below"></div>
+
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 pub-row-heading">Tags</div>
+        <div class="col-xs-12 col-sm-9" itemprop="tags">
+           
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="visible-xs space-below"></div>
+  
+  <div class="row" style="padding-top: 10px">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
+        <div class="col-xs-12 col-sm-9">
+
+          
+
+
+
+
+<a class="btn btn-primary btn-outline" href="http://labra.weso.es/pdf/2026_shacl_rudof_DMKG26.pdf">
+  PDF
+</a>
+
+
+
+
+<a class="btn btn-primary btn-outline" href="https://github.com/rudof-project/rudof">
+  Code
+</a>
+
+
+
+<a class="btn btn-primary btn-outline" href="https://github.com/rudof-project/rudof">
+  Project
+</a>
+
+
+<a class="btn btn-primary btn-outline" href="https://dmkg-workshop.github.io/2026/">
+  Conference
+</a>
+
+
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="visible-xs space-below"></div>
+
+  <div class="space-below"></div>
+
+  <div class="article-style"></div>
+
 </div>
 
 <div class="container">
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="http://labra.weso.es/talk/2025_iswc_2025/"><span
-      aria-hidden="true">&larr;</span> Shaping Knowledge and Interoperable Graphs</a></li>
+    <li class="previous"><a href="http://labra.weso.es/publication/2026_rdf12_pg_dmkg/"><span
+      aria-hidden="true">&larr;</span> Translating RDF 1.2 Graphs to Property Graphs</a></li>
     
 
-    
-    <li class="next"><a href="http://labra.weso.es/talk/2026_rudof_semantics/">rudof: a semantic-les tool for the semantic web <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
