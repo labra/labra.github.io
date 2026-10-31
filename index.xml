@@ -11,11 +11,29 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>A Provenance-Aware Agentic Framework for Knowledge Graph Augmentation Using RDF 1.2 and SHACL</title>
+      <link>http://labra.weso.es/publication/2026_provenance_rdf12_shacl_glow/</link>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2026_provenance_rdf12_shacl_glow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Supporting the Evolution of Wikidata EntitySchemas through Empirical Usage Analysis</title>
       <link>http://labra.weso.es/publication/2026_evolutionentityschemas_wikidataworkshop/</link>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2026_evolutionentityschemas_wikidataworkshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rudofMCP: A Model Context Protocol Server Exposing Knowledge Graph Engineering Capabilities to Large Language Models</title>
+      <link>http://labra.weso.es/publication/2026_rudofmcp_elmke_iswc26/</link>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2026_rudofmcp_elmke_iswc26/</guid>
       <description></description>
     </item>
     
@@ -124,24 +142,6 @@
       <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2025_property_constraints_pg_schema/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PG-Schema with Property Constraints validator in Rudof</title>
-      <link>http://labra.weso.es/publication/2026_rudof_pgschema_pc/</link>
-      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2026_rudof_pgschema_pc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shaping Knowledge and Interoperable Graphs</title>
-      <link>http://labra.weso.es/talk/2025_iswc_2025/</link>
-      <pubDate>Sun, 02 Nov 2025 09:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2025_iswc_2025/</guid>
       <description></description>
     </item>
     
