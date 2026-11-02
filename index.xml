@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Formalizing the Semantics of ShEx with Lean</title>
+      <link>http://labra.weso.es/publication/2026_shex_lean_kgswc/</link>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2026_shex_lean_kgswc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Provenance-Aware Agentic Framework for Knowledge Graph Augmentation Using RDF 1.2 and SHACL</title>
       <link>http://labra.weso.es/publication/2026_provenance_rdf12_shacl_glow/</link>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
@@ -133,15 +142,6 @@
       <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
       
       <guid>http://labra.weso.es/publication/2025_mcp_server_tools_rdf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>On Property Constraints in PG-Schema</title>
-      <link>http://labra.weso.es/publication/2025_property_constraints_pg_schema/</link>
-      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2025_property_constraints_pg_schema/</guid>
       <description></description>
     </item>
     
