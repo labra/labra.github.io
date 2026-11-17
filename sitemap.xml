@@ -5,6 +5,24 @@
     
     <url>
     
+      <loc>http://labra.weso.es/publication/2026_fishing_knowldge_graph_scientificdata/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/publication/2026_human_centric_graphs_tgdk/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2026_shex_lean_kgswc/</loc>
       <lastmod>2026-11-01T00:00:00+00:00</lastmod>
     </url>
@@ -1974,7 +1992,7 @@
     <url>
     
       <loc>http://labra.weso.es/publication_types/2/</loc>
-      <lastmod>2026-07-24T00:00:00+00:00</lastmod>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2302,6 +2320,16 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/computing-education/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/tags/conference/</loc>
       <lastmod>2009-06-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -2513,7 +2541,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/e-procurement/</loc>
-      <lastmod>2013-11-19T00:00:00+00:00</lastmod>
+      <lastmod>2013-01-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2523,7 +2551,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/e-procurement/</loc>
-      <lastmod>2013-01-02T00:00:00+00:00</lastmod>
+      <lastmod>2013-11-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2642,6 +2670,16 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/fishing-data/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/tags/free-services/</loc>
       <lastmod>2009-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -2692,6 +2730,16 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/graph-data-abstractions/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/tags/graphs/</loc>
       <lastmod>2013-12-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -2724,6 +2772,16 @@
     
       <loc>http://labra.weso.es/tags/homepage/</loc>
       <lastmod>2017-08-21T10:39:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/human-centric-data-management/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2833,7 +2891,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/knowledge-graphs/</loc>
-      <lastmod>2026-07-24T00:00:00+00:00</lastmod>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3513,6 +3571,16 @@
     <url>
     
       <loc>http://labra.weso.es/tags/property-graphs/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/property-graphs/</loc>
       <lastmod>2024-05-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -3633,7 +3701,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/rdf/</loc>
-      <lastmod>2026-07-24T00:00:00+00:00</lastmod>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -4073,7 +4141,7 @@
     <url>
     
       <loc>http://labra.weso.es/tags/usability/</loc>
-      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -4154,6 +4222,16 @@
     
       <loc>http://labra.weso.es/tags/web2.0/</loc>
       <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/wikibase/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

@@ -13,6 +13,24 @@
     
     
     <item>
+      <title>A dataset of the European fishing fleet and maritime infrastructure</title>
+      <link>http://labra.weso.es/publication/2026_fishing_knowldge_graph_scientificdata/</link>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2026_fishing_knowldge_graph_scientificdata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How Human-Centric Are Our Graph Data Abstractions?</title>
+      <link>http://labra.weso.es/publication/2026_human_centric_graphs_tgdk/</link>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://labra.weso.es/publication/2026_human_centric_graphs_tgdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Formalizing the Semantics of ShEx with Lean</title>
       <link>http://labra.weso.es/publication/2026_shex_lean_kgswc/</link>
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
