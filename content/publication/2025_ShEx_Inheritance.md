@@ -17,6 +17,11 @@ url_dataset = ""
 name = "Arxiv version"
 url = "https://arxiv.org/abs/2503.24299"
 
+[[url_custom]]
+name = "doi"
+url = "https://doi.org/10.1007/978-3-031-94575-5_26"
+
+
 url_pdf = "pdf/2025_ShExInheritance.pdf"
 url_project = ""
 url_slides = ""
