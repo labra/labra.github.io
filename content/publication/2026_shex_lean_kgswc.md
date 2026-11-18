@@ -18,7 +18,7 @@ url_dataset = ""
 url_pdf = "pdf/2026_shex_lean_KGSWC.pdf"
 
 url_project = "https://github.com/weso/shex_lean/"
-url_slides = ""
+url_slides = "pdf/2026_shex_lean_slides_KGSWC26.pdf"
 url_video = ""
 
 [[url_custom]]
