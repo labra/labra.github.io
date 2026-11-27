@@ -22,22 +22,40 @@
           </option>
           {{ end }}
         </select>
-        &nbsp;
-        {{ i18n "filter_by_tag" | default "Filter by tag" }}:
-        <select class="pub-tags-select">
-          <option value="*">{{ i18n "filter_all" }}</option>
-          {{- /* Only the tags of publications. The value is a class of the
-                 publications below (see partial "publication_tag_class"). */}}
-          {{ range .Site.Taxonomies.tags.Alphabetical }}
-          {{ $count := len (where .Pages "Section" "publication") }}
-          {{ if gt $count 0 }}
-          <option value=".{{ partial "publication_tag_class" .Page }}" data-tag="{{ path.Base .Page.RelPermalink }}">
-            {{ .Page.Title }} ({{ $count }})
-          </option>
-          {{ end }}
-          {{ end }}
-        </select>
       </p>
+
+      {{/* Filter by tag. The hidden select keeps the list of tags and the
+           selected tag. The search box and the buttons below change it. */}}
+      {{ $tags := slice }}
+      {{ range .Site.Taxonomies.tags.Alphabetical }}
+      {{ $count := len (where .Pages "Section" "publication") }}
+      {{ if gt $count 0 }}
+      {{ $tags = $tags | append (dict "class" (partial "publication_tag_class" .Page) "name" (path.Base .Page.RelPermalink) "title" .Page.Title "count" $count) }}
+      {{ end }}
+      {{ end }}
+      <div class="pub-tag-filter">
+        <label for="pub-tag-search">{{ i18n "filter_by_tag" | default "Filter by tag" }}:</label>
+        <span class="pub-tag-box">
+          <input type="search" id="pub-tag-search" class="pub-tag-search" autocomplete="off"
+                 placeholder="Type to search {{ len $tags }} tags" aria-controls="pub-tag-results">
+          <ul id="pub-tag-results" class="pub-tag-results" role="listbox" hidden></ul>
+        </span>
+        <button type="button" class="btn btn-primary btn-xs pub-tag-clear" title="Show all tags" hidden>
+          <span class="pub-tag-current"></span> &times;
+        </button>
+        <select class="pub-tags-select" aria-hidden="true" tabindex="-1" hidden>
+          <option value="*">{{ i18n "filter_all" }}</option>
+          {{- range $tags }}
+          <option value=".{{ .class }}" data-tag="{{ .name }}">{{ .title }} ({{ .count }})</option>
+          {{- end }}
+        </select>
+        <p class="pub-tag-popular">
+          Most used tags:
+          {{- range first 12 (sort $tags "count" "desc") }}
+          <button type="button" class="btn btn-primary btn-outline btn-xs pub-tag-chip" data-value=".{{ .class }}">{{ .title }} ({{ .count }})</button>
+          {{- end }}
+        </p>
+      </div>
 
       <div id="container-publications">
         {{ range .Pages.ByDate.Reverse }}

@@ -529,7 +529,7 @@ class TestListPages(SiteTestCase):
     def test_publication_tag_filter(self):
         """The publication list has a filter by tag with all the tags of publications."""
         text = site_file("/publication/").read_text(encoding="utf-8")
-        select = re.search(r'<select class="pub-tags-select">(.*?)</select>', text, re.S)
+        select = re.search(r'<select class="pub-tags-select"[^>]*>(.*?)</select>', text, re.S)
         self.assertIsNotNone(select, "No tag filter on /publication/")
         self.assertRegex(select.group(1), r'^\s*<option value="\*">', "First option must show all publications")
         options = re.findall(
@@ -564,6 +564,27 @@ class TestListPages(SiteTestCase):
 
         script = (SITE / "js" / "hugo-academic.js").read_text(encoding="utf-8")
         self.assertIn(".pub-tags-select", script, "The tag filter has no script")
+
+        # Search box: the script fills the list of matching tags from the options.
+        self.assertRegex(text, r'<input[^>]*class="pub-tag-search"', "No search box for tags")
+        self.assertIn(".pub-tag-search", script, "The search box has no script")
+        self.assertTrue(any("pub-filters.css" in src for src in page("/publication/").srcs), "No CSS for the tag filter")
+
+        # Buttons for the most used tags.
+        counts = {f".{css_class}": int(count) for css_class, _, _, count in options}
+        chips = re.findall(r'class="[^"]*pub-tag-chip[^"]*" data-value="([^"]+)">\s*(.*?)\s*</button>', text, re.S)
+        self.assertEqual(len(chips), min(12, len(options)), "Wrong number of buttons for the most used tags")
+        chip_values = [value for value, _ in chips]
+        for value, label in chips:
+            with self.subTest(chip=label):
+                self.assertIn(value, counts, "The button has no option in the tag filter")
+                self.assertTrue(label.endswith(f"({counts[value]})"), "Wrong number on the button")
+        self.assertEqual([counts[v] for v in chip_values], sorted((counts[v] for v in chip_values), reverse=True),
+                         "The buttons are not in order of use")
+        if chips:
+            smallest = min(counts[v] for v in chip_values)
+            others = [c for v, c in counts.items() if v not in chip_values]
+            self.assertTrue(all(c <= smallest for c in others), "A tag with more publications has no button")
 
     def test_talk_list(self):
         text = norm_text(site_file("/talk/").read_text(encoding="utf-8"))

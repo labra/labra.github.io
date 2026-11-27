@@ -166,7 +166,96 @@
   }
 
   // Bind publication filters on dropdown change.
-  $('.pub-filters-select, .pub-tags-select').on('change', apply_publication_filters);
+  $('.pub-filters-select, .pub-tags-select').on('change', function () {
+    apply_publication_filters();
+    update_tag_search();
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Search box and buttons for the tag filter.
+   * The hidden select ".pub-tags-select" has the tags and the selected tag.
+   * --------------------------------------------------------------------------- */
+
+  // Lower case, with no accents and ligatures: "Lógica" -> "logica".
+  function simple_text(text) {
+    return text.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  }
+
+  let $tag_search = $('.pub-tag-search');
+  let $tag_results = $('.pub-tag-results');
+  let tag_options = $('.pub-tags-select option').filter(function () {
+    return this.value != '*';
+  }).map(function () {
+    return { value: this.value, label: $(this).text().trim(), key: simple_text($(this).text()) };
+  }).get();
+
+  function select_tag(value) {
+    $('.pub-tags-select').val(value).trigger('change');
+    $tag_search.val('');
+    $tag_results.prop('hidden', true);
+  }
+
+  // Show the tags that contain the text in the search box. Tags that start
+  // with the text come first.
+  function show_tag_results() {
+    let text = simple_text($tag_search.val().trim());
+    let matches = tag_options.filter(function (o) { return o.key.indexOf(text) >= 0; });
+    matches.sort(function (a, b) {
+      return (b.key.indexOf(text) == 0) - (a.key.indexOf(text) == 0);
+    });
+    $tag_results.empty();
+    if (matches.length == 0) {
+      $tag_results.append($('<li class="empty">').text('No tags found'));
+    }
+    matches.forEach(function (o) {
+      $tag_results.append($('<li role="option">').attr('data-value', o.value).text(o.label));
+    });
+    $tag_results.prop('hidden', false);
+  }
+
+  // Show the selected tag on the clear button and on the buttons of the most used tags.
+  function update_tag_search() {
+    let value = $('.pub-tags-select').val() || '*';
+    let label = $('.pub-tags-select option:selected').text().trim();
+    $('.pub-tag-current').text(label);
+    $('.pub-tag-clear').prop('hidden', value == '*');
+    $('.pub-tag-chip').each(function () {
+      $(this).toggleClass('active', $(this).attr('data-value') == value);
+    });
+  }
+
+  $tag_search.on('input focus', show_tag_results);
+  $tag_search.on('keydown', function (e) {
+    let $items = $tag_results.find('li[data-value]');
+    let $active = $items.filter('.active');
+    let index = $items.index($active);
+    if (e.key == 'ArrowDown' || e.key == 'ArrowUp') {
+      e.preventDefault();
+      if ($tag_results.prop('hidden')) { show_tag_results(); $items = $tag_results.find('li[data-value]'); }
+      index = e.key == 'ArrowDown' ? Math.min(index + 1, $items.length - 1) : Math.max(index - 1, 0);
+      $items.removeClass('active');
+      let item = $items.eq(index).addClass('active');
+      if (item.length) { item[0].scrollIntoView({ block: 'nearest' }); }
+    } else if (e.key == 'Enter') {
+      e.preventDefault();
+      let $choice = $active.length ? $active : $items.first();
+      if ($choice.length) { select_tag($choice.attr('data-value')); }
+    } else if (e.key == 'Escape') {
+      $tag_results.prop('hidden', true);
+    }
+  });
+  // Use mousedown, so that the click comes before the search box loses the focus.
+  $tag_results.on('mousedown', 'li[data-value]', function (e) {
+    e.preventDefault();
+    select_tag($(this).attr('data-value'));
+  });
+  $tag_search.on('blur', function () { $tag_results.prop('hidden', true); });
+  $('.pub-tag-chip').on('click', function () {
+    let value = $(this).attr('data-value');
+    // A second click on the selected tag shows all the publications again.
+    select_tag($('.pub-tags-select').val() == value ? '*' : value);
+  });
+  $('.pub-tag-clear').on('click', function () { select_tag('*'); });
 
   // Filter publications according to hash in URL.
   function filter_publications() {
@@ -187,6 +276,7 @@
 
     $('.pub-filters-select').val(type);
     $('.pub-tags-select').val(tag);
+    update_tag_search();
     let filterValue = [type, tag].filter(function (f) { return f != '*'; }).join('');
     $grid_pubs.isotope({ filter: filterValue || '*' });
   }

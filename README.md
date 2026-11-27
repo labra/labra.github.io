@@ -51,10 +51,11 @@ each link, run `make pin-archive-links`.
 
 ## Publication filters
 
-The page `/publication/` has two filters: by type and by tag. The tag filter
-lists all the tags of publications, with the number of publications for each
-tag. It changes when you add publications or tags, so you do not have to edit
-it. The URL keeps the filters, so you can share a link to a filtered list, for
+The page `/publication/` has two filters: by type and by tag. To filter by
+tag, type a part of the tag name in the search box (case and accents do not
+matter) and select the tag, or click one of the buttons of the 12 most used
+tags. Hugo makes the list of tags and the buttons from the content, so you do
+not have to edit them when you add publications or tags. The URL keeps the filters, so you can share a link to a filtered list, for
 example `/publication/#tag=shex` or `/publication/#2&tag=rdf`.
 
 ## Author pages
