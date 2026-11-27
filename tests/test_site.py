@@ -1,0 +1,683 @@
+"""Tests for the generated site in the public folder.
+
+The tests check the structure and the features of the site. They do not check
+fixed numbers of publications, talks or posts. They read the content folder
+and the config file to know what the site must contain, so you can add new
+content without changes to the tests.
+
+Usage:
+
+    hugo -DEF                      # build the site into public/
+    python3 -m unittest discover -s tests -v
+
+Set SITE_DIR to test a different output folder:
+
+    SITE_DIR=/tmp/site python3 -m unittest discover -s tests -v
+
+The tests use only the Python standard library (Python 3.11 or later).
+"""
+
+import html
+import os
+import re
+import tomllib
+import unittest
+import xml.etree.ElementTree as ET
+from datetime import date, datetime
+from html.parser import HTMLParser
+from pathlib import Path
+from urllib.parse import unquote, urlparse
+
+ROOT = Path(__file__).resolve().parent.parent
+CONTENT = ROOT / "content"
+STATIC = ROOT / "static"
+SITE = Path(os.environ.get("SITE_DIR", ROOT / "public")).resolve()
+
+CONFIG = tomllib.loads((ROOT / "config.toml").read_text(encoding="utf-8"))
+BASE_URL = CONFIG["baseurl"].rstrip("/") + "/"
+BASE_PATH = urlparse(BASE_URL).path  # "/" for this site
+
+
+# ---------------------------------------------------------------------------
+# Content helpers
+# ---------------------------------------------------------------------------
+
+FRONT_MATTER = re.compile(r"\A﻿?\s*\+\+\+\s*\n(.*?)\n\+\+\+", re.S)
+
+
+class Content:
+    """One Markdown file in the content folder."""
+
+    def __init__(self, path):
+        self.path = path
+        text = path.read_text(encoding="utf-8")
+        match = FRONT_MATTER.match(text)
+        self.params = tomllib.loads(match.group(1)) if match else {}
+        self.body = text[match.end():].strip() if match else text.strip()
+        self.section = path.relative_to(CONTENT).parts[0]
+
+    @property
+    def title(self):
+        return self.params.get("title", "")
+
+    @property
+    def date(self):
+        value = self.params.get("date")
+        if isinstance(value, datetime):
+            return value.date()
+        if isinstance(value, date):
+            return value
+        if isinstance(value, str) and value:
+            return date.fromisoformat(value[:10])
+        return None
+
+    @property
+    def tags(self):
+        return list(self.params.get("tags", []))
+
+    @property
+    def url_path(self):
+        """The site path of the page, for example "/publication/2011_adonis/"."""
+        if "url" in self.params:
+            return "/" + self.params["url"].strip("/") + "/"
+        slug = self.params.get("slug", self.path.stem)
+        return f"/{self.section}/{slug.lower().replace(' ', '-')}/"
+
+
+def pages_of(section):
+    """All regular pages of a section (no _index.md files)."""
+    folder = CONTENT / section
+    return [Content(p) for p in sorted(folder.glob("*.md")) if p.name != "_index.md"]
+
+
+def all_pages():
+    return [Content(p) for p in sorted(CONTENT.glob("**/*.md")) if p.name != "_index.md"]
+
+
+def norm_text(text):
+    """Normalise text for comparison: decode entities, fold spaces and case."""
+    text = html.unescape(text)
+    text = re.sub(r"<[^>]+>", "", text)
+    # Smart punctuation (smartypants) changes quotes and dashes.
+    text = text.translate(str.maketrans("\u2018\u2019\u201c\u201d\u2013\u2014\u00a0", "''\"\"-- "))
+    return re.sub(r"\s+", " ", text).strip().lower()
+
+
+def norm_term(text):
+    """Normalise a taxonomy term. Hugo treats "Big data" and "Big-data" as one term."""
+    return re.sub(r"[\s_-]+", "-", norm_text(text))
+
+
+def plain_title(text):
+    """A title as it shows in HTML (Markdown emphasis removed)."""
+    return norm_text(re.sub(r"[*_`]", "", text))
+
+
+# ---------------------------------------------------------------------------
+# HTML helpers
+# ---------------------------------------------------------------------------
+
+
+class Page(HTMLParser):
+    """Collects the parts of an HTML page that the tests use."""
+
+    def __init__(self, text):
+        super().__init__(convert_charrefs=True)
+        self.title = ""
+        self.h1 = []
+        self.links = []  # (href, text, section id)
+        self.srcs = []
+        self.sections = []
+        self.elements = []  # (tag, attrs dict, section id)
+        self._stack = []
+        self._section = None
+        self._capture = None
+        self._text = []
+        self.feed(text)
+
+    def handle_starttag(self, tag, attrs):
+        attrs = {k: (v or "") for k, v in attrs}
+        if tag == "section" and "id" in attrs:
+            self._section = attrs["id"]
+            self.sections.append(attrs["id"])
+        self.elements.append((tag, attrs, self._section))
+        if tag in ("img", "script", "iframe") and attrs.get("src"):
+            self.srcs.append(attrs["src"])
+        if tag == "link" and attrs.get("href"):
+            self.srcs.append(attrs["href"])
+        if tag in ("title", "h1", "a"):
+            self._stack.append((tag, attrs, len(self._text)))
+
+    def handle_endtag(self, tag):
+        if tag == "section":
+            self._section = None
+        for i in range(len(self._stack) - 1, -1, -1):
+            if self._stack[i][0] == tag:
+                _, attrs, start = self._stack.pop(i)
+                text = " ".join("".join(self._text[start:]).split())
+                if tag == "title" and not self.title:
+                    self.title = text
+                elif tag == "h1":
+                    self.h1.append(text)
+                elif tag == "a":
+                    self.links.append((attrs.get("href", ""), text, self._section))
+                break
+
+    def handle_data(self, data):
+        self._text.append(data)
+
+    def links_in(self, section):
+        return [(href, text) for href, text, sec in self.links if sec == section]
+
+    def elements_in(self, section, tag=None):
+        return [(t, a) for t, a, sec in self.elements if sec == section and (tag is None or t == tag)]
+
+
+_cache = {}
+
+
+def site_file(path):
+    """Map a site path ("/talk/x/") to a file in the output folder."""
+    path = unquote(path.split("#")[0].split("?")[0])
+    if path.startswith(BASE_PATH):
+        path = path[len(BASE_PATH):]
+    target = SITE / path.lstrip("/")
+    if path == "" or path.endswith("/") or target.is_dir():
+        target = target / "index.html"
+    return target
+
+
+def page(path):
+    file = site_file(path)
+    if file not in _cache:
+        _cache[file] = Page(file.read_text(encoding="utf-8"))
+    return _cache[file]
+
+
+def local_path(href):
+    """The site path of an internal link, or None for an external link."""
+    if not href or href.startswith(("#", "mailto:", "javascript:", "tel:", "data:")):
+        return None
+    if href.startswith("//"):
+        return None
+    if href.startswith(("http://", "https://")):
+        for base in (BASE_URL, BASE_URL.replace("http://", "https://", 1)):
+            if href.startswith(base):
+                return "/" + href[len(base):]
+        return None
+    if href.startswith("/"):
+        return href
+    return None
+
+
+def paginated(path):
+    """The first page of a list and all its next pages (/page/2/, ...)."""
+    pages = [page(path)]
+    n = 2
+    while site_file(f"{path}page/{n}/").exists():
+        pages.append(page(f"{path}page/{n}/"))
+        n += 1
+    return pages
+
+
+def linked_paths(pages, section=None):
+    result = []
+    for p in pages:
+        links = p.links if section is None else [(h, t, s) for h, t, s in p.links if s == section]
+        for href, _, _ in links:
+            path = local_path(href)
+            if path:
+                result.append(path.split("#")[0])
+    return result
+
+
+# ---------------------------------------------------------------------------
+# Tests
+# ---------------------------------------------------------------------------
+
+
+class SiteTestCase(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        if not (SITE / "index.html").exists():
+            raise unittest.SkipTest(f"No built site in {SITE}. Run 'hugo -DEF' first.")
+
+
+class TestBasicFiles(SiteTestCase):
+    def test_main_files_exist(self):
+        for name in ["index.html", "404.html", "index.xml", "sitemap.xml", "CNAME"]:
+            with self.subTest(name=name):
+                self.assertTrue((SITE / name).is_file(), name)
+
+    def test_static_files_are_copied(self):
+        for file in STATIC.rglob("*"):
+            if file.is_file():
+                rel = file.relative_to(STATIC)
+                with self.subTest(file=str(rel)):
+                    self.assertTrue((SITE / rel).is_file(), f"Missing static file {rel}")
+
+    def test_theme_assets_exist(self):
+        home = page("/")
+        for src in home.srcs:
+            path = local_path(src)
+            if path:
+                with self.subTest(src=src):
+                    self.assertTrue(site_file(path).is_file(), f"Missing asset {src}")
+        css = [s for s in home.srcs if s.endswith(".css")]
+        self.assertTrue(any("hugo-academic.css" in s for s in css), css)
+        scripts = [s for s in home.srcs if s.endswith(".js")]
+        self.assertTrue(any("hugo-academic.js" in s for s in scripts), scripts)
+
+    def test_404_page(self):
+        p = page("/404.html")
+        self.assertIn(norm_text(CONFIG["title"]), norm_text(p.title))
+        self.assertTrue(any(local_path(h) == "/" for h, _, _ in p.links), "404 page has no link to home")
+
+
+class TestHomePage(SiteTestCase):
+    def setUp(self):
+        self.home = page("/")
+
+    def test_title(self):
+        self.assertIn(norm_text(CONFIG["title"]), norm_text(self.home.title))
+
+    def test_canonical_and_feed_links(self):
+        text = site_file("/").read_text(encoding="utf-8")
+        self.assertRegex(text, r'<link rel="canonical" href="' + re.escape(BASE_URL) + '"')
+        self.assertRegex(text, r'type="application/rss\+xml"')
+
+    def widgets(self):
+        result = []
+        for c in pages_of("home"):
+            if c.params.get("active", True) is False:
+                continue
+            result.append(c)
+        return result
+
+    def test_widget_sections_in_weight_order(self):
+        widgets = self.widgets()
+        for w in widgets:
+            with self.subTest(widget=w.path.stem):
+                self.assertIn(w.path.stem, self.home.sections)
+        # Sections appear in weight order. Ties can be in any order.
+        position = {sid: i for i, sid in enumerate(self.home.sections)}
+        for a in widgets:
+            for b in widgets:
+                if a.params.get("weight", 0) < b.params.get("weight", 0):
+                    with self.subTest(before=a.path.stem, after=b.path.stem):
+                        self.assertLess(position[a.path.stem], position[b.path.stem])
+
+    def test_widget_titles(self):
+        for w in self.widgets():
+            if w.title:
+                with self.subTest(widget=w.path.stem):
+                    h1 = [a for tag, a in self.home.elements_in(w.path.stem, "h1")]
+                    self.assertTrue(h1, f"No heading in widget {w.path.stem}")
+
+    def test_menu(self):
+        menu = sorted(CONFIG["menu"]["main"], key=lambda m: m.get("weight", 0))
+        nav = [(h, t) for h, t, s in self.home.links if h.endswith(tuple(m["url"] for m in menu))]
+        nav_names = [norm_text(t) for _, t in nav]
+        expected = [norm_text(m["name"]) for m in menu]
+        # All entries are present and in weight order.
+        positions = [nav_names.index(name) for name in expected]
+        self.assertEqual(positions, sorted(positions), nav_names)
+        for m in menu:
+            with self.subTest(menu=m["name"]):
+                self.assertTrue(any(h.endswith(m["url"]) and norm_text(t) == norm_text(m["name"]) for h, t in nav))
+                if m["url"].startswith("#"):
+                    self.assertIn(m["url"][1:], self.home.sections, f"Menu target {m['url']} has no section")
+
+    def test_about_widget(self):
+        about = self.home.elements_in("about")
+        params = CONFIG["params"]
+        styles = " ".join(a.get("style", "") for _, a in about)
+        if params.get("avatar"):
+            self.assertIn("img/" + params["avatar"], styles)
+            self.assertTrue((SITE / "img" / params["avatar"]).is_file())
+        text = site_file("/").read_text(encoding="utf-8")
+        self.assertIn(html.escape(params["name"]), text)
+        self.assertIn(params["role"], text)
+        for org in params.get("organizations", []):
+            self.assertIn(org["name"], text)
+
+    def test_social_links(self):
+        hrefs = [h for h, _ in self.home.links_in("about")]
+        classes = " ".join(a.get("class", "") for _, a in self.home.elements_in("about", "i"))
+        for social in CONFIG["params"].get("social", []):
+            with self.subTest(icon=social["icon"]):
+                self.assertIn(social["link"], hrefs)
+                self.assertIn(f'{social["icon_pack"]}-{social["icon"]}', classes)
+
+    def test_contact_widget(self):
+        text = norm_text(site_file("/").read_text(encoding="utf-8"))
+        params = CONFIG["params"]
+        for key in ["email", "phone", "address", "skype", "office_hours"]:
+            if params.get(key):
+                with self.subTest(key=key):
+                    self.assertIn(norm_text(params[key]), text)
+
+    def _widget(self, name):
+        for w in pages_of("home"):
+            if w.params.get("widget") == name:
+                return w
+        self.skipTest(f"No {name} widget")
+
+    def _item_links(self, widget, section):
+        """Links in the widget that point to pages of a content section."""
+        found = []
+        for href, _ in self.home.links_in(widget.path.stem):
+            path = local_path(href)
+            if path and path.startswith(f"/{section}/") and path != f"/{section}/":
+                if path not in found:
+                    found.append(path)
+        return found
+
+    def _check_list_widget(self, widget_name, section, eligible):
+        w = self._widget(widget_name)
+        items = self._item_links(w, section)
+        expected = min(w.params.get("count", len(eligible)), len(eligible))
+        self.assertEqual(len(items), expected, f"{widget_name} widget shows {len(items)} items, expected {expected}")
+        known = {c.url_path: c for c in eligible}
+        for path in items:
+            self.assertIn(path, known, f"{widget_name} widget links to unknown page {path}")
+            self.assertTrue(site_file(path).is_file())
+        dates = [known[p].date for p in items]
+        self.assertEqual(dates, sorted(dates, reverse=True), f"{widget_name} widget is not newest first")
+        # The newest items are shown.
+        if eligible:
+            newest = max(c.date for c in eligible)
+            self.assertEqual(known[items[0]].date, newest)
+
+    def test_publications_widget(self):
+        self._check_list_widget("publications", "publication", pages_of("publication"))
+
+    def test_publications_widget_isotope_classes(self):
+        w = self._widget("publications")
+        items = [a for t, a in self.home.elements_in(w.path.stem, "li") if "isotope-item" in a.get("class", "")]
+        self.assertTrue(items)
+        # Items carry their tags as classes so that filters can work.
+        tagged = [c for c in pages_of("publication") if c.tags]
+        all_classes = " ".join(a["class"] for a in items)
+        for c in tagged[:20]:
+            for tag in c.tags:
+                for word in tag.split():
+                    self.assertIn(word, all_classes)
+
+    def test_talks_widget(self):
+        self._check_list_widget("talks", "talk", pages_of("talk"))
+
+    def test_posts_widget(self):
+        w = self._widget("posts")
+        eligible = [c for c in pages_of("post") if not c.params.get("notonhomepage")]
+        if w.params.get("tags"):
+            eligible = [c for c in eligible if set(c.tags) & set(w.params["tags"])]
+        self._check_list_widget("posts", "post", eligible)
+
+    def test_projects_widget(self):
+        w = self._widget("projects")
+        projects = pages_of("project")
+        links = [h for h, _ in self.home.links_in(w.path.stem)]
+        for c in projects:
+            with self.subTest(project=c.path.stem):
+                if c.body:
+                    self.assertTrue(any(local_path(h) == c.url_path for h in links), f"No link to {c.url_path}")
+                elif c.params.get("external_link"):
+                    self.assertIn(c.params["external_link"], links)
+        items = [a for t, a in self.home.elements_in(w.path.stem) if "project-item" in a.get("class", "")]
+        self.assertEqual(len(items), len(projects))
+        filters = [a.get("data-filter") for t, a in self.home.elements_in(w.path.stem, "a") if "data-filter" in a]
+        self.assertEqual(filters, [f["tag"] for f in w.params.get("filter", [])])
+
+    def test_custom_widgets_render_markdown(self):
+        for w in pages_of("home"):
+            if w.params.get("widget", "custom") == "custom" and w.body:
+                with self.subTest(widget=w.path.stem):
+                    texts = [t for _, t in self.home.links_in(w.path.stem)]
+                    md_links = re.findall(r"\[([^\]]+)\]\(", w.body)
+                    for label in md_links[:10]:
+                        self.assertIn(plain_title(label), [plain_title(t) for t in texts])
+
+
+class TestContentPages(SiteTestCase):
+    def _check_single(self, c):
+        file = site_file(c.url_path)
+        self.assertTrue(file.is_file(), f"No page for {c.path.relative_to(ROOT)} at {c.url_path}")
+        p = page(c.url_path)
+        if c.title:
+            self.assertIn(plain_title(c.title), plain_title(p.title))
+            self.assertIn(plain_title(c.title), [plain_title(h) for h in p.h1])
+        return p
+
+    def test_publication_pages(self):
+        types = CONFIG["params"]["publication_types"]
+        for c in pages_of("publication"):
+            with self.subTest(publication=c.path.stem):
+                p = self._check_single(c)
+                text = norm_text(site_file(c.url_path).read_text(encoding="utf-8"))
+                for author in c.params.get("authors", []):
+                    self.assertIn(norm_text(author), text)
+                hrefs = [h for h, _, _ in p.links]
+                for key in ["url_pdf", "url_slides", "url_code", "url_dataset", "url_project", "url_video"]:
+                    value = c.params.get(key, "")
+                    if value:
+                        self.assertTrue(any(h.endswith(value) for h in hrefs), f"No link for {key}={value}")
+                for custom in c.params.get("url_custom", []):
+                    if custom.get("url", "").strip():
+                        self.assertTrue(any(h.endswith(custom["url"].strip()) for h in hrefs), f"No link for {custom['url']}")
+                for t in c.params.get("publication_types", []):
+                    self.assertIn(norm_text(types[int(t)]), text)
+                if c.params.get("abstract"):
+                    self.assertIn("pub-abstract", site_file(c.url_path).read_text(encoding="utf-8"))
+
+    def test_talk_pages(self):
+        for c in pages_of("talk"):
+            with self.subTest(talk=c.path.stem):
+                p = self._check_single(c)
+                text = norm_text(site_file(c.url_path).read_text(encoding="utf-8"))
+                for key in ["event", "location"]:
+                    if c.params.get(key):
+                        self.assertIn(plain_title(c.params[key])[:40], text)
+                hrefs = [h for h, _, _ in p.links]
+                for key in ["url_pdf", "url_slides", "url_video"]:
+                    value = c.params.get(key, "")
+                    if value:
+                        self.assertTrue(any(h.endswith(value) for h in hrefs), f"No link for {key}={value}")
+
+    def test_post_pages(self):
+        for c in pages_of("post"):
+            with self.subTest(post=c.path.stem):
+                self._check_single(c)
+                text = site_file(c.url_path).read_text(encoding="utf-8")
+                self.assertIn("article-style", text)
+                if CONFIG.get("disqusShortname"):
+                    self.assertIn(CONFIG["disqusShortname"], text)
+
+    def test_project_pages(self):
+        for c in pages_of("project"):
+            if c.body:
+                with self.subTest(project=c.path.stem):
+                    self._check_single(c)
+
+    def test_author_pages(self):
+        for folder in sorted((CONTENT / "authors").iterdir()):
+            if folder.is_dir():
+                with self.subTest(author=folder.name):
+                    # The folder name can contain "%" characters; Hugo keeps them.
+                    self.assertTrue((SITE / "authors" / folder.name.lower() / "index.html").is_file())
+
+    def test_markdown_is_rendered(self):
+        """Pages with Markdown links in the body must show them as HTML links."""
+        for c in pages_of("post") + pages_of("project") + pages_of("talk") + pages_of("publication"):
+            links = re.findall(r"(?<!!)\[[^\]]+\]\((https?://[^)\s]+)\)", c.body)
+            if links and site_file(c.url_path).is_file():
+                with self.subTest(page=c.url_path):
+                    hrefs = [unquote(h) for h, _, _ in page(c.url_path).links]
+                    for url in links[:5]:
+                        self.assertIn(unquote(html.unescape(url)), hrefs)
+
+
+class TestListPages(SiteTestCase):
+    def test_publication_list(self):
+        p = page("/publication/")
+        text = site_file("/publication/").read_text(encoding="utf-8")
+        for c in pages_of("publication"):
+            with self.subTest(publication=c.path.stem):
+                self.assertIn(plain_title(c.title), norm_text(text))
+        # Filter by publication type.
+        options = [a.get("value") for t, a, _ in p.elements if t == "option"]
+        used = sorted({int(t) for c in pages_of("publication") for t in c.params.get("publication_types", [])})
+        for t in used:
+            with self.subTest(pubtype=t):
+                self.assertIn(f".pubtype-{t}", options)
+        items = re.findall(r'class="[^"]*isotope-item pubtype-(\d+)', text)
+        self.assertEqual(len(items), len(pages_of("publication")))
+
+    def test_talk_list(self):
+        text = norm_text(site_file("/talk/").read_text(encoding="utf-8"))
+        for c in pages_of("talk"):
+            with self.subTest(talk=c.path.stem):
+                self.assertIn(plain_title(c.title), text)
+        years = re.findall(r"<h3>(\d{4})</h3>", site_file("/talk/").read_text(encoding="utf-8"))
+        self.assertEqual(years, sorted(set(years), reverse=True))
+        self.assertEqual(set(years), {str(c.date.year) for c in pages_of("talk")})
+
+    def test_paginated_lists(self):
+        size = CONFIG.get("paginate", 10)
+        for section in ["post"]:
+            with self.subTest(section=section):
+                pages = paginated(f"/{section}/")
+                paths = set(linked_paths(pages))
+                for c in pages_of(section):
+                    self.assertIn(c.url_path, paths, f"{c.url_path} not listed in /{section}/")
+                expected_pages = max(1, -(-len(pages_of(section)) // size))
+                self.assertEqual(len(pages), expected_pages)
+
+    def test_pagination_aliases(self):
+        # Hugo makes /section/page/1/ redirect to /section/.
+        for section in ["post"]:
+            with self.subTest(section=section):
+                file = site_file(f"/{section}/page/1/")
+                self.assertTrue(file.is_file())
+                self.assertIn(f"/{section}/", file.read_text(encoding="utf-8"))
+
+    def test_section_feeds(self):
+        for section in ["post", "publication", "talk", "project"]:
+            with self.subTest(section=section):
+                self.assertTrue((SITE / section / "index.xml").is_file())
+
+
+class TestTaxonomies(SiteTestCase):
+    def tag_pages(self):
+        """Map normalised tag name to its site path, from the tags list page."""
+        result = {}
+        for href, _, _ in page("/tags/").links:
+            path = local_path(href)
+            if path and path.startswith("/tags/") and path != "/tags/":
+                path = path.rstrip("/") + "/"
+                result[norm_term(unquote(path.split("/")[2]))] = path
+        return result
+
+    def test_every_tag_has_a_page(self):
+        tag_pages = self.tag_pages()
+        for tag in sorted({t for c in all_pages() for t in c.tags}):
+            with self.subTest(tag=tag):
+                self.assertIn(norm_term(tag), tag_pages, f"Tag {tag} not in /tags/")
+                self.assertTrue(site_file(tag_pages[norm_term(tag)]).is_file())
+
+    def test_tag_pages_list_their_content(self):
+        tag_pages = self.tag_pages()
+        by_tag = {}
+        for c in all_pages():
+            if c.section == "home":
+                continue
+            for t in c.tags:
+                by_tag.setdefault(norm_term(t), []).append(c)
+        for tag, contents in sorted(by_tag.items()):
+            with self.subTest(tag=tag):
+                path = tag_pages[tag]
+                linked = set(linked_paths(paginated(path)))
+                for c in contents:
+                    self.assertIn(c.url_path, linked, f"{c.url_path} not listed in {path}")
+                self.assertIn(tag, norm_term(page(path).title))
+
+    def test_publication_type_pages(self):
+        used = {str(t) for c in pages_of("publication") for t in c.params.get("publication_types", [])}
+        for t in sorted(used):
+            with self.subTest(pubtype=t):
+                path = f"/publication_types/{t}/"
+                self.assertTrue(site_file(path).is_file())
+                linked = set(linked_paths(paginated(path)))
+                for c in pages_of("publication"):
+                    if t in [str(x) for x in c.params.get("publication_types", [])]:
+                        self.assertIn(c.url_path, linked)
+
+    def test_taxonomy_list_pages(self):
+        for taxonomy in CONFIG["taxonomies"].values():
+            with self.subTest(taxonomy=taxonomy):
+                if any(c.params.get(taxonomy) for c in all_pages()):
+                    self.assertTrue(site_file(f"/{taxonomy}/").is_file())
+
+
+class TestFeedsAndSitemap(SiteTestCase):
+    def test_rss_feed(self):
+        root = ET.parse(SITE / "index.xml").getroot()
+        channel = root.find("channel")
+        self.assertIsNotNone(channel)
+        self.assertIn(norm_text(CONFIG["title"]), norm_text(channel.findtext("title")))
+        items = channel.findall("item")
+        self.assertGreater(len(items), 0)
+        for item in items:
+            link = item.findtext("link")
+            self.assertTrue(link.startswith(BASE_URL), link)
+            self.assertTrue(site_file(local_path(link)).is_file(), link)
+
+    def test_sitemap_lists_all_pages(self):
+        ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+        root = ET.parse(SITE / "sitemap.xml").getroot()
+        locs = {unquote(e.text.strip()) for e in root.findall(".//s:loc", ns)}
+        self.assertIn(BASE_URL, locs)
+        for c in all_pages():
+            if c.section == "home":
+                continue
+            with self.subTest(page=c.url_path):
+                self.assertIn(BASE_URL + c.url_path.lstrip("/"), locs)
+
+
+class TestLinks(SiteTestCase):
+    # Co-author links point to /authors/<name>. Only some co-authors have a
+    # page, so these links are not checked.
+    IGNORE = ("/authors/",)
+
+    # Documents that the content links to, but that are not in static/ yet.
+    # Remove an entry when you add the file.
+    KNOWN_MISSING = {
+        "/pdf/.pdf",
+        "/pdf/2018_InferenceLatentShEx.pdf",
+        "/pdf/2018_rdfshapeDemo.pdf",
+    }
+
+    def test_no_unsafe_urls(self):
+        """Go templates write "#ZgotmplZ" for a URL that they think is unsafe."""
+        bad = [str(f.relative_to(SITE)) for f in SITE.rglob("*.html") if "ZgotmplZ" in f.read_text(errors="replace")]
+        self.assertEqual(bad, [], "Unsafe URLs (check for spaces at the start of URLs in front matter)")
+
+    def test_internal_links_resolve(self):
+        broken = {}
+        for file in SITE.rglob("*.html"):
+            text = file.read_text(encoding="utf-8", errors="replace")
+            if 'http-equiv="refresh"' in text[:500]:
+                continue  # alias redirect page
+            p = Page(text)
+            for href in [h for h, _, _ in p.links] + p.srcs:
+                path = local_path(href)
+                if not path or path.startswith(self.IGNORE) or unquote(path) in self.KNOWN_MISSING:
+                    continue
+                if not site_file(path).exists():
+                    broken.setdefault(path, str(file.relative_to(SITE)))
+        self.maxDiff = None
+        self.assertEqual(broken, {}, f"{len(broken)} broken internal links (target: first page)")
+
+
+if __name__ == "__main__":
+    unittest.main()
