@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.36.1" />
+  <meta name="generator" content="Hugo 0.170.1">
   <meta name="author" content="Jose Emilio Labra Gayo">
   <meta name="description" content="Full Professor">
 
@@ -32,22 +32,14 @@
   
 
   
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-645569-4', 'auto');
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
-    </script>
-    <script async src="//www.google-analytics.com/analytics.js"></script>
-    
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
-    
-  
 
+  
+  
+  
+  
   <link rel="alternate" href="http://labra.weso.es/index.xml" type="application/rss+xml" title="Labra&#39;s home page">
   <link rel="feed" href="http://labra.weso.es/index.xml" type="application/rss+xml" title="Labra&#39;s home page">
+  
 
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
@@ -270,40 +262,36 @@
 
     <div class="article-style" itemprop="articleBody">
       <p>These days, in my spare time while on vacation, I decided to rewrite my home page.
- The task was not easy as I was doing it in a hotel in Lanzarote, without internet connection in my room,
- and using <a href="http://gohugo.io/" target="_blank">Hugo</a>, a website framework, that I hadn&rsquo;t used before.</p>
-
+The task was not easy as I was doing it in a hotel in Lanzarote, without internet connection in my room,
+and using <a href="http://gohugo.io/" target="_blank">Hugo</a>, a website framework, that I hadn&rsquo;t used before.</p>
 <p>Anyway, Hugo seems quite intuitive and is very fast to compile and run, so it is funny for trial-and-error.
 Also, there is a very nice <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic theme</a> which facilitated
 the quick creation of the fist draft.</p>
-
 <p>Once I did the first draft and started to add content,
- I noticed that I had a long list of publications that required
- some extra-information like the journal, year or authors, so I had
- to customize the academic theme.</p>
-
+I noticed that I had a long list of publications that required
+some extra-information like the journal, year or authors, so I had
+to customize the academic theme.</p>
 <p>In order to browse Hugo documentation while being offline, I found useful <a href="https://github.com/hamoid/long-hugo-doc" target="_blank">this project</a>,
- which generated all Hugo documentation in a single HTML page.</p>
-
+which generated all Hugo documentation in a single HTML page.</p>
 <p>It seems that the customization can be easily done by replacing
- the pages that are in the themes folder by the equivalent ones in the root folder.</p>
-
+the pages that are in the themes folder by the equivalent ones in the root folder.</p>
 <p>I had to change the pages:</p>
-
 <ul>
-<li><p><code>layouts/widgets/publication</code>: declares how to visualize publications in the home page. I added a link at the end to show all publications.
-I had also added some code to add filtering by tags, but the result is not nice, so I commented it. It seems that commenting code in HTML in Hugo requires to remove the <code>{{</code> in the comments.</p></li>
-
-<li><p><code>layouts/partials/publication_li_simple.html</code>: defines how to visualize a single publication (I added there the authors, publication and year)</p></li>
-
-<li><p><code>layouts/section/publication.html</code>: declares how to filter publications by type and repeats the previous code. It would be better to use a partial, but I didn&rsquo;t want to break things from the academic theme.</p></li>
+<li>
+<p><code>layouts/widgets/publication</code>: declares how to visualize publications in the home page. I added a link at the end to show all publications.
+I had also added some code to add filtering by tags, but the result is not nice, so I commented it. It seems that commenting code in HTML in Hugo requires to remove the <code>{{</code> in the comments.</p>
+</li>
+<li>
+<p><code>layouts/partials/publication_li_simple.html</code>: defines how to visualize a single publication (I added there the authors, publication and year)</p>
+</li>
+<li>
+<p><code>layouts/section/publication.html</code>: declares how to filter publications by type and repeats the previous code. It would be better to use a partial, but I didn&rsquo;t want to break things from the academic theme.</p>
+</li>
 </ul>
-
 <p>I also managed to integrate Travis with github so when I push some changes to github, it automatically deploys the content via Travis.
- Notice that there are 2 branches, the <code>source</code> branch contains the source code, and the <code>master</code> branch contains the result (in Hugo, the result is by default created in the folder <code>/public</code>)</p>
-
+Notice that there are 2 branches, the <code>source</code> branch contains the source code, and the <code>master</code> branch contains the result (in Hugo, the result is by default created in the folder <code>/public</code>)</p>
 <p>The source code is located <a href="https://github.com/labra/labra.github.io" target="_blank">here</a> and
- the resulting web page is <a href="http://www.di.uniovi.es/~labra" target="_blank">here</a>.</p>
+the resulting web page is <a href="http://www.di.uniovi.es/~labra" target="_blank">here</a>.</p>
 
     </div>
   </div>
@@ -313,9 +301,6 @@ I had also added some code to add filtering by tags, but the result is not nice,
 <div class="container">
   <nav>
   <ul class="pager">
-    
-    <li class="previous"><a href="http://labra.weso.es/post/getting-started/"><span
-      aria-hidden="true">&larr;</span> First post</a></li>
     
 
     
@@ -333,7 +318,7 @@ I had also added some code to add filtering by tags, but the result is not nice,
   <div id="disqus_thread">
     <div id="disqus_thread"></div>
 <script>
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     
@@ -349,8 +334,9 @@ I had also added some code to add filtering by tags, but the result is not nice,
         (d.head || d.body).appendChild(s);
     })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+	
   </div>
 </section>
 
@@ -361,7 +347,7 @@ I had also added some code to add filtering by tags, but the result is not nice,
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2018 Jose Emilio Labra Gayo &middot; 
+      © 2026 Jose Emilio Labra Gayo &middot; 
 
       Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
       theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.

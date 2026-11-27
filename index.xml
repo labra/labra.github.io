@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Labra&#39;s home page on Labra&#39;s home page</title>
@@ -6,15 +5,16 @@
     <description>Recent content in Labra&#39;s home page on Labra&#39;s home page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Jose Emilio Labra Gayo</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2026 Jose Emilio Labra Gayo</copyright>
+    <lastBuildDate>Mon, 16 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://labra.weso.es/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     
     <item>
       <title>A dataset of the European fishing fleet and maritime infrastructure</title>
       <link>http://labra.weso.es/publication/2026_fishing_knowldge_graph_scientificdata/</link>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      
       <guid>http://labra.weso.es/publication/2026_fishing_knowldge_graph_scientificdata/</guid>
       <description></description>
     </item>
@@ -23,7 +23,6 @@
       <title>How Human-Centric Are Our Graph Data Abstractions?</title>
       <link>http://labra.weso.es/publication/2026_human_centric_graphs_tgdk/</link>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      
       <guid>http://labra.weso.es/publication/2026_human_centric_graphs_tgdk/</guid>
       <description></description>
     </item>
@@ -32,7 +31,6 @@
       <title>Formalizing the Semantics of ShEx with Lean</title>
       <link>http://labra.weso.es/publication/2026_shex_lean_kgswc/</link>
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      
       <guid>http://labra.weso.es/publication/2026_shex_lean_kgswc/</guid>
       <description></description>
     </item>
@@ -41,17 +39,7 @@
       <title>A Provenance-Aware Agentic Framework for Knowledge Graph Augmentation Using RDF 1.2 and SHACL</title>
       <link>http://labra.weso.es/publication/2026_provenance_rdf12_shacl_glow/</link>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      
       <guid>http://labra.weso.es/publication/2026_provenance_rdf12_shacl_glow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Supporting the Evolution of Wikidata EntitySchemas through Empirical Usage Analysis</title>
-      <link>http://labra.weso.es/publication/2026_evolutionentityschemas_wikidataworkshop/</link>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2026_evolutionentityschemas_wikidataworkshop/</guid>
       <description></description>
     </item>
     
@@ -59,17 +47,15 @@
       <title>rudofMCP: A Model Context Protocol Server Exposing Knowledge Graph Engineering Capabilities to Large Language Models</title>
       <link>http://labra.weso.es/publication/2026_rudofmcp_elmke_iswc26/</link>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      
       <guid>http://labra.weso.es/publication/2026_rudofmcp_elmke_iswc26/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Shaping Different Types of Knowledge Graphs</title>
-      <link>http://labra.weso.es/talk/2026_shaping_different_kgs/</link>
-      <pubDate>Tue, 15 Sep 2026 14:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/talk/2026_shaping_different_kgs/</guid>
+      <title>Supporting the Evolution of Wikidata EntitySchemas through Empirical Usage Analysis</title>
+      <link>http://labra.weso.es/publication/2026_evolutionentityschemas_wikidataworkshop/</link>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>http://labra.weso.es/publication/2026_evolutionentityschemas_wikidataworkshop/</guid>
       <description></description>
     </item>
     
@@ -77,8 +63,15 @@
       <title>rudof: a semantic-les tool for the semantic web</title>
       <link>http://labra.weso.es/talk/2026_rudof_semantics/</link>
       <pubDate>Tue, 15 Sep 2026 14:00:00 +0000</pubDate>
-      
       <guid>http://labra.weso.es/talk/2026_rudof_semantics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shaping Different Types of Knowledge Graphs</title>
+      <link>http://labra.weso.es/talk/2026_shaping_different_kgs/</link>
+      <pubDate>Tue, 15 Sep 2026 14:00:00 +0000</pubDate>
+      <guid>http://labra.weso.es/talk/2026_shaping_different_kgs/</guid>
       <description></description>
     </item>
     
@@ -86,17 +79,7 @@
       <title>Extending and Optimizing the rudof SHACL validator</title>
       <link>http://labra.weso.es/publication/2026_shacl_rudof_dmkg/</link>
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
-      
       <guid>http://labra.weso.es/publication/2026_shacl_rudof_dmkg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Translating RDF 1.2 Graphs to Property Graphs</title>
-      <link>http://labra.weso.es/publication/2026_rdf12_pg_dmkg/</link>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/publication/2026_rdf12_pg_dmkg/</guid>
       <description></description>
     </item>
     
@@ -104,8 +87,15 @@
       <title>sheval: An RDF data shapes evaluation tool and test-suite for recursive shapes</title>
       <link>http://labra.weso.es/publication/2026_sheval_dmkg/</link>
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
-      
       <guid>http://labra.weso.es/publication/2026_sheval_dmkg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Translating RDF 1.2 Graphs to Property Graphs</title>
+      <link>http://labra.weso.es/publication/2026_rdf12_pg_dmkg/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://labra.weso.es/publication/2026_rdf12_pg_dmkg/</guid>
       <description></description>
     </item>
     
@@ -113,7 +103,6 @@
       <title>TogoMCP: natural language querying of life-science knowledge graphs via schema-guided LLMs and the Model Context Protocol</title>
       <link>http://labra.weso.es/publication/2026_togomcp_database/</link>
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-      
       <guid>http://labra.weso.es/publication/2026_togomcp_database/</guid>
       <description></description>
     </item>
@@ -122,7 +111,6 @@
       <title>rudof-MCP: A Model Context Protocol Server for Semantic Web Operations</title>
       <link>http://labra.weso.es/publication/2026_mcp_rudof/</link>
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-      
       <guid>http://labra.weso.es/publication/2026_mcp_rudof/</guid>
       <description></description>
     </item>
@@ -131,7 +119,6 @@
       <title>Common Foundations for Recursive Shape Languages</title>
       <link>http://labra.weso.es/publication/2026_foundations_recursive_shapes_languages/</link>
       <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-      
       <guid>http://labra.weso.es/publication/2026_foundations_recursive_shapes_languages/</guid>
       <description></description>
     </item>
@@ -140,7 +127,6 @@
       <title>Shaping Knowledge and Interoperable Graphs</title>
       <link>http://labra.weso.es/talk/2026_shaping_knowledge_interoperable_graphs_poland/</link>
       <pubDate>Mon, 20 Apr 2026 06:00:00 +0000</pubDate>
-      
       <guid>http://labra.weso.es/talk/2026_shaping_knowledge_interoperable_graphs_poland/</guid>
       <description></description>
     </item>

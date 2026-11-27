@@ -1,5 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/publication_types/2/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
   
     
     
@@ -14,8 +22,260 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/anastasia-dimou/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/angela-bonifati/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/computing-education/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/enrique-rodr%C3%ADguez-mart%C3%ADn/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/fishing-data/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/george-fletcher/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/george-konstantinidis/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/graph-data-abstractions/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/hannes-voigt/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2026_human_centric_graphs_tgdk/</loc>
       <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/human-centric-data-management/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/jorge-%C3%A1lvarez-fidalgo/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/jose-emilio-labra-gayo/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/katherine-thornton/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/katja-hose/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/knowledge-graphs/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/liat-peterfreund/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/maria-esther-vidal/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/nina-pardal/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/property-graphs/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/publication_types/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/rdf/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/stefania-dumbrava/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/usability/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/wikibase/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/wim-martens/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/publication_types/1/</loc>
+      <lastmod>2026-11-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/eric-prudhommeaux/</loc>
+      <lastmod>2026-11-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -41,7 +301,43 @@
     
     <url>
     
-      <loc>http://labra.weso.es/publication/2026_evolutionentityschemas_wikidataworkshop/</loc>
+      <loc>http://labra.weso.es/authors/alex-vigani/</loc>
+      <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/%C3%A1lvaro-garc%C3%ADa-fern%C3%A1ndez/</loc>
+      <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/anisa-rula/</loc>
+      <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/hugo-lebredo-buj%C3%A1n/</loc>
+      <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/nina-hosseini-kivanani/</loc>
       <lastmod>2026-10-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -59,8 +355,17 @@
     
     <url>
     
-      <loc>http://labra.weso.es/talk/2026_shaping_different_kgs/</loc>
-      <lastmod>2026-09-15T14:00:00+00:00</lastmod>
+      <loc>http://labra.weso.es/authors/samuel-bustamante-larriet/</loc>
+      <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/publication/2026_evolutionentityschemas_wikidataworkshop/</loc>
+      <lastmod>2026-10-28T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -77,6 +382,42 @@
     
     <url>
     
+      <loc>http://labra.weso.es/talk/2026_shaping_different_kgs/</loc>
+      <lastmod>2026-09-15T14:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/cem-okulmus/</loc>
+      <lastmod>2026-09-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/daniel-fern%C3%A1ndez-%C3%A1lvarez/</loc>
+      <lastmod>2026-09-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/dominik-tomaszuk/</loc>
+      <lastmod>2026-09-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2026_shacl_rudof_dmkg/</loc>
       <lastmod>2026-09-05T00:00:00+00:00</lastmod>
     </url>
@@ -86,7 +427,79 @@
     
     <url>
     
-      <loc>http://labra.weso.es/publication/2026_rdf12_pg_dmkg/</loc>
+      <loc>http://labra.weso.es/authors/filip-murlak/</loc>
+      <lastmod>2026-09-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/iovka-boneva/</loc>
+      <lastmod>2026-09-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/jan-hidders/</loc>
+      <lastmod>2026-09-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/mantas-%C5%A1imkus/</loc>
+      <lastmod>2026-09-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/maxime-jakubowski/</loc>
+      <lastmod>2026-09-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/ognjen-savkovi%C4%87/</loc>
+      <lastmod>2026-09-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/%C3%B3scar-corcho-garc%C3%ADa/</loc>
+      <lastmod>2026-09-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/ruben-dedecker/</loc>
+      <lastmod>2026-09-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/ruben-taelman/</loc>
       <lastmod>2026-09-05T00:00:00+00:00</lastmod>
     </url>
     
@@ -104,6 +517,96 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/shqiponja-ahmetaj/</loc>
+      <lastmod>2026-09-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/publication/2026_rdf12_pg_dmkg/</loc>
+      <lastmod>2026-09-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/akira-r-kinjo/</loc>
+      <lastmod>2026-07-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/life-sciences/</loc>
+      <lastmod>2026-07-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/llm/</loc>
+      <lastmod>2026-07-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/mcp/</loc>
+      <lastmod>2026-07-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/model-context-protocol/</loc>
+      <lastmod>2026-07-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/sparql/</loc>
+      <lastmod>2026-07-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/takatomo-fujisawa/</loc>
+      <lastmod>2026-07-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/togomcp/</loc>
+      <lastmod>2026-07-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2026_togomcp_database/</loc>
       <lastmod>2026-07-24T00:00:00+00:00</lastmod>
     </url>
@@ -113,7 +616,70 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/yasunori-yamamoto/</loc>
+      <lastmod>2026-07-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/demo/</loc>
+      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/diego-mart%C3%ADn-fern%C3%A1ndez/</loc>
+      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/rdf-validation/</loc>
+      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2026_mcp_rudof/</loc>
+      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/rust/</loc>
+      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/semantic-web/</loc>
+      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/shex/</loc>
       <lastmod>2026-05-12T00:00:00+00:00</lastmod>
     </url>
     
@@ -131,8 +697,35 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/fabio-mogavero/</loc>
+      <lastmod>2026-04-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/talk/2026_shaping_knowledge_interoperable_graphs_poland/</loc>
       <lastmod>2026-04-20T06:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/shacl/</loc>
+      <lastmod>2026-03-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/shapes/</loc>
+      <lastmod>2026-03-12T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -149,7 +742,97 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/uml/</loc>
+      <lastmod>2026-03-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/publication_types/11/</loc>
+      <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/akira-r.-kinjo/</loc>
+      <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/andra-waagmeester/</loc>
+      <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/javier-acosta/</loc>
+      <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/julia-koblitz/</loc>
+      <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2025_mcp_server_tools_rdf/</loc>
+      <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/shuichi-kawashima/</loc>
+      <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/subsets/</loc>
+      <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/wikidata/</loc>
+      <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/yoko-okabeppu/</loc>
       <lastmod>2025-12-15T00:00:00+00:00</lastmod>
     </url>
     
@@ -194,6 +877,15 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/gustavo-correa-publio/</loc>
+      <lastmod>2025-07-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2025_xp_shacl/</loc>
       <lastmod>2025-07-11T00:00:00+00:00</lastmod>
     </url>
@@ -223,6 +915,15 @@
     
       <loc>http://labra.weso.es/publication/2025_shex_inheritance/</loc>
       <lastmod>2025-04-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/axel-polleres/</loc>
+      <lastmod>2025-02-03T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -266,6 +967,24 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/carlos-cares/</loc>
+      <lastmod>2024-10-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/claudio-navarro/</loc>
+      <lastmod>2024-10-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2024_underwater_vehicles_peerj/</loc>
       <lastmod>2024-10-05T00:00:00+00:00</lastmod>
     </url>
@@ -275,8 +994,116 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/francisco-a.-escobar-jara/</loc>
+      <lastmod>2024-10-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/underwater-vehicles/</loc>
+      <lastmod>2024-10-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/data-analysis/</loc>
+      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/felipe-rivera-polo/</loc>
+      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/francisco-cifuentes-silva/</loc>
+      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/hern%C3%A1n-astudillo/</loc>
+      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/legal-informatics/</loc>
+      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/linked-open-data/</loc>
+      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/polarization/</loc>
+      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/political-alignment/</loc>
+      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2024_towardsefficientlegislativeprocesses/</loc>
       <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/%C3%A1ngel-iglesias-pr%C3%A9stamo/</loc>
+      <lastmod>2024-05-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/marc-antoine-arnaud/</loc>
+      <lastmod>2024-05-10T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -311,8 +1138,26 @@
     
     <url>
     
-      <loc>http://labra.weso.es/publication/2024_extracting_shapes_consolidator-copy/</loc>
-      <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+      <loc>http://labra.weso.es/authors/jan-van-den-bussche/</loc>
+      <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/maxime-jakubowsk/</loc>
+      <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/slawomir-staworko/</loc>
+      <lastmod>2024-05-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -383,7 +1228,151 @@
     
     <url>
     
-      <loc>http://labra.weso.es/project/shapes-rs/</loc>
+      <loc>http://labra.weso.es/authors/aitor-echevarr%C3%ADa-fern%C3%A1ndez/</loc>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/amazon-web-services/</loc>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/aws/</loc>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/cloud-computing/</loc>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/documentdb/</loc>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/dynamodb/</loc>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/ecs-fargate/</loc>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/enrique-riesgo-canal/</loc>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/faas/</loc>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/juan-mera-men%C3%A9ndez/</loc>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/kubernetes/</loc>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/microservices/</loc>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/migration/</loc>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/performance/</loc>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/serverless/</loc>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/software-architecture/</loc>
+      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/playground/</loc>
       <lastmod>2023-07-31T00:00:00+00:00</lastmod>
     </url>
     
@@ -392,7 +1381,7 @@
     
     <url>
     
-      <loc>http://labra.weso.es/project/wshex/</loc>
+      <loc>http://labra.weso.es/project/</loc>
       <lastmod>2023-07-31T00:00:00+00:00</lastmod>
     </url>
     
@@ -410,6 +1399,51 @@
     
     <url>
     
+      <loc>http://labra.weso.es/project/rudof/</loc>
+      <lastmod>2023-07-31T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/project/wshex/</loc>
+      <lastmod>2023-07-31T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/wshex/</loc>
+      <lastmod>2023-07-31T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/deepak-unni/</loc>
+      <lastmod>2023-07-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/linkml/</loc>
+      <lastmod>2023-07-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2023_linkml/</loc>
       <lastmod>2023-07-17T00:00:00+00:00</lastmod>
     </url>
@@ -419,8 +1453,242 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/alberto-labarga/</loc>
+      <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/claude-nanjo/</loc>
+      <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/covid/</loc>
+      <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/hiroshi-mori/</loc>
+      <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/jerven-bolleman/</loc>
+      <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/jose-alberto-ben%C3%ADtez-andrades/</loc>
+      <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/kiyoko-flora-aoki-kinoshita/</loc>
+      <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/masashi-yokochi/</loc>
+      <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/nishad-thalhath/</loc>
+      <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/n%C3%BAria-queralt-rosinach/</loc>
+      <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/preprint/</loc>
+      <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2023_rdf_data_integration/</loc>
       <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/robert-hoehndorf/</loc>
+      <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/thomas-liener/</loc>
+      <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/toshiaki-katayama/</loc>
+      <lastmod>2023-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/accuracy/</loc>
+      <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/alasdair-j-g-gray/</loc>
+      <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/ammar-ammar/</loc>
+      <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/big-data/</loc>
+      <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/carolina-gonzalez/</loc>
+      <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/denise-slenter/</loc>
+      <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/egon-l.-willighagen/</loc>
+      <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/fiona-mcneill/</loc>
+      <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/knowledge-graph/</loc>
+      <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/sabah-ul-hasan/</loc>
+      <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/seyed-amir-hosseini-beghaeiraveri/</loc>
+      <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/subsetting/</loc>
+      <lastmod>2023-06-19T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -455,8 +1723,44 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/pablo-men%C3%A9ndez-su%C3%A1rez/</loc>
+      <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/visualization/</loc>
+      <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/talk/2023_sistedes/</loc>
       <lastmod>2023-01-17T17:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/data-validation/</loc>
+      <lastmod>2023-01-14T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/data-quality/</loc>
+      <lastmod>2023-01-14T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -473,7 +1777,34 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/adriana-carolina-gonz%C3%A1lez-cavazos/</loc>
+      <lastmod>2022-11-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/egon-willighagen/</loc>
+      <lastmod>2022-11-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2022_enhancement_reusage_biomedical_subsets/</loc>
+      <lastmod>2022-11-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/nils-hofmann/</loc>
       <lastmod>2022-11-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -491,6 +1822,141 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/collaborative-curation/</loc>
+      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/covid-19-epidemiology/</loc>
+      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/daniel-mietchen/</loc>
+      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/dariusz-jemielniak/</loc>
+      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/diptanshu-das/</loc>
+      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/houcemeddine-turki/</loc>
+      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/knowledge-graph-re%EF%AC%81nement/</loc>
+      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/mohamed-a.-hadj-taieb/</loc>
+      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/mohamed-ben-aouicha/</loc>
+      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/musab-banat/</loc>
+      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/public-health-emergency-of-international-concern/</loc>
+      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/public-health-surveillance/</loc>
+      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/shape-expressions/</loc>
+      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/thomas-shafee/</loc>
+      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/tiago-lubiana/</loc>
+      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2022_constraints_wikidata/</loc>
       <lastmod>2022-10-04T00:00:00+00:00</lastmod>
     </url>
@@ -500,7 +1966,52 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/validation-constraints/</loc>
+      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/continuous-integration/</loc>
+      <lastmod>2022-09-13T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/guillermo-facundo-colunga/</loc>
+      <lastmod>2022-09-13T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2022_ontoloci/</loc>
+      <lastmod>2022-09-13T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/ontology-validation/</loc>
+      <lastmod>2022-09-13T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/pablo-men%C3%A9ndez/</loc>
       <lastmod>2022-09-13T00:00:00+00:00</lastmod>
     </url>
     
@@ -518,7 +2029,25 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/automatic-extraction/</loc>
+      <lastmod>2022-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2022_shexer/</loc>
+      <lastmod>2022-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/daniel-gayo-avello/</loc>
       <lastmod>2022-02-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -536,7 +2065,151 @@
     
     <url>
     
+      <loc>http://labra.weso.es/publication_types/5/</loc>
+      <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/aidan-hogan/</loc>
+      <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/antoine-zimmermann/</loc>
+      <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/axel-cyrille-ngonga-ngomo/</loc>
+      <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/claudia-damato/</loc>
+      <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/claudio-guti%C3%A9rrez/</loc>
+      <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/eva-blomqvist/</loc>
+      <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/gerard-de-melo/</loc>
+      <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/juan-sequeda/</loc>
+      <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2021_knowledgegraphs_book/</loc>
+      <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/lukas-schmelzeisen/</loc>
+      <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/michael-cochez/</loc>
+      <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/roberto-navigli/</loc>
+      <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/sabbir-m.-rashid/</loc>
+      <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/sabrina-kirrane/</loc>
+      <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/sebastian-neumaier/</loc>
+      <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/steffen-staab/</loc>
       <lastmod>2021-11-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -554,8 +2227,62 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/manoj-karingamadathil/</loc>
+      <lastmod>2021-09-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/paul-braun/</loc>
+      <lastmod>2021-09-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/siobhan-leachman/</loc>
+      <lastmod>2021-09-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2021_knowledgegraphs_acm_csur/</loc>
       <lastmod>2021-07-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/covid-19/</loc>
+      <lastmod>2021-07-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/eric-a.-youngstromg/</loc>
+      <lastmod>2021-07-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/mohamed-ali-hadj-taieb/</loc>
+      <lastmod>2021-07-05T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -573,6 +2300,42 @@
     <url>
     
       <loc>http://labra.weso.es/publication/2021_classrank/</loc>
+      <lastmod>2021-06-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/class/</loc>
+      <lastmod>2021-06-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/classrank/</loc>
+      <lastmod>2021-06-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/johannes-frey/</loc>
+      <lastmod>2021-06-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/sebastian-hellmann/</loc>
       <lastmod>2021-06-05T00:00:00+00:00</lastmod>
     </url>
     
@@ -608,7 +2371,142 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/clara-g.-de-los-reyes-gavil%C3%A1n/</loc>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/data-integration/</loc>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/data-mapping/</loc>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/herminio-garc%C3%ADa-gonz%C3%A1lez/</loc>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2021_microbiota/</loc>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/irene-d%C3%ADaz/</loc>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/jcr/</loc>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/miguel-gueimonde/</loc>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/nuria-salazar/</loc>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/semantic-technologies/</loc>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/sergio-ruiz-saavedra/</loc>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/shexml/</loc>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/silvia-arboleya/</loc>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/sonia-gonz%C3%A1lez/</loc>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/sparql-generate/</loc>
+      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/yarrrml/</loc>
       <lastmod>2021-01-29T00:00:00+00:00</lastmod>
     </url>
     
@@ -635,8 +2533,17 @@
     
     <url>
     
-      <loc>http://labra.weso.es/talk/2020_validatingrdfusingshapes_winterschool-copy/</loc>
+      <loc>http://labra.weso.es/talk/2020_validatingrdfusingshapes_winterschool/</loc>
       <lastmod>2020-11-25T12:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/juan-manuel-cueva-lovelle/</loc>
+      <lastmod>2020-11-23T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -646,6 +2553,42 @@
     
       <loc>http://labra.weso.es/publication/2020_shexml_peerj/</loc>
       <lastmod>2020-11-23T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/s%C5%82awek-staworko/</loc>
+      <lastmod>2020-11-23T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/alejandro-gonz%C3%A1lez-hevia/</loc>
+      <lastmod>2020-11-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/code-generation/</loc>
+      <lastmod>2020-11-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/emilio-rubiera-azcona/</loc>
+      <lastmod>2020-11-06T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -680,6 +2623,51 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/daniel-ruiz-santamar%C3%ADa/</loc>
+      <lastmod>2020-11-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/jos%C3%A9-barranquero-tolosa/</loc>
+      <lastmod>2020-11-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/ontology/</loc>
+      <lastmod>2020-11-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/paulino-%C3%A1lvarez-de-ron-ondina/</loc>
+      <lastmod>2020-11-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/research-data-management/</loc>
+      <lastmod>2020-11-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2020_representingcovidinformationwikidata/</loc>
       <lastmod>2020-09-16T00:00:00+00:00</lastmod>
     </url>
@@ -699,6 +2687,78 @@
     <url>
     
       <loc>http://labra.weso.es/publication/2020_informationsystems_ontologybasedmultidomainmodel/</loc>
+      <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/carmen-benavides/</loc>
+      <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/h%C3%A9ctor-al%C3%A1iz-moret%C3%B3n/</loc>
+      <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/isa%C3%ADas-garc%C3%ADa-rodr%C3%ADguez/</loc>
+      <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/jos%C3%A9-alberto-ben%C3%ADtez-andrades/</loc>
+      <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/knowledge-based-systems/</loc>
+      <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/multi-domain-ontology/</loc>
+      <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/ontology-based-systems/</loc>
+      <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/social-network-analysis/</loc>
       <lastmod>2020-07-07T00:00:00+00:00</lastmod>
     </url>
     
@@ -743,7 +2803,88 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/andrew-i-su/</loc>
+      <lastmod>2020-06-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/jasper-j.-koehorst/</loc>
+      <lastmod>2020-06-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/lisa-m.-verhagen/</loc>
+      <lastmod>2020-06-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/martina-kutmon/</loc>
+      <lastmod>2020-06-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/peter-j.-schaap/</loc>
+      <lastmod>2020-06-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/quentin-groom/</loc>
+      <lastmod>2020-06-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/kafka/</loc>
+      <lastmod>2020-06-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2020_budgetlawlodchile/</loc>
+      <lastmod>2020-06-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/real-state/</loc>
+      <lastmod>2020-06-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/stream-processing/</loc>
       <lastmod>2020-06-03T00:00:00+00:00</lastmod>
     </url>
     
@@ -761,7 +2902,70 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/elena-albarr%C3%A1n-fern%C3%A1ndez/</loc>
+      <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/miguel-calleja-puerta/</loc>
+      <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/chunlei-wu/</loc>
+      <lastmod>2020-04-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2020_datavalidation_schemainteroperability/</loc>
+      <lastmod>2020-04-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/leyla-garcia-castro/</loc>
+      <lastmod>2020-04-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/michel-dumontier/</loc>
+      <lastmod>2020-04-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/simon-jupp/</loc>
+      <lastmod>2020-04-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/tazro-ohta/</loc>
       <lastmod>2020-04-08T00:00:00+00:00</lastmod>
     </url>
     
@@ -797,6 +3001,24 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/books/</loc>
+      <lastmod>2019-11-14T18:37:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/ciencia/</loc>
+      <lastmod>2019-11-14T18:37:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/post/2019_el_arte_de_la_tesisdoctoral/</loc>
       <lastmod>2019-11-14T18:37:00+00:00</lastmod>
     </url>
@@ -806,7 +3028,52 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/espa%C3%B1a/</loc>
+      <lastmod>2019-11-14T18:37:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/libros/</loc>
+      <lastmod>2019-11-14T18:37:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/spanish/</loc>
+      <lastmod>2019-11-14T18:37:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/post/datanomics/</loc>
+      <lastmod>2019-11-14T18:23:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/datos/</loc>
+      <lastmod>2019-11-14T18:23:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/privacidad/</loc>
       <lastmod>2019-11-14T18:23:00+00:00</lastmod>
     </url>
     
@@ -844,6 +3111,33 @@
     
       <loc>http://labra.weso.es/talk/2019_kgswc_keynote/</loc>
       <lastmod>2019-06-26T09:30:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/danish/</loc>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/finn-%C3%A5rup-nielsen/</loc>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/lexemes/</loc>
+      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -896,6 +3190,24 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/gregory-stupp/</loc>
+      <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/harold-solbrig/</loc>
+      <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2019_eswc_historylaw/</loc>
       <lastmod>2019-03-25T00:00:00+00:00</lastmod>
     </url>
@@ -914,7 +3226,25 @@
     
     <url>
     
+      <loc>http://labra.weso.es/publication_types/6/</loc>
+      <lastmod>2018-12-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2018_validatingrdfdatachallenges/</loc>
+      <lastmod>2018-12-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/validating-data/</loc>
       <lastmod>2018-12-24T00:00:00+00:00</lastmod>
     </url>
     
@@ -959,7 +3289,34 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/iswc/</loc>
+      <lastmod>2018-10-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/poster/</loc>
+      <lastmod>2018-10-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2018_rdfshape_iswcdemo/</loc>
+      <lastmod>2018-10-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/validation/</loc>
       <lastmod>2018-10-12T00:00:00+00:00</lastmod>
     </url>
     
@@ -995,6 +3352,24 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/xml/</loc>
+      <lastmod>2018-06-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/xml-schema/</loc>
+      <lastmod>2018-06-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2018_swj_xmlschema2shex/</loc>
       <lastmod>2018-06-02T00:00:00+00:00</lastmod>
     </url>
@@ -1004,8 +3379,116 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/administrative-file/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/administrative-procedure/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/francisco-jos%C3%A9-hidalgo-l%C3%B3pez/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/linked-data/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/open-data/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/p-plan/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/patricia-ord%C3%B3%C3%B1ez-de-pablos/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/prov-o/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/provenance/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2018_sustainability/</loc>
       <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/sustainability/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/functional-programming/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/streams/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -1058,7 +3541,25 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/entity-reconciliation/</loc>
+      <lastmod>2017-09-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2017_mera.1/</loc>
+      <lastmod>2017-09-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/music/</loc>
       <lastmod>2017-09-06T00:00:00+00:00</lastmod>
     </url>
     
@@ -1085,6 +3586,24 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/homepage/</loc>
+      <lastmod>2017-08-21T10:39:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/dimitris-kontokostas/</loc>
+      <lastmod>2017-08-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2017_validating-rdf-book/</loc>
       <lastmod>2017-08-20T00:00:00+00:00</lastmod>
     </url>
@@ -1094,8 +3613,17 @@
     
     <url>
     
-      <loc>http://labra.weso.es/post/getting-started/</loc>
-      <lastmod>2017-07-31T12:00:00+00:00</lastmod>
+      <loc>http://labra.weso.es/tags/haskell/</loc>
+      <lastmod>2017-07-31T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/scala/</loc>
+      <lastmod>2017-07-31T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -1121,8 +3649,35 @@
     
     <url>
     
+      <loc>http://labra.weso.es/publication_types/9/</loc>
+      <lastmod>2017-07-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/holger-knublauch/</loc>
+      <lastmod>2017-07-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2017_shacltestsuite/</loc>
       <lastmod>2017-07-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/gregg-kellogg/</loc>
+      <lastmod>2017-07-13T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -1140,6 +3695,78 @@
     <url>
     
       <loc>http://labra.weso.es/publication/2017_computationalmathematicalmethods/</loc>
+      <lastmod>2017-04-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/ehealth/</loc>
+      <lastmod>2017-04-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/enedina-quiroga/</loc>
+      <lastmod>2017-04-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/healthcare/</loc>
+      <lastmod>2017-04-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/isa%C3%ADas-garc%C3%ADa/</loc>
+      <lastmod>2017-04-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/jos%C3%A9-alberto-ben%C3%ADtez/</loc>
+      <lastmod>2017-04-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/pilar-marqu%C3%A9s-s%C3%A1nchez/</loc>
+      <lastmod>2017-04-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/vicente-mart%C3%ADn/</loc>
+      <lastmod>2017-04-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/web-based-tool/</loc>
       <lastmod>2017-04-26T00:00:00+00:00</lastmod>
     </url>
     
@@ -1202,6 +3829,42 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/elearning/</loc>
+      <lastmod>2016-12-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/hernan-sagastegui-chigne/</loc>
+      <lastmod>2016-12-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/learning-analytics/</loc>
+      <lastmod>2016-12-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/mar%C3%ADa-elena-alva-obeso/</loc>
+      <lastmod>2016-12-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2016_towards_learninganalytics/</loc>
       <lastmod>2016-12-01T00:00:00+00:00</lastmod>
     </url>
@@ -1220,6 +3883,24 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/mar%C3%ADa-del-puerto-paule/</loc>
+      <lastmod>2016-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/inference/</loc>
+      <lastmod>2016-10-13T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2016_inferenceserializationshex/</loc>
       <lastmod>2016-10-13T00:00:00+00:00</lastmod>
     </url>
@@ -1229,7 +3910,61 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/chilecompra/</loc>
+      <lastmod>2016-10-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/eprocurement/</loc>
+      <lastmod>2016-10-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2016_identifyingpotentialsuppliers/</loc>
+      <lastmod>2016-10-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/latent-semantic-analysis/</loc>
+      <lastmod>2016-10-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/public-procurement/</loc>
+      <lastmod>2016-10-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/ricardo-gacitua/</loc>
+      <lastmod>2016-10-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/victor-aravena-d%C3%ADaz/</loc>
       <lastmod>2016-10-10T00:00:00+00:00</lastmod>
     </url>
     
@@ -1247,7 +3982,25 @@
     
     <url>
     
+      <loc>http://labra.weso.es/publication_types/4/</loc>
+      <lastmod>2016-03-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2016_shapeexpressionschemas/</loc>
+      <lastmod>2016-03-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/slawek-staworko/</loc>
       <lastmod>2016-03-26T00:00:00+00:00</lastmod>
     </url>
     
@@ -1274,6 +4027,15 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/public-sector-information/</loc>
+      <lastmod>2015-11-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/talk/2015_puno/</loc>
       <lastmod>2015-06-23T09:30:00+00:00</lastmod>
     </url>
@@ -1292,6 +4054,15 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/multilingual/</loc>
+      <lastmod>2015-05-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2015_rdfventures/</loc>
       <lastmod>2015-05-01T00:00:00+00:00</lastmod>
     </url>
@@ -1303,6 +4074,42 @@
     
       <loc>http://labra.weso.es/publication/2015_complexityexpressivenessshexrdf/</loc>
       <lastmod>2015-03-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/samuel-hym/</loc>
+      <lastmod>2015-03-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/jose-mar%C3%ADa-%C3%A1lvarez-rodr%C3%ADguez/</loc>
+      <lastmod>2015-03-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/linked-data-portals/</loc>
+      <lastmod>2015-03-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/regular-expression-derivatives/</loc>
+      <lastmod>2015-03-26T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -1337,6 +4144,24 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/patterns/</loc>
+      <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/s%C3%B6ren-auer/</loc>
+      <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/talk/2014_shexbyexample/</loc>
       <lastmod>2014-12-12T09:30:00+00:00</lastmod>
     </url>
@@ -1346,8 +4171,107 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/data-portal/</loc>
+      <lastmod>2014-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/hania-farham/</loc>
+      <lastmod>2014-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/juan-castro-fern%C3%A1ndez/</loc>
+      <lastmod>2014-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/open-science/</loc>
+      <lastmod>2014-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2014_representingstatisticalindexes/</loc>
       <lastmod>2014-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/statistics/</loc>
+      <lastmod>2014-11-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/aquilino-adolfo-juan-fuente/</loc>
+      <lastmod>2014-11-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/benjam%C3%ADn-l%C3%B3pez-p%C3%A9rez/</loc>
+      <lastmod>2014-11-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/daniel-machado-fern%C3%A1ndez/</loc>
+      <lastmod>2014-11-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/edward-rolando-n%C3%BA%C3%B1ez-valdez/</loc>
+      <lastmod>2014-11-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/guillermo-infante-hern%C3%A1ndez/</loc>
+      <lastmod>2014-11-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/interoperability/</loc>
+      <lastmod>2014-11-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -1373,7 +4297,52 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/model-driven-architecture/</loc>
+      <lastmod>2014-11-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/public-services/</loc>
+      <lastmod>2014-11-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/secundino-jos%C3%A9-gonz%C3%A1lez-p%C3%A9rez/</loc>
+      <lastmod>2014-11-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2014_creatingrecommendationselectronicbooks/</loc>
+      <lastmod>2014-10-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/ebooks/</loc>
+      <lastmod>2014-10-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/recommendations/</loc>
       <lastmod>2014-10-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -1427,8 +4396,98 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/annotations/</loc>
+      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/c%C3%A9sar-luis-alvargonz%C3%A1lez/</loc>
+      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/collaborative-tagging/</loc>
+      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/multilingualism/</loc>
+      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/graphs/</loc>
+      <lastmod>2013-12-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2013_inductivetriplegraphs/</loc>
       <lastmod>2013-12-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/inductive-graphs/</loc>
+      <lastmod>2013-12-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/johan-jeuring/</loc>
+      <lastmod>2013-12-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/e-procurement/</loc>
+      <lastmod>2013-11-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/michail-vafopoulos/</loc>
+      <lastmod>2013-11-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/patricia-ordo%C3%B1ez-de-pablos/</loc>
+      <lastmod>2013-11-19T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -1454,6 +4513,15 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/alejandro-rodr%C3%ADguez-gonz%C3%A1lez/</loc>
+      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2014_empoweringaccesspublicprocurement/</loc>
       <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     </url>
@@ -1463,7 +4531,88 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/schema-classifications/</loc>
+      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/alejandro-montes-garc%C3%ADa/</loc>
+      <lastmod>2013-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/digital-circuits/</loc>
+      <lastmod>2013-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/francisco-edgar-castillo-barrera/</loc>
+      <lastmod>2013-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/journal/</loc>
+      <lastmod>2013-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2013_kukulkan/</loc>
+      <lastmod>2013-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/marcos-mart%C3%ADnez-merino/</loc>
+      <lastmod>2013-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/news/</loc>
+      <lastmod>2013-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/r.-carolina-medina-ram%C3%ADrez/</loc>
+      <lastmod>2013-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/s.-masoud-sadjadi/</loc>
       <lastmod>2013-06-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -1499,7 +4648,25 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/modular-monadic-semantics/</loc>
+      <lastmod>2013-03-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/project/mlodpatterns/</loc>
+      <lastmod>2013-03-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/semantics/</loc>
       <lastmod>2013-03-08T00:00:00+00:00</lastmod>
     </url>
     
@@ -1517,8 +4684,44 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/miltiadis-d.-lytras/</loc>
+      <lastmod>2013-01-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/robert-d.-tennyson/</loc>
+      <lastmod>2013-01-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/e-government/</loc>
+      <lastmod>2013-01-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2013_eprocurementmanagement/</loc>
       <lastmod>2013-01-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/%C3%A1ngel-garc%C3%ADa-crespo/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -1544,8 +4747,143 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/description-logics/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/giner-alor-hern%C3%A1ndez/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/jorge-gonz%C3%A1lez-lorenzo/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/jose-mar%C3%ADa-alvarez-rodr%C3%ADguez/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/juan-miguel-g%C3%B3mez-berbis/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/mapreduce/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/medical-diagnosis/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/ontologies/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/ontospread/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2013_ontospreadframework/</loc>
       <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/ricardo-colomo-palacios/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/spreading-activation/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/data-grounding/</loc>
+      <lastmod>2012-11-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/diego-berrueta-mu%C3%B1oz/</loc>
+      <lastmod>2012-11-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/luis-polo-paredes/</loc>
+      <lastmod>2012-11-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/miguel-garc%C3%ADa-rodr%C3%ADguez/</loc>
+      <lastmod>2012-11-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -1571,8 +4909,98 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/book/</loc>
+      <lastmod>2012-01-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2012_websemantica/</loc>
       <lastmod>2012-01-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/c.-s%C3%A1nchez/</loc>
+      <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/erp/</loc>
+      <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/francisco-cifuentes/</loc>
+      <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/giner-h%C3%A9rnandez/</loc>
+      <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/j.-a.-guzm%C3%A1n-luna/</loc>
+      <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/javier-de-andr%C3%A9s/</loc>
+      <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/moldeas/</loc>
+      <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/pedro-lorca/</loc>
+      <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/technology-management/</loc>
+      <lastmod>2012-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -1598,8 +5026,80 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/christian-sifaqui/</loc>
+      <lastmod>2011-09-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/methodology/</loc>
+      <lastmod>2011-09-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/public-administrations/</loc>
+      <lastmod>2011-09-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2011_linkeddatalibrarycongress/</loc>
       <lastmod>2011-09-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/alejandro-rodr%C3%ADguez-garc%C3%ADa/</loc>
+      <lastmod>2011-05-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/angel-garc%C3%ADa-crespo/</loc>
+      <lastmod>2011-05-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/juan-manual-g%C3%B3mez-berbis/</loc>
+      <lastmod>2011-05-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/miguel-a.-mayer/</loc>
+      <lastmod>2011-05-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/ricardo-colomo-palacio/</loc>
+      <lastmod>2011-05-03T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -1616,7 +5116,52 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/b.-cristina-pelayo-garc%C3%ADa-bustelo/</loc>
+      <lastmod>2010-09-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/interaction/</loc>
+      <lastmod>2010-09-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/oscar-sanju%C3%A1n-mart%C3%ADnez/</loc>
+      <lastmod>2010-09-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2010_recommendationsystemselectronicbooks/</loc>
+      <lastmod>2010-09-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/recommendation-system/</loc>
+      <lastmod>2010-09-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/rub%C3%A9n-gonz%C3%A1lez-crespo/</loc>
       <lastmod>2010-09-12T00:00:00+00:00</lastmod>
     </url>
     
@@ -1643,6 +5188,42 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/ana-bel%C3%A9n-mart%C3%ADnez-prieto/</loc>
+      <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/hern%C3%A1n-sagastegui-chigne/</loc>
+      <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/mar%C3%ADa-del-carmen-su%C3%A1rez-torrente/</loc>
+      <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/mar%C3%ADa-elena-alba-obeso/</loc>
+      <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2010_towardsevaluationusability/</loc>
       <lastmod>2010-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -1652,7 +5233,43 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/image-classification/</loc>
+      <lastmod>2009-11-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/image-retrieval/</loc>
+      <lastmod>2009-11-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2009_interactivewebenvironment/</loc>
+      <lastmod>2009-11-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/jose-barranquero-tolosa/</loc>
+      <lastmod>2009-11-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/sheila-m%C3%A9ndez-n%C3%BA%C3%B1ez/</loc>
       <lastmod>2009-11-07T00:00:00+00:00</lastmod>
     </url>
     
@@ -1679,7 +5296,97 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/alejandro-rodr%C3%ADguez/</loc>
+      <lastmod>2009-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/conference/</loc>
+      <lastmod>2009-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/giner-alor-hernandez/</loc>
+      <lastmod>2009-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/juan-miguel-g%C3%B3mez/</loc>
+      <lastmod>2009-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/krishnamurthy-vidyasankar/</loc>
+      <lastmod>2009-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2009_ontologiesrequirementspecifications/</loc>
+      <lastmod>2009-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/petr-kroha/</loc>
+      <lastmod>2009-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/r.-janetzko/</loc>
+      <lastmod>2009-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/requirements-specification/</loc>
+      <lastmod>2009-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/ricardo-colomo/</loc>
+      <lastmod>2009-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/ruben-posada-gomez/</loc>
       <lastmod>2009-06-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -1708,6 +5415,69 @@
     
       <loc>http://labra.weso.es/publication/2009_doingbusinesssellingfreeservices/</loc>
       <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/free-services/</loc>
+      <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/jose-luis-mar%C3%ADn-de-la-iglesia/</loc>
+      <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/web2.0/</loc>
+      <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/ana-cernea-doina/</loc>
+      <lastmod>2008-12-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/emergent-semantics/</loc>
+      <lastmod>2008-12-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/ester-del-moral/</loc>
+      <lastmod>2008-12-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/semantic-search/</loc>
+      <lastmod>2008-12-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -1751,8 +5521,53 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/javier-de-andr%C3%A9s-su%C3%A1rez/</loc>
+      <lastmod>2007-10-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/xbrl/</loc>
+      <lastmod>2007-10-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/diego-berrueta/</loc>
+      <lastmod>2007-04-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2007_mailinglistssemanticweb/</loc>
       <lastmod>2007-04-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/sergio-fern%C3%A1ndez/</loc>
+      <lastmod>2007-04-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/public-administration/</loc>
+      <lastmod>2006-11-07T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -1769,6 +5584,51 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/agust%C3%ADn-cernuda-del-r%C3%ADo/</loc>
+      <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/collaborative-tools/</loc>
+      <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/daniel-fern%C3%A1ndez-lanvin/</loc>
+      <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/jes%C3%BAs-calvo-salvador/</loc>
+      <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/project-based-learning/</loc>
+      <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2006_herramientascolaborativas/</loc>
       <lastmod>2006-06-01T00:00:00+00:00</lastmod>
     </url>
@@ -1778,7 +5638,34 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/jose-emilio-labra-gayohttp//di.uniovi.es/~labra/</loc>
+      <lastmod>2006-05-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2006_monadicprogramslicer/</loc>
+      <lastmod>2006-05-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/slicer/</loc>
+      <lastmod>2006-05-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/yingzhou-zhang/</loc>
       <lastmod>2006-05-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -1796,8 +5683,8 @@
     
     <url>
     
-      <loc>http://labra.weso.es/publication/2003_graphicalrepresentationslogicfunctionalprogrammingjenui/</loc>
-      <lastmod>2004-06-01T00:00:00+00:00</lastmod>
+      <loc>http://labra.weso.es/authors/baowen-xu/</loc>
+      <lastmod>2005-10-03T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -1814,7 +5701,79 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/computer-science-studies/</loc>
+      <lastmod>2004-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/lazy-programming/</loc>
+      <lastmod>2004-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/logic/</loc>
+      <lastmod>2004-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/logic-programming/</loc>
+      <lastmod>2004-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/publication/2003_graphicalrepresentationslogicfunctionalprogrammingjenui/</loc>
+      <lastmod>2004-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/bernardo-mart%C3%ADn-gonz%C3%A1lez-rodr%C3%ADguez/</loc>
+      <lastmod>2003-07-14T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/luis-joyanes-aguilar/</loc>
+      <lastmod>2003-07-14T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2003_webengineering/</loc>
+      <lastmod>2003-07-14T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/web-engineering/</loc>
       <lastmod>2003-07-14T00:00:00+00:00</lastmod>
     </url>
     
@@ -1825,6 +5784,51 @@
     
       <loc>http://labra.weso.es/publication/2002_agenericelearningmultiparadigm_idefixsigcse/</loc>
       <lastmod>2003-02-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/alberto-manuel-fern%C3%A1ndez-%C3%A1lvarez/</loc>
+      <lastmod>2003-02-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/jose-manuel-morales-gil/</loc>
+      <lastmod>2003-02-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/multi-paradigm/</loc>
+      <lastmod>2003-02-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/language-prototyping-system/</loc>
+      <lastmod>2003-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/mar%C3%ADa-c.-luengo-d%C3%ADaz/</loc>
+      <lastmod>2003-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -1850,8 +5854,53 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/roberto-turrado-camblor/</loc>
+      <lastmod>2002-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/publication_types/8/</loc>
+      <lastmod>2001-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/language-processors/</loc>
+      <lastmod>2001-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/2001_phdthesis/</loc>
       <lastmod>2001-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/publication_types/7/</loc>
+      <lastmod>1998-11-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/declarative-programming/</loc>
+      <lastmod>1998-11-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -1868,7 +5917,34 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/prolog/</loc>
+      <lastmod>1998-11-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/ana-i.-fern%C3%A1ndez/</loc>
+      <lastmod>1998-10-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/1998_ejercicioslogica/</loc>
+      <lastmod>1998-10-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/exercises/</loc>
       <lastmod>1998-10-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -1886,7 +5962,34 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/predicate-logic/</loc>
+      <lastmod>1998-10-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/propositional-logic/</loc>
+      <lastmod>1998-10-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/1998_mms_usingfoldsmonadicfolds/</loc>
+      <lastmod>1998-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/programming-language-semantics/</loc>
       <lastmod>1998-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -1904,7 +6007,34 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/luis-%C3%A1ngel-oliveira/</loc>
+      <lastmod>1997-10-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/musical-composition/</loc>
+      <lastmod>1997-10-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/1995_introhaskell/</loc>
+      <lastmod>1995-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/lecture-notes/</loc>
       <lastmod>1995-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -1922,6 +6052,24 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/miguel-riesco-albizu/</loc>
+      <lastmod>1991-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/authors/oliverio-gonz%C3%A1lez/</loc>
+      <lastmod>1991-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/publication/1991_simulacionunix/</loc>
       <lastmod>1991-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -1931,2358 +6079,7 @@
     
     <url>
     
-      <loc>http://labra.weso.es/authors/andra-waagmeester/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/authors/eric-prudhommeaux/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/authors/iovka-boneva/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/authors/jose-emilio-labra-gayo/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/authors/pablo-men%c3%a9ndez-su%c3%a1rez/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/publication_types/1/</loc>
-      <lastmod>2026-11-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/publication_types/11/</loc>
-      <lastmod>2025-12-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/publication_types/2/</loc>
-      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/publication_types/4/</loc>
-      <lastmod>2016-03-26T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/publication_types/5/</loc>
-      <lastmod>2021-11-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/publication_types/6/</loc>
-      <lastmod>2018-12-24T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/publication_types/7/</loc>
-      <lastmod>1998-11-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/publication_types/8/</loc>
-      <lastmod>2001-07-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/publication_types/9/</loc>
-      <lastmod>2017-07-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/aws/</loc>
-      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/accuracy/</loc>
-      <lastmod>2023-06-19T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/administrative-file/</loc>
-      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/administrative-procedure/</loc>
-      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/amazon-web-services/</loc>
-      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/annotations/</loc>
-      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/automatic-extraction/</loc>
-      <lastmod>2022-02-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/big-data/</loc>
-      <lastmod>2023-06-19T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/big-data/</loc>
-      <lastmod>2020-06-03T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/big-data/</loc>
-      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/book/</loc>
-      <lastmod>2012-01-16T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/books/</loc>
-      <lastmod>2019-11-14T18:37:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/covid-19/</loc>
-      <lastmod>2021-07-05T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/covid-19-epidemiology/</loc>
-      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://labra.weso.es/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/chilecompra/</loc>
-      <lastmod>2016-10-10T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/ciencia/</loc>
-      <lastmod>2019-11-14T18:37:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/class/</loc>
-      <lastmod>2021-06-05T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/classrank/</loc>
-      <lastmod>2021-06-05T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/cloud-computing/</loc>
-      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/code-generation/</loc>
-      <lastmod>2020-11-06T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/collaborative-curation/</loc>
-      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/collaborative-tagging/</loc>
-      <lastmod>2008-12-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/collaborative-tools/</loc>
-      <lastmod>2006-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/collaborative-tagging/</loc>
-      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/computer-science-studies/</loc>
-      <lastmod>2004-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/computing-education/</loc>
-      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/conference/</loc>
-      <lastmod>2009-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/continuous-integration/</loc>
-      <lastmod>2022-09-13T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/covid/</loc>
-      <lastmod>2023-07-02T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/danish/</loc>
-      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/data-quality/</loc>
-      <lastmod>2022-09-13T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/data-analysis/</loc>
-      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/data-integration/</loc>
-      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/data-mapping/</loc>
-      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/data-quality/</loc>
-      <lastmod>2023-01-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/data-validation/</loc>
-      <lastmod>2023-01-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/data-quality/</loc>
-      <lastmod>2015-11-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/data-grounding/</loc>
-      <lastmod>2012-11-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/data-portal/</loc>
-      <lastmod>2014-11-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/datos/</loc>
-      <lastmod>2019-11-14T18:23:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/declarative-programming/</loc>
-      <lastmod>1998-11-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/demo/</loc>
-      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/description-logics/</loc>
-      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/digital-circuits/</loc>
-      <lastmod>2013-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/documentdb/</loc>
-      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/dynamodb/</loc>
-      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/e-government/</loc>
-      <lastmod>2013-01-02T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/e-procurement/</loc>
-      <lastmod>2013-11-19T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/e-procurement/</loc>
-      <lastmod>2013-01-02T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/ebooks/</loc>
-      <lastmod>2014-10-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/ecs-fargate/</loc>
-      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/ehealth/</loc>
-      <lastmod>2017-04-26T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/elearning/</loc>
-      <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/eprocurement/</loc>
-      <lastmod>2016-10-10T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/erp/</loc>
-      <lastmod>2012-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/emergent-semantics/</loc>
-      <lastmod>2008-12-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/entity-reconciliation/</loc>
-      <lastmod>2017-09-06T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/espa%C3%B1a/</loc>
-      <lastmod>2019-11-14T18:37:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/exercises/</loc>
-      <lastmod>1998-10-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/faas/</loc>
-      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/fishing-data/</loc>
-      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/free-services/</loc>
-      <lastmod>2009-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/functional-programming/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/functional-programming/</loc>
-      <lastmod>2013-03-08T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/functional-programming/</loc>
-      <lastmod>2004-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/functional-programming/</loc>
-      <lastmod>2013-12-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/graph-data-abstractions/</loc>
-      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/graphs/</loc>
-      <lastmod>2013-12-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/haskell/</loc>
-      <lastmod>2017-07-31T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/healthcare/</loc>
-      <lastmod>2017-04-26T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/homepage/</loc>
-      <lastmod>2017-08-21T10:39:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/human-centric-data-management/</loc>
-      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/iswc/</loc>
-      <lastmod>2018-10-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/image-classification/</loc>
-      <lastmod>2009-11-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/image-retrieval/</loc>
-      <lastmod>2009-11-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/inductive-graphs/</loc>
-      <lastmod>2013-12-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/inference/</loc>
-      <lastmod>2016-10-13T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/interaction/</loc>
-      <lastmod>2010-09-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/interoperability/</loc>
-      <lastmod>2014-11-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/jcr/</loc>
-      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/journal/</loc>
-      <lastmod>2013-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/kafka/</loc>
-      <lastmod>2020-06-03T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/knowledge-graphs/</loc>
-      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/knowledge-graph/</loc>
-      <lastmod>2023-06-19T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/knowledge-graph-re%EF%AC%81nement/</loc>
-      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/knowledge-graphs/</loc>
-      <lastmod>2025-12-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/knowledge-based-systems/</loc>
-      <lastmod>2020-07-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/kubernetes/</loc>
-      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/llm/</loc>
-      <lastmod>2026-07-24T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/</loc>
-      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/language-prototyping-system/</loc>
-      <lastmod>2003-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/language-processors/</loc>
-      <lastmod>2001-07-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/latent-semantic-analysis/</loc>
-      <lastmod>2016-10-10T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/lazy-programming/</loc>
-      <lastmod>2004-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/learning-analytics/</loc>
-      <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/lecture-notes/</loc>
-      <lastmod>1995-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/legal-informatics/</loc>
-      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/lexemes/</loc>
-      <lastmod>2019-06-25T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/libros/</loc>
-      <lastmod>2019-11-14T18:37:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/life-sciences/</loc>
-      <lastmod>2026-07-24T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/linkml/</loc>
-      <lastmod>2023-07-17T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/linked-data/</loc>
-      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/linked-open-data/</loc>
-      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/linked-data/</loc>
-      <lastmod>2016-11-16T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/linked-data-portals/</loc>
-      <lastmod>2015-03-26T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/logic/</loc>
-      <lastmod>2004-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/logic-programming/</loc>
-      <lastmod>2004-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/logic-programming/</loc>
-      <lastmod>2003-02-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/mcp/</loc>
-      <lastmod>2026-07-24T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/mapreduce/</loc>
-      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/medical-diagnosis/</loc>
-      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/methodology/</loc>
-      <lastmod>2011-09-03T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/microservices/</loc>
-      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/migration/</loc>
-      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/model-context-protocol/</loc>
-      <lastmod>2026-07-24T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/model-context-protocol/</loc>
-      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/model-driven-architecture/</loc>
-      <lastmod>2014-11-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/modular-monadic-semantics/</loc>
-      <lastmod>2013-03-08T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/modular-monadic-semantics/</loc>
-      <lastmod>2003-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/modular-monadic-semantics/</loc>
-      <lastmod>2006-05-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/moldeas/</loc>
-      <lastmod>2012-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/multi-domain-ontology/</loc>
-      <lastmod>2020-07-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/multi-paradigm/</loc>
-      <lastmod>2003-02-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/multilingual/</loc>
-      <lastmod>2015-05-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/multilingualism/</loc>
-      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/music/</loc>
-      <lastmod>2017-09-06T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/musical-composition/</loc>
-      <lastmod>1997-10-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/news/</loc>
-      <lastmod>2013-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/ontologies/</loc>
-      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/ontology/</loc>
-      <lastmod>2020-11-02T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/ontology-validation/</loc>
-      <lastmod>2022-09-13T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/ontology-based-systems/</loc>
-      <lastmod>2020-07-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/ontospread/</loc>
-      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/open-science/</loc>
-      <lastmod>2014-11-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/open-data/</loc>
-      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/p-plan/</loc>
-      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/prov-o/</loc>
-      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/patterns/</loc>
-      <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/performance/</loc>
-      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/playground/</loc>
-      <lastmod>2023-07-31T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/polarization/</loc>
-      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/political-alignment/</loc>
-      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/poster/</loc>
-      <lastmod>2018-10-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/predicate-logic/</loc>
-      <lastmod>1998-10-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/preprint/</loc>
-      <lastmod>2023-07-02T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/privacidad/</loc>
-      <lastmod>2019-11-14T18:23:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/programming-language-semantics/</loc>
-      <lastmod>1998-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/project-based-learning/</loc>
-      <lastmod>2006-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/project/</loc>
-      <lastmod>2023-07-31T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/prolog/</loc>
-      <lastmod>1998-11-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/property-graphs/</loc>
-      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/property-graphs/</loc>
-      <lastmod>2024-05-10T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/propositional-logic/</loc>
-      <lastmod>1998-10-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/propositional-logic/</loc>
-      <lastmod>1998-10-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/provenance/</loc>
-      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/public-health-emergency-of-international-concern/</loc>
-      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/public-procurement/</loc>
-      <lastmod>2016-10-10T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/public-administrations/</loc>
-      <lastmod>2011-09-03T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/public-health-surveillance/</loc>
-      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/public-administration/</loc>
-      <lastmod>2006-11-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/public-sector-information/</loc>
-      <lastmod>2015-11-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/public-services/</loc>
-      <lastmod>2014-11-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/publication_types/</loc>
-      <lastmod>2026-11-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/rdf/</loc>
-      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/rdf-validation/</loc>
-      <lastmod>2014-09-03T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/rdf-validation/</loc>
-      <lastmod>2022-10-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/rdf-validation/</loc>
-      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/real-state/</loc>
-      <lastmod>2020-06-03T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/recommendation-system/</loc>
-      <lastmod>2010-09-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/recommendations/</loc>
-      <lastmod>2014-10-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/regular-expression-derivatives/</loc>
-      <lastmod>2015-03-26T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/requirements-specification/</loc>
-      <lastmod>2009-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/research-data-management/</loc>
-      <lastmod>2020-11-02T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/rust/</loc>
-      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/shacl/</loc>
-      <lastmod>2026-03-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/sparql/</loc>
-      <lastmod>2026-07-24T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/sparql-generate/</loc>
-      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/scala/</loc>
-      <lastmod>2017-07-31T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/schema-classifications/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/semantic-search/</loc>
-      <lastmod>2008-12-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/semantic-technologies/</loc>
-      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/semantic-web/</loc>
-      <lastmod>2024-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/semantic-web/</loc>
-      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/semantic-search/</loc>
-      <lastmod>2006-11-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/semantic-web/</loc>
-      <lastmod>2017-10-23T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/semantics/</loc>
-      <lastmod>2013-03-08T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/serverless/</loc>
-      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/shex/</loc>
-      <lastmod>2026-05-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/shexml/</loc>
-      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/shape-expressions/</loc>
-      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/shapes/</loc>
-      <lastmod>2026-03-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/slicer/</loc>
-      <lastmod>2006-05-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/social-network-analysis/</loc>
-      <lastmod>2020-07-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/social-network-analysis/</loc>
-      <lastmod>2017-04-26T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/software-architecture/</loc>
-      <lastmod>2023-09-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/spanish/</loc>
-      <lastmod>2019-11-14T18:37:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/spreading-activation/</loc>
-      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/statistics/</loc>
-      <lastmod>2014-11-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/stream-processing/</loc>
-      <lastmod>2020-06-03T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/streams/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/subsets/</loc>
-      <lastmod>2025-12-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/subsetting/</loc>
-      <lastmod>2023-06-19T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/sustainability/</loc>
-      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/technology-management/</loc>
-      <lastmod>2012-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/togomcp/</loc>
-      <lastmod>2026-07-24T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/uml/</loc>
-      <lastmod>2026-03-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/underwater-vehicles/</loc>
-      <lastmod>2024-10-05T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/usability/</loc>
-      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/validating-data/</loc>
-      <lastmod>2018-12-24T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/validation/</loc>
-      <lastmod>2018-10-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/validation-constraints/</loc>
-      <lastmod>2022-10-04T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/visualization/</loc>
-      <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/wshex/</loc>
-      <lastmod>2023-07-31T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/web-engineering/</loc>
-      <lastmod>2003-07-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/web-based-tool/</loc>
-      <lastmod>2017-04-26T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/web2.0/</loc>
-      <lastmod>2009-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/wikibase/</loc>
-      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/wikidata/</loc>
-      <lastmod>2025-12-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/xbrl/</loc>
-      <lastmod>2007-10-03T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/xml/</loc>
-      <lastmod>2018-06-02T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/xml-schema/</loc>
-      <lastmod>2018-06-02T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/yarrrml/</loc>
-      <lastmod>2021-01-29T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   

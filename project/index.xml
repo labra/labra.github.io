@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Labra&#39;s home page</title>
@@ -6,18 +5,25 @@
     <description>Recent content in Projects on Labra&#39;s home page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Jose Emilio Labra Gayo</copyright>
+    <copyright>&amp;copy; 2026 Jose Emilio Labra Gayo</copyright>
     <lastBuildDate>Mon, 31 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://labra.weso.es/project/index.xml" rel="self" type="application/rss+xml" />
     
-	<atom:link href="http://labra.weso.es/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Shapes-rs</title>
-      <link>http://labra.weso.es/project/shapes-rs/</link>
+      <title>rdfshape</title>
+      <link>http://labra.weso.es/project/rdfshape/</link>
       <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/project/shapes-rs/</guid>
+      <guid>http://labra.weso.es/project/rdfshape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rudof</title>
+      <link>http://labra.weso.es/project/rudof/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://labra.weso.es/project/rudof/</guid>
       <description></description>
     </item>
     
@@ -25,17 +31,7 @@
       <title>WShEx</title>
       <link>http://labra.weso.es/project/wshex/</link>
       <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://labra.weso.es/project/wshex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rdfshape</title>
-      <link>http://labra.weso.es/project/rdfshape/</link>
-      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://labra.weso.es/project/rdfshape/</guid>
       <description></description>
     </item>
     
@@ -43,7 +39,6 @@
       <title>VARSSHA</title>
       <link>http://labra.weso.es/project/varssha/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>http://labra.weso.es/project/varssha/</guid>
       <description></description>
     </item>
@@ -52,7 +47,6 @@
       <title>SHACLex</title>
       <link>http://labra.weso.es/project/shaclex/</link>
       <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
-      
       <guid>http://labra.weso.es/project/shaclex/</guid>
       <description></description>
     </item>
@@ -61,7 +55,6 @@
       <title>ShExkell</title>
       <link>http://labra.weso.es/project/shexkellx/</link>
       <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
-      
       <guid>http://labra.weso.es/project/shexkellx/</guid>
       <description></description>
     </item>
@@ -70,7 +63,6 @@
       <title>Language Prototyping System</title>
       <link>http://labra.weso.es/project/lps/</link>
       <pubDate>Fri, 08 Mar 2013 00:00:00 +0000</pubDate>
-      
       <guid>http://labra.weso.es/project/lps/</guid>
       <description></description>
     </item>
@@ -79,7 +71,6 @@
       <title>Multilingual Linked Data Patterns</title>
       <link>http://labra.weso.es/project/mlodpatterns/</link>
       <pubDate>Fri, 08 Mar 2013 00:00:00 +0000</pubDate>
-      
       <guid>http://labra.weso.es/project/mlodpatterns/</guid>
       <description></description>
     </item>
