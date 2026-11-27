@@ -10,6 +10,7 @@ publication_types = ["1"]
 publication = "In *Semantic Web Applications and Tools for Health Care and Life Sciences*, SWAT4HCLS."
 publication_short = ""
 selected = true
+aliases = ["/publication/2024_extracting_shapes_consolidator-copy/"]
 title = "Extracting shapes from large RDF data collections"
 url_code = ""
 url_dataset = ""

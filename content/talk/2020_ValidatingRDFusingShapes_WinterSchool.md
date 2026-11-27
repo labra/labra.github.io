@@ -9,6 +9,7 @@ event = "International Winter School on Knowledge Graphs and Semantic web - Virt
 location = "Universidad Autónoma de Tamaulipas - Mexico"
 
 selected = false
+aliases = ["/talk/2020_validatingrdfusingshapes_winterschool-copy/"]
 math = false
 
 url_pdf = ""
