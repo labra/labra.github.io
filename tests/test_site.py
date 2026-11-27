@@ -523,85 +523,10 @@ class TestListPages(SiteTestCase):
         used = sorted({int(t) for c in pages_of("publication") for t in c.params.get("publication_types", [])})
         for t in used:
             with self.subTest(pubtype=t):
-                self.assertIn(f".pubtype-{t}", options)
-        items = re.findall(r'class="[^"]*isotope-item pubtype-(\d+)', text)
-        self.assertEqual(len(items), len(pages_of("publication")))
-
-    def test_publication_sort(self):
-        """The publication list has a sort button and a date on each publication."""
-        p = page("/publication/")
-        text = site_file("/publication/").read_text(encoding="utf-8")
-        buttons = [a for t, a, _ in p.elements if t == "button" and "pub-sort" in (a.get("class") or "").split()]
-        self.assertEqual(len(buttons), 1, "no sort button")
-        self.assertEqual(buttons[0].get("data-order"), "newest")
-        dates = re.findall(r'class="[^"]*isotope-item[^"]*"\s+data-date="(\d{8})"', text)
-        self.assertEqual(len(dates), len(pages_of("publication")))
-        # The page shows the newest publications first.
-        self.assertEqual(dates, sorted(dates, reverse=True))
-        expected = sorted((c.date.strftime("%Y%m%d") for c in pages_of("publication") if c.date), reverse=True)
-        self.assertEqual(dates, expected)
-        script = (ROOT / "themes/academic/static/js/hugo-academic.js").read_text(encoding="utf-8")
-        self.assertIn("sort=oldest", script)
-
-    def test_publication_tag_filter(self):
-        """The publication list has a filter by tag with all the tags of publications."""
-        text = site_file("/publication/").read_text(encoding="utf-8")
-        select = re.search(r'<select class="pub-tags-select"[^>]*>(.*?)</select>', text, re.S)
-        self.assertIsNotNone(select, "No tag filter on /publication/")
-        self.assertRegex(select.group(1), r'^\s*<option value="\*">', "First option must show all publications")
-        options = re.findall(
-            r'<option value="\.([^"]+)" data-tag="([^"]+)">\s*(.*?)\s*\((\d+)\)\s*</option>', select.group(1), re.S)
-
-        # Publications of each tag. "Big data" and "Big-data" are one tag.
-        by_tag = {}
-        for c in pages_of("publication"):
-            for t in {norm_term(t) for t in c.tags}:
-                by_tag.setdefault(t, set()).add(c.url_path)
-
-        option_tags = [norm_term(label) for _, _, label, _ in options]
-        self.assertEqual(sorted(option_tags), sorted(by_tag), "One option for each tag of publications")
-
-        # Each item of the list, with its classes and its publication.
-        items = {}
-        for chunk in text.split('<div class="grid-sizer ')[1:]:
-            classes = chunk[:chunk.index('"')].split()
-            link = re.search(r'href="([^"]+)"[^>]*>\s*Details', chunk) or re.search(r'href="(' + re.escape(BASE_URL) + r'publication/[^"]+)"', chunk)
-            self.assertIsNotNone(link, "No link to the publication in an item of the list")
-            items[local_path(link.group(1))] = set(classes)
-
-        for css_class, data_tag, label, count in options:
-            tag = norm_term(label)
-            with self.subTest(tag=label):
-                expected = by_tag[tag]
-                self.assertEqual(int(count), len(expected), "Wrong number in the option label")
-                tagged = {path for path, classes in items.items() if css_class in classes}
-                self.assertEqual(tagged, expected, "Wrong publications for the tag")
-                # data-tag is the name of the tag page, used in the URL hash (#tag=<name>).
-                self.assertTrue(site_file(f"/tags/{data_tag}/").is_file(), f"No page /tags/{data_tag}/")
-
-        script = (SITE / "js" / "hugo-academic.js").read_text(encoding="utf-8")
-        self.assertIn(".pub-tags-select", script, "The tag filter has no script")
-
-        # Search box: the script fills the list of matching tags from the options.
-        self.assertRegex(text, r'<input[^>]*class="pub-tag-search"', "No search box for tags")
-        self.assertIn(".pub-tag-search", script, "The search box has no script")
-        self.assertTrue(any("pub-filters.css" in src for src in page("/publication/").srcs), "No CSS for the tag filter")
-
-        # Buttons for the most used tags.
-        counts = {f".{css_class}": int(count) for css_class, _, _, count in options}
-        chips = re.findall(r'class="[^"]*pub-tag-chip[^"]*" data-value="([^"]+)">\s*(.*?)\s*</button>', text, re.S)
-        self.assertEqual(len(chips), min(12, len(options)), "Wrong number of buttons for the most used tags")
-        chip_values = [value for value, _ in chips]
-        for value, label in chips:
-            with self.subTest(chip=label):
-                self.assertIn(value, counts, "The button has no option in the tag filter")
-                self.assertTrue(label.endswith(f"({counts[value]})"), "Wrong number on the button")
-        self.assertEqual([counts[v] for v in chip_values], sorted((counts[v] for v in chip_values), reverse=True),
-                         "The buttons are not in order of use")
-        if chips:
-            smallest = min(counts[v] for v in chip_values)
-            others = [c for v, c in counts.items() if v not in chip_values]
-            self.assertTrue(all(c <= smallest for c in others), "A tag with more publications has no button")
+                self.assertIn(str(t), options)
+        types = sorted(i["type"] for i in list_items("/publication/"))
+        self.assertEqual(types, sorted(str(c.params.get("publication_types", ["0"])[0]).strip()
+                                       for c in pages_of("publication")))
 
     def test_talk_list(self):
         text = norm_text(site_file("/talk/").read_text(encoding="utf-8"))
@@ -635,6 +560,118 @@ class TestListPages(SiteTestCase):
         for section in ["post", "publication", "talk", "project"]:
             with self.subTest(section=section):
                 self.assertTrue((SITE / section / "index.xml").is_file())
+
+
+LIST_ITEM = re.compile(r'<[a-z]+[^>]*\sdata-list-item\s([^>]*)>')
+ATTR = re.compile(r'([a-z-]+)="([^"]*)"')
+
+
+def list_items(path):
+    """The items of a list with filters, as dicts of their data attributes."""
+    text = site_file(path).read_text(encoding="utf-8")
+    return [{k[5:]: html.unescape(v) for k, v in ATTR.findall(m.group(1)) if k.startswith("data-")}
+            for m in LIST_ITEM.finditer(text)]
+
+
+class TestListFilters(SiteTestCase):
+    """The lists of publications, talks and projects have filters, a sort
+    button and a counter (layouts/partials/list_filters.html)."""
+
+    LISTS = [("/publication/", "publication", "publications"),
+             ("/talk/", "talk", "talks"),
+             ("/project/", "project", "projects")]
+
+    def test_controls(self):
+        for path, section, noun in self.LISTS:
+            with self.subTest(list=path):
+                text = site_file(path).read_text(encoding="utf-8")
+                p = page(path)
+                self.assertRegex(text, r'<div class="list-filters" data-list="#[^"]+" data-noun="' + noun + '">')
+                n = len(pages_of(section))
+                self.assertIn(f"Showing {n} of {n} {noun}", norm_text(text).replace("showing", "Showing"))
+                self.assertRegex(text, r'<button[^>]*class="[^"]*list-sort[^"]*"[^>]*data-order="newest"')
+                self.assertTrue(any(src.endswith("list-filters.js") for src in p.srcs), "No script for the filters")
+                self.assertTrue(any("list-filters.css" in src for src in p.srcs), "No CSS for the filters")
+        self.assertIn('class="list-type"', site_file("/publication/").read_text(encoding="utf-8"))
+        self.assertIn('class="list-text-search"', site_file("/talk/").read_text(encoding="utf-8"))
+
+    def test_items_newest_first(self):
+        for path, section, _ in self.LISTS:
+            with self.subTest(list=path):
+                dates = [i["date"] for i in list_items(path)]
+                expected = sorted((c.date.strftime("%Y%m%d") for c in pages_of(section)), reverse=True)
+                self.assertEqual(dates, expected)
+
+    def test_items_have_their_tags(self):
+        """For each tag, the items with the tag are the pages with the tag."""
+        for path, section, _ in self.LISTS:
+            items = list_items(path)
+            by_tag = {}
+            for c in pages_of(section):
+                for t in {norm_term(t) for t in c.tags}:
+                    by_tag.setdefault(t, []).append(c.date.strftime("%Y%m%d"))
+            text = site_file(path).read_text(encoding="utf-8")
+            select = re.search(r'<select class="list-tags-select"[^>]*>(.*?)</select>', text, re.S)
+            if not by_tag:
+                self.assertIsNone(select, f"{path} has a tag filter with no tags")
+                continue
+            self.assertIsNotNone(select, f"No tag filter on {path}")
+            self.assertRegex(select.group(1), r'^\s*<option value="\*">', "First option must show all")
+            options = re.findall(r'<option value="([^"*]+)">\s*([^<]*?)\s*\((\d+)\)\s*</option>', select.group(1))
+            self.assertEqual(sorted(norm_term(label) for _, label, _ in options), sorted(by_tag),
+                             f"One option for each tag of {path}")
+            for name, label, count in options:
+                with self.subTest(list=path, tag=label):
+                    expected = sorted(by_tag[norm_term(label)])
+                    self.assertEqual(int(count), len(expected), "Wrong number in the option label")
+                    tagged = sorted(i["date"] for i in items if name in i["tags"].split())
+                    self.assertEqual(tagged, expected, "Wrong items for the tag")
+                    # The name is the name of the tag page, used in the URL hash (#tag=<name>).
+                    self.assertTrue(site_file(f"/tags/{name}/").is_file(), f"No page /tags/{name}/")
+
+    def test_most_used_tag_buttons(self):
+        for path, _, _ in self.LISTS:
+            text = site_file(path).read_text(encoding="utf-8")
+            options = re.findall(r'<option value="([^"*]+)">\s*([^<]*?)\s*\((\d+)\)\s*</option>', text)
+            counts = {name: int(count) for name, _, count in options}
+            chips = re.findall(r'class="[^"]*list-tag-chip[^"]*" data-tag="([^"]+)">\s*(.*?)\s*</button>', text, re.S)
+            with self.subTest(list=path):
+                self.assertEqual(len(chips), min(12, len(counts)), "Wrong number of buttons for the most used tags")
+                values = [v for v, _ in chips]
+                for value, label in chips:
+                    self.assertIn(value, counts, "The button has no option in the tag filter")
+                    self.assertTrue(label.endswith(f"({counts[value]})"), "Wrong number on the button")
+                self.assertEqual([counts[v] for v in values], sorted((counts[v] for v in values), reverse=True),
+                                 "The buttons are not in order of use")
+                if values:
+                    smallest = min(counts[v] for v in values)
+                    self.assertTrue(all(c <= smallest for v, c in counts.items() if v not in values),
+                                    "A tag with more items has no button")
+
+    def test_text_search_data(self):
+        """Each talk has its title and its event in the text for the search."""
+        items = list_items("/talk/")
+        texts = [norm_text(i["text"]) for i in items]
+        for c in pages_of("talk"):
+            with self.subTest(talk=c.path.stem):
+                title = plain_title(c.title)
+                self.assertTrue(any(title in t for t in texts), "The title is not in the search text")
+
+    def test_year_groups(self):
+        """Talks are in groups by year. Each group has the talks of its year."""
+        text = site_file("/talk/").read_text(encoding="utf-8")
+        groups = re.split(r'data-list-group data-date="(\d{4})"', text)[1:]
+        years = groups[0::2]
+        self.assertEqual(years, sorted(set(years), reverse=True))
+        for year, chunk in zip(groups[0::2], groups[1::2]):
+            with self.subTest(year=year):
+                dates = [m.group(1) for m in re.finditer(r'data-list-item data-date="(\d{8})"', chunk)]
+                self.assertTrue(dates)
+                self.assertTrue(all(d.startswith(year) for d in dates))
+
+    def test_projects_link(self):
+        """The home page links to the list of projects."""
+        self.assertIn("/project/", linked_paths([page("/")]))
 
 
 class TestTaxonomies(SiteTestCase):

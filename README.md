@@ -49,17 +49,30 @@ the [Web Archive](https://web.archive.org/). To check that each link has a good
 copy, run `make check-archive-links`. To put the date of the newest good copy in
 each link, run `make pin-archive-links`.
 
-## Publication filters
+## Filters on the lists of publications, talks and projects
 
-The page `/publication/` has two filters: by type and by tag. To filter by
-tag, type a part of the tag name in the search box (case and accents do not
-matter) and select the tag, or click one of the buttons of the 12 most used
-tags. Hugo makes the list of tags and the buttons from the content, so you do
-not have to edit them when you add publications or tags. The URL keeps the filters, so you can share a link to a filtered list, for
-example `/publication/#tag=shex` or `/publication/#2&tag=rdf`.
+The pages `/publication/`, `/talk/` and `/project/` have filters, a sort
+button and a counter ("Showing 15 of 138 publications") that changes with
+the filters. One partial (`layouts/partials/list_filters.html`) makes the
+controls and one script (`static/js/list-filters.js`) makes them work.
 
-The button "Newest first" changes the order to "Oldest first" and back. The
-URL keeps the order too, for example `/publication/#tag=rdf&sort=oldest`.
+- **Filter by tag** (publications and projects): type a part of the tag name
+  in the search box (case and accents do not matter) and select the tag, or
+  click one of the buttons of the 12 most used tags. Hugo makes the list of
+  tags and the buttons from the content. The filter shows only when the
+  pages of the list have tags, so if you add `tags` to talks, the talks page
+  gets the filter too.
+- **Filter by type** (publications).
+- **Text search** (talks): searches the title, the event and the place.
+- **Sort**: "Newest first" changes to "Oldest first" and back.
+
+The URL keeps the filters and the order, so you can share a link to a
+filtered list, for example `/publication/#tag=shex`,
+`/publication/#2&tag=rdf&sort=oldest` or `/talk/#q=wikidata`.
+
+To add the filters to another list, call the partial `list_filters` and give
+each item the attribute `data-list-item` and the attributes of the partial
+`list_item_data`. See `layouts/section/project.html` for a short example.
 
 ## BibTeX
 

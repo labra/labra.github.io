@@ -12,72 +12,14 @@
       <div class="article-style" itemprop="articleBody">{{ . }}</div>
       {{ end }}
 
-      <p>
-        {{ i18n "filter_by_type" }}:
-        <select class="pub-filters-select">
-          <option value="*">{{ i18n "filter_all" }}</option>
-          {{ range $index, $taxonomy := .Site.Taxonomies.publication_types }}
-          <option value=".pubtype-{{ (int $index) }}">
-            {{ index $.Site.Params.publication_types (int $index) }}
-          </option>
-          {{ end }}
-        </select>
-        <button type="button" class="btn btn-primary btn-outline btn-xs pub-sort" data-order="newest"
-                title="Change the order of the publications">
-          <i class="fa fa-sort-amount-desc" aria-hidden="true"></i> <span class="pub-sort-label">Newest first</span>
-        </button>
-        {{ with .OutputFormats.Get "BibTeX" }}
-        <a class="btn btn-primary btn-outline btn-xs pub-bibtex-all" href="{{ .RelPermalink }}" download>
-          <i class="fa fa-download" aria-hidden="true"></i> BibTeX of all publications
-        </a>
-        {{ end }}
-      </p>
-
-      {{/* Filter by tag. The hidden select keeps the list of tags and the
-           selected tag. The search box and the buttons below change it. */}}
-      {{ $tags := slice }}
-      {{ range .Site.Taxonomies.tags.Alphabetical }}
-      {{ $count := len (where .Pages "Section" "publication") }}
-      {{ if gt $count 0 }}
-      {{ $tags = $tags | append (dict "class" (partial "publication_tag_class" .Page) "name" (path.Base .Page.RelPermalink) "title" .Page.Title "count" $count) }}
-      {{ end }}
-      {{ end }}
-      <div class="pub-tag-filter">
-        <label for="pub-tag-search">{{ i18n "filter_by_tag" | default "Filter by tag" }}:</label>
-        <span class="pub-tag-box">
-          <input type="search" id="pub-tag-search" class="pub-tag-search" autocomplete="off"
-                 placeholder="Type to search {{ len $tags }} tags" aria-controls="pub-tag-results">
-          <ul id="pub-tag-results" class="pub-tag-results" role="listbox" hidden></ul>
-        </span>
-        <button type="button" class="btn btn-primary btn-xs pub-tag-clear" title="Show all tags" hidden>
-          <span class="pub-tag-current"></span> &times;
-        </button>
-        <select class="pub-tags-select" aria-hidden="true" tabindex="-1" hidden>
-          <option value="*">{{ i18n "filter_all" }}</option>
-          {{- range $tags }}
-          <option value=".{{ .class }}" data-tag="{{ .name }}">{{ .title }} ({{ .count }})</option>
-          {{- end }}
-        </select>
-        <p class="pub-tag-popular">
-          Most used tags:
-          {{- range first 12 (sort $tags "count" "desc") }}
-          <button type="button" class="btn btn-primary btn-outline btn-xs pub-tag-chip" data-value=".{{ .class }}">{{ .title }} ({{ .count }})</button>
-          {{- end }}
-        </p>
-      </div>
+      {{ partial "list_filters" (dict
+           "list" "container-publications" "pages" .RegularPages "noun" "publications"
+           "types" true "bibtex" ((.OutputFormats.Get "BibTeX").RelPermalink) "context" .) }}
 
       <div id="container-publications">
-        {{ range .Pages.ByDate.Reverse }}
+        {{ range .RegularPages.ByDate.Reverse }}
 
-        {{ if .Params.publication_types }}
-          {{ $.Scratch.Set "pubtype" (index .Params.publication_types 0) }}
-        {{ else }}
-          {{ $.Scratch.Set "pubtype" 0 }}
-        {{ end }}
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-{{ $.Scratch.Get "pubtype" }}
-          {{- range .GetTerms "tags" }} {{ partial "publication_tag_class" . }}{{ end }}"
-          data-date="{{ .Date.Format "20060102" }}">
+        <div class="col-md-12 pub-list-item" data-list-item {{ partial "list_item_data" . }}>
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	{{ .Title }},

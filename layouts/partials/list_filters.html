@@ -1,0 +1,86 @@
+{{- /*
+  Filters, sort button and counter for a list of pages.
+  static/js/list-filters.js makes them work.
+
+  Usage:
+    {{ partial "list_filters" (dict
+         "list"    "container-publications"  id of the element with the items
+         "pages"   .RegularPages              pages in the list
+         "noun"    "publications"             word for the counter
+         "types"   true                       show the filter by publication type
+         "text"    false                      show a search box for the text of the items
+         "context" .) }}
+
+  Each item in the list must have the attribute "data-list-item" and the
+  attributes that the partial "list_item_data" makes.
+  The filter by tag shows only when the pages have tags.
+*/ -}}
+{{- $pages := .pages -}}
+{{- $ctx := .context -}}
+
+{{- /* Tags of the pages, in alphabetical order, with the number of pages. */ -}}
+{{- $tags := slice -}}
+{{- range $ctx.Site.Taxonomies.tags.Alphabetical -}}
+  {{- $count := len (.Pages | intersect $pages) -}}
+  {{- if gt $count 0 -}}
+    {{- $tags = $tags | append (dict "name" (path.Base .Page.RelPermalink) "title" .Page.Title "count" $count) -}}
+  {{- end -}}
+{{- end -}}
+
+<div class="list-filters" data-list="#{{ .list }}" data-noun="{{ .noun }}">
+  <p class="list-filters-row">
+    {{ if .types }}
+    <label for="{{ .list }}-type">{{ i18n "filter_by_type" }}:</label>
+    <select id="{{ .list }}-type" class="list-type">
+      <option value="*">{{ i18n "filter_all" }}</option>
+      {{ range $index, $taxonomy := $ctx.Site.Taxonomies.publication_types }}
+      <option value="{{ (int $index) }}">{{ index $ctx.Site.Params.publication_types (int $index) }}</option>
+      {{ end }}
+    </select>
+    {{ end }}
+    {{ if .text }}
+    <label for="{{ .list }}-text">Search:</label>
+    <input type="search" id="{{ .list }}-text" class="list-text-search" autocomplete="off"
+           placeholder="Title, event or place">
+    {{ end }}
+    <button type="button" class="btn btn-primary btn-outline btn-xs list-sort" data-order="newest"
+            title="Change the order">
+      <i class="fa fa-sort-amount-desc" aria-hidden="true"></i> <span class="list-sort-label">Newest first</span>
+    </button>
+    {{ with .bibtex }}
+    <a class="btn btn-primary btn-outline btn-xs list-bibtex-all" href="{{ . }}" download>
+      <i class="fa fa-download" aria-hidden="true"></i> BibTeX of all publications
+    </a>
+    {{ end }}
+  </p>
+
+  {{ if $tags }}
+  {{- /* The hidden select keeps the list of tags and the selected tag.
+         The search box and the buttons change it. */ -}}
+  <div class="list-tag-filter">
+    <label for="{{ .list }}-tag-search">{{ i18n "filter_by_tag" | default "Filter by tag" }}:</label>
+    <span class="list-tag-box">
+      <input type="search" id="{{ .list }}-tag-search" class="list-tag-search" autocomplete="off"
+             placeholder="Type to search {{ len $tags }} tags" aria-controls="{{ .list }}-tag-results">
+      <ul id="{{ .list }}-tag-results" class="list-tag-results" role="listbox" hidden></ul>
+    </span>
+    <button type="button" class="btn btn-primary btn-xs list-tag-clear" title="Show all tags" hidden>
+      <span class="list-tag-current"></span> &times;
+    </button>
+    <select class="list-tags-select" aria-hidden="true" tabindex="-1" hidden>
+      <option value="*">{{ i18n "filter_all" }}</option>
+      {{- range $tags }}
+      <option value="{{ .name }}">{{ .title }} ({{ .count }})</option>
+      {{- end }}
+    </select>
+    <p class="list-tag-popular">
+      Most used tags:
+      {{- range first 12 (sort $tags "count" "desc") }}
+      <button type="button" class="btn btn-primary btn-outline btn-xs list-tag-chip" data-tag="{{ .name }}">{{ .title }} ({{ .count }})</button>
+      {{- end }}
+    </p>
+  </div>
+  {{ end }}
+
+  <p class="list-count" aria-live="polite">Showing {{ len $pages }} of {{ len $pages }} {{ .noun }}</p>
+</div>

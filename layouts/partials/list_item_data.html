@@ -1,0 +1,16 @@
+{{- /*
+  Attributes for an item in a list with filters (see the partial "list_filters").
+  Usage: <li data-list-item {{ partial "list_item_data" . }}>
+
+  - data-date: the date as a number, for example "20180923".
+  - data-tags: the tags, as in the URL of the tag page, for example "rdf shex".
+  - data-type: the first publication type, if the page has one.
+  - data-text: the title, the event and the place, for the text search.
+*/ -}}
+{{- $tags := slice -}}
+{{- range .GetTerms "tags" }}{{ $tags = $tags | append (path.Base .RelPermalink) }}{{ end -}}
+{{- $text := slice .Title (.Params.event | default "") (.Params.location | default "") (.Params.publication | default "") (.Params.summary | default "") -}}
+{{- $attrs := printf `data-date="%s" data-tags="%s"` (.Date.Format "20060102") (delimit (uniq $tags) " ") -}}
+{{- with .Params.publication_types }}{{ $attrs = printf `%s data-type="%s"` $attrs (index . 0 | string | strings.TrimSpace) }}{{ end -}}
+{{- $attrs = printf `%s data-text="%s"` $attrs (delimit $text " " | markdownify | plainify | htmlUnescape | htmlEscape) -}}
+{{- return (safeHTMLAttr $attrs) -}}

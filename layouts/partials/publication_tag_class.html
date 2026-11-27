@@ -1,5 +1,0 @@
-{{- /* CSS class of a tag (a term page) for the tag filter of the
-       publication list. Tags with different spellings (for example
-       "Big data" and "Big-data") have the same term page, so they get the
-       same class. A hash makes a valid class for any tag name. */ -}}
-{{- printf "tag-%s" (substr (md5 .RelPermalink) 0 10) -}}

@@ -1,0 +1,48 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+{{ partial "header_image.html" . }}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>{{ .Title | default (i18n "talks") }}</h1>
+
+      {{ with .Content }}
+      <div class="article-style" itemprop="articleBody">{{ . }}</div>
+      {{ end }}
+
+      {{ partial "list_filters" (dict
+           "list" "container-talks" "pages" .RegularPages "noun" "talks"
+           "text" true "context" .) }}
+
+      <div id="container-talks">
+      {{ range .RegularPages.GroupByDate "2006" }}
+      <div class="row talk-year" data-list-group data-date="{{ .Key }}">
+        <div class="col-md-2">
+          <h3>{{ .Key }}</h3>
+        </div>
+        <div class="col-md-10">
+          <ul class="compact fa-ul">
+
+            {{ range .Pages.ByDate.Reverse }}
+            <li data-list-item {{ partial "list_item_data" . }}>
+              <i class="fa-li fa fa-comment-o" aria-hidden="true"
+                 style="color:#03396c;font-size:80%;padding-top:6px;"></i>
+              {{ .Title }}{{ with .Params.event }}, <span class="talk-event">{{ . | markdownify }}</span>{{ end }}
+              <p>{{ partial "talk_links" (dict "content" . "is_list" 1) }}</p>
+            </li>
+            {{ end }}
+
+          </ul>
+        </div>
+      </div>
+      {{ end }}
+      </div>
+
+    </div>
+  </div>
+
+</div>
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}
