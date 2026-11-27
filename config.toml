@@ -303,6 +303,11 @@ defaultContentLanguageInSubdir = false
   weight = 6
 
 [[menu.main]]
+  name = "Academic Service"
+  url = "#academic-service"
+  weight = 15
+
+[[menu.main]]
   name = "Other"
   url = "#other"
   weight = 16

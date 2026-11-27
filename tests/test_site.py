@@ -752,7 +752,6 @@ class TestLinks(SiteTestCase):
     # Documents that the content links to, but that are not in static/ yet.
     # Remove an entry when you add the file.
     KNOWN_MISSING = {
-        "/pdf/.pdf",
         "/pdf/2018_InferenceLatentShEx.pdf",
         "/pdf/2018_rdfshapeDemo.pdf",
     }

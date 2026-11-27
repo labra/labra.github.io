@@ -37,6 +37,13 @@ The tests read `config.toml` and the `content` folder to know what the site must
 contain, so you can add publications, talks and posts without changes to the
 tests. The GitHub workflow runs the tests before it deploys the site.
 
+To check the links to other sites (this needs network access and takes a
+few minutes), run:
+
+```sh
+make check-links
+```
+
 ## Publication filters
 
 The page `/publication/` has two filters: by type and by tag. The tag filter

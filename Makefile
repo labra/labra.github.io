@@ -14,6 +14,10 @@ build:
 test: build
 	python3 -m unittest discover -s tests -v
 
+# Check the links to other sites (needs network access)
+check-links: build
+	python3 tests/check_external_links.py
+
 version:
 	@echo "Expected: v$(HUGO_VERSION)"
 	@$(HUGO) version
