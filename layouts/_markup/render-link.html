@@ -1,0 +1,6 @@
+{{- /* Render Markdown links as Blackfriday did with hrefTargetBlank = true:
+       links that are not relative open in a new tab. */ -}}
+{{- $url := .Destination -}}
+{{- $relative := or (hasPrefix $url "#") (and (hasPrefix $url "/") (not (hasPrefix $url "//"))) (hasPrefix $url "./") (hasPrefix $url "../") -}}
+<a href="{{ $url | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if not $relative }} target="_blank"{{ end }}>{{ .Text }}</a>
+{{- /* chomp trailing newline */ -}}

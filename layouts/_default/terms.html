@@ -9,7 +9,7 @@
       <h1>List of {{ .Data.Plural }}</h1>
 
    <ul>	  
-    {{ range .Data.Pages }}
+    {{ range .Pages }}
     <li>
       <a href="{{ .Permalink }}">{{ .Title }}</a>
     </li>

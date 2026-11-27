@@ -4,3 +4,4 @@ public/
 .metals/
 .vscode
 .vscode/
+__pycache__/

@@ -22,15 +22,26 @@ jobs:
         with:
           submodules: recursive
 
-      # 1. Ensure the binary has execution permissions on the runner
-      - name: Make Hugo binary executable
-        run: chmod +x binaries/hugo_old
+      # 1. Install Hugo. Keep this version the same as HUGO_VERSION in the Makefile.
+      - name: Install Hugo
+        env:
+          HUGO_VERSION: "0.170.1"
+        run: |
+          curl -sSLf -o hugo.tar.gz "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-amd64.tar.gz"
+          mkdir -p "$HOME/.local/bin"
+          tar -xzf hugo.tar.gz -C "$HOME/.local/bin" hugo
+          rm hugo.tar.gz
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
 
-      # 2. Build using your local binary (swapping 'hugo' for your path)
-      - name: Build with local Hugo binary
-        run: ./binaries/hugo_old -DEF
+      # 2. Build the site into the public folder
+      - name: Build with Hugo
+        run: hugo version && hugo -DEF
 
-      # 3. Deploy the generated public folder to the master branch
+      # 3. Test the generated site. The deploy step does not run if a test fails.
+      - name: Test the site
+        run: python3 -m unittest discover -s tests -v
+
+      # 4. Deploy the generated public folder to the master branch
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:

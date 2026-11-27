@@ -1,6 +1,6 @@
 {{ $ := .root }}
 {{ $page := .page }}
-{{ $pubs_len := len (where $.Data.Pages "Type" "publication") }}
+{{ $pubs_len := len (where $.Site.RegularPages "Type" "publication") }}
 
 <!-- Publications widget -->
 <div class="row">
@@ -33,13 +33,13 @@
     </div> -->
 	
     {{ if $page.Params.detailed_list }}
-    {{ range first $page.Params.count (where $.Data.Pages "Type" "publication") }}
+    {{ range first $page.Params.count (where $.Site.RegularPages "Type" "publication") }}
     {{ partial "publication_li_detailed" . }}
     {{ end }}
     {{ else }}
     <div id="container-projects" class="isotope">
      <ul class="fa-ul" style="position: relative">
-      {{ range first $page.Params.count (where $.Data.Pages "Type" "publication") }}
+      {{ range first $page.Params.count (where $.Site.RegularPages "Type" "publication") }}
 	  {{ partial "publication_li_simple" . }}
       {{ end }}
      </ul>
