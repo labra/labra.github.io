@@ -53,12 +53,13 @@
 
     // Show the items that pass all the filters, in the selected order.
     function render() {
-      var text = simpleText(state.text.trim());
+      // Each word of the search must be in the text of the item, in any order.
+      var words = simpleText(state.text).split(/\s+/).filter(Boolean);
       var shown = 0;
       items.forEach(function (item) {
         var ok = (state.type == '*' || item.getAttribute('data-type') == state.type) &&
                  (state.tag == '*' || item.listTags.indexOf(state.tag) >= 0) &&
-                 (text == '' || item.listText.indexOf(text) >= 0);
+                 words.every(function (w) { return item.listText.indexOf(w) >= 0; });
         item.hidden = !ok;
         if (ok) { shown++; }
       });

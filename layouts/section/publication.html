@@ -14,7 +14,7 @@
 
       {{ partial "list_filters" (dict
            "list" "container-publications" "pages" .RegularPages "noun" "publications"
-           "types" true "bibtex" ((.OutputFormats.Get "BibTeX").RelPermalink) "context" .) }}
+           "types" true "text" "Title, author, venue, year, tag or abstract" "bibtex" ((.OutputFormats.Get "BibTeX").RelPermalink) "context" .) }}
 
       <div id="container-publications">
         {{ range .RegularPages.ByDate.Reverse }}

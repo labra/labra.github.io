@@ -63,12 +63,16 @@ controls and one script (`static/js/list-filters.js`) makes them work.
   pages of the list have tags, so if you add `tags` to talks, the talks page
   gets the filter too.
 - **Filter by type** (publications).
-- **Text search** (talks): searches the title, the event and the place.
+- **Text search** (all lists): the list shows the items that contain all
+  the words that you type, in any order. Case and accents do not matter.
+  The search uses the title, authors, year and tags, and also the
+  publication and abstract (publications), the event, place and abstract
+  (talks) or the summary (projects).
 - **Sort**: "Newest first" changes to "Oldest first" and back.
 
 The URL keeps the filters and the order, so you can share a link to a
 filtered list, for example `/publication/#tag=shex`,
-`/publication/#2&tag=rdf&sort=oldest` or `/talk/#q=wikidata`.
+`/publication/#2&tag=rdf&sort=oldest` or `/publication/#q=wikidata`.
 
 To add the filters to another list, call the partial `list_filters` and give
 each item the attribute `data-list-item` and the attributes of the partial

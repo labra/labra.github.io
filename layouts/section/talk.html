@@ -14,7 +14,7 @@
 
       {{ partial "list_filters" (dict
            "list" "container-talks" "pages" .RegularPages "noun" "talks"
-           "text" true "context" .) }}
+           "text" "Title, event, place or abstract" "context" .) }}
 
       <div id="container-talks">
       {{ range .RegularPages.GroupByDate "2006" }}

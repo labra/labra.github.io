@@ -8,7 +8,8 @@
          "pages"   .RegularPages              pages in the list
          "noun"    "publications"             word for the counter
          "types"   true                       show the filter by publication type
-         "text"    false                      show a search box for the text of the items
+         "text"    "Title, authors..."        show a search box for the text of the items,
+                                              with this placeholder (leave out for no box)
          "context" .) }}
 
   Each item in the list must have the attribute "data-list-item" and the
@@ -38,10 +39,10 @@
       {{ end }}
     </select>
     {{ end }}
-    {{ if .text }}
-    <label for="{{ .list }}-text">Search:</label>
-    <input type="search" id="{{ .list }}-text" class="list-text-search" autocomplete="off"
-           placeholder="Title, event or place">
+    {{ with .text }}
+    <label for="{{ $.list }}-text">Search:</label>
+    <input type="search" id="{{ $.list }}-text" class="list-text-search" autocomplete="off"
+           placeholder="{{ . }}">
     {{ end }}
     <button type="button" class="btn btn-primary btn-outline btn-xs list-sort" data-order="newest"
             title="Change the order">

@@ -593,7 +593,10 @@ class TestListFilters(SiteTestCase):
                 self.assertTrue(any(src.endswith("list-filters.js") for src in p.srcs), "No script for the filters")
                 self.assertTrue(any("list-filters.css" in src for src in p.srcs), "No CSS for the filters")
         self.assertIn('class="list-type"', site_file("/publication/").read_text(encoding="utf-8"))
-        self.assertIn('class="list-text-search"', site_file("/talk/").read_text(encoding="utf-8"))
+        for path, _, _ in self.LISTS:
+            with self.subTest(list=path):
+                self.assertIn('class="list-text-search"', site_file(path).read_text(encoding="utf-8"),
+                              "No text search box")
 
     def test_items_newest_first(self):
         for path, section, _ in self.LISTS:
@@ -649,13 +652,25 @@ class TestListFilters(SiteTestCase):
                                     "A tag with more items has no button")
 
     def test_text_search_data(self):
-        """Each talk has its title and its event in the text for the search."""
-        items = list_items("/talk/")
-        texts = [norm_text(i["text"]) for i in items]
-        for c in pages_of("talk"):
-            with self.subTest(talk=c.path.stem):
-                title = plain_title(c.title)
-                self.assertTrue(any(title in t for t in texts), "The title is not in the search text")
+        """The text for the search of each item has its title, authors, year
+        and tags, and the publication and abstract when the page has them."""
+        for path, section, _ in self.LISTS:
+            items = list_items(path)
+            for c in pages_of(section):
+                with self.subTest(list=path, page=c.path.stem):
+                    matches = [norm_text(i["text"]) for i in items
+                               if i["date"] == c.date.strftime("%Y%m%d") and plain_title(c.title) in norm_text(i["text"])]
+                    self.assertTrue(matches, "No item with the title in its search text")
+                    expected = [str(c.date.year)] + [norm_text(a) for a in c.params.get("authors", [])]
+                    expected += [norm_text(t).replace("-", " ").split()[0] for t in c.tags]
+                    for field in ("publication", "abstract", "event", "summary"):
+                        value = str(c.params.get(field, "")).strip()
+                        # Markdown and HTML change in the text, so check only plain values.
+                        if value and not re.search(r"[\[*<_`]", value):
+                            expected.append(norm_text(value)[:30])
+                    # Two pages can have the same title and date, so one of the items must match.
+                    self.assertTrue(any(all(e in t.replace("-", " ") or e in t for e in expected) for t in matches),
+                                    "The search text has not all the data of the page")
 
     def test_year_groups(self):
         """Talks are in groups by year. Each group has the talks of its year."""
