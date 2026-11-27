@@ -25,11 +25,20 @@
     // Escape colons from IDs, such as those found in Markdown footnote links.
     target = target.replace(/:/g, '\\:');
 
+    // The hash is not always an element ID (for example "#tag=rdf" in the
+    // publication filters). Then do nothing.
+    let $target;
+    try {
+      $target = $(target);
+    } catch (e) {
+      return;
+    }
+
     // If target element exists, scroll to it taking into account fixed navigation bar offset.
-    if($(target).length) {
+    if($target.length) {
       $('body').addClass('scrolling');
       $('html, body').animate({
-        scrollTop: $(target).offset().top - navbar_offset
+        scrollTop: $target.offset().top - navbar_offset
       }, 600, function () {
         $('body').removeClass('scrolling');
       });
@@ -132,34 +141,54 @@
     }
   });
 
-  // Bind publication filter on dropdown change.
-  $('.pub-filters-select').on('change', function() {
-    // Get filter value from option value.
-    let filterValue = this.value;
-    // Apply filter to Isotope.
-    $grid_pubs.isotope({ filter: filterValue });
+  // Filter publications by type and by tag. The filter of Isotope is the
+  // class of the type and the class of the tag, for example ".pubtype-2.tag-1a2b".
+  function apply_publication_filters() {
+    let type = $('.pub-filters-select').val() || '*';
+    let tag = $('.pub-tags-select').val() || '*';
+    let filterValue = [type, tag].filter(function (f) { return f != '*'; }).join('');
+    $grid_pubs.isotope({ filter: filterValue || '*' });
 
-    // Set hash URL to current filter.
-    let url = $(this).val();
-    if (url.substr(0, 9) == '.pubtype-') {
-      window.location.hash = url.substr(9);
-    } else {
-      window.location.hash = '';
+    // Set hash URL to current filters, for example "#2", "#tag=rdf" or "#2&tag=rdf".
+    let hash = [];
+    if (type.substr(0, 9) == '.pubtype-') {
+      hash.push(type.substr(9));
     }
-  });
+    let tagName = $('.pub-tags-select option:selected').attr('data-tag');
+    if (tag != '*' && tagName) {
+      hash.push('tag=' + tagName);
+    }
+    if (hash.length > 0) {
+      window.location.hash = hash.join('&');
+    } else if (window.location.hash) {
+      history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
+  }
+
+  // Bind publication filters on dropdown change.
+  $('.pub-filters-select, .pub-tags-select').on('change', apply_publication_filters);
 
   // Filter publications according to hash in URL.
   function filter_publications() {
-    let urlHash = window.location.hash.replace('#','');
-    let filterValue = '*';
+    let type = '*';
+    let tag = '*';
+    window.location.hash.replace('#', '').split('&').forEach(function (part) {
+      if (part != '' && !isNaN(part)) {
+        type = '.pubtype-' + part;
+      } else if (part.substr(0, 4) == 'tag=') {
+        let name = part.substr(4);
+        $('.pub-tags-select option').each(function () {
+          if ($(this).attr('data-tag') == name) {
+            tag = $(this).val();
+          }
+        });
+      }
+    });
 
-    // Check if hash is numeric.
-    if (urlHash != '' && !isNaN(urlHash)) {
-      filterValue = '.pubtype-' + urlHash;
-    }
-
-    $('.pub-filters-select').val(filterValue);
-    $grid_pubs.isotope({ filter: filterValue });
+    $('.pub-filters-select').val(type);
+    $('.pub-tags-select').val(tag);
+    let filterValue = [type, tag].filter(function (f) { return f != '*'; }).join('');
+    $grid_pubs.isotope({ filter: filterValue || '*' });
   }
 
   /* ---------------------------------------------------------------------------
@@ -189,10 +218,10 @@
     });
 
     // Enable publication filter for publication index page.
-    if ($('.pub-filters-select')) {
+    if ($('.pub-filters-select').length) {
       filter_publications();
-      // Useful for changing hash manually (e.g. in development):
-      // window.addEventListener('hashchange', filter_publications, false);
+      // Filter again when the hash changes (for example with the back button).
+      window.addEventListener('hashchange', filter_publications, false);
     }
 
   });

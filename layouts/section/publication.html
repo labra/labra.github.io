@@ -22,9 +22,22 @@
           </option>
           {{ end }}
         </select>
+        &nbsp;
+        {{ i18n "filter_by_tag" | default "Filter by tag" }}:
+        <select class="pub-tags-select">
+          <option value="*">{{ i18n "filter_all" }}</option>
+          {{- /* Only the tags of publications. The value is a class of the
+                 publications below (see partial "publication_tag_class"). */}}
+          {{ range .Site.Taxonomies.tags.Alphabetical }}
+          {{ $count := len (where .Pages "Section" "publication") }}
+          {{ if gt $count 0 }}
+          <option value=".{{ partial "publication_tag_class" .Page }}" data-tag="{{ path.Base .Page.RelPermalink }}">
+            {{ .Page.Title }} ({{ $count }})
+          </option>
+          {{ end }}
+          {{ end }}
+        </select>
       </p>
-	  
-	  <!-- Add other filters? -->
 
       <div id="container-publications">
         {{ range .Pages.ByDate.Reverse }}
@@ -35,7 +48,8 @@
           {{ $.Scratch.Set "pubtype" 0 }}
         {{ end }}
 
-        <div class="grid-sizer col-md-12 isotope-item pubtype-{{ $.Scratch.Get "pubtype" }}">
+        <div class="grid-sizer col-md-12 isotope-item pubtype-{{ $.Scratch.Get "pubtype" }}
+          {{- range .GetTerms "tags" }} {{ partial "publication_tag_class" . }}{{ end }}">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	{{ .Title }},

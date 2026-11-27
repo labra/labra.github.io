@@ -37,6 +37,14 @@ The tests read `config.toml` and the `content` folder to know what the site must
 contain, so you can add publications, talks and posts without changes to the
 tests. The GitHub workflow runs the tests before it deploys the site.
 
+## Publication filters
+
+The page `/publication/` has two filters: by type and by tag. The tag filter
+lists all the tags of publications, with the number of publications for each
+tag. It changes when you add publications or tags, so you do not have to edit
+it. The URL keeps the filters, so you can share a link to a filtered list, for
+example `/publication/#tag=shex` or `/publication/#2&tag=rdf`.
+
 ## Author pages
 
 Hugo makes a page `/authors/<name>/` for each name in the `authors` list of a

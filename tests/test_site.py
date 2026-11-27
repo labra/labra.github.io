@@ -526,6 +526,45 @@ class TestListPages(SiteTestCase):
         items = re.findall(r'class="[^"]*isotope-item pubtype-(\d+)', text)
         self.assertEqual(len(items), len(pages_of("publication")))
 
+    def test_publication_tag_filter(self):
+        """The publication list has a filter by tag with all the tags of publications."""
+        text = site_file("/publication/").read_text(encoding="utf-8")
+        select = re.search(r'<select class="pub-tags-select">(.*?)</select>', text, re.S)
+        self.assertIsNotNone(select, "No tag filter on /publication/")
+        self.assertRegex(select.group(1), r'^\s*<option value="\*">', "First option must show all publications")
+        options = re.findall(
+            r'<option value="\.([^"]+)" data-tag="([^"]+)">\s*(.*?)\s*\((\d+)\)\s*</option>', select.group(1), re.S)
+
+        # Publications of each tag. "Big data" and "Big-data" are one tag.
+        by_tag = {}
+        for c in pages_of("publication"):
+            for t in {norm_term(t) for t in c.tags}:
+                by_tag.setdefault(t, set()).add(c.url_path)
+
+        option_tags = [norm_term(label) for _, _, label, _ in options]
+        self.assertEqual(sorted(option_tags), sorted(by_tag), "One option for each tag of publications")
+
+        # Each item of the list, with its classes and its publication.
+        items = {}
+        for chunk in text.split('<div class="grid-sizer ')[1:]:
+            classes = chunk[:chunk.index('"')].split()
+            link = re.search(r'href="([^"]+)"[^>]*>\s*Details', chunk) or re.search(r'href="(' + re.escape(BASE_URL) + r'publication/[^"]+)"', chunk)
+            self.assertIsNotNone(link, "No link to the publication in an item of the list")
+            items[local_path(link.group(1))] = set(classes)
+
+        for css_class, data_tag, label, count in options:
+            tag = norm_term(label)
+            with self.subTest(tag=label):
+                expected = by_tag[tag]
+                self.assertEqual(int(count), len(expected), "Wrong number in the option label")
+                tagged = {path for path, classes in items.items() if css_class in classes}
+                self.assertEqual(tagged, expected, "Wrong publications for the tag")
+                # data-tag is the name of the tag page, used in the URL hash (#tag=<name>).
+                self.assertTrue(site_file(f"/tags/{data_tag}/").is_file(), f"No page /tags/{data_tag}/")
+
+        script = (SITE / "js" / "hugo-academic.js").read_text(encoding="utf-8")
+        self.assertIn(".pub-tags-select", script, "The tag filter has no script")
+
     def test_talk_list(self):
         text = norm_text(site_file("/talk/").read_text(encoding="utf-8"))
         for c in pages_of("talk"):
