@@ -138,18 +138,47 @@
     masonry: {
       // Use Bootstrap compatible grid layout.
       columnWidth: '.grid-sizer'
+    },
+    // Each publication has the date as a number, for example data-date="20180923".
+    getSortData: {
+      date: '[data-date] parseInt'
     }
   });
+
+  // Isotope options for the order of the publications. The page has the
+  // newest publications first. For the oldest first, sort by date and keep
+  // publications with the same date in the reverse page order.
+  function sort_options(order) {
+    if (order == 'oldest') {
+      return { sortBy: ['date', 'original-order'], sortAscending: { date: true, 'original-order': false } };
+    }
+    return { sortBy: 'original-order', sortAscending: true };
+  }
+
+  // Show the current order on the sort button.
+  function update_sort_button(order) {
+    let $button = $('.pub-sort');
+    $button.attr('data-order', order);
+    $button.find('.pub-sort-label').text(order == 'oldest' ? 'Oldest first' : 'Newest first');
+    $button.find('.fa').toggleClass('fa-sort-amount-desc', order != 'oldest').toggleClass('fa-sort-amount-asc', order == 'oldest');
+  }
+
+  // Filter and sort the publications.
+  function update_publications(filterValue, order) {
+    $grid_pubs.isotope($.extend({ filter: filterValue || '*' }, sort_options(order)));
+  }
 
   // Filter publications by type and by tag. The filter of Isotope is the
   // class of the type and the class of the tag, for example ".pubtype-2.tag-1a2b".
   function apply_publication_filters() {
     let type = $('.pub-filters-select').val() || '*';
     let tag = $('.pub-tags-select').val() || '*';
+    let order = $('.pub-sort').attr('data-order') || 'newest';
     let filterValue = [type, tag].filter(function (f) { return f != '*'; }).join('');
-    $grid_pubs.isotope({ filter: filterValue || '*' });
+    update_publications(filterValue, order);
 
-    // Set hash URL to current filters, for example "#2", "#tag=rdf" or "#2&tag=rdf".
+    // Set hash URL to current filters and order, for example "#2", "#tag=rdf",
+    // "#2&tag=rdf" or "#tag=rdf&sort=oldest".
     let hash = [];
     if (type.substr(0, 9) == '.pubtype-') {
       hash.push(type.substr(9));
@@ -157,6 +186,9 @@
     let tagName = $('.pub-tags-select option:selected').attr('data-tag');
     if (tag != '*' && tagName) {
       hash.push('tag=' + tagName);
+    }
+    if (order == 'oldest') {
+      hash.push('sort=oldest');
     }
     if (hash.length > 0) {
       window.location.hash = hash.join('&');
@@ -169,6 +201,12 @@
   $('.pub-filters-select, .pub-tags-select').on('change', function () {
     apply_publication_filters();
     update_tag_search();
+  });
+
+  // Change the order of the publications: newest first or oldest first.
+  $('.pub-sort').on('click', function () {
+    update_sort_button($(this).attr('data-order') == 'oldest' ? 'newest' : 'oldest');
+    apply_publication_filters();
   });
 
   /* ---------------------------------------------------------------------------
@@ -261,6 +299,7 @@
   function filter_publications() {
     let type = '*';
     let tag = '*';
+    let order = 'newest';
     window.location.hash.replace('#', '').split('&').forEach(function (part) {
       if (part != '' && !isNaN(part)) {
         type = '.pubtype-' + part;
@@ -271,15 +310,53 @@
             tag = $(this).val();
           }
         });
+      } else if (part == 'sort=oldest') {
+        order = 'oldest';
       }
     });
 
     $('.pub-filters-select').val(type);
     $('.pub-tags-select').val(tag);
     update_tag_search();
+    update_sort_button(order);
     let filterValue = [type, tag].filter(function (f) { return f != '*'; }).join('');
-    $grid_pubs.isotope({ filter: filterValue || '*' });
+    update_publications(filterValue, order);
   }
+
+  /* ---------------------------------------------------------------------------
+   * Copy the BibTeX entry of a publication.
+   * --------------------------------------------------------------------------- */
+
+  // Copy text with the old method, for browsers with no Clipboard API.
+  function copy_text_old(element) {
+    let range = document.createRange();
+    range.selectNodeContents(element);
+    let selection = window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+    let ok = false;
+    try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+    return ok;
+  }
+
+  $('.pub-cite-copy').on('click', function () {
+    let $button = $(this);
+    let element = $($button.attr('data-target'))[0];
+    if (!element) { return; }
+    let show = function (text) {
+      $button.find('.pub-cite-copy-label').text(text);
+      setTimeout(function () { $button.find('.pub-cite-copy-label').text('Copy BibTeX'); }, 2000);
+    };
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(element.textContent).then(function () {
+        show('Copied');
+      }, function () {
+        show(copy_text_old(element) ? 'Copied' : 'Select the text and copy it');
+      });
+    } else {
+      show(copy_text_old(element) ? 'Copied' : 'Select the text and copy it');
+    }
+  });
 
   /* ---------------------------------------------------------------------------
    * On window load.
