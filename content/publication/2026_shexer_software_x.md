@@ -18,7 +18,7 @@ url_video = ""
 
 tags=["ShEx", "Shapes", "RDF", "SHACL", "UML"]
 
-url_pdf = "pdf/2026software_x.pdf"
+url_pdf = "pdf/2026_software_x_shexer.pdf"
 
 [[url_custom]]
 name = "Journal"

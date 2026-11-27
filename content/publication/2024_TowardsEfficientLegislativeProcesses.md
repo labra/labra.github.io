@@ -22,6 +22,6 @@ tags=["Semantic web", "Data analysis", "Linked open data", "Legal informatics", 
 
 [[url_custom]]
 name = "doi"
-url = " https://doi.org/10.1007/s42979-024-02933-y"
+url = "https://doi.org/10.1007/s42979-024-02933-y"
 
 +++
