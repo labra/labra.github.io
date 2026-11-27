@@ -40,6 +40,15 @@
     
     <url>
     
+      <loc>http://labra.weso.es/authors/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/tags/computing-education/</loc>
       <lastmod>2026-11-16T00:00:00+00:00</lastmod>
     </url>
@@ -230,6 +239,15 @@
     <url>
     
       <loc>http://labra.weso.es/authors/stefania-dumbrava/</loc>
+      <lastmod>2026-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://labra.weso.es/tags/</loc>
       <lastmod>2026-11-16T00:00:00+00:00</lastmod>
     </url>
     
@@ -1750,7 +1768,7 @@
     
     <url>
     
-      <loc>http://labra.weso.es/tags/data-validation/</loc>
+      <loc>http://labra.weso.es/tags/data-quality/</loc>
       <lastmod>2023-01-14T00:00:00+00:00</lastmod>
     </url>
     
@@ -1759,7 +1777,7 @@
     
     <url>
     
-      <loc>http://labra.weso.es/tags/data-quality/</loc>
+      <loc>http://labra.weso.es/tags/data-validation/</loc>
       <lastmod>2023-01-14T00:00:00+00:00</lastmod>
     </url>
     
@@ -3577,6 +3595,15 @@
     
     <url>
     
+      <loc>http://labra.weso.es/tags/academic/</loc>
+      <lastmod>2017-08-21T10:39:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://labra.weso.es/post/homepage/</loc>
       <lastmod>2017-08-21T10:39:00+00:00</lastmod>
     </url>
@@ -3775,24 +3802,6 @@
     
     <url>
     
-      <loc>http://labra.weso.es/authors/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/academic/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://labra.weso.es/post/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -3812,15 +3821,6 @@
     <url>
     
       <loc>http://labra.weso.es/talk/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://labra.weso.es/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
