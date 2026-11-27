@@ -1,0 +1,5 @@
+{{- /* All publications, newest first. */ -}}
+{{- range $i, $p := .RegularPages.ByDate.Reverse -}}
+{{- if $i }}{{ "\n" }}{{ end -}}
+{{- partial "publication_bibtex" $p -}}
+{{- end -}}

@@ -1,0 +1,87 @@
+{{- /*
+  Make a BibTeX entry for a publication from its front matter.
+  Usage: {{ partial "publication_bibtex" . }} with a publication page.
+  The partial returns a string.
+
+  - The key is the name of the file, for example "2017_ShExSpec".
+  - The entry type and the field for the "publication" text come from the
+    publication type (see "publication_types" in config.toml).
+  - Optional front matter fields with the same name as a BibTeX field
+    (volume, number, pages, publisher, school, institution, isbn, address)
+    are added to the entry.
+*/ -}}
+{{- $p := . -}}
+{{- $typeIndex := "0" -}}
+{{- with $p.Params.publication_types }}{{ $typeIndex = index . 0 | string | strings.TrimSpace }}{{ end -}}
+
+{{- /* Publication type -> BibTeX entry type and field for the "publication" text. */ -}}
+{{- $types := dict
+  "0" (slice "misc" "howpublished")
+  "1" (slice "inproceedings" "booktitle")
+  "2" (slice "article" "journal")
+  "3" (slice "article" "journal")
+  "4" (slice "techreport" "institution")
+  "5" (slice "book" "publisher")
+  "6" (slice "incollection" "booktitle")
+  "7" (slice "misc" "howpublished")
+  "8" (slice "phdthesis" "note")
+  "9" (slice "misc" "howpublished")
+  "10" (slice "book" "publisher")
+  "11" (slice "misc" "howpublished")
+-}}
+{{- $type := index $types $typeIndex | default (index $types "0") -}}
+
+{{- $key := "" -}}
+{{- with $p.File }}{{ $key = .ContentBaseName }}{{ end -}}
+{{- if or (eq $key "") (eq $key "index") }}{{ $key = path.Base (strings.TrimSuffix "/" $p.RelPermalink) }}{{ end -}}
+
+{{- /* Field values. Text fields have no Markdown and no HTML, and the special
+       characters of BibTeX get a backslash. */ -}}
+{{- $fields := slice -}}
+{{- $names := delimit ($p.Params.authors | default slice) " and " -}}
+{{- if eq $typeIndex "10" -}}
+  {{- with $names }}{{ $fields = $fields | append (dict "name" "editor" "value" .) }}{{ end -}}
+{{- else -}}
+  {{- with $names }}{{ $fields = $fields | append (dict "name" "author" "value" .) }}{{ end -}}
+  {{- with $p.Params.editors }}{{ $fields = $fields | append (dict "name" "editor" "value" (delimit . " and ")) }}{{ end -}}
+{{- end -}}
+{{- $fields = $fields | append (dict "name" "title" "value" $p.Title) -}}
+{{- with $p.Params.publication -}}
+  {{- $text := . | markdownify | plainify | htmlUnescape | strings.TrimSpace -}}
+  {{- with $text }}{{ $fields = $fields | append (dict "name" (index $type 1) "value" .) }}{{ end -}}
+{{- end -}}
+{{- range slice "volume" "number" "pages" "publisher" "school" "institution" "isbn" "address" -}}
+  {{- $v := index $p.Params . -}}
+  {{- if and $v (ne . (index $type 1)) }}{{ $fields = $fields | append (dict "name" . "value" (string $v | strings.TrimSpace)) }}{{ end -}}
+{{- end -}}
+{{- $fields = $fields | append (dict "name" "year" "value" ($p.Date.Format "2006")) -}}
+{{- /* A date of 1 January usually means that the month is not known. */ -}}
+{{- if ne ($p.Date.Format "01-02") "01-01" -}}
+  {{- $fields = $fields | append (dict "name" "month" "value" (lower ($p.Date.Format "Jan"))) -}}
+{{- end -}}
+
+{{- /* DOI from the "doi" field or from a DOI link. */ -}}
+{{- $doi := $p.Params.doi | default "" -}}
+{{- if not $doi -}}
+  {{- $links := slice ($p.Params.url_pdf | default "") ($p.Params.publication | default "") -}}
+  {{- range $p.Params.url_custom }}{{ $links = $links | append (.url | default "") }}{{ end -}}
+  {{- range $links -}}
+    {{- if and (not $doi) (findRE `(?i)doi\.(org|acm\.org)/10\.` .) -}}
+      {{- $doi = index (findRE `10\.[0-9]{4,9}/[^\s"<>)\]]+` . 1) 0 | default "" -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* URL: the PDF, or else the page of the publication. */ -}}
+{{- $url := $p.Permalink -}}
+{{- with $p.Params.url_pdf }}{{ $url = . | absURL }}{{ end -}}
+
+{{- $out := printf "@%s{%s,\n" (index $type 0) $key -}}
+{{- range $fields -}}
+  {{- $name := .name -}}
+  {{- $value := .value | replaceRE `([&%#$_])` `\$1` | replaceRE `\s+` " " -}}
+  {{- if eq $name "month" }}{{ $out = printf "%s  month = %s,\n" $out $value }}{{ else }}{{ $out = printf "%s  %s = {%s},\n" $out $name $value }}{{ end -}}
+{{- end -}}
+{{- with $doi }}{{ $out = printf "%s  doi = {%s},\n" $out (strings.TrimRight "." .) }}{{ end -}}
+{{- $out = printf "%s  url = {%s}\n}\n" $out $url -}}
+{{- return $out -}}

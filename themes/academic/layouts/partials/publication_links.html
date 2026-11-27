@@ -36,6 +36,13 @@
   {{ i18n "btn_project" }}
 </a>
 {{ end }}
+{{ if $is_list }}
+{{ with $.OutputFormats.Get "BibTeX" }}
+<a class="btn btn-primary btn-outline btn-xs" href="{{ .RelPermalink }}" download="{{ path.Base (path.Dir .RelPermalink) }}.bib">
+  BibTeX
+</a>
+{{ end }}
+{{ end }}
 {{ range $.Params.url_custom }}
 <a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ .url | absURL }}">
   {{ .name }}

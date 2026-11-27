@@ -29,6 +29,17 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
+# BibTeX files for publications: "cite.bib" in the folder of each publication
+# and in /publication/ (all publications). See content/publication/_index.md.
+[mediaTypes."text/x-bibtex"]
+  suffixes = [ "bib" ]
+
+[outputFormats.BibTeX]
+  mediaType = "text/x-bibtex"
+  baseName = "cite"
+  isPlainText = true
+  notAlternative = true
+
 [outputs]
   home = [ "HTML", "RSS" ]
   section = [ "HTML", "RSS" ]

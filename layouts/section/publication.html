@@ -22,6 +22,15 @@
           </option>
           {{ end }}
         </select>
+        <button type="button" class="btn btn-primary btn-outline btn-xs pub-sort" data-order="newest"
+                title="Change the order of the publications">
+          <i class="fa fa-sort-amount-desc" aria-hidden="true"></i> <span class="pub-sort-label">Newest first</span>
+        </button>
+        {{ with .OutputFormats.Get "BibTeX" }}
+        <a class="btn btn-primary btn-outline btn-xs pub-bibtex-all" href="{{ .RelPermalink }}" download>
+          <i class="fa fa-download" aria-hidden="true"></i> BibTeX of all publications
+        </a>
+        {{ end }}
       </p>
 
       {{/* Filter by tag. The hidden select keeps the list of tags and the
@@ -67,7 +76,8 @@
         {{ end }}
 
         <div class="grid-sizer col-md-12 isotope-item pubtype-{{ $.Scratch.Get "pubtype" }}
-          {{- range .GetTerms "tags" }} {{ partial "publication_tag_class" . }}{{ end }}">
+          {{- range .GetTerms "tags" }} {{ partial "publication_tag_class" . }}{{ end }}"
+          data-date="{{ .Date.Format "20060102" }}">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	{{ .Title }},

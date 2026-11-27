@@ -364,11 +364,12 @@ class TestHomePage(SiteTestCase):
         self.skipTest(f"No {name} widget")
 
     def _item_links(self, widget, section):
-        """Links in the widget that point to pages of a content section."""
+        """Links in the widget that point to pages of a content section.
+        Links to files, for example "cite.bib", are not counted."""
         found = []
         for href, _ in self.home.links_in(widget.path.stem):
             path = local_path(href)
-            if path and path.startswith(f"/{section}/") and path != f"/{section}/":
+            if path and path.startswith(f"/{section}/") and path != f"/{section}/" and path.endswith("/"):
                 if path not in found:
                     found.append(path)
         return found
@@ -525,6 +526,22 @@ class TestListPages(SiteTestCase):
                 self.assertIn(f".pubtype-{t}", options)
         items = re.findall(r'class="[^"]*isotope-item pubtype-(\d+)', text)
         self.assertEqual(len(items), len(pages_of("publication")))
+
+    def test_publication_sort(self):
+        """The publication list has a sort button and a date on each publication."""
+        p = page("/publication/")
+        text = site_file("/publication/").read_text(encoding="utf-8")
+        buttons = [a for t, a, _ in p.elements if t == "button" and "pub-sort" in (a.get("class") or "").split()]
+        self.assertEqual(len(buttons), 1, "no sort button")
+        self.assertEqual(buttons[0].get("data-order"), "newest")
+        dates = re.findall(r'class="[^"]*isotope-item[^"]*"\s+data-date="(\d{8})"', text)
+        self.assertEqual(len(dates), len(pages_of("publication")))
+        # The page shows the newest publications first.
+        self.assertEqual(dates, sorted(dates, reverse=True))
+        expected = sorted((c.date.strftime("%Y%m%d") for c in pages_of("publication") if c.date), reverse=True)
+        self.assertEqual(dates, expected)
+        script = (ROOT / "themes/academic/static/js/hugo-academic.js").read_text(encoding="utf-8")
+        self.assertIn("sort=oldest", script)
 
     def test_publication_tag_filter(self):
         """The publication list has a filter by tag with all the tags of publications."""
@@ -767,6 +784,157 @@ class TestAuthors(SiteTestCase):
                 self.assertIn(norm_term(c.title), [norm_term(h) for h in p.h1])
                 for label in re.findall(r"\[([^\]]+)\]\(", c.body):
                     self.assertIn(plain_title(label), [plain_title(t) for _, t, _ in p.links])
+
+
+# Publication type (see "publication_types" in config.toml) -> BibTeX entry
+# type and field for the "publication" text.
+BIBTEX_TYPES = {
+    "0": ("misc", "howpublished"),
+    "1": ("inproceedings", "booktitle"),
+    "2": ("article", "journal"),
+    "3": ("article", "journal"),
+    "4": ("techreport", "institution"),
+    "5": ("book", "publisher"),
+    "6": ("incollection", "booktitle"),
+    "7": ("misc", "howpublished"),
+    "8": ("phdthesis", "note"),
+    "9": ("misc", "howpublished"),
+    "10": ("book", "publisher"),
+    "11": ("misc", "howpublished"),
+}
+
+
+def parse_bibtex(text):
+    """Parse BibTeX entries into a list of (type, key, fields).
+
+    Field values are in braces, which can contain more braces, or they are
+    one word (for example "month = jul"). Raise ValueError for bad syntax.
+    """
+    entries = []
+    i = 0
+    while True:
+        start = text.find("@", i)
+        if start < 0:
+            if text[i:].strip():
+                raise ValueError(f"text after the last entry: {text[i:i + 40]!r}")
+            return entries
+        if text[i:start].strip():
+            raise ValueError(f"text between entries: {text[i:start][:40]!r}")
+        m = re.compile(r"@(\w+)\{([^,\s]+),").match(text, start)
+        if not m:
+            raise ValueError(f"bad entry start: {text[start:start + 40]!r}")
+        etype, key, i = m.group(1).lower(), m.group(2), m.end()
+        fields = {}
+        while True:
+            m = re.compile(r"\s*(\}|(\w+)\s*=\s*)").match(text, i)
+            if not m:
+                raise ValueError(f"bad field in {key}: {text[i:i + 40]!r}")
+            i = m.end()
+            if m.group(1) == "}":
+                break
+            name = m.group(2).lower()
+            if name in fields:
+                raise ValueError(f"field {name} two times in {key}")
+            if text[i] == "{":
+                depth, j = 0, i
+                while True:
+                    if text[j] == "{" and text[j - 1] != "\\":
+                        depth += 1
+                    elif text[j] == "}" and text[j - 1] != "\\":
+                        depth -= 1
+                        if depth == 0:
+                            break
+                    j += 1
+                    if j >= len(text):
+                        raise ValueError(f"no closing brace in {key}.{name}")
+                fields[name] = text[i + 1:j]
+                i = j + 1
+            else:
+                m = re.compile(r"\w+").match(text, i)
+                if not m:
+                    raise ValueError(f"bad value in {key}.{name}")
+                fields[name] = m.group(0)
+                i = m.end()
+            m = re.compile(r"\s*,?").match(text, i)
+            i = m.end()
+        entries.append((etype, key, fields))
+
+
+def bibtex_text(value):
+    """A BibTeX field value as plain text."""
+    return re.sub(r"\\([&%#$_])", r"\1", value)
+
+
+class TestBibTeX(SiteTestCase):
+    """Each publication has a BibTeX entry made from its front matter."""
+
+    def bib(self, c):
+        return site_file(c.url_path + "cite.bib")
+
+    def test_each_publication_has_a_bib_file(self):
+        for c in pages_of("publication"):
+            with self.subTest(publication=c.path.stem):
+                file = self.bib(c)
+                self.assertTrue(file.exists(), f"missing {file}")
+                entries = parse_bibtex(file.read_text(encoding="utf-8"))
+                self.assertEqual(len(entries), 1)
+                etype, key, fields = entries[0]
+                types = c.params.get("publication_types") or ["0"]
+                expected_type, venue = BIBTEX_TYPES.get(str(types[0]).strip(), BIBTEX_TYPES["0"])
+                self.assertEqual(etype, expected_type)
+                self.assertEqual(key, c.path.stem)
+                self.assertEqual(norm_text(bibtex_text(fields["title"])), norm_text(c.title))
+                self.assertEqual(fields["year"], str(c.date.year))
+                self.assertTrue(fields["url"].startswith(("http://", "https://")))
+                names = [n.strip() for n in re.split(r"\s+and\s+", fields.get("author", fields.get("editor", "")))]
+                self.assertEqual(names, [re.sub(r"\s+", " ", a.strip()) for a in c.params.get("authors", [])])
+                if c.params.get("publication", "").strip():
+                    self.assertIn(venue, fields)
+                    self.assertNotRegex(fields[venue], r"[<>]|\]\(", "Markdown link or HTML in the BibTeX text")
+                for name, value in fields.items():
+                    if name not in ("url", "doi"):
+                        self.assertNotRegex(value, r"(?<!\\)[&%#]", f"special character with no backslash in {name}")
+                if "doi" in fields:
+                    self.assertRegex(fields["doi"], r"^10\.\d{4,9}/\S+$")
+
+    def test_doi_field(self):
+        """A publication with a "doi" field or a DOI link has the DOI in its entry."""
+        for c in pages_of("publication"):
+            links = [c.params.get("doi", ""), c.params.get("url_pdf", ""), c.params.get("publication", "")]
+            links += [u.get("url", "") for u in c.params.get("url_custom", [])]
+            has_doi = bool(c.params.get("doi")) or any(re.search(r"(?i)doi\.(org|acm\.org)/10\.", link) for link in links)
+            if has_doi:
+                with self.subTest(publication=c.path.stem):
+                    _, _, fields = parse_bibtex(self.bib(c).read_text(encoding="utf-8"))[0]
+                    self.assertIn("doi", fields)
+
+    def test_publication_page_shows_bibtex(self):
+        for c in pages_of("publication"):
+            with self.subTest(publication=c.path.stem):
+                text = site_file(c.url_path).read_text(encoding="utf-8")
+                m = re.search(r'<pre id="pub-bibtex"[^>]*>(.*?)</pre>', text, re.S)
+                self.assertTrue(m, "no BibTeX entry on the page")
+                self.assertEqual(html.unescape(m.group(1)).strip(), self.bib(c).read_text(encoding="utf-8").strip())
+                self.assertIn('class="btn btn-primary btn-outline pub-cite-copy"', text)
+                self.assertIn(f'href="{c.url_path}cite.bib"', text)
+
+    def test_all_publications_bib_file(self):
+        file = site_file("/publication/cite.bib")
+        self.assertTrue(file.exists())
+        entries = parse_bibtex(file.read_text(encoding="utf-8"))
+        keys = [key for _, key, _ in entries]
+        self.assertEqual(sorted(keys), sorted(c.path.stem for c in pages_of("publication")))
+        self.assertEqual(len(keys), len(set(keys)), "two entries with the same key")
+        self.assertIn('href="/publication/cite.bib"', site_file("/publication/").read_text(encoding="utf-8"))
+
+    def test_bibtex_parser(self):
+        """The test parser finds bad syntax."""
+        good = "@misc{a,\n  title = {A {B} c},\n  month = jul,\n  year = {2020}\n}\n"
+        self.assertEqual(parse_bibtex(good), [("misc", "a", {"title": "A {B} c", "month": "jul", "year": "2020"})])
+        for bad in ("@misc{a,\n  title = {A {B c},\n}", "@misc{a,\n  title = {A},\n  title = {B}\n}", "x @misc{a,\n}"):
+            with self.subTest(bad=bad):
+                with self.assertRaises(ValueError):
+                    parse_bibtex(bad)
 
 
 class TestLinks(SiteTestCase):

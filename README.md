@@ -58,6 +58,41 @@ tags. Hugo makes the list of tags and the buttons from the content, so you do
 not have to edit them when you add publications or tags. The URL keeps the filters, so you can share a link to a filtered list, for
 example `/publication/#tag=shex` or `/publication/#2&tag=rdf`.
 
+The button "Newest first" changes the order to "Oldest first" and back. The
+URL keeps the order too, for example `/publication/#tag=rdf&sort=oldest`.
+
+## BibTeX
+
+Hugo makes a BibTeX entry for each publication from its front matter
+(`layouts/partials/publication_bibtex.html`). You do not write the entries.
+
+- The page of each publication shows the entry, with the buttons "Copy
+  BibTeX" and "Download .bib". The file is `/publication/<name>/cite.bib`.
+- `/publication/cite.bib` has the entries of all publications.
+- The key is the name of the Markdown file, for example `2017_ShExSpec`.
+- The entry type comes from `publication_types`:
+
+  | Publication type | BibTeX entry | Field for `publication` |
+  |---|---|---|
+  | 1 Conference proceedings | `@inproceedings` | `booktitle` |
+  | 2, 3 Journal | `@article` | `journal` |
+  | 4 Technical report | `@techreport` | `institution` |
+  | 5, 10 Book | `@book` | `publisher` |
+  | 6 Book chapter | `@incollection` | `booktitle` |
+  | 8 PhD thesis | `@phdthesis` | `note` |
+  | 0, 7, 9, 11 Other | `@misc` | `howpublished` |
+
+- `authors`, `title` and `date` give `author`, `title`, `year` and `month`.
+  A date of 1 January gives no month, because it usually means that the
+  month is not known.
+- The DOI comes from the `doi` field, or from a doi.org or doi.acm.org link
+  in `url_pdf`, `publication` or `url_custom`.
+- `url` is the PDF (`url_pdf`), or else the page of the publication.
+- To add more data, put these fields in the front matter with the same name
+  as in BibTeX: `volume`, `number`, `pages`, `publisher`, `school`,
+  `institution`, `isbn`, `address`, `editors`. For example, add
+  `school = "Universidad de Oviedo"` to the PhD thesis.
+
 ## Author pages
 
 Hugo makes a page `/authors/<name>/` for each name in the `authors` list of a

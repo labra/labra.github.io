@@ -16,3 +16,13 @@
 .pub-tag-popular .pub-tag-chip.active { color: #fff; background-color: #0095eb; }
 /* Bootstrap buttons set "display", so make "hidden" win. */
 .pub-tag-filter [hidden] { display: none !important; }
+
+/* Sort button and BibTeX link on the publication list. */
+.pub-sort, .pub-bibtex-all { margin-left: .5em; }
+
+/* BibTeX entry on the page of a publication (themes/academic/layouts/publication/single.html). */
+.pub-cite .btn { margin: 0 4px 6px 0; }
+.pub-bibtex {
+  margin-top: 4px; font-size: 80%; white-space: pre-wrap; word-break: break-word;
+  max-height: 24em; overflow-y: auto;
+}
