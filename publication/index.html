@@ -30,7 +30,7 @@
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
   <link rel="stylesheet" href="/css/hugo-academic.css">
   
-  <link rel="stylesheet" href="/css/pub-filters.css">
+  <link rel="stylesheet" href="/css/list-filters.css">
   
 
   
@@ -203,1247 +203,269 @@
 
       
 
-      <p>
-        Filter by type:
-        <select class="pub-filters-select">
-          <option value="*">All</option>
-          
-          <option value=".pubtype-1">
-            Conference proceedings
-          </option>
-          
-          <option value=".pubtype-11">
-            Preprint
-          </option>
-          
-          <option value=".pubtype-2">
-            Journal (JCR Indexed)
-          </option>
-          
-          <option value=".pubtype-4">
-            Technical report
-          </option>
-          
-          <option value=".pubtype-5">
-            Book
-          </option>
-          
-          <option value=".pubtype-6">
-            Book chapter
-          </option>
-          
-          <option value=".pubtype-7">
-            Lecture notes
-          </option>
-          
-          <option value=".pubtype-8">
-            Phd thesis
-          </option>
-          
-          <option value=".pubtype-9">
-            Specifications
-          </option>
-          
-        </select>
-        <button type="button" class="btn btn-primary btn-outline btn-xs pub-sort" data-order="newest"
-                title="Change the order of the publications">
-          <i class="fa fa-sort-amount-desc" aria-hidden="true"></i> <span class="pub-sort-label">Newest first</span>
-        </button>
-        
-        <a class="btn btn-primary btn-outline btn-xs pub-bibtex-all" href="/publication/cite.bib" download>
-          <i class="fa fa-download" aria-hidden="true"></i> BibTeX of all publications
-        </a>
-        
-      </p>
+      <div class="list-filters" data-list="#container-publications" data-noun="publications">
+  <p class="list-filters-row">
+    
+    <label for="container-publications-type">Filter by type:</label>
+    <select id="container-publications-type" class="list-type">
+      <option value="*">All</option>
+      
+      <option value="1">Conference proceedings</option>
+      
+      <option value="11">Preprint</option>
+      
+      <option value="2">Journal (JCR Indexed)</option>
+      
+      <option value="4">Technical report</option>
+      
+      <option value="5">Book</option>
+      
+      <option value="6">Book chapter</option>
+      
+      <option value="7">Lecture notes</option>
+      
+      <option value="8">Phd thesis</option>
+      
+      <option value="9">Specifications</option>
+      
+    </select>
+    
+    
+    <button type="button" class="btn btn-primary btn-outline btn-xs list-sort" data-order="newest"
+            title="Change the order">
+      <i class="fa fa-sort-amount-desc" aria-hidden="true"></i> <span class="list-sort-label">Newest first</span>
+    </button>
+    
+    <a class="btn btn-primary btn-outline btn-xs list-bibtex-all" href="/publication/cite.bib" download>
+      <i class="fa fa-download" aria-hidden="true"></i> BibTeX of all publications
+    </a>
+    
+  </p>
 
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <div class="pub-tag-filter">
-        <label for="pub-tag-search">Filter by tag:</label>
-        <span class="pub-tag-box">
-          <input type="search" id="pub-tag-search" class="pub-tag-search" autocomplete="off"
-                 placeholder="Type to search 185 tags" aria-controls="pub-tag-results">
-          <ul id="pub-tag-results" class="pub-tag-results" role="listbox" hidden></ul>
-        </span>
-        <button type="button" class="btn btn-primary btn-xs pub-tag-clear" title="Show all tags" hidden>
-          <span class="pub-tag-current"></span> &times;
-        </button>
-        <select class="pub-tags-select" aria-hidden="true" tabindex="-1" hidden>
-          <option value="*">All</option>
-          <option value=".tag-71268a534f" data-tag="accuracy">Accuracy (1)</option>
-          <option value=".tag-e93e3c5e77" data-tag="administrative-file">Administrative File (1)</option>
-          <option value=".tag-c3b5f61bea" data-tag="administrative-procedure">Administrative Procedure (1)</option>
-          <option value=".tag-35ac08c81d" data-tag="amazon-web-services">Amazon Web Services (1)</option>
-          <option value=".tag-0d8bcb6a64" data-tag="annotations">Annotations (1)</option>
-          <option value=".tag-cf022124ef" data-tag="automatic-extraction">Automatic Extraction (1)</option>
-          <option value=".tag-6c32fb422e" data-tag="aws">AWS (1)</option>
-          <option value=".tag-f7b27ae73c" data-tag="big-data">Big Data (4)</option>
-          <option value=".tag-52888895e5" data-tag="book">Book (1)</option>
-          <option value=".tag-fd5fe550a0" data-tag="chilecompra">ChileCompra (1)</option>
-          <option value=".tag-3a6519ac28" data-tag="class">Class (1)</option>
-          <option value=".tag-4d6b3f387f" data-tag="classrank">ClassRank (1)</option>
-          <option value=".tag-e8f8629cd3" data-tag="cloud-computing">Cloud Computing (1)</option>
-          <option value=".tag-335a603ee5" data-tag="code-generation">Code Generation (1)</option>
-          <option value=".tag-f4f042c144" data-tag="collaborative-curation">Collaborative Curation (1)</option>
-          <option value=".tag-009050619f" data-tag="collaborative-tools">Collaborative Tools (1)</option>
-          <option value=".tag-4162e8a00e" data-tag="collaborative-tagging">Collaborative-Tagging (4)</option>
-          <option value=".tag-229b2e00a3" data-tag="computer-science-studies">Computer-Science-Studies (1)</option>
-          <option value=".tag-3b278978ec" data-tag="computing-education">Computing Education (1)</option>
-          <option value=".tag-d079f2c3d1" data-tag="conference">Conference (1)</option>
-          <option value=".tag-afe61a8531" data-tag="continuous-integration">Continuous Integration (1)</option>
-          <option value=".tag-db0a3f94ca" data-tag="covid">Covid (4)</option>
-          <option value=".tag-f8e366bbbf" data-tag="covid-19">COVID-19 (1)</option>
-          <option value=".tag-aeaccaf1a9" data-tag="covid-19-epidemiology">COVID-19 Epidemiology (1)</option>
-          <option value=".tag-4fa1dc97b9" data-tag="danish">Danish (1)</option>
-          <option value=".tag-ead6c3b137" data-tag="data-analysis">Data Analysis (1)</option>
-          <option value=".tag-776fcf7253" data-tag="data-integration">Data Integration (2)</option>
-          <option value=".tag-0f8b760e5c" data-tag="data-mapping">Data Mapping (2)</option>
-          <option value=".tag-6c3fb19d3c" data-tag="data-quality">Data-Quality (5)</option>
-          <option value=".tag-7151379e9a" data-tag="data-validation">Data Validation (1)</option>
-          <option value=".tag-1276ef22c8" data-tag="data-grounding">Data-Grounding (1)</option>
-          <option value=".tag-4d282e248d" data-tag="data-portal">Data-Portal (1)</option>
-          <option value=".tag-21028b993a" data-tag="declarative-programming">Declarative-Programming (1)</option>
-          <option value=".tag-0f9473ed52" data-tag="demo">Demo (3)</option>
-          <option value=".tag-e6ca8f0d60" data-tag="description-logics">Description-Logics (3)</option>
-          <option value=".tag-c17695539f" data-tag="digital-circuits">Digital Circuits (1)</option>
-          <option value=".tag-2c29bc3c5d" data-tag="documentdb">DocumentDB (1)</option>
-          <option value=".tag-31820a49c3" data-tag="dynamodb">DynamoDB (1)</option>
-          <option value=".tag-202cac72c3" data-tag="e-government">E-Government (1)</option>
-          <option value=".tag-5ea5db8ed1" data-tag="e-procurement">E-Procurement (2)</option>
-          <option value=".tag-fb205a26db" data-tag="ebooks">EBooks (2)</option>
-          <option value=".tag-f00c6becd4" data-tag="ecs-fargate">ECS Fargate (1)</option>
-          <option value=".tag-f41f942ef6" data-tag="ehealth">EHealth (4)</option>
-          <option value=".tag-f91caf6ce1" data-tag="elearning">ELearning (6)</option>
-          <option value=".tag-763b385604" data-tag="emergent-semantics">Emergent Semantics (1)</option>
-          <option value=".tag-7e4f3a355c" data-tag="entity-reconciliation">Entity Reconciliation (1)</option>
-          <option value=".tag-58dc3682cd" data-tag="eprocurement">EProcurement (5)</option>
-          <option value=".tag-d31247bc81" data-tag="erp">ERP (1)</option>
-          <option value=".tag-2be4399f7e" data-tag="exercises">Exercises (3)</option>
-          <option value=".tag-801f261cce" data-tag="faas">FaaS (1)</option>
-          <option value=".tag-9574c9902e" data-tag="fishing-data">Fishing Data (1)</option>
-          <option value=".tag-d6970dad49" data-tag="free-services">Free-Services (1)</option>
-          <option value=".tag-70bc71bd7e" data-tag="functional-programming">Functional Programming (10)</option>
-          <option value=".tag-fbbb08b0c6" data-tag="graph-data-abstractions">Graph Data Abstractions (1)</option>
-          <option value=".tag-835b244510" data-tag="graphs">Graphs (1)</option>
-          <option value=".tag-49392e12d9" data-tag="haskell">Haskell (2)</option>
-          <option value=".tag-d967bc84d0" data-tag="healthcare">Healthcare (1)</option>
-          <option value=".tag-04fad89831" data-tag="human-centric-data-management">Human-Centric Data Management (1)</option>
-          <option value=".tag-589845c3c3" data-tag="image-classification">Image-Classification (2)</option>
-          <option value=".tag-7cb59d1781" data-tag="image-retrieval">Image-Retrieval (2)</option>
-          <option value=".tag-dda368e04a" data-tag="inductive-graphs">Inductive-Graphs (1)</option>
-          <option value=".tag-5f79bf3bc1" data-tag="inference">Inference (1)</option>
-          <option value=".tag-8ace89e7fc" data-tag="interaction">Interaction (2)</option>
-          <option value=".tag-6211b3a7b8" data-tag="interoperability">Interoperability (1)</option>
-          <option value=".tag-aabbd324ad" data-tag="iswc">ISWC (2)</option>
-          <option value=".tag-6db4ed060f" data-tag="jcr">JCR (6)</option>
-          <option value=".tag-2f998d7438" data-tag="journal">Journal (1)</option>
-          <option value=".tag-18cf83881f" data-tag="kafka">Kafka (2)</option>
-          <option value=".tag-952b23c674" data-tag="knowledge-graph">Knowledge Graph (5)</option>
-          <option value=".tag-8751b3e9fc" data-tag="knowledge-graph-re%EF%AC%81nement">Knowledge Graph Reﬁnement (1)</option>
-          <option value=".tag-ca5696b4a6" data-tag="knowledge-graphs">Knowledge Graphs (7)</option>
-          <option value=".tag-42d65ff30b" data-tag="knowledge-based-systems">Knowledge-Based Systems (1)</option>
-          <option value=".tag-ccf9b0f734" data-tag="kubernetes">Kubernetes (1)</option>
-          <option value=".tag-d5ae5d9564" data-tag="language-processors">Language-Processors (1)</option>
-          <option value=".tag-e03c641004" data-tag="language-prototyping-system">Language-Prototyping-System (1)</option>
-          <option value=".tag-84c97f4c0c" data-tag="latent-semantic-analysis">Latent Semantic Analysis (1)</option>
-          <option value=".tag-c11467c38b" data-tag="lazy-programming">Lazy-Programming (1)</option>
-          <option value=".tag-5862621d97" data-tag="learning-analytics">Learning-Analytics (1)</option>
-          <option value=".tag-14ada0d99b" data-tag="lecture-notes">Lecture-Notes (1)</option>
-          <option value=".tag-e4a48536b4" data-tag="legal-informatics">Legal Informatics (1)</option>
-          <option value=".tag-a4a57fa177" data-tag="lexemes">Lexemes (1)</option>
-          <option value=".tag-b241486f06" data-tag="life-sciences">Life Sciences (1)</option>
-          <option value=".tag-f5c0615a04" data-tag="linked-data">Linked-Data (9)</option>
-          <option value=".tag-7bd44682c9" data-tag="linked-open-data">Linked Open Data (1)</option>
-          <option value=".tag-d7d4ddf7cb" data-tag="linked-data-portals">Linked-Data-Portals (1)</option>
-          <option value=".tag-c65abbe120" data-tag="linkml">LinkML (1)</option>
-          <option value=".tag-7f22824036" data-tag="llm">LLM (1)</option>
-          <option value=".tag-d471b2a796" data-tag="logic">Logic (5)</option>
-          <option value=".tag-da35fb8e4d" data-tag="logic-programming">Logic-Programming (6)</option>
-          <option value=".tag-fa16968357" data-tag="mapreduce">MapReduce (1)</option>
-          <option value=".tag-fe24e7fbd1" data-tag="mcp">MCP (2)</option>
-          <option value=".tag-084afd9f42" data-tag="medical-diagnosis">Medical-Diagnosis (3)</option>
-          <option value=".tag-9037f6095b" data-tag="methodology">Methodology (1)</option>
-          <option value=".tag-f6b601ee82" data-tag="microservices">Microservices (1)</option>
-          <option value=".tag-56a96cf6c8" data-tag="migration">Migration (1)</option>
-          <option value=".tag-b5c000a0df" data-tag="model-context-protocol">Model Context Protocol (2)</option>
-          <option value=".tag-71ef725d81" data-tag="model-driven-architecture">Model-Driven-Architecture (1)</option>
-          <option value=".tag-430c0a20bc" data-tag="modular-monadic-semantics">Modular Monadic Semantics (5)</option>
-          <option value=".tag-5b43b151f8" data-tag="moldeas">Moldeas (1)</option>
-          <option value=".tag-2ba9b330bc" data-tag="multi-domain-ontology">Multi-Domain Ontology (1)</option>
-          <option value=".tag-137a8f7385" data-tag="multi-paradigm">Multi-Paradigm (1)</option>
-          <option value=".tag-94898e1506" data-tag="multilingual">Multilingual (2)</option>
-          <option value=".tag-733b6f799f" data-tag="multilingualism">Multilingualism (1)</option>
-          <option value=".tag-580ccea77f" data-tag="music">Music (1)</option>
-          <option value=".tag-70f5a2538d" data-tag="musical-composition">Musical Composition (1)</option>
-          <option value=".tag-5ad01fe6b2" data-tag="news">News (1)</option>
-          <option value=".tag-b28b92f98f" data-tag="ontologies">Ontologies (4)</option>
-          <option value=".tag-599d758a13" data-tag="ontology">Ontology (2)</option>
-          <option value=".tag-2081ea8106" data-tag="ontology-validation">Ontology Validation (1)</option>
-          <option value=".tag-6fab2bb4cc" data-tag="ontology-based-systems">Ontology-Based Systems (1)</option>
-          <option value=".tag-bc0f7f42c8" data-tag="ontospread">Ontospread (3)</option>
-          <option value=".tag-0172572ff3" data-tag="open-data">Open Data (1)</option>
-          <option value=".tag-fa4204b906" data-tag="open-science">Open Science (1)</option>
-          <option value=".tag-fce7d9cad9" data-tag="p-plan">P-PLAN (1)</option>
-          <option value=".tag-c0f85ec295" data-tag="patterns">Patterns (1)</option>
-          <option value=".tag-b289dacd69" data-tag="performance">Performance (2)</option>
-          <option value=".tag-1cd51cf24f" data-tag="polarization">Polarization (1)</option>
-          <option value=".tag-5f9e98a1fa" data-tag="political-alignment">Political Alignment (1)</option>
-          <option value=".tag-5186ff3bf0" data-tag="poster">Poster (1)</option>
-          <option value=".tag-01b56a8aed" data-tag="predicate-logic">Predicate Logic (3)</option>
-          <option value=".tag-8716ee7a59" data-tag="preprint">Preprint (4)</option>
-          <option value=".tag-6e86e2a7da" data-tag="programming-language-semantics">Programming-Language-Semantics (1)</option>
-          <option value=".tag-f51b56727c" data-tag="project-based-learning">Project-Based-Learning (1)</option>
-          <option value=".tag-a305e7a4b1" data-tag="prolog">Prolog (1)</option>
-          <option value=".tag-882d8c3949" data-tag="property-graphs">Property Graphs (5)</option>
-          <option value=".tag-d7252bd6a5" data-tag="propositional-logic">Propositional-Logic (4)</option>
-          <option value=".tag-02fab0711e" data-tag="prov-o">PROV-O (1)</option>
-          <option value=".tag-7f0e1a0d68" data-tag="provenance">Provenance (1)</option>
-          <option value=".tag-4b8e25516c" data-tag="public-administrations">Public Administrations (1)</option>
-          <option value=".tag-1e1137c905" data-tag="public-health-emergency-of-international-concern">Public Health Emergency of International Concern (1)</option>
-          <option value=".tag-ce4d35a20d" data-tag="public-health-surveillance">Public Health Surveillance (1)</option>
-          <option value=".tag-7376546f68" data-tag="public-procurement">Public Procurement (1)</option>
-          <option value=".tag-314914ce7f" data-tag="public-administration">Public-Administration (1)</option>
-          <option value=".tag-c5ed739ad4" data-tag="public-sector-information">Public-Sector-Information (1)</option>
-          <option value=".tag-c42c4b9ee1" data-tag="public-services">Public-Services (1)</option>
-          <option value=".tag-becaaa4e01" data-tag="rdf">RDF (43)</option>
-          <option value=".tag-f0a67cce5a" data-tag="rdf-validation">RDF Validation (16)</option>
-          <option value=".tag-d92b8d6d2a" data-tag="real-state">Real State (2)</option>
-          <option value=".tag-3115a483b1" data-tag="recommendation-system">Recommendation-System (1)</option>
-          <option value=".tag-5e4a05fd75" data-tag="recommendations">Recommendations (2)</option>
-          <option value=".tag-978fe29211" data-tag="regular-expression-derivatives">Regular-Expression-Derivatives (1)</option>
-          <option value=".tag-49b2007aef" data-tag="requirements-specification">Requirements-Specification (1)</option>
-          <option value=".tag-2b72373a0d" data-tag="research-data-management">Research Data Management (1)</option>
-          <option value=".tag-941f25e941" data-tag="rust">Rust (2)</option>
-          <option value=".tag-30c3c6833d" data-tag="schema-classifications">Schema-Classifications (1)</option>
-          <option value=".tag-98f4094ea4" data-tag="semantic-search">Semantic Search (2)</option>
-          <option value=".tag-12cfe234fd" data-tag="semantic-technologies">Semantic Technologies (3)</option>
-          <option value=".tag-9530ea0424" data-tag="semantic-web">Semantic-Web (48)</option>
-          <option value=".tag-3a867a0f80" data-tag="serverless">Serverless (1)</option>
-          <option value=".tag-313d70fff0" data-tag="shacl">SHACL (9)</option>
-          <option value=".tag-510ec9b677" data-tag="shape-expressions">Shape Expressions (1)</option>
-          <option value=".tag-8654047986" data-tag="shapes">Shapes (5)</option>
-          <option value=".tag-d6a91b4236" data-tag="shex">ShEx (41)</option>
-          <option value=".tag-7483ef675e" data-tag="shexml">ShExML (2)</option>
-          <option value=".tag-9362aa9b8f" data-tag="slicer">Slicer (2)</option>
-          <option value=".tag-b38dd1d392" data-tag="social-network-analysis">Social-Network-Analysis (2)</option>
-          <option value=".tag-a97a976704" data-tag="software-architecture">Software Architecture (1)</option>
-          <option value=".tag-3124b6e9dd" data-tag="spanish">Spanish (1)</option>
-          <option value=".tag-3f40e4c75e" data-tag="sparql">SPARQL (2)</option>
-          <option value=".tag-4746570997" data-tag="sparql-generate">SPARQL-Generate (2)</option>
-          <option value=".tag-342af24740" data-tag="spreading-activation">Spreading-Activation (2)</option>
-          <option value=".tag-a780fbec31" data-tag="statistics">Statistics (1)</option>
-          <option value=".tag-de9769e39f" data-tag="stream-processing">Stream Processing (2)</option>
-          <option value=".tag-7f053f5f6d" data-tag="subsets">Subsets (2)</option>
-          <option value=".tag-9b2c975097" data-tag="subsetting">Subsetting (1)</option>
-          <option value=".tag-7ee020aa3c" data-tag="sustainability">Sustainability (1)</option>
-          <option value=".tag-1732445974" data-tag="technology-management">Technology-Management (1)</option>
-          <option value=".tag-748f451366" data-tag="togomcp">TogoMCP (1)</option>
-          <option value=".tag-a925044587" data-tag="uml">UML (1)</option>
-          <option value=".tag-4383a3c4c7" data-tag="underwater-vehicles">Underwater Vehicles (1)</option>
-          <option value=".tag-225932d269" data-tag="usability">Usability (4)</option>
-          <option value=".tag-ee33a810de" data-tag="validating-data">Validating Data (1)</option>
-          <option value=".tag-c6e2253442" data-tag="validation">Validation (7)</option>
-          <option value=".tag-53eb0eaa69" data-tag="validation-constraints">Validation Constraints (1)</option>
-          <option value=".tag-9bb1bd2ad3" data-tag="visualization">Visualization (2)</option>
-          <option value=".tag-3a8beb53ba" data-tag="web-based-tool">Web-Based-Tool (1)</option>
-          <option value=".tag-d1219734d8" data-tag="web-engineering">Web-Engineering (1)</option>
-          <option value=".tag-927b97d2b4" data-tag="web2.0">Web2.0 (1)</option>
-          <option value=".tag-32152f0410" data-tag="wikibase">Wikibase (1)</option>
-          <option value=".tag-005f83651b" data-tag="wikidata">Wikidata (11)</option>
-          <option value=".tag-625a68b85d" data-tag="wshex">WShEx (1)</option>
-          <option value=".tag-eb14ee0d4c" data-tag="xbrl">XBRL (3)</option>
-          <option value=".tag-713c720683" data-tag="xml">XML (1)</option>
-          <option value=".tag-89abe8f8aa" data-tag="xml-schema">XML Schema (1)</option>
-          <option value=".tag-e0b312b0a3" data-tag="yarrrml">YARRRML (2)</option>
-        </select>
-        <p class="pub-tag-popular">
-          Most used tags:
-          <button type="button" class="btn btn-primary btn-outline btn-xs pub-tag-chip" data-value=".tag-9530ea0424">Semantic-Web (48)</button>
-          <button type="button" class="btn btn-primary btn-outline btn-xs pub-tag-chip" data-value=".tag-becaaa4e01">RDF (43)</button>
-          <button type="button" class="btn btn-primary btn-outline btn-xs pub-tag-chip" data-value=".tag-d6a91b4236">ShEx (41)</button>
-          <button type="button" class="btn btn-primary btn-outline btn-xs pub-tag-chip" data-value=".tag-f0a67cce5a">RDF Validation (16)</button>
-          <button type="button" class="btn btn-primary btn-outline btn-xs pub-tag-chip" data-value=".tag-005f83651b">Wikidata (11)</button>
-          <button type="button" class="btn btn-primary btn-outline btn-xs pub-tag-chip" data-value=".tag-70bc71bd7e">Functional Programming (10)</button>
-          <button type="button" class="btn btn-primary btn-outline btn-xs pub-tag-chip" data-value=".tag-f5c0615a04">Linked-Data (9)</button>
-          <button type="button" class="btn btn-primary btn-outline btn-xs pub-tag-chip" data-value=".tag-313d70fff0">SHACL (9)</button>
-          <button type="button" class="btn btn-primary btn-outline btn-xs pub-tag-chip" data-value=".tag-ca5696b4a6">Knowledge Graphs (7)</button>
-          <button type="button" class="btn btn-primary btn-outline btn-xs pub-tag-chip" data-value=".tag-c6e2253442">Validation (7)</button>
-          <button type="button" class="btn btn-primary btn-outline btn-xs pub-tag-chip" data-value=".tag-f91caf6ce1">ELearning (6)</button>
-          <button type="button" class="btn btn-primary btn-outline btn-xs pub-tag-chip" data-value=".tag-6db4ed060f">JCR (6)</button>
-        </p>
-      </div>
+  <div class="list-tag-filter">
+    <label for="container-publications-tag-search">Filter by tag:</label>
+    <span class="list-tag-box">
+      <input type="search" id="container-publications-tag-search" class="list-tag-search" autocomplete="off"
+             placeholder="Type to search 185 tags" aria-controls="container-publications-tag-results">
+      <ul id="container-publications-tag-results" class="list-tag-results" role="listbox" hidden></ul>
+    </span>
+    <button type="button" class="btn btn-primary btn-xs list-tag-clear" title="Show all tags" hidden>
+      <span class="list-tag-current"></span> &times;
+    </button>
+    <select class="list-tags-select" aria-hidden="true" tabindex="-1" hidden>
+      <option value="*">All</option>
+      <option value="accuracy">Accuracy (1)</option>
+      <option value="administrative-file">Administrative File (1)</option>
+      <option value="administrative-procedure">Administrative Procedure (1)</option>
+      <option value="amazon-web-services">Amazon Web Services (1)</option>
+      <option value="annotations">Annotations (1)</option>
+      <option value="automatic-extraction">Automatic Extraction (1)</option>
+      <option value="aws">AWS (1)</option>
+      <option value="big-data">Big Data (4)</option>
+      <option value="book">Book (1)</option>
+      <option value="chilecompra">ChileCompra (1)</option>
+      <option value="class">Class (1)</option>
+      <option value="classrank">ClassRank (1)</option>
+      <option value="cloud-computing">Cloud Computing (1)</option>
+      <option value="code-generation">Code Generation (1)</option>
+      <option value="collaborative-curation">Collaborative Curation (1)</option>
+      <option value="collaborative-tools">Collaborative Tools (1)</option>
+      <option value="collaborative-tagging">Collaborative Tagging (4)</option>
+      <option value="computer-science-studies">Computer-Science-Studies (1)</option>
+      <option value="computing-education">Computing Education (1)</option>
+      <option value="conference">Conference (1)</option>
+      <option value="continuous-integration">Continuous Integration (1)</option>
+      <option value="covid">Covid (4)</option>
+      <option value="covid-19">COVID-19 (1)</option>
+      <option value="covid-19-epidemiology">COVID-19 Epidemiology (1)</option>
+      <option value="danish">Danish (1)</option>
+      <option value="data-analysis">Data Analysis (1)</option>
+      <option value="data-integration">Data Integration (2)</option>
+      <option value="data-mapping">Data Mapping (2)</option>
+      <option value="data-quality">Data Quality (5)</option>
+      <option value="data-validation">Data Validation (1)</option>
+      <option value="data-grounding">Data-Grounding (1)</option>
+      <option value="data-portal">Data-Portal (1)</option>
+      <option value="declarative-programming">Declarative-Programming (1)</option>
+      <option value="demo">Demo (3)</option>
+      <option value="description-logics">Description-Logics (3)</option>
+      <option value="digital-circuits">Digital Circuits (1)</option>
+      <option value="documentdb">DocumentDB (1)</option>
+      <option value="dynamodb">DynamoDB (1)</option>
+      <option value="e-government">E-Government (1)</option>
+      <option value="e-procurement">E-Procurement (2)</option>
+      <option value="ebooks">EBooks (2)</option>
+      <option value="ecs-fargate">ECS Fargate (1)</option>
+      <option value="ehealth">EHealth (4)</option>
+      <option value="elearning">ELearning (6)</option>
+      <option value="emergent-semantics">Emergent Semantics (1)</option>
+      <option value="entity-reconciliation">Entity Reconciliation (1)</option>
+      <option value="eprocurement">EProcurement (5)</option>
+      <option value="erp">ERP (1)</option>
+      <option value="exercises">Exercises (3)</option>
+      <option value="faas">FaaS (1)</option>
+      <option value="fishing-data">Fishing Data (1)</option>
+      <option value="free-services">Free-Services (1)</option>
+      <option value="functional-programming">Functional-Programming (10)</option>
+      <option value="graph-data-abstractions">Graph Data Abstractions (1)</option>
+      <option value="graphs">Graphs (1)</option>
+      <option value="haskell">Haskell (2)</option>
+      <option value="healthcare">Healthcare (1)</option>
+      <option value="human-centric-data-management">Human-Centric Data Management (1)</option>
+      <option value="image-classification">Image-Classification (2)</option>
+      <option value="image-retrieval">Image-Retrieval (2)</option>
+      <option value="inductive-graphs">Inductive-Graphs (1)</option>
+      <option value="inference">Inference (1)</option>
+      <option value="interaction">Interaction (2)</option>
+      <option value="interoperability">Interoperability (1)</option>
+      <option value="iswc">ISWC (2)</option>
+      <option value="jcr">JCR (6)</option>
+      <option value="journal">Journal (1)</option>
+      <option value="kafka">Kafka (2)</option>
+      <option value="knowledge-graph">Knowledge Graph (5)</option>
+      <option value="knowledge-graph-re%EF%AC%81nement">Knowledge Graph Reﬁnement (1)</option>
+      <option value="knowledge-graphs">Knowledge Graphs (7)</option>
+      <option value="knowledge-based-systems">Knowledge-Based Systems (1)</option>
+      <option value="kubernetes">Kubernetes (1)</option>
+      <option value="language-processors">Language-Processors (1)</option>
+      <option value="language-prototyping-system">Language-Prototyping-System (1)</option>
+      <option value="latent-semantic-analysis">Latent Semantic Analysis (1)</option>
+      <option value="lazy-programming">Lazy-Programming (1)</option>
+      <option value="learning-analytics">Learning-Analytics (1)</option>
+      <option value="lecture-notes">Lecture-Notes (1)</option>
+      <option value="legal-informatics">Legal Informatics (1)</option>
+      <option value="lexemes">Lexemes (1)</option>
+      <option value="life-sciences">Life Sciences (1)</option>
+      <option value="linked-data">Linked-Data (9)</option>
+      <option value="linked-open-data">Linked Open Data (1)</option>
+      <option value="linked-data-portals">Linked-Data-Portals (1)</option>
+      <option value="linkml">LinkML (1)</option>
+      <option value="llm">LLM (1)</option>
+      <option value="logic">Logic (5)</option>
+      <option value="logic-programming">Logic-Programming (6)</option>
+      <option value="mapreduce">MapReduce (1)</option>
+      <option value="mcp">MCP (2)</option>
+      <option value="medical-diagnosis">Medical-Diagnosis (3)</option>
+      <option value="methodology">Methodology (1)</option>
+      <option value="microservices">Microservices (1)</option>
+      <option value="migration">Migration (1)</option>
+      <option value="model-context-protocol">Model-Context-Protocol (2)</option>
+      <option value="model-driven-architecture">Model-Driven-Architecture (1)</option>
+      <option value="modular-monadic-semantics">Modular-Monadic-Semantics (5)</option>
+      <option value="moldeas">Moldeas (1)</option>
+      <option value="multi-domain-ontology">Multi-Domain Ontology (1)</option>
+      <option value="multi-paradigm">Multi-Paradigm (1)</option>
+      <option value="multilingual">Multilingual (2)</option>
+      <option value="multilingualism">Multilingualism (1)</option>
+      <option value="music">Music (1)</option>
+      <option value="musical-composition">Musical Composition (1)</option>
+      <option value="news">News (1)</option>
+      <option value="ontologies">Ontologies (4)</option>
+      <option value="ontology">Ontology (2)</option>
+      <option value="ontology-validation">Ontology Validation (1)</option>
+      <option value="ontology-based-systems">Ontology-Based Systems (1)</option>
+      <option value="ontospread">Ontospread (3)</option>
+      <option value="open-data">Open Data (1)</option>
+      <option value="open-science">Open Science (1)</option>
+      <option value="p-plan">P-PLAN (1)</option>
+      <option value="patterns">Patterns (1)</option>
+      <option value="performance">Performance (2)</option>
+      <option value="polarization">Polarization (1)</option>
+      <option value="political-alignment">Political Alignment (1)</option>
+      <option value="poster">Poster (1)</option>
+      <option value="predicate-logic">Predicate Logic (3)</option>
+      <option value="preprint">Preprint (4)</option>
+      <option value="programming-language-semantics">Programming-Language-Semantics (1)</option>
+      <option value="project-based-learning">Project-Based-Learning (1)</option>
+      <option value="prolog">Prolog (1)</option>
+      <option value="property-graphs">Property Graphs (5)</option>
+      <option value="propositional-logic">Propositional-Logic (4)</option>
+      <option value="prov-o">PROV-O (1)</option>
+      <option value="provenance">Provenance (1)</option>
+      <option value="public-administrations">Public Administrations (1)</option>
+      <option value="public-health-emergency-of-international-concern">Public Health Emergency of International Concern (1)</option>
+      <option value="public-health-surveillance">Public Health Surveillance (1)</option>
+      <option value="public-procurement">Public Procurement (1)</option>
+      <option value="public-administration">Public-Administration (1)</option>
+      <option value="public-sector-information">Public-Sector-Information (1)</option>
+      <option value="public-services">Public-Services (1)</option>
+      <option value="rdf">RDF (43)</option>
+      <option value="rdf-validation">RDF Validation (16)</option>
+      <option value="real-state">Real State (2)</option>
+      <option value="recommendation-system">Recommendation-System (1)</option>
+      <option value="recommendations">Recommendations (2)</option>
+      <option value="regular-expression-derivatives">Regular-Expression-Derivatives (1)</option>
+      <option value="requirements-specification">Requirements-Specification (1)</option>
+      <option value="research-data-management">Research Data Management (1)</option>
+      <option value="rust">Rust (2)</option>
+      <option value="schema-classifications">Schema-Classifications (1)</option>
+      <option value="semantic-search">Semantic Search (2)</option>
+      <option value="semantic-technologies">Semantic Technologies (3)</option>
+      <option value="semantic-web">Semantic-Web (48)</option>
+      <option value="serverless">Serverless (1)</option>
+      <option value="shacl">SHACL (9)</option>
+      <option value="shape-expressions">Shape Expressions (1)</option>
+      <option value="shapes">Shapes (5)</option>
+      <option value="shex">ShEx (41)</option>
+      <option value="shexml">ShExML (2)</option>
+      <option value="slicer">Slicer (2)</option>
+      <option value="social-network-analysis">Social-Network-Analysis (2)</option>
+      <option value="software-architecture">Software Architecture (1)</option>
+      <option value="spanish">Spanish (1)</option>
+      <option value="sparql">SPARQL (2)</option>
+      <option value="sparql-generate">SPARQL-Generate (2)</option>
+      <option value="spreading-activation">Spreading-Activation (2)</option>
+      <option value="statistics">Statistics (1)</option>
+      <option value="stream-processing">Stream Processing (2)</option>
+      <option value="subsets">Subsets (2)</option>
+      <option value="subsetting">Subsetting (1)</option>
+      <option value="sustainability">Sustainability (1)</option>
+      <option value="technology-management">Technology-Management (1)</option>
+      <option value="togomcp">TogoMCP (1)</option>
+      <option value="uml">UML (1)</option>
+      <option value="underwater-vehicles">Underwater Vehicles (1)</option>
+      <option value="usability">Usability (4)</option>
+      <option value="validating-data">Validating Data (1)</option>
+      <option value="validation">Validation (7)</option>
+      <option value="validation-constraints">Validation Constraints (1)</option>
+      <option value="visualization">Visualization (2)</option>
+      <option value="web-based-tool">Web-Based-Tool (1)</option>
+      <option value="web-engineering">Web-Engineering (1)</option>
+      <option value="web2.0">Web2.0 (1)</option>
+      <option value="wikibase">Wikibase (1)</option>
+      <option value="wikidata">Wikidata (11)</option>
+      <option value="wshex">WShEx (1)</option>
+      <option value="xbrl">XBRL (3)</option>
+      <option value="xml">XML (1)</option>
+      <option value="xml-schema">XML Schema (1)</option>
+      <option value="yarrrml">YARRRML (2)</option>
+    </select>
+    <p class="list-tag-popular">
+      Most used tags:
+      <button type="button" class="btn btn-primary btn-outline btn-xs list-tag-chip" data-tag="semantic-web">Semantic-Web (48)</button>
+      <button type="button" class="btn btn-primary btn-outline btn-xs list-tag-chip" data-tag="rdf">RDF (43)</button>
+      <button type="button" class="btn btn-primary btn-outline btn-xs list-tag-chip" data-tag="shex">ShEx (41)</button>
+      <button type="button" class="btn btn-primary btn-outline btn-xs list-tag-chip" data-tag="rdf-validation">RDF Validation (16)</button>
+      <button type="button" class="btn btn-primary btn-outline btn-xs list-tag-chip" data-tag="wikidata">Wikidata (11)</button>
+      <button type="button" class="btn btn-primary btn-outline btn-xs list-tag-chip" data-tag="functional-programming">Functional-Programming (10)</button>
+      <button type="button" class="btn btn-primary btn-outline btn-xs list-tag-chip" data-tag="linked-data">Linked-Data (9)</button>
+      <button type="button" class="btn btn-primary btn-outline btn-xs list-tag-chip" data-tag="shacl">SHACL (9)</button>
+      <button type="button" class="btn btn-primary btn-outline btn-xs list-tag-chip" data-tag="knowledge-graphs">Knowledge Graphs (7)</button>
+      <button type="button" class="btn btn-primary btn-outline btn-xs list-tag-chip" data-tag="validation">Validation (7)</button>
+      <button type="button" class="btn btn-primary btn-outline btn-xs list-tag-chip" data-tag="elearning">ELearning (6)</button>
+      <button type="button" class="btn btn-primary btn-outline btn-xs list-tag-chip" data-tag="jcr">JCR (6)</button>
+    </p>
+  </div>
+  
+
+  <p class="list-count" aria-live="polite">Showing 138 of 138 publications</p>
+</div>
+
 
       <div id="container-publications">
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-fbbb08b0c6 tag-882d8c3949 tag-becaaa4e01 tag-04fad89831 tag-225932d269 tag-3b278978ec"
-          data-date="20261116">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20261116" data-tags="graph-data-abstractions property-graphs rdf human-centric-data-management usability computing-education" data-type="2" data-text="How Human-Centric Are Our Graph Data Abstractions?   Transactions on Graph Data and Knowledge">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	How Human-Centric Are Our Graph Data Abstractions?,
@@ -1520,12 +542,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-9574c9902e tag-ca5696b4a6 tag-32152f0410"
-          data-date="20261116">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20261116" data-tags="fishing-data knowledge-graphs wikibase" data-type="2" data-text="A dataset of the European fishing fleet and maritime infrastructure   Scientific Data">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	A dataset of the European fishing fleet and maritime infrastructure,
@@ -1582,12 +599,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1"
-          data-date="20261101">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20261101" data-tags="" data-type="1" data-text="Formalizing the Semantics of ShEx with Lean 8th International Knowledge Graph and Semantic Web Conference, KGSWC26">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Formalizing the Semantics of ShEx with Lean,
@@ -1650,12 +662,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1"
-          data-date="20261028">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20261028" data-tags="" data-type="1" data-text="Supporting the Evolution of Wikidata EntitySchemas through Empirical Usage Analysis The 6th Wikidata Workshop Workshop for the scientific Wikidata community, co-located with International Semantic Web Conference, ISWC26">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Supporting the Evolution of Wikidata EntitySchemas through Empirical Usage Analysis,
@@ -1714,12 +721,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1"
-          data-date="20261028">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20261028" data-tags="" data-type="1" data-text="rudofMCP: A Model Context Protocol Server Exposing Knowledge Graph Engineering Capabilities to Large Language Models ELMKE: Evaluation of Language Models in Knowledge Engineering, co-located with International Semantic Web Conference, ISWC26">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	rudofMCP: A Model Context Protocol Server Exposing Knowledge Graph Engineering Capabilities to Large Language Models,
@@ -1780,12 +782,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1"
-          data-date="20261028">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20261028" data-tags="" data-type="1" data-text="A Provenance-Aware Agentic Framework for Knowledge Graph Augmentation Using RDF 1.2 and SHACL Graph-enhanced LLMs for trustwOrthy Web data management, GLOW co-located with International Semantic Web Conference, ISWC26">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	A Provenance-Aware Agentic Framework for Knowledge Graph Augmentation Using RDF 1.2 and SHACL,
@@ -1846,12 +843,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1"
-          data-date="20260905">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20260905" data-tags="" data-type="1" data-text="Translating RDF 1.2 Graphs to Property Graphs 2nd International Workshop on Data Management for Knowledge Graphs, DMKG26 co-located with International Semantic Web Conference, ISWC26">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Translating RDF 1.2 Graphs to Property Graphs,
@@ -1916,12 +908,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1"
-          data-date="20260905">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20260905" data-tags="" data-type="1" data-text="sheval: An RDF data shapes evaluation tool and test-suite for recursive shapes 2nd International Workshop on Data Management for Knowledge Graphs, DMKG26 co-located with International Semantic Web Conference, ISWC26">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	sheval: An RDF data shapes evaluation tool and test-suite for recursive shapes,
@@ -2002,12 +989,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1"
-          data-date="20260905">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20260905" data-tags="" data-type="1" data-text="Extending and Optimizing the rudof SHACL validator 2nd International Workshop on Data Management for Knowledge Graphs, DMKG26 co-located with International Semantic Web Conference, ISWC26">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Extending and Optimizing the rudof SHACL validator,
@@ -2070,12 +1052,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-fe24e7fbd1 tag-b5c000a0df tag-becaaa4e01 tag-748f451366 tag-7f22824036 tag-3f40e4c75e tag-ca5696b4a6 tag-b241486f06"
-          data-date="20260724">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20260724" data-tags="mcp model-context-protocol rdf togomcp llm sparql knowledge-graphs life-sciences" data-type="2" data-text="TogoMCP: natural language querying of life-science knowledge graphs via schema-guided LLMs and the Model Context Protocol   Database">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	TogoMCP: natural language querying of life-science knowledge graphs via schema-guided LLMs and the Model Context Protocol,
@@ -2140,12 +1117,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-becaaa4e01 tag-9530ea0424 tag-f0a67cce5a tag-d6a91b4236 tag-fe24e7fbd1 tag-b5c000a0df tag-941f25e941 tag-0f9473ed52"
-          data-date="20260512">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20260512" data-tags="rdf semantic-web rdf-validation shex mcp model-context-protocol rust demo" data-type="1" data-text="rudof-MCP: A Model Context Protocol Server for Semantic Web Operations Extended Semantic Web Conference, ESWC26, Posters and Demos">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	rudof-MCP: A Model Context Protocol Server for Semantic Web Operations,
@@ -2206,12 +1178,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1"
-          data-date="20260422">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20260422" data-tags="" data-type="1" data-text="Common Foundations for Recursive Shape Languages   23rd International Conference on Principles of Knowledge Representation and Reasoning">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Common Foundations for Recursive Shape Languages,
@@ -2284,12 +1251,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-d6a91b4236 tag-8654047986 tag-becaaa4e01 tag-313d70fff0 tag-a925044587"
-          data-date="20260312">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20260312" data-tags="shex shapes rdf shacl uml" data-type="2" data-text="sheXer: A robust and versatile library for automatic extraction of RDF shapes   Software X">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	sheXer: A robust and versatile library for automatic extraction of RDF shapes,
@@ -2344,12 +1306,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-11 tag-ca5696b4a6 tag-d6a91b4236 tag-7f053f5f6d tag-005f83651b"
-          data-date="20251215">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20251215" data-tags="knowledge-graphs shex subsets wikidata" data-type="11" data-text="MCP server tools with RDF shapes   BioHackrXiv preprint">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	MCP server tools with RDF shapes,
@@ -2418,12 +1375,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1"
-          data-date="20251210">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20251210" data-tags="" data-type="1" data-text="PG-Schema with Property Constraints validator in Rudof Knowledge Capture and Knowledge Representation Conference, KCAP25, Posters and Demos">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	PG-Schema with Property Constraints validator in Rudof,
@@ -2490,12 +1442,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1"
-          data-date="20251210">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20251210" data-tags="" data-type="1" data-text="On Property Constraints in PG-Schema Knowledge Capture and Knowledge Representation Conference, KCAP25">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	On Property Constraints in PG-Schema,
@@ -2554,12 +1501,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1"
-          data-date="20250711">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20250711" data-tags="" data-type="1" data-text="xpSHACL: Explainable SHACL Validation using Retrieval-Augmented Generation and Large Language Models LLM+Graph: 2nd International Workshop on Data Management Opportunities in Bringing LLMs with Graph Data, VLDB25, London, 2025">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	xpSHACL: Explainable SHACL Validation using Retrieval-Augmented Generation and Large Language Models,
@@ -2610,12 +1552,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1"
-          data-date="20250401">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20250401" data-tags="" data-type="1" data-text="Shape Expressions with Inheritance Extended Semantic Web Conference, Portoroz, Slovenia, 2025">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Shape Expressions with Inheritance,
@@ -2672,12 +1609,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1"
-          data-date="20250203">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20250203" data-tags="" data-type="1" data-text="Common Foundations for SHACL, ShEx, and PG-Schema   International World Wide Web Conference, Sidney, Australia, 2025">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Common Foundations for SHACL, ShEx, and PG-Schema,
@@ -2746,12 +1678,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-4383a3c4c7"
-          data-date="20241005">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20241005" data-tags="underwater-vehicles" data-type="2" data-text="Componentizing autonomous underwater vehicles by physical-running algorithms   PeerJ Computer Science">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Componentizing autonomous underwater vehicles by physical-running algorithms,
@@ -2802,12 +1729,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-9530ea0424 tag-ead6c3b137 tag-7bd44682c9 tag-e4a48536b4 tag-1cd51cf24f tag-5f9e98a1fa"
-          data-date="20240601">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20240601" data-tags="semantic-web data-analysis linked-open-data legal-informatics polarization political-alignment" data-type="2" data-text="Toward Efficient Legislative Processes: Analysis of Chilean Congressional Bill Votes Using Semantic Web Technologies   SN Computer Science">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Toward Efficient Legislative Processes: Analysis of Chilean Congressional Bill Votes Using Semantic Web Technologies,
@@ -2862,12 +1784,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-becaaa4e01 tag-9530ea0424 tag-f0a67cce5a tag-d6a91b4236 tag-882d8c3949 tag-941f25e941 tag-0f9473ed52"
-          data-date="20240510">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20240510" data-tags="rdf semantic-web rdf-validation shex property-graphs rust demo" data-type="1" data-text="rudof: A Rust Library for handling RDF data models and Shapes International Semantic Web Conference, ISWC24, Posters and Demos">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	rudof: A Rust Library for handling RDF data models and Shapes,
@@ -2926,12 +1843,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1"
-          data-date="20240501">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20240501" data-tags="" data-type="1" data-text="Introduction to ShEx and ShEx and SHACL Compared In Dagstuhl Reports, Volume 14, Issue 3, Schloss Dagstuhl – Leibniz-Zentrum für Informatik (2024)">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Introduction to ShEx and ShEx and SHACL Compared,
@@ -2988,12 +1900,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-becaaa4e01 tag-9530ea0424 tag-f0a67cce5a tag-d6a91b4236 tag-882d8c3949"
-          data-date="20240501">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20240501" data-tags="rdf semantic-web rdf-validation shex property-graphs" data-type="1" data-text="Extending Shape Expressions for different types of knowledge graphs In 1st Workshop on Data Quality meets Machine Learning and Knowledge Graphs, DQMLKG, part of Extended Semantic Web Conference 2024, ESWC24.">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Extending Shape Expressions for different types of knowledge graphs,
@@ -3038,12 +1945,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-becaaa4e01 tag-9530ea0424 tag-f0a67cce5a tag-d6a91b4236"
-          data-date="20240301">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20240301" data-tags="rdf semantic-web rdf-validation shex" data-type="1" data-text="Extracting shapes from large RDF data collections In Semantic Web Applications and Tools for Health Care and Life Sciences, SWAT4HCLS.">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Extracting shapes from large RDF data collections,
@@ -3094,12 +1996,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1"
-          data-date="20231024">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20231024" data-tags="" data-type="1" data-text="Using Polarization and Alignment to Identify Quick-Approval Law Propositions: An Open Linked Data Application In International Conference on Applied Informatics, ICAI 2023.">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Using Polarization and Alignment to Identify Quick-Approval Law Propositions: An Open Linked Data Application,
@@ -3154,12 +2051,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1"
-          data-date="20231002">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20231002" data-tags="" data-type="1" data-text="Using Pregel to create Knowledge Graphs subsets described by non-recursive Shape Expressions In Fifth Ibero-American Knowledge Graph and Semantic Web Conference, KGSWC 23">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Using Pregel to create Knowledge Graphs subsets described by non-recursive Shape Expressions,
@@ -3210,12 +2102,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-3a867a0f80 tag-6c32fb422e tag-e8f8629cd3 tag-b289dacd69 tag-f6b601ee82 tag-56a96cf6c8 tag-a97a976704 tag-801f261cce tag-35ac08c81d tag-ccf9b0f734 tag-31820a49c3 tag-2c29bc3c5d tag-f00c6becd4"
-          data-date="20230915">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20230915" data-tags="serverless aws cloud-computing performance microservices migration software-architecture faas amazon-web-services kubernetes dynamodb documentdb ecs-fargate" data-type="1" data-text="A comparison between traditional and Serverless technologies in a microservices setting In Software Engineering and Databases Conference, JISBD - SISTEDES">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	A comparison between traditional and Serverless technologies in a microservices setting,
@@ -3266,12 +2153,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-11 tag-c65abbe120 tag-d6a91b4236"
-          data-date="20230717">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20230717" data-tags="linkml shex" data-type="11" data-text="Redesign of the validation framework in LinkML   Biohackrxiv preprint">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Redesign of the validation framework in LinkML,
@@ -3328,12 +2210,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-11 tag-005f83651b tag-db0a3f94ca tag-d6a91b4236 tag-8716ee7a59"
-          data-date="20230702">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20230702" data-tags="wikidata covid shex preprint" data-type="11" data-text="RDF Data integration using Shape Expressions   Biohackrxiv preprint">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	RDF Data integration using Shape Expressions,
@@ -3422,12 +2299,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-952b23c674 tag-005f83651b tag-9b2c975097 tag-f7b27ae73c tag-71268a534f tag-b289dacd69"
-          data-date="20230619">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20230619" data-tags="knowledge-graph wikidata subsetting big-data accuracy performance" data-type="2" data-text="Wikidata subsetting: approaches, tools, and evaluation   Semantic Web Journal">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Wikidata subsetting: approaches, tools, and evaluation,
@@ -3498,12 +2370,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-11 tag-d6a91b4236 tag-9bb1bd2ad3"
-          data-date="20230517">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20230517" data-tags="shex visualization" data-type="11" data-text="An approach to increase the usability of Shape Expressions editors   Zenodo preprint">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	An approach to increase the usability of Shape Expressions editors,
@@ -3554,12 +2421,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-11 tag-d6a91b4236 tag-9bb1bd2ad3"
-          data-date="20230517">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20230517" data-tags="shex visualization" data-type="11" data-text="A dual approach to ShEx visualization with complexity management   Arxiv preprint">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	A dual approach to ShEx visualization with complexity management,
@@ -3610,12 +2472,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-becaaa4e01 tag-952b23c674 tag-7151379e9a tag-d6a91b4236 tag-313d70fff0 tag-9530ea0424 tag-6c3fb19d3c"
-          data-date="20230114">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20230114" data-tags="rdf knowledge-graph data-validation shex shacl semantic-web data-quality" data-type="2" data-text="Editorial on Knowledge Graphs Validation and Quality   Semantic Web Journal">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Editorial on Knowledge Graphs Validation and Quality,
@@ -3670,12 +2527,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-11 tag-ca5696b4a6 tag-d6a91b4236 tag-7f053f5f6d tag-005f83651b"
-          data-date="20221111">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20221111" data-tags="knowledge-graphs shex subsets wikidata" data-type="11" data-text="Enhancement and Reusage of Biomedical Knowledge Graph Subsets   Biorxiv preprint">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Enhancement and Reusage of Biomedical Knowledge Graph Subsets,
@@ -3744,12 +2596,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-becaaa4e01 tag-d6a91b4236 tag-f0a67cce5a tag-005f83651b tag-625a68b85d"
-          data-date="20221015">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20221015" data-tags="rdf shex rdf-validation wikidata wshex" data-type="1" data-text="WShEx: A language to describe and validate Wikibase entities In Wikidata Workshop, International Semantic Web Conference. CEUR Proceedings, vol 3265">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	WShEx: A language to describe and validate Wikibase entities,
@@ -3794,12 +2641,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-3f40e4c75e tag-005f83651b tag-ce4d35a20d tag-8751b3e9fc tag-aeaccaf1a9 tag-53eb0eaa69 tag-6c3fb19d3c tag-510ec9b677 tag-f4f042c144 tag-1e1137c905 tag-d6a91b4236"
-          data-date="20221004">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20221004" data-tags="sparql wikidata public-health-surveillance knowledge-graph-re%EF%AC%81nement covid-19-epidemiology validation-constraints data-quality shape-expressions collaborative-curation public-health-emergency-of-international-concern shex" data-type="2" data-text="Using logical constraints to validate statistical information about disease outbreaks in collaborative knowledge graphs: the case of COVID-19 epidemiology in Wikidata   PeerJ Computer Science">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Using logical constraints to validate statistical information about disease outbreaks in collaborative knowledge graphs: the case of COVID-19 epidemiology in Wikidata,
@@ -3868,12 +2710,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-becaaa4e01 tag-d6a91b4236 tag-f0a67cce5a tag-afe61a8531 tag-6c3fb19d3c tag-2081ea8106"
-          data-date="20220913">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20220913" data-tags="rdf shex rdf-validation continuous-integration data-quality ontology-validation" data-type="1" data-text="Ontolo-CI: Continuous data validation with ShEx In Semantics Conference, Semantics. Poster paper, CEUR Proceedings, vol 3235">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Ontolo-CI: Continuous data validation with ShEx,
@@ -3924,12 +2761,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-becaaa4e01 tag-952b23c674 tag-d6a91b4236 tag-313d70fff0 tag-9530ea0424 tag-cf022124ef"
-          data-date="20220228">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20220228" data-tags="rdf knowledge-graph shex shacl semantic-web automatic-extraction" data-type="2" data-text="Automatic extraction of shapes using sheXer   Knowledge-Based Systems">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Automatic extraction of shapes using sheXer,
@@ -3982,12 +2814,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-5 tag-becaaa4e01 tag-ca5696b4a6 tag-9530ea0424"
-          data-date="20211127">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20211127" data-tags="rdf knowledge-graphs semantic-web" data-type="5" data-text="Knowledge graphs   Morgan and Claypool publishers">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Knowledge graphs,
@@ -4074,12 +2901,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1"
-          data-date="20210903">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20210903" data-tags="" data-type="1" data-text="Linking Data and Descriptions on Moths Using the Wikimedia Ecosystem In Biodiversity Information Science and Standards, TDWG 2021. Conference">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Linking Data and Descriptions on Moths Using the Wikimedia Ecosystem,
@@ -4134,12 +2956,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-becaaa4e01 tag-ca5696b4a6 tag-9530ea0424"
-          data-date="20210706">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20210706" data-tags="rdf knowledge-graphs semantic-web" data-type="2" data-text="Knowledge graphs   ACM Computing Surveys">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Knowledge graphs,
@@ -4222,12 +3039,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-becaaa4e01 tag-952b23c674 tag-882d8c3949 tag-d6a91b4236 tag-313d70fff0 tag-9530ea0424 tag-f8e366bbbf"
-          data-date="20210705">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20210705" data-tags="rdf knowledge-graph property-graphs shex shacl semantic-web covid-19" data-type="2" data-text="Representing COVID-19 information in collaborative knowledge graphs: the case of Wikidata   Semantic Web Journal">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Representing COVID-19 information in collaborative knowledge graphs: the case of Wikidata,
@@ -4296,12 +3108,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-becaaa4e01 tag-4d6b3f387f tag-ca5696b4a6 tag-3a6519ac28 tag-9530ea0424"
-          data-date="20210605">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20210605" data-tags="rdf classrank knowledge-graphs class semantic-web" data-type="2" data-text="Approaches to measure class importance in Knowledge Graphs   PLOS One">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Approaches to measure class importance in Knowledge Graphs,
@@ -4358,12 +3165,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-776fcf7253 tag-0f8b760e5c tag-7483ef675e tag-e0b312b0a3 tag-225932d269 tag-4746570997 tag-d6a91b4236 tag-9530ea0424 tag-12cfe234fd tag-6db4ed060f"
-          data-date="20210129">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20210129" data-tags="data-integration data-mapping shexml yarrrml usability sparql-generate shex semantic-web semantic-technologies jcr" data-type="2" data-text="Intestinal microbiota alterations by dietary exposure to chemicals from food cooking and processing. Application of Data Science for risk prediction   Computational and Structural Biotechnology Journal">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Intestinal microbiota alterations by dietary exposure to chemicals from food cooking and processing. Application of Data Science for risk prediction,
@@ -4432,12 +3234,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-776fcf7253 tag-0f8b760e5c tag-7483ef675e tag-e0b312b0a3 tag-225932d269 tag-4746570997 tag-d6a91b4236 tag-9530ea0424 tag-12cfe234fd tag-6db4ed060f"
-          data-date="20201123">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20201123" data-tags="data-integration data-mapping shexml yarrrml usability sparql-generate shex semantic-web semantic-technologies jcr" data-type="2" data-text="ShExML: improving the usability of heterogeneous data mapping languages for first-time users   PeerJ Computer Science">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	ShExML: improving the usability of heterogeneous data mapping languages for first-time users,
@@ -4498,12 +3295,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-becaaa4e01 tag-d6a91b4236 tag-f0a67cce5a tag-335a603ee5"
-          data-date="20201106">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20201106" data-tags="rdf shex rdf-validation code-generation" data-type="1" data-text="ShEx-Lite: Automatic generation of domain object models from a Shape Expressions subset language In International Semantic Web Conference, ISWC2020. Demo paper, CEUR Proceedings, vol 2721">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	ShEx-Lite: Automatic generation of domain object models from a Shape Expressions subset language,
@@ -4554,12 +3346,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-becaaa4e01 tag-d6a91b4236 tag-f0a67cce5a tag-005f83651b"
-          data-date="20201102">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20201102" data-tags="rdf shex rdf-validation wikidata" data-type="1" data-text="Automatic synchronization of RDF graphs representing ontologies and Wikibase instances In International Semantic Web Conference, ISWC2020. Wikidata Workshop">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Automatic synchronization of RDF graphs representing ontologies and Wikibase instances,
@@ -4610,12 +3397,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-becaaa4e01 tag-d6a91b4236 tag-f0a67cce5a tag-2b72373a0d tag-599d758a13"
-          data-date="20201102">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20201102" data-tags="rdf shex rdf-validation research-data-management ontology" data-type="1" data-text="ASIO: A research management system based on semantic technologies In International Semantic Web Conference, ISWC2020. First virtual workshop on Research data* management for Linked Open Science - DaMaLOS 2020">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	ASIO: A research management system based on semantic technologies,
@@ -4672,12 +3454,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-11 tag-005f83651b tag-db0a3f94ca tag-d6a91b4236 tag-8716ee7a59"
-          data-date="20200916">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20200916" data-tags="wikidata covid shex preprint" data-type="11" data-text="Representing COVID-19 information in collaborative knowledge graphs: a study of Wikidata   Preprint submitted to journal">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Representing COVID-19 information in collaborative knowledge graphs: a study of Wikidata,
@@ -4744,12 +3521,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-11 tag-005f83651b tag-db0a3f94ca tag-d6a91b4236 tag-8716ee7a59"
-          data-date="20200830">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20200830" data-tags="wikidata covid shex preprint" data-type="11" data-text="Using logical constraints to validate information in collaborative knowledge graphs: a study of COVID-19 on Wikidata   Preprint submitted to journal">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Using logical constraints to validate information in collaborative knowledge graphs: a study of COVID-19 on Wikidata,
@@ -4822,12 +3594,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-6fab2bb4cc tag-9530ea0424 tag-12cfe234fd tag-b38dd1d392 tag-2ba9b330bc tag-42d65ff30b tag-6db4ed060f"
-          data-date="20200707">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20200707" data-tags="ontology-based-systems semantic-web semantic-technologies social-network-analysis multi-domain-ontology knowledge-based-systems jcr" data-type="2" data-text="An ontology-based multi-domain model in social network analysis: Experimental validation and case study   Information Systems, vol. 540, nov. 2020, doi: 10.1016/j.ins.2020.06.008">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	An ontology-based multi-domain model in social network analysis: Experimental validation and case study,
@@ -4888,12 +3655,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-11 tag-005f83651b tag-db0a3f94ca tag-d6a91b4236 tag-8716ee7a59"
-          data-date="20200604">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20200604" data-tags="wikidata covid shex preprint" data-type="11" data-text="A protocol for adding knowledge to Wikidata, a case report   Biorxiv preprint">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	A protocol for adding knowledge to Wikidata, a case report,
@@ -4964,12 +3726,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-becaaa4e01 tag-de9769e39f tag-18cf83881f tag-f7b27ae73c tag-d92b8d6d2a"
-          data-date="20200603">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20200603" data-tags="rdf stream-processing kafka big-data real-state" data-type="2" data-text="National Budget Law as Linked Open Data: New tools for supporting the sustainability of public finances   Sustainability, vol 12, issue 11">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	National Budget Law as Linked Open Data: New tools for supporting the sustainability of public finances,
@@ -5026,12 +3783,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-becaaa4e01 tag-952b23c674 tag-882d8c3949 tag-d6a91b4236 tag-313d70fff0 tag-9530ea0424"
-          data-date="20200427">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20200427" data-tags="rdf knowledge-graph property-graphs shex shacl semantic-web" data-type="1" data-text="Converting Asturian Notaries Public deeds to Linked Data using TEI and ShExML In Workshop: Workshop on Humanities in the Semantic web - WHISE III as ESWC 2020">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Converting Asturian Notaries Public deeds to Linked Data using TEI and ShExML,
@@ -5082,12 +3834,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-11"
-          data-date="20200408">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20200408" data-tags="" data-type="11" data-text="Data validation and Schema Interoperability   BioHackrXiv Preprint">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Data validation and Schema Interoperability,
@@ -5152,12 +3899,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-11"
-          data-date="20200304">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20200304" data-tags="" data-type="11" data-text="Knowledge graphs   Arxiv preprint - arXiv:2003.02320">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Knowledge graphs,
@@ -5236,12 +3978,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-becaaa4e01 tag-d6a91b4236 tag-f0a67cce5a tag-005f83651b tag-4fa1dc97b9 tag-a4a57fa177"
-          data-date="20190625">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20190625" data-tags="rdf shex rdf-validation wikidata danish lexemes" data-type="1" data-text="Validating Danish Wikidata Lexemes In Semantics Conference, Semantics-2019.">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Validating Danish Wikidata Lexemes,
@@ -5290,12 +4027,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-becaaa4e01 tag-de9769e39f tag-18cf83881f tag-f7b27ae73c tag-d92b8d6d2a"
-          data-date="20190524">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20190524" data-tags="rdf stream-processing kafka big-data real-state" data-type="2" data-text="Applying big data and stream processing to the real estate domain   Behaviour &amp; Information Technology">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Applying big data and stream processing to the real estate domain,
@@ -5352,12 +4084,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1"
-          data-date="20190325">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20190325" data-tags="" data-type="1" data-text="Using Shape Expressions (ShEx) to Share RDF Data Models and to Guide Curation with Rigorous Validation In Extended Semantic Web Conference, ESWC2019. Lecture Notes in Compuer Science">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Using Shape Expressions (ShEx) to Share RDF Data Models and to Guide Curation with Rigorous Validation,
@@ -5418,12 +4145,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1"
-          data-date="20190325">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20190325" data-tags="" data-type="1" data-text="Legislative document content extraction based on Semantic Web technologies - A use case about processing the History of the Law In Extended Semantic Web Conference, ESWC2019.">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Legislative document content extraction based on Semantic Web technologies - A use case about processing the History of the Law,
@@ -5474,12 +4196,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-6 tag-d6a91b4236 tag-313d70fff0 tag-becaaa4e01 tag-ee33a810de tag-6c3fb19d3c"
-          data-date="20181224">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20181224" data-tags="shex shacl rdf validating-data data-quality" data-type="6" data-text="Challenges in RDF validation   Current Trends in Semantic Web Technologies: Theory and Practice">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Challenges in RDF validation,
@@ -5538,12 +4255,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-d6a91b4236 tag-becaaa4e01 tag-c6e2253442 tag-0f9473ed52 tag-aabbd324ad"
-          data-date="20181012">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20181012" data-tags="shex rdf validation demo iswc" data-type="1" data-text="RDFShape: An RDF playground based on Shapes   Demo presented at International Semantic Web Conference, Monterey, California">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	RDFShape: An RDF playground based on Shapes,
@@ -5596,12 +4308,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-d6a91b4236 tag-becaaa4e01 tag-c6e2253442 tag-5186ff3bf0 tag-aabbd324ad"
-          data-date="20181012">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20181012" data-tags="shex rdf validation poster iswc" data-type="1" data-text="Inference of Latent Shape Expressions Associated to DBpedia Ontology   Poster presented at International Semantic Web Conference, Monterey, California">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Inference of Latent Shape Expressions Associated to DBpedia Ontology,
@@ -5658,12 +4365,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-89abe8f8aa tag-d6a91b4236 tag-becaaa4e01 tag-c6e2253442 tag-713c720683 tag-6db4ed060f"
-          data-date="20180602">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20180602" data-tags="xml-schema shex rdf validation xml jcr" data-type="2" data-text="XMLSchema2ShEx: Converting XML validation to RDF validation   Semantic Web Journal">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	XMLSchema2ShEx: Converting XML validation to RDF validation,
@@ -5718,12 +4420,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-e93e3c5e77 tag-c3b5f61bea tag-7ee020aa3c tag-0172572ff3 tag-f5c0615a04 tag-7f0e1a0d68 tag-becaaa4e01 tag-02fab0711e tag-fce7d9cad9 tag-6db4ed060f"
-          data-date="20180228">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20180228" data-tags="administrative-file administrative-procedure sustainability open-data linked-data provenance rdf prov-o p-plan jcr" data-type="2" data-text="Semantic Modeling of Administrative Procedures from a Spanish Regional Public Administration   Sustainability, vol. 10, num. 3, doi: 10.3390/su10030633">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Semantic Modeling of Administrative Procedures from a Spanish Regional Public Administration,
@@ -5780,12 +4477,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-becaaa4e01 tag-c6e2253442 tag-9530ea0424 tag-8654047986 tag-d6a91b4236"
-          data-date="20171023">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20171023" data-tags="rdf validation semantic-web shapes shex" data-type="1" data-text="Semantics and Validation of Shapes Schemas for RDF In International Semantic Web Conference, ISWC2017.">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Semantics and Validation of Shapes Schemas for RDF,
@@ -5838,12 +4530,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-7e4f3a355c tag-580ccea77f tag-9530ea0424 tag-6db4ed060f"
-          data-date="20170906">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20170906" data-tags="entity-reconciliation music semantic-web jcr" data-type="2" data-text="MERA: A Musical Entities Reconciliation Architecture Based on Semantic Technologies   International Journal on Semantic Web and Information Systems (IJSWIS) Volume 13, Issue 4">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	MERA: A Musical Entities Reconciliation Architecture Based on Semantic Technologies,
@@ -5898,12 +4585,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-5 tag-becaaa4e01 tag-c6e2253442 tag-9530ea0424 tag-8654047986 tag-d6a91b4236 tag-313d70fff0"
-          data-date="20170820">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20170820" data-tags="rdf validation semantic-web shapes shex shacl" data-type="5" data-text="Validating RDF Data   Morgan and Claypool Publishers">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Validating RDF Data,
@@ -5966,12 +4648,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-9 tag-becaaa4e01 tag-c6e2253442 tag-9530ea0424 tag-8654047986 tag-313d70fff0"
-          data-date="20170720">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20170720" data-tags="rdf validation semantic-web shapes shacl" data-type="9" data-text="SHACL Test Suite and Implementation Report   W3C Document">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	SHACL Test Suite and Implementation Report,
@@ -6020,12 +4697,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-9 tag-becaaa4e01 tag-c6e2253442 tag-9530ea0424 tag-8654047986 tag-d6a91b4236"
-          data-date="20170713">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20170713" data-tags="rdf validation semantic-web shapes shex" data-type="9" data-text="Shape Expressions Language 2.0   W3C Community Group Report">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Shape Expressions Language 2.0,
@@ -6076,12 +4748,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-3a8beb53ba tag-d967bc84d0 tag-b38dd1d392 tag-f41f942ef6"
-          data-date="20170426">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20170426" data-tags="web-based-tool healthcare social-network-analysis ehealth" data-type="2" data-text="A Web-Based Tool for Automatic Data Collection, Curation, and Visualization of Complex Healthcare Survey Studies including Social Network Analysis   Computational and Mathematical Methods in Medicine">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	A Web-Based Tool for Automatic Data Collection, Curation, and Visualization of Complex Healthcare Survey Studies including Social Network Analysis,
@@ -6146,12 +4813,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-5862621d97 tag-f91caf6ce1"
-          data-date="20161201">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20161201" data-tags="learning-analytics elearning" data-type="2" data-text="Towards the Implementation of the Learning Analytics in the Social Learning Environments for the Technology-Enhanced Assessment in Computer Engineering Education   International Journal of Engineering Education">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Towards the Implementation of the Learning Analytics in the Social Learning Environments for the Technology-Enhanced Assessment in Computer Engineering Education,
@@ -6204,12 +4866,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-9530ea0424 tag-f5c0615a04 tag-f91caf6ce1"
-          data-date="20161116">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20161116" data-tags="semantic-web linked-data elearning" data-type="2" data-text="Enhancing e-Learning content by using Semantic Web technologies   IEEE Transactions on Learning Technologies">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Enhancing e-Learning content by using Semantic Web technologies,
@@ -6266,12 +4923,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-d6a91b4236 tag-5f79bf3bc1 tag-becaaa4e01 tag-9530ea0424"
-          data-date="20161013">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20161013" data-tags="shex inference rdf semantic-web" data-type="1" data-text="Inference and Serialization of Latent Graph Schemata using ShEx   The Tenth International Conference on Advances in Semantic Processing, SEMAPRO16">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Inference and Serialization of Latent Graph Schemata using ShEx,
@@ -6324,12 +4976,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-58dc3682cd tag-fd5fe550a0 tag-7376546f68 tag-84c97f4c0c"
-          data-date="20161010">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20161010" data-tags="eprocurement chilecompra public-procurement latent-semantic-analysis" data-type="1" data-text="Identifying potential suppliers for competitive bidding using Latent Semantic Analysis In XLII Latin American Computing Conference (CLEI), 2016 *">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Identifying potential suppliers for competitive bidding using Latent Semantic Analysis,
@@ -6384,12 +5031,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-4 tag-becaaa4e01 tag-d6a91b4236 tag-f0a67cce5a"
-          data-date="20160326">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20160326" data-tags="rdf shex rdf-validation" data-type="4" data-text="Shape Expression Schemas   Technical report, Arxiv.org, No. 1510.0555">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Shape Expression Schemas,
@@ -6440,12 +5082,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-4 tag-f5c0615a04 tag-6c3fb19d3c tag-f0a67cce5a tag-c5ed739ad4"
-          data-date="20151101">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20151101" data-tags="linked-data data-quality rdf-validation public-sector-information" data-type="4" data-text="Linked Data Validation and Quality   European Public Sector Information Platform - ePSI, Topic report 2015/11">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Linked Data Validation and Quality,
@@ -6490,12 +5127,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-becaaa4e01 tag-94898e1506 tag-9530ea0424 tag-d6a91b4236 tag-313d70fff0"
-          data-date="20150501">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20150501" data-tags="rdf multilingual semantic-web shex shacl" data-type="2" data-text="RDF Ventures to Boldly Meet Your Most Pedestrian Needs   Bulletin of the Association for Science and Technology (ASIS&amp;T)">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	RDF Ventures to Boldly Meet Your Most Pedestrian Needs,
@@ -6542,12 +5174,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-becaaa4e01 tag-d6a91b4236 tag-f0a67cce5a"
-          data-date="20150327">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20150327" data-tags="rdf shex rdf-validation" data-type="1" data-text="Expressiveness and Complexity of ShEx for RDF   18th International Conference on Database Theory (ICDT)">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Expressiveness and Complexity of ShEx for RDF,
@@ -6602,12 +5229,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-becaaa4e01 tag-d6a91b4236 tag-f0a67cce5a tag-d7d4ddf7cb"
-          data-date="20150326">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20150326" data-tags="rdf shex rdf-validation linked-data-portals" data-type="1" data-text="Validating and Describing Linked Data Portals using RDF Shape Expressions In 1st Workshop on Linked Data Quality, Brussels, Belgique">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Validating and Describing Linked Data Portals using RDF Shape Expressions,
@@ -6662,12 +5284,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-becaaa4e01 tag-d6a91b4236 tag-f0a67cce5a tag-978fe29211"
-          data-date="20150326">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20150326" data-tags="rdf shex rdf-validation regular-expression-derivatives" data-type="1" data-text="Towards an RDF validation language based on Regular Expression derivatives   International Workshop on Linked Web Data Management">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Towards an RDF validation language based on Regular Expression derivatives,
@@ -6722,12 +5339,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-becaaa4e01 tag-94898e1506 tag-9530ea0424 tag-c0f85ec295 tag-f5c0615a04"
-          data-date="20150101">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20150101" data-tags="rdf multilingual semantic-web patterns linked-data" data-type="2" data-text="Multilingual linked data patterns    Semantic Web Journal">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Multilingual linked data patterns ,
@@ -6784,12 +5396,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-becaaa4e01 tag-a780fbec31 tag-9530ea0424 tag-f5c0615a04 tag-4d282e248d tag-fa4204b906"
-          data-date="20141127">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20141127" data-tags="rdf statistics semantic-web linked-data data-portal open-science" data-type="1" data-text="Representing Statistical Indexes as Linked Data Including Metadata about Their Computation Process   Metadata and Semantics Research - Lecture Notes in Computer Science">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Representing Statistical Indexes as Linked Data Including Metadata about Their Computation Process,
@@ -6844,12 +5451,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-71ef725d81 tag-c42c4b9ee1 tag-9530ea0424"
-          data-date="20141101">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20141101" data-tags="model-driven-architecture public-services semantic-web" data-type="2" data-text="Knowledge-based public service transactions: An intelligent model-driven approach in co-learning contexts   Computers in Human Behaviour">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Knowledge-based public service transactions: An intelligent model-driven approach in co-learning contexts,
@@ -6906,12 +5508,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-6211b3a7b8 tag-f91caf6ce1"
-          data-date="20141101">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20141101" data-tags="interoperability elearning" data-type="2" data-text="Interoperability between platforms without a defined referential model: A semi-automatic learning system for structural pairing   Computers in Human Behaviour">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Interoperability between platforms without a defined referential model: A semi-automatic learning system for structural pairing,
@@ -6966,12 +5563,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-fb205a26db tag-5e4a05fd75"
-          data-date="20141001">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20141001" data-tags="ebooks recommendations" data-type="2" data-text="Creating recommendations on electronic books: A collaborative learning implicit approach   Computers in Human Behaviour">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Creating recommendations on electronic books: A collaborative learning implicit approach,
@@ -7026,12 +5618,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-9530ea0424 tag-d6a91b4236 tag-f0a67cce5a"
-          data-date="20140903">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20140903" data-tags="semantic-web shex rdf-validation" data-type="1" data-text="Shape Expressions: An RDF validation and transformation language In 10th International Conference on Semantic Systems, Leipzig, Germany">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Shape Expressions: An RDF validation and transformation language,
@@ -7084,12 +5671,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-58dc3682cd tag-9530ea0424"
-          data-date="20140401">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20140401" data-tags="eprocurement semantic-web" data-type="2" data-text="New trends on e-Procurement applying semantic technologies: current status and future challenges   Computers in Industry">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	New trends on e-Procurement applying semantic technologies: current status and future challenges,
@@ -7138,12 +5720,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-58dc3682cd tag-9530ea0424"
-          data-date="20140401">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20140401" data-tags="eprocurement semantic-web" data-type="2" data-text="New trends on e-Procurement applying semantic technologies   Computers in Industry">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	New trends on e-Procurement applying semantic technologies,
@@ -7192,12 +5769,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-733b6f799f tag-9530ea0424 tag-0d8bcb6a64 tag-4162e8a00e"
-          data-date="20140101">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20140101" data-tags="multilingualism semantic-web annotations collaborative-tagging" data-type="2" data-text="ACOTA: A multilingual and Semi-automatic collaborative tagging system   Journal of Web Engineering">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	ACOTA: A multilingual and Semi-automatic collaborative tagging system,
@@ -7244,12 +5816,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-becaaa4e01 tag-70bc71bd7e tag-835b244510 tag-dda368e04a"
-          data-date="20131201">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20131201" data-tags="rdf functional-programming graphs inductive-graphs" data-type="2" data-text="Inductive Representations of RDF Graphs   Science of Computer Programming">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Inductive Representations of RDF Graphs,
@@ -7302,12 +5869,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-5ea5db8ed1 tag-9530ea0424 tag-f5c0615a04"
-          data-date="20131119">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20131119" data-tags="e-procurement semantic-web linked-data" data-type="1" data-text="Towards a Stepwise Method for Unifying and Reconciling Corporate Names in Public Contracts Metadata: The CORFU Technique   Metadata and Semantics Research -  Communications in Computer and Information Science, CCIS Series">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Towards a Stepwise Method for Unifying and Reconciling Corporate Names in Public Contracts Metadata: The CORFU Technique,
@@ -7366,12 +5928,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-30c3c6833d tag-58dc3682cd tag-f5c0615a04 tag-9530ea0424"
-          data-date="20130701">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20130701" data-tags="schema-classifications eprocurement linked-data semantic-web" data-type="2" data-text="Empowering the access to public procurement opportunities by means of linking controlled vocabularies. A case study of Product Scheme Classifications in the European e-Procurement sector   Computers in Human Behaviour">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Empowering the access to public procurement opportunities by means of linking controlled vocabularies. A case study of Product Scheme Classifications in the European e-Procurement sector,
@@ -7426,12 +5983,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-5ad01fe6b2 tag-5e4a05fd75 tag-2f998d7438"
-          data-date="20130601">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20130601" data-tags="news recommendations journal" data-type="2" data-text="Towards a Journalist-Based News Recommendation System: The Wesomender Approach   Expert Systems with Applications">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Towards a Journalist-Based News Recommendation System: The Wesomender Approach,
@@ -7482,12 +6034,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-c17695539f tag-9530ea0424 tag-599d758a13"
-          data-date="20130601">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20130601" data-tags="digital-circuits semantic-web ontology" data-type="1" data-text="Kukulcan: Semantic Web Framework for Knowledge Management in the Domain of Digital Circuits   IKE&#39;13: The 12th International Conference on Information and Knowledge Engineering, Las Vegas, USA">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Kukulcan: Semantic Web Framework for Knowledge Management in the Domain of Digital Circuits,
@@ -7538,12 +6085,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-5 tag-9530ea0424 tag-f5c0615a04"
-          data-date="20130103">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20130103" data-tags="semantic-web linked-data" data-type="5" data-text="Cases on Open-Linked Data and Semantic Web Applications   IGI Global, ISBN: 978-1466628274">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Cases on Open-Linked Data and Semantic Web Applications,
@@ -7594,12 +6136,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-5 tag-5ea5db8ed1 tag-202cac72c3"
-          data-date="20130102">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20130102" data-tags="e-procurement e-government" data-type="5" data-text="E-Procurement Management for Successful Electronic Government Systems   IGI Global, ISBN: 9781466621190">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	E-Procurement Management for Successful Electronic Government Systems,
@@ -7650,12 +6187,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-6 tag-becaaa4e01 tag-9530ea0424 tag-bc0f7f42c8 tag-342af24740"
-          data-date="20130101">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20130101" data-tags="rdf semantic-web ontospread spreading-activation" data-type="6" data-text="ONTOSPREAD: A Framework for Supporting the Activation of Concepts in Graph-Based Structures through the Spreading Activation Technique   Communications in Computer and Information Science, vol 278, pp. 454-459">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	ONTOSPREAD: A Framework for Supporting the Activation of Concepts in Graph-Based Structures through the Spreading Activation Technique,
@@ -7700,12 +6232,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-6 tag-9530ea0424 tag-084afd9f42 tag-e6ca8f0d60 tag-b28b92f98f tag-f41f942ef6"
-          data-date="20130101">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20130101" data-tags="semantic-web medical-diagnosis description-logics ontologies ehealth" data-type="6" data-text="Automated Diagnosis through Ontologies and Logical Descriptions: The ADONIS Approach   Engineering Effective Decision Support Technologies: New Models and Applications">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Automated Diagnosis through Ontologies and Logical Descriptions: The ADONIS Approach,
@@ -7760,12 +6287,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-6 tag-becaaa4e01 tag-9530ea0424 tag-bc0f7f42c8 tag-fa16968357 tag-f7b27ae73c"
-          data-date="20130101">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20130101" data-tags="rdf semantic-web ontospread mapreduce big-data" data-type="6" data-text="Applying MapReduce to Spreading Activation Algorithm on Large RDF Graphs   Communications in Computer and Information Science, vol 278, pp. 601-611">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Applying MapReduce to Spreading Activation Algorithm on Large RDF Graphs,
@@ -7814,12 +6336,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-1276ef22c8 tag-9530ea0424"
-          data-date="20121101">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20121101" data-tags="data-grounding semantic-web" data-type="2" data-text="Towards a Practical Solution for Data Grounding in a Semantic Web Services Environment   Journal of Universal Computer Science">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Towards a Practical Solution for Data Grounding in a Semantic Web Services Environment,
@@ -7878,12 +6395,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-5 tag-9530ea0424 tag-52888895e5 tag-3124b6e9dd"
-          data-date="20120116">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20120116" data-tags="semantic-web book spanish" data-type="5" data-text="Web Semántica: comprendiendo el cambio hacia la Web 3.0   Pocket Innova">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Web Semántica: comprendiendo el cambio hacia la Web 3.0,
@@ -7928,12 +6440,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-bc0f7f42c8 tag-5b43b151f8 tag-342af24740 tag-58dc3682cd"
-          data-date="20120101">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20120101" data-tags="ontospread moldeas spreading-activation eprocurement" data-type="2" data-text="Towards a Pan-European E-Procurement platform to Aggregate, Publish and Search Public Procurement Notices powered by Linked Open Data: The MOLDEAS Approach   International Journal of Software Engineering and Knowledge Engineering (IJSEKE ) Spceial Issue on Consuming and Producing Linked Data on Real World Applications, vol 22, num. 3, 2012">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Towards a Pan-European E-Procurement platform to Aggregate, Publish and Search Public Procurement Notices powered by Linked Open Data: The MOLDEAS Approach,
@@ -7988,12 +6495,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-d31247bc81 tag-1732445974"
-          data-date="20120101">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20120101" data-tags="erp technology-management" data-type="2" data-text="The effects of ERP implementations on the profitability of big firms: the case of Spain   International Journal on Technology Management, vol. 59, number 1 / 2, 2012">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	The effects of ERP implementations on the profitability of big firms: the case of Spain,
@@ -8046,12 +6548,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-9530ea0424 tag-4b8e25516c tag-f5c0615a04 tag-9037f6095b"
-          data-date="20110903">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20110903" data-tags="semantic-web public-administrations linked-data methodology" data-type="1" data-text="Towards an architecture and adoption process for Linked Data technologies in Open Government contexts In I-Semantics">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Towards an architecture and adoption process for Linked Data technologies in Open Government contexts,
@@ -8104,12 +6601,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-9530ea0424 tag-084afd9f42 tag-e6ca8f0d60 tag-b28b92f98f tag-f41f942ef6"
-          data-date="20110503">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20110503" data-tags="semantic-web medical-diagnosis description-logics ontologies ehealth" data-type="2" data-text="SeDeLo: Using Semantics and Description Logics to Support Aided Clinical Diagnosis   Journal of Medical Systems, vol. 36, number 4, pp: 2471-2481">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	SeDeLo: Using Semantics and Description Logics to Support Aided Clinical Diagnosis,
@@ -8168,12 +6660,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-3115a483b1 tag-fb205a26db tag-8ace89e7fc"
-          data-date="20100912">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20100912" data-tags="recommendation-system ebooks interaction" data-type="2" data-text="Recommendation System based on User Interaction data applied to Intelligent Electronic Books   Computers in Human Behaviour, vol. 27, number 4, 2011">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Recommendation System based on User Interaction data applied to Intelligent Electronic Books,
@@ -8232,12 +6719,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-225932d269 tag-f91caf6ce1"
-          data-date="20100101">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20100101" data-tags="usability elearning" data-type="2" data-text="Towards the evaluation of usability in educative websites   International Journal on Technology Enhanced Learning, vol. 2">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Towards the evaluation of usability in educative websites,
@@ -8292,12 +6774,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-589845c3c3 tag-4162e8a00e tag-7cb59d1781"
-          data-date="20091107">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20091107" data-tags="image-classification collaborative-tagging image-retrieval" data-type="2" data-text="WESONet: Applying semantic web technologies and collaborative tagging to multimedia web information systems   Computers in Human Behaviour, vol 26, pp: 205-209, 2010">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	WESONet: Applying semantic web technologies and collaborative tagging to multimedia web information systems,
@@ -8350,12 +6827,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-589845c3c3 tag-4162e8a00e tag-7cb59d1781 tag-8ace89e7fc"
-          data-date="20091107">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20091107" data-tags="image-classification collaborative-tagging image-retrieval interaction" data-type="2" data-text="Interactive web environment for collaborative and extensible diagram based learning   Computers in Human Behaviour, vol 26, pp: 210-217, 2010">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Interactive web environment for collaborative and extensible diagram based learning,
@@ -8412,12 +6884,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-b28b92f98f tag-49b2007aef tag-9530ea0424"
-          data-date="20090601">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20090601" data-tags="ontologies requirements-specification semantic-web" data-type="1" data-text="Ontologies in Checking for Inconsistency of Requirements Specification In Third International Conference on Advances in Semantic Processing SEMAPRO, 09">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Ontologies in Checking for Inconsistency of Requirements Specification,
@@ -8466,12 +6933,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-9530ea0424 tag-d079f2c3d1"
-          data-date="20090601">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20090601" data-tags="semantic-web conference" data-type="1" data-text="A proposal for a Semantic Intelligent Document Repository Architecture In Electronics, Robotics and Automotive Mechanics Conference (CERMA 2009)">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	A proposal for a Semantic Intelligent Document Repository Architecture,
@@ -8528,12 +6990,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-9530ea0424 tag-084afd9f42 tag-e6ca8f0d60 tag-b28b92f98f tag-f41f942ef6"
-          data-date="20090503">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20090503" data-tags="semantic-web medical-diagnosis description-logics ontologies ehealth" data-type="2" data-text="Automated Diagnosis through Ontologies and Logical Descriptions: The ADONIS Approach   International Journal of Decision Support System Technology">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Automated Diagnosis through Ontologies and Logical Descriptions: The ADONIS Approach,
@@ -8588,12 +7045,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-6 tag-927b97d2b4 tag-d6970dad49"
-          data-date="20090101">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20090101" data-tags="web2.0 free-services" data-type="6" data-text="Doing Business by selling free services   Web 2.0 Business Models">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Doing Business by selling free services,
@@ -8644,12 +7096,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-4162e8a00e tag-763b385604 tag-98f4094ea4"
-          data-date="20081201">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20081201" data-tags="collaborative-tagging emergent-semantics semantic-search" data-type="2" data-text="SOAF: Semantic Indexing System Based on Collaborative Tagging In Interdisciplinary Journal of E-Learning and Learning Objects, vol 4(1)">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	SOAF: Semantic Indexing System Based on Collaborative Tagging,
@@ -8706,12 +7153,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-9530ea0424 tag-eb14ee0d4c"
-          data-date="20071003">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20071003" data-tags="semantic-web xbrl" data-type="1" data-text="Combining Collaborative Tagging and Ontologies in Image Retrieval Systems In 2nd International Conference on Metadata and Semantic Web Research">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Combining Collaborative Tagging and Ontologies in Image Retrieval Systems,
@@ -8760,12 +7202,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-9530ea0424 tag-eb14ee0d4c"
-          data-date="20071003">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20071003" data-tags="semantic-web xbrl" data-type="1" data-text="Analysis of XBRL documents representing financial statements using Semantic Web Technologies In 2nd International Conference on Metadata and Semantic Web Research">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Analysis of XBRL documents representing financial statements using Semantic Web Technologies,
@@ -8816,12 +7253,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-9530ea0424 tag-eb14ee0d4c"
-          data-date="20070401">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20070401" data-tags="semantic-web xbrl" data-type="1" data-text="Mailing lists meet the semantic web In Workshop on Social Aspects of the Semantic Web (SAW 2007), Poznan, Poland">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Mailing lists meet the semantic web,
@@ -8870,12 +7302,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-314914ce7f tag-9530ea0424 tag-98f4094ea4 tag-becaaa4e01"
-          data-date="20061107">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20061107" data-tags="public-administration semantic-web semantic-search rdf" data-type="1" data-text="Searching over Public Administration Legal Documents Using Ontologies In International Joint Conference on Knowledge Based Software Engineering IJCKBS, 06">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Searching over Public Administration Legal Documents Using Ontologies,
@@ -8928,12 +7355,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-f51b56727c tag-009050619f"
-          data-date="20060601">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20060601" data-tags="project-based-learning collaborative-tools" data-type="1" data-text="Utilización de herramientas colaborativas de desarrollo de software libre en un modelo de aprendizaje basado en proyectos   XII Jornadas de Enseñanza Universitaria de Informática (Jenui 2006), Bilbao, Spain">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Utilización de herramientas colaborativas de desarrollo de software libre en un modelo de aprendizaje basado en proyectos,
@@ -8984,12 +7406,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-430c0a20bc tag-9362aa9b8f"
-          data-date="20060501">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20060501" data-tags="modular-monadic-semantics slicer" data-type="2" data-text="A monadic program slicer    ACM SIGPLAN Notices, 41 (5), pp. 30-38">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	A monadic program slicer,
@@ -9038,12 +7455,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-70bc71bd7e tag-9362aa9b8f tag-430c0a20bc"
-          data-date="20051003">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20051003" data-tags="functional-programming slicer modular-monadic-semantics" data-type="1" data-text="A Formal Method for program Slicing In Australian Software Engineering Conference, ASWEC 2005">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	A Formal Method for program Slicing,
@@ -9092,12 +7504,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-70bc71bd7e tag-c11467c38b tag-da35fb8e4d tag-49392e12d9"
-          data-date="20040601">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20040601" data-tags="functional-programming lazy-programming logic-programming haskell" data-type="1" data-text="Representaciones gráficas y Mundos Virtuales infinitos en las Prácticas de Programación Lógica y Funcional IX Jornadas de Enseñanza Universitaria de Informática (Jenui 2003), Cádiz, Spain">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Representaciones gráficas y Mundos Virtuales infinitos en las Prácticas de Programación Lógica y Funcional,
@@ -9142,12 +7549,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-d471b2a796 tag-229b2e00a3"
-          data-date="20040601">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20040601" data-tags="logic computer-science-studies" data-type="1" data-text="¿Hay Lógica en la situación actual de las titulaciones informáticas? X Jornadas de Enseñanza Universitaria de Informática (Jenui 2004), Almería, Spain">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	¿Hay Lógica en la situación actual de las titulaciones informáticas?,
@@ -9196,12 +7598,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-5 tag-d1219734d8"
-          data-date="20030714">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20030714" data-tags="web-engineering" data-type="5" data-text="Web Engineering Proceedings of the International Conference on Web Engineering, ICWE 2003, Oviedo, Spain, July 14-18, Lecture Notes in Computer Science, Vol. 2722">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Web Engineering,
@@ -9250,12 +7647,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-f91caf6ce1 tag-70bc71bd7e tag-da35fb8e4d tag-137a8f7385"
-          data-date="20030201">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20030201" data-tags="elearning functional-programming logic-programming multi-paradigm" data-type="1" data-text="A Generic e-Learning Multiparadigm Programming Language System: IDEFIX Project In ACM Technical Symposium on Computer Science Education (SIGCSE 2003), Reno, Nevada (USA)">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	A Generic e-Learning Multiparadigm Programming Language System: IDEFIX Project,
@@ -9306,12 +7698,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-2 tag-e03c641004 tag-da35fb8e4d tag-70bc71bd7e tag-430c0a20bc"
-          data-date="20030101">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20030101" data-tags="language-prototyping-system logic-programming functional-programming modular-monadic-semantics" data-type="2" data-text="Specification of Logic Programming Languages from Reusable Semantic Building Blocks   Electronic Notes on Theoretical Computer Science, vol. 64">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Specification of Logic Programming Languages from Reusable Semantic Building Blocks,
@@ -9366,12 +7753,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-70bc71bd7e tag-da35fb8e4d tag-f91caf6ce1"
-          data-date="20020701">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20020701" data-tags="functional-programming logic-programming elearning" data-type="1" data-text="Plataforma de enseñanza de lenguajes de programación a través de Internet: Proyecto IDEFIX In VIII Jornadas de Enseñanza Universitaria de Informática, Cáceres, Spain">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Plataforma de enseñanza de lenguajes de programación a través de Internet: Proyecto IDEFIX,
@@ -9420,12 +7802,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-8 tag-70bc71bd7e tag-da35fb8e4d tag-430c0a20bc tag-d5ae5d9564"
-          data-date="20010701">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20010701" data-tags="functional-programming logic-programming modular-monadic-semantics language-processors" data-type="8" data-text="Modular development of Language Processors from Reusable Semantic Specifications   PhD thesis (in Spanish)">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Modular development of Language Processors from Reusable Semantic Specifications,
@@ -9470,12 +7847,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-7 tag-da35fb8e4d tag-a305e7a4b1 tag-21028b993a"
-          data-date="19981101">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="19981101" data-tags="logic-programming prolog declarative-programming" data-type="7" data-text="Programación Práctica en Prolog   Ed. Servitec, Num. 13, ISBN: 84-8416-612-0">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Programación Práctica en Prolog,
@@ -9520,12 +7892,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-7 tag-d471b2a796 tag-d7252bd6a5"
-          data-date="19981001">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="19981001" data-tags="logic propositional-logic" data-type="7" data-text="Lógica proposicional para informática   Ed. Servitec, Num. 12, ISBN: 84-8416-613-9">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Lógica proposicional para informática,
@@ -9572,12 +7939,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-7 tag-d471b2a796 tag-d7252bd6a5 tag-01b56a8aed tag-2be4399f7e"
-          data-date="19981001">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="19981001" data-tags="logic propositional-logic predicate-logic exercises" data-type="7" data-text="Ejercicios de lógica informática   Ed. Servitec, Num. 9, ISBN: 84-8416-357-1">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Ejercicios de lógica informática,
@@ -9624,12 +7986,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-430c0a20bc tag-70bc71bd7e tag-6e86e2a7da"
-          data-date="19980101">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="19980101" data-tags="modular-monadic-semantics functional-programming programming-language-semantics" data-type="1" data-text="An Implementation of Modular Monadic Semantics using Folds and Monadic Folds   Workshop on Research Themes on Functional Programming, Third International Summer School on Advanced Functional Programming">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	An Implementation of Modular Monadic Semantics using Folds and Monadic Folds,
@@ -9674,12 +8031,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-1 tag-70bc71bd7e tag-70f5a2538d"
-          data-date="19971001">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="19971001" data-tags="functional-programming musical-composition" data-type="1" data-text="Harmony: a functional system for musical composition In II Conferencia Latinoamericana de Programación Funcional">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Harmony: a functional system for musical composition,
@@ -9728,12 +8080,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-7 tag-49392e12d9 tag-70bc71bd7e tag-14ada0d99b"
-          data-date="19950101">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="19950101" data-tags="haskell functional-programming lecture-notes" data-type="7" data-text="Introducción al lenguaje Haskell   Cuaderno didáctico, Número 87, Depto. Matemáticas">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Introducción al lenguaje Haskell,
@@ -9778,12 +8125,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-7 tag-d471b2a796 tag-d7252bd6a5 tag-01b56a8aed tag-2be4399f7e"
-          data-date="19930101">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="19930101" data-tags="logic propositional-logic predicate-logic exercises" data-type="7" data-text="Lógica de predicados de primer orden   Cuaderno didáctico, Número 77, Depto. Matemáticas">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Lógica de predicados de primer orden,
@@ -9824,12 +8166,7 @@
 
         
 
-        
-          
-        
-
-        <div class="grid-sizer col-md-12 isotope-item pubtype-4 tag-d471b2a796 tag-d7252bd6a5 tag-01b56a8aed tag-2be4399f7e"
-          data-date="19910101">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="19910101" data-tags="logic propositional-logic predicate-logic exercises" data-type="4" data-text="Simulación Entorno Operativo Unix   Cuaderno didáctico, Número 39, Depto. Matemáticas">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Simulación Entorno Operativo Unix,
@@ -9908,6 +8245,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
     
     <script src="/js/hugo-academic.js"></script>
+    
+    <script src="/js/list-filters.js"></script>
     
 
     
