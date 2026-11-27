@@ -499,13 +499,6 @@ class TestContentPages(SiteTestCase):
                 with self.subTest(project=c.path.stem):
                     self._check_single(c)
 
-    def test_author_pages(self):
-        for folder in sorted((CONTENT / "authors").iterdir()):
-            if folder.is_dir():
-                with self.subTest(author=folder.name):
-                    # The folder name can contain "%" characters; Hugo keeps them.
-                    self.assertTrue((SITE / "authors" / folder.name.lower() / "index.html").is_file())
-
     def test_markdown_is_rendered(self):
         """Pages with Markdown links in the body must show them as HTML links."""
         for c in pages_of("post") + pages_of("project") + pages_of("talk") + pages_of("publication"):
@@ -644,11 +637,79 @@ class TestFeedsAndSitemap(SiteTestCase):
                 self.assertIn(BASE_URL + c.url_path.lstrip("/"), locs)
 
 
-class TestLinks(SiteTestCase):
-    # Co-author links point to /authors/<name>. Only some co-authors have a
-    # page, so these links are not checked.
-    IGNORE = ("/authors/",)
+class TestAuthors(SiteTestCase):
+    """Each name in the "authors" list of a page has an author page.
 
+    The author page lists all the publications and talks with that author.
+    """
+
+    def author_pages(self):
+        """Map normalised author name ("A B" and "A-B" are one author) to its site path, from the /authors/ page."""
+        result = {}
+        for href, text, _ in page("/authors/").links:
+            path = local_path(href)
+            if path and path.startswith("/authors/") and path.rstrip("/") != "/authors":
+                result[norm_term(text)] = path.rstrip("/") + "/"
+        return result
+
+    def with_authors(self):
+        return [c for c in pages_of("publication") + pages_of("talk") if c.params.get("authors")]
+
+    def test_one_name_per_author_page(self):
+        """Two spellings of a name (for example "Prud'hommeaux" and "Prud'Hommeaux")
+        can get the same page, and then Hugo shows only the pages of one spelling.
+        Use one spelling for each author."""
+        seen = {}
+        for href, text, _ in page("/authors/").links:
+            path = local_path(href)
+            if path and path.startswith("/authors/") and path.rstrip("/") != "/authors":
+                path = path.rstrip("/") + "/"
+                seen.setdefault(path, []).append(text)
+        clashes = {p: names for p, names in seen.items() if len(names) > 1}
+        self.assertEqual(clashes, {}, "Use one spelling for each author")
+
+    def test_every_author_has_a_page(self):
+        pages = self.author_pages()
+        for name in sorted({a for c in self.with_authors() for a in c.params["authors"]}):
+            with self.subTest(author=name):
+                self.assertIn(norm_term(name), pages, f"{name} not in /authors/")
+                self.assertTrue(site_file(pages[norm_term(name)]).is_file())
+
+    def test_author_pages_list_their_content(self):
+        pages = self.author_pages()
+        for c in self.with_authors():
+            for name in c.params["authors"]:
+                with self.subTest(page=c.url_path, author=name):
+                    path = pages[norm_term(name)]
+                    self.assertIn(c.url_path, linked_paths(paginated(path)), f"{c.url_path} not listed in {path}")
+                    self.assertIn(norm_term(name), [norm_term(h) for h in page(path).h1])
+
+    def test_author_links_on_publication_pages(self):
+        for c in pages_of("publication"):
+            links = {norm_term(t): local_path(h) for h, t, _ in page(c.url_path).links
+                     if (local_path(h) or "").startswith("/authors/")}
+            for name in c.params.get("authors", []):
+                with self.subTest(publication=c.path.stem, author=name):
+                    self.assertIn(norm_term(name), links, f"No link to the page of {name}")
+                    target = links[norm_term(name)]
+                    self.assertTrue(site_file(target).is_file(), f"Broken author link {target}")
+                    self.assertIn(c.url_path, linked_paths(paginated(target.rstrip("/") + "/")))
+
+    def test_author_folders(self):
+        """A folder content/authors/<name>/_index.md adds text to the author page."""
+        pages = self.author_pages()
+        for index in sorted((CONTENT / "authors").glob("*/_index.md")):
+            c = Content(index)
+            with self.subTest(author=index.parent.name):
+                self.assertTrue(c.title, f"{index} has no title")
+                self.assertIn(norm_term(c.title), pages, f"No author page for {index}")
+                p = page(pages[norm_term(c.title)])
+                self.assertIn(norm_term(c.title), [norm_term(h) for h in p.h1])
+                for label in re.findall(r"\[([^\]]+)\]\(", c.body):
+                    self.assertIn(plain_title(label), [plain_title(t) for _, t, _ in p.links])
+
+
+class TestLinks(SiteTestCase):
     # Documents that the content links to, but that are not in static/ yet.
     # Remove an entry when you add the file.
     KNOWN_MISSING = {
@@ -671,7 +732,7 @@ class TestLinks(SiteTestCase):
             p = Page(text)
             for href in [h for h, _, _ in p.links] + p.srcs:
                 path = local_path(href)
-                if not path or path.startswith(self.IGNORE) or unquote(path) in self.KNOWN_MISSING:
+                if not path or unquote(path) in self.KNOWN_MISSING:
                     continue
                 if not site_file(path).exists():
                     broken.setdefault(path, str(file.relative_to(SITE)))

@@ -37,6 +37,21 @@ The tests read `config.toml` and the `content` folder to know what the site must
 contain, so you can add publications, talks and posts without changes to the
 tests. The GitHub workflow runs the tests before it deploys the site.
 
+## Author pages
+
+Hugo makes a page `/authors/<name>/` for each name in the `authors` list of a
+publication or a talk. The page lists all the publications and talks with that
+author. Links to co-authors on the publication pages go to these pages.
+
+Use the same spelling of a name in all the files. For example, "Prud'hommeaux"
+and "Prud'Hommeaux" give two authors with the same page, and then the page
+shows only the publications of one of them. The tests find this problem.
+
+To add text to an author page, add the file `content/authors/<name>/_index.md`
+with a `title` that is the name of the author. The folder name must be the
+name in lowercase with `-` in place of spaces, for example
+`content/authors/iovka-boneva/_index.md`.
+
 ## Academic theme
 
 The folder `themes/academic` contains a copy of the

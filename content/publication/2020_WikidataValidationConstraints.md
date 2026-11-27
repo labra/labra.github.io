@@ -2,7 +2,7 @@
 
 abstract = "Urgent global research demands real-time dissemination of precise data. Wikidata, a collaborative and openly licensed knowledge graph available in RDF format, provides a forum for exchanging structured data. In this research paper, we catalog the rules describing relational and statistical COVID-19 epidemiological data and implement them in SPARQL, a query language for semantic databases. We demonstrate the efficiency of our methods to evaluate structured information, particularly COVID-19 knowledge in Wikidata, and consequently in collaborative ontologies and knowledge graphs, and we show the advantages and drawbacks of our proposed approach by comparing it to other methods for validation of linked web data."
 
-authors = ["Houcemeddine Turki", "Dariusz Jemielniak", "Mohamed Ali Hadj Taieb", "Jose Emilio Labra Gayo", "Mohamed Ben Aouicha", "Mus'ab Banat", "Thomas Shafee", "Eric Prud'Hommeaux", "Tiago Lubiana", "Diptanshu Das", "Daniel Mietchen"]
+authors = ["Houcemeddine Turki", "Dariusz Jemielniak", "Mohamed Ali Hadj Taieb", "Jose Emilio Labra Gayo", "Mohamed Ben Aouicha", "Mus'ab Banat", "Thomas Shafee", "Eric Prud'hommeaux", "Tiago Lubiana", "Diptanshu Das", "Daniel Mietchen"]
 date = "2020-08-30"
 image_preview = ""
 math = false

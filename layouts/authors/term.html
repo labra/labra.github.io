@@ -1,0 +1,38 @@
+{{/* Page of one author: all publications and talks with this author.
+     Hugo makes one page for each name in the "authors" list of the content. */}}
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+{{ partial "header_image.html" . }}
+
+<div class="universal-wrapper">
+
+  <h1>{{ .Title | default (.Data.Term | humanize | title) }}</h1>
+
+  {{ with .Content }}
+  <div class="article-style" itemprop="articleBody">{{ . }}</div>
+  {{ end }}
+
+  {{ $publications := where .Pages "Type" "publication" }}
+  {{ with $publications }}
+  <h2>{{ i18n "publications" | default "Publications" }}</h2>
+  <ul class="fa-ul">
+    {{ range .ByDate.Reverse }}
+    {{ partial "publication_li_simple" . }}
+    {{ end }}
+  </ul>
+  {{ end }}
+
+  {{ $talks := where .Pages "Type" "talk" }}
+  {{ with $talks }}
+  <h2>{{ i18n "talks" | default "Talks" }}</h2>
+  <ul class="fa-ul">
+    {{ range .ByDate.Reverse }}
+    {{ partial "talk_li_simple" . }}
+    {{ end }}
+  </ul>
+  {{ end }}
+
+</div>
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}

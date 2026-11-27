@@ -1,7 +1,7 @@
 +++
 
 abstract = ""
-authors = ["Slawek Staworko", "Iovka Boneva", "Eric Prud'Hommeaux", "Samuel Hym", "Jose Emilio Labra Gayo", "Harold Solbrig"]
+authors = ["Slawek Staworko", "Iovka Boneva", "Eric Prud'hommeaux", "Samuel Hym", "Jose Emilio Labra Gayo", "Harold Solbrig"]
 date = "2015-03-27"
 image_preview = ""
 math = false
