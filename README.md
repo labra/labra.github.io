@@ -44,6 +44,11 @@ few minutes), run:
 make check-links
 ```
 
+Links to the old university pages (`www.di.uniovi.es/~labra`) go to copies in
+the [Web Archive](https://web.archive.org/). To check that each link has a good
+copy, run `make check-archive-links`. To put the date of the newest good copy in
+each link, run `make pin-archive-links`.
+
 ## Publication filters
 
 The page `/publication/` has two filters: by type and by tag. The tag filter

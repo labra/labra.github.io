@@ -23,7 +23,7 @@ Once I did the first draft and started to add content,
  some extra-information like the journal, year or authors, so I had 
  to customize the academic theme.
 
-In order to browse Hugo documentation while being offline, I found useful [this project](https://github.com/hamoid/long-hugo-doc), 
+In order to browse Hugo documentation while being offline, I found useful [this project](https://web.archive.org/web/https://github.com/hamoid/long-hugo-doc), 
  which generated all Hugo documentation in a single HTML page. 
  
 It seems that the customization can be easily done by replacing 
@@ -42,7 +42,7 @@ I also managed to integrate Travis with github so when I push some changes to gi
  Notice that there are 2 branches, the `source` branch contains the source code, and the `master` branch contains the result (in Hugo, the result is by default created in the folder `/public`)
 
 The source code is located [here](https://github.com/labra/labra.github.io) and 
- the resulting web page is [here](http://www.di.uniovi.es/~labra). 
+ the resulting web page is [here](https://web.archive.org/web/https://di002.edv.uniovi.es/~labra/). 
  
  
 

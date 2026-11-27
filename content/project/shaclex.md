@@ -12,7 +12,7 @@ summary = "SHACL & ShEx implementation in Scala"
 tags = ["SHACL", "ShEx", "RDF","Scala"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "http://labra.github.io/shaclex/"
+external_link = "https://web.archive.org/web/http://labra.github.io/shaclex/"
 
 # Does the project detail page use math formatting?
 math = false

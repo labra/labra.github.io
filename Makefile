@@ -18,6 +18,14 @@ test: build
 check-links: build
 	python3 tests/check_external_links.py
 
+# Check the Web Archive links (needs network access).
+# Use "make pin-archive-links" to put the date of the newest good copy in each link.
+check-archive-links:
+	python3 tests/pin_archive_links.py
+
+pin-archive-links:
+	python3 tests/pin_archive_links.py --write
+
 version:
 	@echo "Expected: v$(HUGO_VERSION)"
 	@$(HUGO) version

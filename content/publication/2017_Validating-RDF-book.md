@@ -17,7 +17,7 @@ tags=["RDF", "Validation", "Semantic-web", "Shapes", "ShEx", "SHACL"]
 
 [[url_custom]]
 name = "Publishers link"
-url = "http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1091"
+url = "https://web.archive.org/web/http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1091"
 
 [[url_custom]]
 name = "Online HTML version"

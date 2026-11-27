@@ -6,7 +6,7 @@ title = "Semantic Technologies to validate health information (in Spanish)"
 abstract = "A tutorial about validating health information and health fake news using semantic technologies"
 abstract_short = ""
 event = "XV Congreso ANIS (Asociación Nacional Informadores Salud)"
-event_url = "http://anisalud.com/actualidad/agenda/eventodetalle/12108/-/xv-congreso-anis"
+event_url = "https://web.archive.org/web/http://anisalud.com/actualidad/agenda/eventodetalle/12108/-/xv-congreso-anis"
 location = "Oviedo, Spain"
 
 selected = false

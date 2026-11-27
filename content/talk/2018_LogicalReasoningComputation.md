@@ -8,7 +8,7 @@ authors = ["Jose Emilio Labra Gayo" ]
 abstract = ""
 abstract_short = ""
 event = "4th Workshop on Logical Reasoning and Computation"
-event_url = "http://www.dc.fi.udc.es/~cabalar/LRC18/"
+event_url = "https://web.archive.org/web/http://www.dc.fi.udc.es/~cabalar/LRC18/"
 location = "Corunna, Spain"
 
 selected = false

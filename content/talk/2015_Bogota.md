@@ -12,7 +12,7 @@ location = "Bogotá, Colombia"
 selected = false
 math = false
 
-url_pdf = "https://www.ideca.gov.co/sites/default/files/files/Programacioon_Final_TC_Dic13_2015.pdf"
+url_pdf = "https://web.archive.org/web/https://www.ideca.gov.co/sites/default/files/files/Programacioon_Final_TC_Dic13_2015.pdf"
 url_slides = "https://www.slideshare.net/jelabra/2015-bogota-datosenlazados"
 url_video = ""
 

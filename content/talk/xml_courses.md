@@ -14,7 +14,7 @@ selected = true
 math = false
 
 url_pdf = ""
-url_slides = "http://www.di.uniovi.es/~labra/cursos/XML"
+url_slides = "https://web.archive.org/web/https://di002.edv.uniovi.es/~labra/cursos/XML"
 url_video = ""
 
 +++

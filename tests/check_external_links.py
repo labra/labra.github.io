@@ -10,8 +10,11 @@ Usage:
     hugo -DEF
     python3 tests/check_external_links.py
 
-Some sites refuse requests from scripts (for example with status 403 or 999).
-Check these links in a browser before you change them.
+Some sites refuse requests from scripts (status 403, 429 or 999). The
+script prints these links in a separate list. They usually work in a browser.
+
+The script does not check links to the Web Archive. Use
+tests/pin_archive_links.py for these links.
 """
 
 import html
@@ -29,7 +32,11 @@ SKIP = (
     "facebook.com/sharer", "twitter.com/intent", "linkedin.com/shareArticle",
     "service.weibo.com", "cdnjs.cloudflare.com", "fonts.googleapis.com",
     "google-analytics.com", "gohugo.io", "github.com/gcushen",
+    "web.archive.org",
 )
+
+# Answers of sites that refuse requests from scripts.
+BLOCKED = (401, 403, 429, 999)
 
 
 def external_links():
@@ -74,10 +81,19 @@ def main():
     print(f"Checking {len(links)} external links...")
     with ThreadPoolExecutor(max_workers=16) as pool:
         results = list(pool.map(lambda u: (u, *check(u)), links))
-    broken = [(u, s, r) for u, s, r in results if s is None or s >= 400]
-    for url, status, reason in sorted(broken):
-        print(f"{status or 'ERROR'}\t{url}\t({reason})\tin {links[url]}")
-    print(f"{len(broken)} of {len(links)} links do not work.")
+    blocked = [(u, s, r) for u, s, r in results if s in BLOCKED]
+    broken = [(u, s, r) for u, s, r in results if (s is None or s >= 400) and s not in BLOCKED]
+    if blocked:
+        print("\nThese sites refuse requests from scripts. Check the links in a browser:")
+        for url, status, reason in sorted(blocked):
+            print(f"{status}\t{url}\tin {links[url]}")
+    if broken:
+        print("\nThese links do not work:")
+        for url, status, reason in sorted(broken):
+            print(f"{status or 'ERROR'}\t{url}\t({reason})\tin {links[url]}")
+    print(f"\n{len(broken)} of {len(links)} links do not work. "
+          f"{len(blocked)} links could not be checked (the site refuses scripts).")
+    print("To find a link in the source files, run: grep -rF '<link>' content static")
     return 1 if broken else 0
 
 

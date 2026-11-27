@@ -28,7 +28,7 @@ weight = 40
   Desarrollo de Tecnologías Colaborativas para Entornos virtuales de apoyo al aprendizaje,
   2015
 
-- [Jose María Álvarez Rodríguez](http://www.josemalvarez.es/):
+- [Jose María Álvarez Rodríguez](https://web.archive.org/web/http://www.josemalvarez.es/):
   Métodos semánticos de reutilización de datos abiertos enlazados en las licitaciones públicas,
   2012
   
@@ -50,7 +50,7 @@ weight = 40
 
 - [Ammar Ammar](https://www.linkedin.com/in/ammar-ammar/): July, 2025, Maastricht, Enhancing the interoperability and reusability of nanosafety data: a foundation towards deeper insights and intelligent applications
 
-- [Ben De Meester](https://work.de-meester.org/), [IDLab, University of Ghent, Belgium](https://www.ugent.be/ea/idlab/en/), May 2020, title: Improving and Assessing Data Quality of Knowledge Graphs.
+- [Ben De Meester](https://work.de-meester.org/), [IDLab, University of Ghent, Belgium](https://web.archive.org/web/https://www.ugent.be/ea/idlab/en/), May 2020, title: Improving and Assessing Data Quality of Knowledge Graphs.
 
 - [Mikko Koho](https://www.linkedin.com/in/mikko-koho/), [School of Science in Aalto University](http://cs.aalto.fi/), April 2020, title: Representing, Using, and Maintaining Military Historical Linked Data on the Semantic Web.
 
@@ -63,24 +63,24 @@ weight = 40
 - [DaMaLOS-2020: First workshop on Research data* management for linked open science (* and associated Research Objects)](https://zbmed.github.io/damalos/)
 - [3rd Workshop on Quality of Open Data](https://bisconf.org/2020/qod/)
 - [2nd Iberoamerican Knowledge Graph and Semantic Web Conference](http://www.kgswc.org/)
-- [International Semantic Web Conference, 2019](https://iswc2019.semanticweb.org/)
+- [International Semantic Web Conference, 2019](https://web.archive.org/web/https://iswc2019.semanticweb.org/)
 - [24th European Conference on Artificial Intelligence](http://ecai2020.eu/)
-- [International Semantic Web Conference - ISWC 2019](http://iswc2019.semanticweb.org/)
+- [International Semantic Web Conference - ISWC 2019](https://web.archive.org/web/http://iswc2019.semanticweb.org/)
 - [8th Workshop on Ontology Design and Patterns](http://ontologydesignpatterns.org/wiki/WOP:2017#WOP2017_Chairs), WOP, 2017
 - [Workshop on Linked Enterprise Data Services, Provenance, Linking and QualitY](https://informatik2017.de/ws29-ledsplay17/), LEDSPLaY17, 2017
-- [Linked Data Quality Workshop](http://ldq.semanticmultimedia.org/), 2017
-- [ISW-LOD2016](http://ciep.ing.uaslp.mx/sw-lod/) (4th International Workshop on Semantic Web and Linked Open Data), Puerto Rico, 2016
+- [Linked Data Quality Workshop](https://web.archive.org/web/http://ldq.semanticmultimedia.org/), 2017
+- [ISW-LOD2016](https://web.archive.org/web/http://ciep.ing.uaslp.mx/sw-lod/) (4th International Workshop on Semantic Web and Linked Open Data), Puerto Rico, 2016
 - [SEMANTiCS 2016](https://2016.semantics.cc/), Senior PC member
 - [Latin American Symposium on Data Management Systems](http://www.clei2016.cl/Sim7.html), Co-chair
-- [W3c workshop on Multilingual web](https://www.multilingualweb.eu/documents/2015-riga-workshop/2015-riga-cfp), 2015
+- [W3c workshop on Multilingual web](https://web.archive.org/web/https://www.multilingualweb.eu/documents/2015-riga-workshop/2015-riga-cfp), 2015
 - [SEMANTiCS 2015](https://2015.semantics.cc/) Research Track (11th International Conference on Semantic Systems, Research Track), Senior PC member
 - [ReCert 2015 (1st International Workshop on Linked Data Repair and Certification)](http://recert-ld.github.io/2015/), 2015
-- [International Conference on Knowledge Engineering and Semantic Web](http://2014.kesw.ru/), 2014
+- [International Conference on Knowledge Engineering and Semantic Web](https://web.archive.org/web/http://2014.kesw.ru/), 2014
 - 16th International Simposium on Computers in Education, 2014
 - [Workshop on Ontology and Semantic Web Patterns](http://ontologydesignpatterns.org/wiki/WOP:2016), WOP, 2014, 2015, 2016, 2017
-- [Spanish conference on service science and engineering](http://www.congresocedi.es/es/jcis), 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014
-- [Encuentro Nacional en Ciencias de la Computación](http://enc2014.cicese.mx/index.html), Mexico, 2014
-- Jornadas de Enseñanza Universitaria de Informática, Jenui, 2014, 2015, 2016, [2017](http://jenui2017.unex.es/)
+- [Spanish conference on service science and engineering](https://web.archive.org/web/http://www.congresocedi.es/es/jcis), 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014
+- [Encuentro Nacional en Ciencias de la Computación](https://web.archive.org/web/http://enc2014.cicese.mx/index.html), Mexico, 2014
+- Jornadas de Enseñanza Universitaria de Informática, Jenui, 2014, 2015, 2016, [2017](https://web.archive.org/web/http://jenui2017.unex.es/)
 - 12th International Semantic Web Conference - Evaluation Track, 2012
 - 9th Extended Semantic Web Conference, 2012
 - Metadata and Semantics Research Conference, MTSR, 2012

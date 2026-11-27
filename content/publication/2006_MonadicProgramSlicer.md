@@ -3,7 +3,7 @@
 abstract = "" 
 authors = [
  "Yingzhou Zhang",
- "[Jose Emilio Labra Gayo](http://di.uniovi.es/~labra)",
+ "Jose Emilio Labra Gayo",
  "Agustín Cernuda del Río"]
 
 date = "2006-05-01"

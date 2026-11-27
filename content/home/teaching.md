@@ -27,8 +27,8 @@ I also taught the courses:
 - Languages and Web standards - [Master in Web Engineering](http://miw.uniovi.es), [University of Oviedo](http://uniovi.es), Spain
 - Object Oriented Programming - [Master in Web Engineering](http://miw.uniovi.es),  [University of Oviedo](http://uniovi.es), Spain
 - Web services - [Master in Web Engineering](http://miw.uniovi.es), [University of Oviedo](http://uniovi.es), Spain
-- [Logic](http://di002.edv.uniovi.es/~labra/Logica/Logica.html) - Bachelor of Computer Science, [University of Oviedo](http://uniovi.es)
-- [Declarative Programming](http://www.di.uniovi.es/~labra/PDec) - Bachelor of Computer Science, [University of Oviedo](http://uniovi.es)
-- Language Processors - [EPIG](http://www.epig.uniovi.es/)
+- [Logic](https://web.archive.org/web/https://di002.edv.uniovi.es/~labra/Logica/Logica.html) - Bachelor of Computer Science, [University of Oviedo](http://uniovi.es)
+- [Declarative Programming](https://web.archive.org/web/https://di002.edv.uniovi.es/~labra/PDec) - Bachelor of Computer Science, [University of Oviedo](http://uniovi.es)
+- Language Processors - [EPIG](https://web.archive.org/web/http://www.epig.uniovi.es/)
 
 

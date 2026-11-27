@@ -21,7 +21,7 @@ tags=["ERP", "Technology-management"]
 
 [[url_custom]]
 name = "doi"
-url = "http://dx.doi.org/0.1504/IJTM.2012.047254"
+url = "http://dx.doi.org/10.1504/IJTM.2012.047254"
 
 
 +++
