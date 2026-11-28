@@ -1,0 +1,34 @@
+{{- /*
+  Links for machines from the home page to all the content of the site, as
+  hidden schema.org microdata. Visitors do not see them.
+  - "page": put it in the ProfilePage (index.html). It adds the
+    publications, projects and posts as hasPart, and links to the lists.
+  - "person": put it in the Person (about widget). It adds the talks as
+    performerIn.
+  Usage: {{ partial "home_schema_links" "page" }}
+*/ -}}
+{{- $owner := partial "schema_owner_id" . -}}
+<div hidden class="schema-links">
+{{- if eq . "page" }}
+{{- range slice "publication" "talk" "project" "post" }}
+<link itemprop="significantLink" href="{{ printf "/%s/" . | absURL }}">
+{{- end }}
+{{- range (where site.RegularPages "Section" "publication").ByDate.Reverse }}
+<span itemprop="hasPart" {{ partial "publication_schema_scope" . }}><link itemprop="url" href="{{ .Permalink }}"><meta itemprop="name" content="{{ .Title }}"><meta itemprop="datePublished" content="{{ .Date.Format "2006-01-02" }}">
+{{- $typeIndex := "0" }}{{ with .Params.publication_types }}{{ $typeIndex = index . 0 | string | strings.TrimSpace }}{{ end }}
+{{- $prop := cond (eq $typeIndex "10") "editor" "author" }}
+{{- range .Params.authors }}{{ if eq (urlize .) (urlize site.Params.name) }}<span itemprop="{{ $prop }}" itemscope itemtype="https://schema.org/Person" itemid="{{ $owner }}"></span>{{ end }}{{ end -}}
+</span>
+{{- end }}
+{{- range (where site.RegularPages "Section" "project").ByDate.Reverse }}
+<span itemprop="hasPart" {{ partial "project_schema_scope" . }}><link itemprop="url" href="{{ .Permalink }}"><meta itemprop="name" content="{{ .Title }}"></span>
+{{- end }}
+{{- range (where site.RegularPages "Section" "post").ByDate.Reverse }}
+<span itemprop="hasPart" itemscope itemtype="https://schema.org/BlogPosting" itemid="{{ .Permalink }}"><link itemprop="url" href="{{ .Permalink }}"><meta itemprop="name" content="{{ .Title }}"><meta itemprop="datePublished" content="{{ .Date.Format "2006-01-02" }}"></span>
+{{- end }}
+{{- else }}
+{{- range (where site.RegularPages "Section" "talk").ByDate.Reverse }}
+<span itemprop="performerIn" {{ partial "talk_schema_scope" . }}><link itemprop="url" href="{{ .Permalink }}"><meta itemprop="name" content="{{ .Title }}"><meta itemprop="startDate" content="{{ (time.AsTime (.Params.time_start | default .Date)).Format "2006-01-02T15:04:05" }}"></span>
+{{- end }}
+{{- end }}
+</div>

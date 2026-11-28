@@ -28,7 +28,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import quote, unquote, urlparse
 
-from microdata import Vocabulary, all_items, parse as parse_microdata
+from microdata import Tree, Vocabulary, all_items, parse as parse_microdata, walk
 
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
@@ -1108,6 +1108,61 @@ class TestSchemaOrg(SiteTestCase):
         self.assertIsNotNone(person, "The ProfilePage has no mainEntity")
         self.assertEqual(person.type_names, ["Person"])
         self.assertEqual(person.id, owner_id())
+
+    def home_profile(self):
+        roots = root_items(microdata("/")[0])
+        self.assertEqual(len(roots), 1)
+        return roots[0], roots[0].value("mainEntity")
+
+    def test_home_links_to_all_content(self):
+        """The ProfilePage of the home page links to all publications,
+        projects and posts (hasPart), and the Person to all talks
+        (performerIn). Each linked item has the type, name and URL of the
+        page, and the owner as author when the owner is an author."""
+        profile, person = self.home_profile()
+        parts = {}
+        for part in profile.values("hasPart"):
+            self.assertTrue(hasattr(part, "id"), "hasPart must be an item")
+            parts.setdefault(part.id, part)
+        owner = norm_term(CONFIG["params"]["name"])
+        for c in pages_of("publication"):
+            with self.subTest(publication=c.path.stem):
+                part = parts.get(absolute(c.url_path))
+                self.assertIsNotNone(part, "The home page has no link to the publication")
+                types = c.params.get("publication_types") or ["0"]
+                self.assertEqual(part.type_names, [SCHEMA_PUBLICATION_TYPES.get(str(types[0]).strip(), "CreativeWork")])
+                self.assertEqual(norm_text(part.text("name")), plain_title(c.title))
+                self.assertEqual(part.text("url"), absolute(c.url_path))
+                if owner in {norm_term(a) for a in c.params.get("authors", [])}:
+                    self.assertIn(owner_id(), [a.id for a in part.values("author") + part.values("editor")])
+        for section, type_name in (("project", None), ("post", "BlogPosting")):
+            for c in pages_of(section):
+                with self.subTest(page=c.url_path):
+                    part = parts.get(absolute(c.url_path))
+                    self.assertIsNotNone(part, f"The home page has no link to {c.url_path}")
+                    self.assertEqual(part.type_names, [type_name or c.params.get("schema_type", "SoftwareSourceCode")])
+                    self.assertEqual(norm_text(part.text("name")), plain_title(c.title))
+        events = {e.id: e for e in person.values("performerIn")}
+        for c in pages_of("talk"):
+            with self.subTest(talk=c.path.stem):
+                event = events.get(absolute(c.url_path))
+                self.assertIsNotNone(event, "The Person has no link to the talk")
+                self.assertEqual(event.type_names, ["Event"])
+                self.assertEqual(norm_text(event.text("name")), plain_title(c.title))
+                self.assertTrue(event.text("startDate"))
+        # Links to the lists.
+        links = profile.values("significantLink")
+        for path in ("/publication/", "/talk/", "/project/", "/post/"):
+            self.assertIn(absolute(path), links)
+
+    def test_home_links_are_invisible(self):
+        """The links for machines are in elements with the hidden attribute and have no text."""
+        tree = Tree(site_file("/").read_text(encoding="utf-8"))
+        blocks = [e for e in walk(tree.root) if "schema-links" in e.get("class", "").split()]
+        self.assertTrue(blocks, "No hidden block of links")
+        for block in blocks:
+            self.assertIn("hidden", block.attrs)
+            self.assertEqual(block.text_content().strip(), "", "Visible text in the hidden block")
 
     def test_single_pages_are_roots(self):
         """The item of a publication, talk, project or post page is a root item."""

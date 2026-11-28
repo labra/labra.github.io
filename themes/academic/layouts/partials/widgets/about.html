@@ -9,6 +9,7 @@
   {{ with $.Site.Params.email }}<meta itemprop="email" content="{{ . }}">{{ end }}
   {{ with $.Site.Params.phone }}<meta itemprop="telephone" content="{{ . }}">{{ end }}
   {{ with $.Site.Params.address }}<meta itemprop="address" content="{{ . }}">{{ end }}
+  {{ partial "home_schema_links" "person" }}
   <div class="col-xs-12 col-md-4">
     <div id="profile">
 

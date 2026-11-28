@@ -10,6 +10,7 @@
 <div itemscope itemtype="https://schema.org/ProfilePage" itemid="{{ .Permalink }}">
 <link itemprop="url" href="{{ .Permalink }}">
 <meta itemprop="name" content="{{ .Site.Title }}">
+{{ partial "home_schema_links" "page" }}
 
 <!-- Widgets -->
 {{ range $index, $page := where .Site.RegularPages "Type" "home" }}

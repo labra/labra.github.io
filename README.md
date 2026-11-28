@@ -138,6 +138,13 @@ the home page too.
 Talks and posts with no `authors` list have the owner of the site as
 speaker or author. Projects can have an `authors` list too.
 
+The home page also has links for machines to all the content of the site,
+in hidden elements (`layouts/partials/home_schema_links.html`). Visitors do
+not see them. The `ProfilePage` has all publications, projects and posts
+as `hasPart` (with the owner as author of the publications) and links to
+the lists as `significantLink`. The `Person` has all talks as
+`performerIn`.
+
 Tools such as validator.schema.org join the items with the same `itemid`
 and show at the top only the items that no other item uses. So the home
 page is one `ProfilePage`: if the `Person` was a separate item, the
