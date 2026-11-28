@@ -15,6 +15,8 @@ weight = 40
 
 # Supervised PhD students
 
+- [Hugo Lebredo Buján](https://www.linkedin.com/in/hugo-lebredo/): Aplicación de grafos de conocimiento en la interoperabilidad de datos descentralizados de ámbito privado, October, 2026
+
 - [Francisco Cifuentes Silva](http://www.fcifuentes.cl/): Tecnologías Semánticas en el ámbito político-legislativo, October, 2025
 
 - [Daniel Fernández Álvarez](http://danifdez.weso.es/): Extracción de conocimiento semántico estructurado mediante minería de medios sociales, Sept, 2022
@@ -34,17 +36,16 @@ weight = 40
   
 # PhD Students supervision (Current)
 
-- Hugo Lebredo Buján: Aplicación de grafos de conocimiento en la interoperabilidad de datos descentralizados de ámbito privado
+- [Claudio Andrés Navarro Cruces](https://www.linkedin.com/in/claudio-navarro-5837621a3/): Semantic Technologies Applied to Cyber-Physical Systems Modelling
 
-- Claudio Andrés Navarro Cruces: Semantic Technologies Applied to Cyber-Physical Systems Modelling
+- [Jorge Álvarez Fidalgo](https://www.linkedin.com/in/jorge-%C3%A1lvarez-fidalgo-98b840199/):  Applying Semantic Technologies and Knowledge Graphs to improve the representation of historical information
 
-- Ángel García Menéndez
+- [Ángel García Menéndez](https://www.linkedin.com/in/flecktarn121/): Extraction, processing and representation of information from medieval texts
 
-- Enrique José Rodríguez Martín
+- [Enrique José Rodríguez Martín](https://www.linkedin.com/in/enrique-jos%C3%A9-rodr%C3%ADguez-mart%C3%ADn-1226a31a6/): Applying Semantic Technologies and Knowledge Graphs to improve the representation and decission making about Blue Economy
 
-- Jorge Álvarez Fidalgo
+- Pablo Valdés Fernández:  Analysis and representation with semantic technologies of political discourse
 
-- Pablo Valdés Fernández
 
 # PhD Thesis Committees
 
@@ -58,6 +59,46 @@ weight = 40
 
 # Member of Scientific/Organizing committee
 
+- [ISWC27 - The 26th International Semantic Web Conference](https://iswc2027.semanticweb.org/): Research track, Posters and demos
+- [ESWC27 - 24th European Semantic Web Conference](https://2027.eswc-conferences.org/): Research track, In-use track, Resources track
+- [Wikidata26 - 6th Wikidata Workshop](https://wikidataworkshop.github.io/2026/)
+- [KGSWC26 - 8th Knowledge Graph and Semantic Web Conference](https://kgsw.org/)
+- [DMKG26 - 2nd International Workshop on Data Management for Knowledge Graphs](https://dmkg-workshop.github.io/2026/)
+- [4th KGMDSE - Workshop on Knowledge Graphs and Model-driven Systems Engineering](https://www.omilab.org/activities/events/iswc2026_kgmdse/)
+- [ISWC26 - The 25th International Semantic Web Conference](https://iswc2026.semanticweb.org/): Research track, In-use track, Posters and demos track
+- [ESWC26 - Extended Semantic Web Conference](https://2026.eswc-conferences.org/): Research track, Posters and demos track
+- [QKG2026 - Workshop on Quality of Knowledge Graphs](https://dataqualityws.github.io/): chair
+- [Semantics 26 - 22nd International Conference on Semantic Systems](https://2026-eu.semantics.cc/)
+- [IEEE CBMS - International Symposium on Computer-Based Medical Systems](http://2025.cbms-conference.org/): track chair (Special Track on Semantic Interoperability of Biomedical Data), PC member
+- [KCap 25 - International Conference on Knowledge Capture](https://www.k-cap.org/2025/)
+- [KGSWC25 - 7th Knowledge Graph and Semantic Web Conference](https://kgsw.org/index.php)
+- [Semantics 2025](https://2025-eu.semantics.cc/): Research track
+- [ESWC25 - Extended Semantic Web Conference](https://2025.eswc-conferences.org/): Research track, In-use track, Posters and demos track
+- [DaMaLOS 2024 - Workshop on Metadata and Research (objects) Management for Linked Open Science](https://zbmed.github.io/damalos/)
+- [ISWC24 - International Semantic Web Conference](https://link.springer.com/book/10.1007/978-3-031-77850-6): Research track, Posters and demos
+- [ESWC24 - Extended Semantic Web Conference](https://2024.eswc-conferences.org/): Research track, Posters and demo track
+- [The ACM Web Conference 2023](https://www2023.thewebconf.org/): PC member of Semantics and Knowledge
+- [CAiSE 2023 - 35th International Conference on Advanced Information Systems Engineering](https://caise23.svit.usj.es/)
+- [KSEM23 - 16th International Conference on Knowledge Science, Engineering and Management](https://ksem2023.conferences.academy/)
+- [KCap23 -	The Twelfth International Conference in Knowledge Capture](https://www.k-cap.org/2023/index.html)
+- [CBMS23 - IEEE 36th International Symposium on Computer-Based Medical Systems 2023](https://2023.cbms-conference.org/)
+- [KGSWC23 - Knowledge Graphs and Semantic Web Conference](http://kgswc.org/)
+- [DaMaLos23 - Workshop on Metadata and Research (objects) Management for Linked Open Science](https://zbmed.github.io/damalos/)
+- [IJCKG23 - The 12th International Joint Conference on Knowledge Graphs](https://ijckg2023.knowledge-graph.jp/)
+- [ISWC23 - International Semantic Web Conference](https://iswc2023.semanticweb.org/): Research Track
+- [ESWC23 - Extended Semantic Web Conference](https://2023.eswc-conferences.org/): Research track, In-use track, Resource track, Posters and demos track
+- [The Web Conference 2022](https://www2022.thewebconf.org/)
+- [ISWC22 - The 21th International Semantic Web Conference](https://iswc2022.semanticweb.org/): Research Track
+- [3rd Workshop on Research Objects Metadata and Management for Linked Open Science](https://zbmed.github.io/damalos/)
+- [IJCKG22 - The 11th International Joint Conference on Knowledge Graphs](http://www.ijckg.org/)
+- [SIMBig22 - 9th International Conference on Information Management and Big Data](https://simbig.org/SIMBig2022/)
+- [ProLingKNOWER: PROfiling LINGuistic KNOWledgE gRaphs](https://nexuslinguarum.eu/)
+- [ESWC 2022 (Extended Semantic Web Conference)](https://2022.eswc-conferences.org/): Research track, Posters and demos track
+- [International Semantic Web Conference, 2021](https://link.springer.com/book/10.1007/978-3-030-88361-4): Resarch Track
+- [International Joint Conference on Knowledge Graphs 2021](https://www.ijckg.org/2021/)
+- [4th Workshop on Quality of Open Data (QOD 2021)](https://bisconf.org/2021/qod/)
+- [DaMaLOS 2021 (2nd Workshop on Data and research objects management for Linked Open Science)](https://zbmed.github.io/damalos/)
+- [4th International Workshop on Semantic Web, IWSW](http://www.kgswc.org/iwsw-2021/)
 - [International Semantic Web Conference, 2020](https://iswc2020.semanticweb.org/)
 - [Joint International Conference on Knowledge Graphs 2020](https://language-semantic.org/jist-kg-2020/)
 - [DaMaLOS-2020: First workshop on Research data* management for linked open science (* and associated Research Objects)](https://zbmed.github.io/damalos/)
