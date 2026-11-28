@@ -92,7 +92,7 @@
         
 
         <li class="nav-item">
-          <a href="/#publications">
+          <a href="/publication/">
             
             <span>Publications</span>
           </a>
@@ -116,7 +116,7 @@
         
 
         <li class="nav-item">
-          <a href="/#projects">
+          <a href="/project/">
             
             <span>Projects</span>
           </a>
@@ -140,7 +140,7 @@
         
 
         <li class="nav-item">
-          <a href="/#talks">
+          <a href="/talk/">
             
             <span>Talks</span>
           </a>
@@ -200,8 +200,6 @@
   <div class="row">
     <div class="col-md-12">
       <h1>Publications</h1>
-
-      
 
       <div class="list-filters" data-list="#container-publications" data-noun="publications">
   <p class="list-filters-row">
@@ -310,7 +308,7 @@
       <option value="faas">FaaS (1)</option>
       <option value="fishing-data">Fishing Data (1)</option>
       <option value="free-services">Free-Services (1)</option>
-      <option value="functional-programming">Functional-Programming (10)</option>
+      <option value="functional-programming">Functional Programming (10)</option>
       <option value="graph-data-abstractions">Graph Data Abstractions (1)</option>
       <option value="graphs">Graphs (1)</option>
       <option value="haskell">Haskell (2)</option>
@@ -353,7 +351,7 @@
       <option value="methodology">Methodology (1)</option>
       <option value="microservices">Microservices (1)</option>
       <option value="migration">Migration (1)</option>
-      <option value="model-context-protocol">Model-Context-Protocol (2)</option>
+      <option value="model-context-protocol">Model Context Protocol (2)</option>
       <option value="model-driven-architecture">Model-Driven-Architecture (1)</option>
       <option value="modular-monadic-semantics">Modular-Monadic-Semantics (5)</option>
       <option value="moldeas">Moldeas (1)</option>
@@ -383,7 +381,7 @@
       <option value="project-based-learning">Project-Based-Learning (1)</option>
       <option value="prolog">Prolog (1)</option>
       <option value="property-graphs">Property Graphs (5)</option>
-      <option value="propositional-logic">Propositional-Logic (4)</option>
+      <option value="propositional-logic">Propositional Logic (4)</option>
       <option value="prov-o">PROV-O (1)</option>
       <option value="provenance">Provenance (1)</option>
       <option value="public-administrations">Public Administrations (1)</option>
@@ -403,7 +401,7 @@
       <option value="research-data-management">Research Data Management (1)</option>
       <option value="rust">Rust (2)</option>
       <option value="schema-classifications">Schema-Classifications (1)</option>
-      <option value="semantic-search">Semantic Search (2)</option>
+      <option value="semantic-search">Semantic-Search (2)</option>
       <option value="semantic-technologies">Semantic Technologies (3)</option>
       <option value="semantic-web">Semantic-Web (48)</option>
       <option value="serverless">Serverless (1)</option>
@@ -451,7 +449,7 @@
       <button type="button" class="btn btn-primary btn-outline btn-xs list-tag-chip" data-tag="shex">ShEx (41)</button>
       <button type="button" class="btn btn-primary btn-outline btn-xs list-tag-chip" data-tag="rdf-validation">RDF-Validation (16)</button>
       <button type="button" class="btn btn-primary btn-outline btn-xs list-tag-chip" data-tag="wikidata">Wikidata (11)</button>
-      <button type="button" class="btn btn-primary btn-outline btn-xs list-tag-chip" data-tag="functional-programming">Functional-Programming (10)</button>
+      <button type="button" class="btn btn-primary btn-outline btn-xs list-tag-chip" data-tag="functional-programming">Functional Programming (10)</button>
       <button type="button" class="btn btn-primary btn-outline btn-xs list-tag-chip" data-tag="linked-data">Linked Data (9)</button>
       <button type="button" class="btn btn-primary btn-outline btn-xs list-tag-chip" data-tag="shacl">SHACL (9)</button>
       <button type="button" class="btn btn-primary btn-outline btn-xs list-tag-chip" data-tag="knowledge-graphs">Knowledge Graphs (7)</button>
@@ -465,6 +463,14 @@
   <p class="list-count" aria-live="polite">Showing 138 of 138 publications</p>
 </div>
 
+      
+      <div class="article-style list-intro" itemprop="articleBody"><p>Other lists:
+<a href="https://dblp.uni-trier.de/pers/hd/g/Gayo:Jos=eacute=_Emilio_Labra" target="_blank">DBLP</a>,
+<a href="https://scholar.google.com/citations?user=TGfRNZkAAAAJ" target="_blank">Google scholar</a>,
+<a href="https://www.semanticscholar.org/author/Jos%c3%a9-Emilio-Labra-Gayo/1729679" target="_blank">Semantic scholar</a>,
+<a href="https://www.researchgate.net/profile/Jose_Labra_Gayo" target="_blank">Research gate</a></p>
+</div>
+      
 
       <div id="container-publications">
         
@@ -1056,7 +1062,7 @@
 
         
 
-        <div class="col-md-12 pub-list-item" data-list-item data-date="20260724" data-tags="mcp model-context-protocol rdf togomcp llm sparql knowledge-graphs life-sciences" data-type="2" data-text="TogoMCP: natural language querying of life-science knowledge graphs via schema-guided LLMs and the Model Context Protocol Akira R Kinjo Yasunori Yamamoto Samuel Bustamante-Larriet Jose-Emilio Labra-Gayo Takatomo Fujisawa 2026 MCP Model-Context-Protocol RDF TogoMCP LLM SPARQL Knowledge Graphs Life Sciences Database Querying the RDF Portal knowledge graph maintained by DBCLS-which aggregates approximately 60 life-science databases-requires proficiency in both SPARQL and database-specific RDF schemas, placing this resource beyond the reach of most researchers. Large Language Models (LLMs) can, in principle, translate natural-language questions into executable SPARQL, but without schema-level context, they frequently fabricate non-existent predicates or fail to resolve entity names to database-specific identifiers. We present TogoMCP, a system that recasts the LLM as a protocol-driven inference engine orchestrating specialized tools via the Model Context Protocol (MCP). Two mechanisms are essential to its design: (i) the MIE (Metadata-Interoperability-Exchange) file, a concise YAML document that dynamically supplies the LLM with each target database’s structural and semantic context at query time; and (ii) a two-stage workflow separating entity resolution via external REST APIs from schema-guided SPARQL generation. On a benchmark of 50 biologically grounded questions spanning five types and 23 databases, TogoMCP achieved a large improvement over an unaided baseline (Cohen’s $d = 1.82$, Wilcoxon $P &gt; .001$), with win rates exceeding 80% for question types with precise, verifiable answers. An ablation study shows that all component configurations deliver significant improvements, with MIE schema files providing the largest marginal contribution on mean per-question score (Delta = +0.50 relative to a no-MIE condition, two-sided Wilcoxon P = .067; 90% bootstrap CI [+0.04,+0.94] excludes zero); a one-line instruction to load the relevant MIE file recovers the same mean improvement as a full procedural protocol, while the protocol additionally reduces downside risk (loss rate 1.6% vs. 4.8%, Fisher $P = .036$). These results suggest a general design principle: concise, dynamically delivered schema context is more valuable than complex orchestration logic for mean score performance, while procedural guidance plays a complementary role in narrowing variance.">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20260724" data-tags="mcp model-context-protocol rdf togomcp llm sparql knowledge-graphs life-sciences" data-type="2" data-text="TogoMCP: natural language querying of life-science knowledge graphs via schema-guided LLMs and the Model Context Protocol Akira R Kinjo Yasunori Yamamoto Samuel Bustamante-Larriet Jose-Emilio Labra-Gayo Takatomo Fujisawa 2026 MCP Model Context Protocol RDF TogoMCP LLM SPARQL Knowledge Graphs Life Sciences Database Querying the RDF Portal knowledge graph maintained by DBCLS-which aggregates approximately 60 life-science databases-requires proficiency in both SPARQL and database-specific RDF schemas, placing this resource beyond the reach of most researchers. Large Language Models (LLMs) can, in principle, translate natural-language questions into executable SPARQL, but without schema-level context, they frequently fabricate non-existent predicates or fail to resolve entity names to database-specific identifiers. We present TogoMCP, a system that recasts the LLM as a protocol-driven inference engine orchestrating specialized tools via the Model Context Protocol (MCP). Two mechanisms are essential to its design: (i) the MIE (Metadata-Interoperability-Exchange) file, a concise YAML document that dynamically supplies the LLM with each target database’s structural and semantic context at query time; and (ii) a two-stage workflow separating entity resolution via external REST APIs from schema-guided SPARQL generation. On a benchmark of 50 biologically grounded questions spanning five types and 23 databases, TogoMCP achieved a large improvement over an unaided baseline (Cohen’s $d = 1.82$, Wilcoxon $P &gt; .001$), with win rates exceeding 80% for question types with precise, verifiable answers. An ablation study shows that all component configurations deliver significant improvements, with MIE schema files providing the largest marginal contribution on mean per-question score (Delta = +0.50 relative to a no-MIE condition, two-sided Wilcoxon P = .067; 90% bootstrap CI [+0.04,+0.94] excludes zero); a one-line instruction to load the relevant MIE file recovers the same mean improvement as a full procedural protocol, while the protocol additionally reduces downside risk (loss rate 1.6% vs. 4.8%, Fisher $P = .036$). These results suggest a general design principle: concise, dynamically delivered schema context is more valuable than complex orchestration logic for mean score performance, while procedural guidance plays a complementary role in narrowing variance.">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	TogoMCP: natural language querying of life-science knowledge graphs via schema-guided LLMs and the Model Context Protocol,
@@ -1121,7 +1127,7 @@
 
         
 
-        <div class="col-md-12 pub-list-item" data-list-item data-date="20260512" data-tags="rdf semantic-web rdf-validation shex mcp model-context-protocol rust demo" data-type="1" data-text="rudof-MCP: A Model Context Protocol Server for Semantic Web Operations Samuel Bustamante Larriet Diego Martín Fernández Álvaro García Fernández Daniel Fernández Álvarez Jose Emilio Labra Gayo 2026 RDF Semantic-Web RDF-Validation ShEx MCP Model-Context-Protocol Rust Demo Extended Semantic Web Conference, ESWC26, Posters and Demos rudof is a Rust library that offers Semantic Web operations (RDF processing, SPARQL queries, ShEx/SHACL validation, among others). The Model Context Protocol (MCP) provides a standardized interface for AI agents to interact with external systems. This demo presents rudof-MCP, an MCP server exposing rudof’s functionalities to AI agents through natural language. By delegating Semantic Web operations to rudof at inference time, LLMs can reduce dependence on pretraining knowledge and ground their outputs in auditable tool invocations that ensure the accuracy and reproducibility of results. In this demo, we showcase this by comparing Claude with and without access to rudof-MCP on a set of Semantic Web tasks.">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20260512" data-tags="rdf semantic-web rdf-validation shex mcp model-context-protocol rust demo" data-type="1" data-text="rudof-MCP: A Model Context Protocol Server for Semantic Web Operations Samuel Bustamante Larriet Diego Martín Fernández Álvaro García Fernández Daniel Fernández Álvarez Jose Emilio Labra Gayo 2026 RDF Semantic-Web RDF-Validation ShEx MCP Model Context Protocol Rust Demo Extended Semantic Web Conference, ESWC26, Posters and Demos rudof is a Rust library that offers Semantic Web operations (RDF processing, SPARQL queries, ShEx/SHACL validation, among others). The Model Context Protocol (MCP) provides a standardized interface for AI agents to interact with external systems. This demo presents rudof-MCP, an MCP server exposing rudof’s functionalities to AI agents through natural language. By delegating Semantic Web operations to rudof at inference time, LLMs can reduce dependence on pretraining knowledge and ground their outputs in auditable tool invocations that ensure the accuracy and reproducibility of results. In this demo, we showcase this by comparing Claude with and without access to rudof-MCP on a set of Semantic Web tasks.">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	rudof-MCP: A Model Context Protocol Server for Semantic Web Operations,
@@ -5820,7 +5826,7 @@
 
         
 
-        <div class="col-md-12 pub-list-item" data-list-item data-date="20131201" data-tags="rdf functional-programming graphs inductive-graphs" data-type="2" data-text="Inductive Representations of RDF Graphs Jose Emilio Labra Gayo Johan Jeuring Jose María Álvarez Rodríguez 2013 RDF Functional-Programming Graphs Inductive-Graphs Science of Computer Programming RDF forms the basis of the semantic web technology stack. It is based on a directed graph model where nodes and edges are identified by URIs. Occasionally, such graphs contain literals or blank nodes. The existential nature of blank nodes complicates the graph representation. In this paper we propose a purely functional representation of RDF graphs using a special form of inductive graphs called inductive triple graphs. We employ logical variables to represent blank nodes. This approach can be implemented in any functional programming language such as Haskell and Scala.">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20131201" data-tags="rdf functional-programming graphs inductive-graphs" data-type="2" data-text="Inductive Representations of RDF Graphs Jose Emilio Labra Gayo Johan Jeuring Jose María Álvarez Rodríguez 2013 RDF Functional Programming Graphs Inductive-Graphs Science of Computer Programming RDF forms the basis of the semantic web technology stack. It is based on a directed graph model where nodes and edges are identified by URIs. Occasionally, such graphs contain literals or blank nodes. The existential nature of blank nodes complicates the graph representation. In this paper we propose a purely functional representation of RDF graphs using a special form of inductive graphs called inductive triple graphs. We employ logical variables to represent blank nodes. This approach can be implemented in any functional programming language such as Haskell and Scala.">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Inductive Representations of RDF Graphs,
@@ -7100,7 +7106,7 @@
 
         
 
-        <div class="col-md-12 pub-list-item" data-list-item data-date="20081201" data-tags="collaborative-tagging emergent-semantics semantic-search" data-type="2" data-text="SOAF: Semantic Indexing System Based on Collaborative Tagging Ana Cernea Doina Ester del Moral Jose Emilio Labra Gayo 2008 Collaborative-Tagging Emergent Semantics Semantic Search In Interdisciplinary Journal of E-Learning and Learning Objects, vol 4(1) The creation of Learning Objects and learning assets for e-Learning, as well as the development of more and more extensive repositories, is actually a generalized practice in all educational organizations. However, automatic tools for search ing and locating learning content in these repositories based on semantic tags are not yet effective. This article proposes a system architecture called SOAF for the semantic indexing of Learning Objects from a repository. It combines automatic techniques of information retrieval with collaborative tagging of documents made by users. In this way, the metadata of the Learning Objects provides real meaning derived from the learning practice in user communities able to share their experiences through specific annotation of the learning content, which will identify each Learning Object and will improve its reusability in new learning contexts.">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20081201" data-tags="collaborative-tagging emergent-semantics semantic-search" data-type="2" data-text="SOAF: Semantic Indexing System Based on Collaborative Tagging Ana Cernea Doina Ester del Moral Jose Emilio Labra Gayo 2008 Collaborative-Tagging Emergent Semantics Semantic-Search In Interdisciplinary Journal of E-Learning and Learning Objects, vol 4(1) The creation of Learning Objects and learning assets for e-Learning, as well as the development of more and more extensive repositories, is actually a generalized practice in all educational organizations. However, automatic tools for search ing and locating learning content in these repositories based on semantic tags are not yet effective. This article proposes a system architecture called SOAF for the semantic indexing of Learning Objects from a repository. It combines automatic techniques of information retrieval with collaborative tagging of documents made by users. In this way, the metadata of the Learning Objects provides real meaning derived from the learning practice in user communities able to share their experiences through specific annotation of the learning content, which will identify each Learning Object and will improve its reusability in new learning contexts.">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	SOAF: Semantic Indexing System Based on Collaborative Tagging,
@@ -7306,7 +7312,7 @@
 
         
 
-        <div class="col-md-12 pub-list-item" data-list-item data-date="20061107" data-tags="public-administration semantic-web semantic-search rdf" data-type="1" data-text="Searching over Public Administration Legal Documents Using Ontologies Diego Berrueta Muñoz Jose Emilio Labra Gayo Luis Polo Paredes 2006 Public-Administration Semantic-Web Semantic Search RDF In International Joint Conference on Knowledge Based Software Engineering IJCKBS, 06 In this paper, we apply Semantic Web technologies to the creation of an improved search engine over legal and public administration documents. Conventional search strategies based on syntactic matching of tokens offer little help when the users’ vocabulary and the documents’ vocabulary differ. This is often the case in public administration documents. We present a semantic search tool that fills this gap using Semantic Web technologies, in particular, ontologies and controlled vocabularies, and a hybrid search approach, avoiding the expensive tagging of documents.">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20061107" data-tags="public-administration semantic-web semantic-search rdf" data-type="1" data-text="Searching over Public Administration Legal Documents Using Ontologies Diego Berrueta Muñoz Jose Emilio Labra Gayo Luis Polo Paredes 2006 Public-Administration Semantic-Web Semantic-Search RDF In International Joint Conference on Knowledge Based Software Engineering IJCKBS, 06 In this paper, we apply Semantic Web technologies to the creation of an improved search engine over legal and public administration documents. Conventional search strategies based on syntactic matching of tokens offer little help when the users’ vocabulary and the documents’ vocabulary differ. This is often the case in public administration documents. We present a semantic search tool that fills this gap using Semantic Web technologies, in particular, ontologies and controlled vocabularies, and a hybrid search approach, avoiding the expensive tagging of documents.">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Searching over Public Administration Legal Documents Using Ontologies,
@@ -7459,7 +7465,7 @@
 
         
 
-        <div class="col-md-12 pub-list-item" data-list-item data-date="20051003" data-tags="functional-programming slicer modular-monadic-semantics" data-type="1" data-text="A Formal Method for program Slicing Yingzhou Zhang Baowen Xu Jose Emilio Labra Gayo 2005 Functional-Programming Slicer Modular-Monadic-Semantics In Australian Software Engineering Conference, ASWEC 2005 Program slicing is a well-known program analysis technique that extracts the elements of a program related to a particular computation. Based on modular monadic semantics of a programming language, this paper presents a new formal method for slicing, called modular monadic slicing, by abstracting the computation of slicing as a slice monad transformer. With the use of slice transformer, the feature of program slicing can be combined in a modular way into semantic descriptions of the program analyzed. According to these, this paper gives both monadic dynamic and static slicing algorithms. They compute program slices directly on abstract syntax, without the needs to explicitly construct intermediate structures such as dependence graphs, or to record an execution history in dynamic slicing algorithm.">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20051003" data-tags="functional-programming slicer modular-monadic-semantics" data-type="1" data-text="A Formal Method for program Slicing Yingzhou Zhang Baowen Xu Jose Emilio Labra Gayo 2005 Functional Programming Slicer Modular-Monadic-Semantics In Australian Software Engineering Conference, ASWEC 2005 Program slicing is a well-known program analysis technique that extracts the elements of a program related to a particular computation. Based on modular monadic semantics of a programming language, this paper presents a new formal method for slicing, called modular monadic slicing, by abstracting the computation of slicing as a slice monad transformer. With the use of slice transformer, the feature of program slicing can be combined in a modular way into semantic descriptions of the program analyzed. According to these, this paper gives both monadic dynamic and static slicing algorithms. They compute program slices directly on abstract syntax, without the needs to explicitly construct intermediate structures such as dependence graphs, or to record an execution history in dynamic slicing algorithm.">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	A Formal Method for program Slicing,
@@ -7508,7 +7514,7 @@
 
         
 
-        <div class="col-md-12 pub-list-item" data-list-item data-date="20040601" data-tags="functional-programming lazy-programming logic-programming haskell" data-type="1" data-text="Representaciones gráficas y Mundos Virtuales infinitos en las Prácticas de Programación Lógica y Funcional Jose Emilio Labra Gayo 2004 Functional-Programming Lazy-Programming Logic-Programming Haskell IX Jornadas de Enseñanza Universitaria de Informática (Jenui 2003), Cádiz, Spain En el esquema de prácticas de la asignatura de programación lógica y funcional se ha incorporado la generación de representaciones gráficas y de quadtrees y octrees para la enseñanza de las diferentes características de este tipo de lenguajes: funciones de orden superior, evaluación perezosa, polimorfismo, variables lógicas, satisfacción de restricciones, etc. La utilización de vocabularios XML estándar: SVG para gráficos y X3D para realidad virtual permite disponer de numerosas herramientas de visualización. La incorporación de este tipo de ejercicios puede facilitar la enseñanza y motivación de los estudiantes.">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20040601" data-tags="functional-programming lazy-programming logic-programming haskell" data-type="1" data-text="Representaciones gráficas y Mundos Virtuales infinitos en las Prácticas de Programación Lógica y Funcional Jose Emilio Labra Gayo 2004 Functional Programming Lazy-Programming Logic-Programming Haskell IX Jornadas de Enseñanza Universitaria de Informática (Jenui 2003), Cádiz, Spain En el esquema de prácticas de la asignatura de programación lógica y funcional se ha incorporado la generación de representaciones gráficas y de quadtrees y octrees para la enseñanza de las diferentes características de este tipo de lenguajes: funciones de orden superior, evaluación perezosa, polimorfismo, variables lógicas, satisfacción de restricciones, etc. La utilización de vocabularios XML estándar: SVG para gráficos y X3D para realidad virtual permite disponer de numerosas herramientas de visualización. La incorporación de este tipo de ejercicios puede facilitar la enseñanza y motivación de los estudiantes.">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Representaciones gráficas y Mundos Virtuales infinitos en las Prácticas de Programación Lógica y Funcional,
@@ -7651,7 +7657,7 @@
 
         
 
-        <div class="col-md-12 pub-list-item" data-list-item data-date="20030201" data-tags="elearning functional-programming logic-programming multi-paradigm" data-type="1" data-text="A Generic e-Learning Multiparadigm Programming Language System: IDEFIX Project Jose Emilio Labra Gayo Jose Manuel Morales Gil Alberto Manuel Fernández Álvarez Hernán Sagastegui Chigne 2003 ELearning Functional-Programming Logic-Programming Multi-Paradigm In ACM Technical Symposium on Computer Science Education (SIGCSE 2003), Reno, Nevada (USA)">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20030201" data-tags="elearning functional-programming logic-programming multi-paradigm" data-type="1" data-text="A Generic e-Learning Multiparadigm Programming Language System: IDEFIX Project Jose Emilio Labra Gayo Jose Manuel Morales Gil Alberto Manuel Fernández Álvarez Hernán Sagastegui Chigne 2003 ELearning Functional Programming Logic-Programming Multi-Paradigm In ACM Technical Symposium on Computer Science Education (SIGCSE 2003), Reno, Nevada (USA)">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	A Generic e-Learning Multiparadigm Programming Language System: IDEFIX Project,
@@ -7702,7 +7708,7 @@
 
         
 
-        <div class="col-md-12 pub-list-item" data-list-item data-date="20030101" data-tags="language-prototyping-system logic-programming functional-programming modular-monadic-semantics" data-type="2" data-text="Specification of Logic Programming Languages from Reusable Semantic Building Blocks Jose Emilio Labra Gayo María C. Luengo Díaz Juan Manuel Cueva Lovelle Agustín Cernuda del Río 2003 Language-Prototyping-System Logic-Programming Functional-Programming Modular-Monadic-Semantics Electronic Notes on Theoretical Computer Science, vol. 64 We present a Language Prototyping System that facilitates the modular development of interpreters from independent semantic building blocks. The abstract syntax is modelled as the fixpoint of a pattern functor which can be obtained as the sum of functors. For each functor we define an algebra whose carrier is the computational structure. This structure is obtained as the composition of several monad transformers applied to a base monad, where each monad transformer adds a new notion of computation. When the abstract syntax is composed from mutually recursive categories, we use many-sorted algebras. With this approach, the prototype interpreters are automatically obtained as a catamorphism over the defined algebras. As an example, in this paper, we independently specify an arithmetic evaluator and a simple logic programming language and combine both specifications to obtain a logic programming language with arithmetic capabilities.">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20030101" data-tags="language-prototyping-system logic-programming functional-programming modular-monadic-semantics" data-type="2" data-text="Specification of Logic Programming Languages from Reusable Semantic Building Blocks Jose Emilio Labra Gayo María C. Luengo Díaz Juan Manuel Cueva Lovelle Agustín Cernuda del Río 2003 Language-Prototyping-System Logic-Programming Functional Programming Modular-Monadic-Semantics Electronic Notes on Theoretical Computer Science, vol. 64 We present a Language Prototyping System that facilitates the modular development of interpreters from independent semantic building blocks. The abstract syntax is modelled as the fixpoint of a pattern functor which can be obtained as the sum of functors. For each functor we define an algebra whose carrier is the computational structure. This structure is obtained as the composition of several monad transformers applied to a base monad, where each monad transformer adds a new notion of computation. When the abstract syntax is composed from mutually recursive categories, we use many-sorted algebras. With this approach, the prototype interpreters are automatically obtained as a catamorphism over the defined algebras. As an example, in this paper, we independently specify an arithmetic evaluator and a simple logic programming language and combine both specifications to obtain a logic programming language with arithmetic capabilities.">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Specification of Logic Programming Languages from Reusable Semantic Building Blocks,
@@ -7757,7 +7763,7 @@
 
         
 
-        <div class="col-md-12 pub-list-item" data-list-item data-date="20020701" data-tags="functional-programming logic-programming elearning" data-type="1" data-text="Plataforma de enseñanza de lenguajes de programación a través de Internet: Proyecto IDEFIX Jose Emilio Labra Gayo Jose Manuel Morales Gil Roberto Turrado Camblor 2002 Functional-Programming Logic-Programming ELearning In VIII Jornadas de Enseñanza Universitaria de Informática, Cáceres, Spain En este artículo se describe la arquitectura del proyecto IDEFIX cuyo objetivo es desarrollar una plataforma que facilite la enseñanza de la programación en diferentes lenguajes mediante la utilización de Internet. El sistema permite la realización de prácticas de laboratorio mediante la creación de un entorno dinámico de desarrollo basado en Internet. En este entorno, los estudiantes tienen acceso a través de Internet a los enunciados de los ejercicios de programación escritos en un formato XML, que facilita la presentación en sistemas heterogéneos y que permite la posterior evaluación de forma automática. El sistema facilitará la realización interactiva de los ejercicios monitorizando los resultados parciales, fomentando el desarrollo colaborativo y facilitando la automatización del proceso de evaluación.">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20020701" data-tags="functional-programming logic-programming elearning" data-type="1" data-text="Plataforma de enseñanza de lenguajes de programación a través de Internet: Proyecto IDEFIX Jose Emilio Labra Gayo Jose Manuel Morales Gil Roberto Turrado Camblor 2002 Functional Programming Logic-Programming ELearning In VIII Jornadas de Enseñanza Universitaria de Informática, Cáceres, Spain En este artículo se describe la arquitectura del proyecto IDEFIX cuyo objetivo es desarrollar una plataforma que facilite la enseñanza de la programación en diferentes lenguajes mediante la utilización de Internet. El sistema permite la realización de prácticas de laboratorio mediante la creación de un entorno dinámico de desarrollo basado en Internet. En este entorno, los estudiantes tienen acceso a través de Internet a los enunciados de los ejercicios de programación escritos en un formato XML, que facilita la presentación en sistemas heterogéneos y que permite la posterior evaluación de forma automática. El sistema facilitará la realización interactiva de los ejercicios monitorizando los resultados parciales, fomentando el desarrollo colaborativo y facilitando la automatización del proceso de evaluación.">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Plataforma de enseñanza de lenguajes de programación a través de Internet: Proyecto IDEFIX,
@@ -7806,7 +7812,7 @@
 
         
 
-        <div class="col-md-12 pub-list-item" data-list-item data-date="20010701" data-tags="functional-programming logic-programming modular-monadic-semantics language-processors" data-type="8" data-text="Modular development of Language Processors from Reusable Semantic Specifications Jose Emilio Labra Gayo 2001 Functional-Programming Logic-Programming Modular-Monadic-Semantics Language-Processors PhD thesis (in Spanish)">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="20010701" data-tags="functional-programming logic-programming modular-monadic-semantics language-processors" data-type="8" data-text="Modular development of Language Processors from Reusable Semantic Specifications Jose Emilio Labra Gayo 2001 Functional Programming Logic-Programming Modular-Monadic-Semantics Language-Processors PhD thesis (in Spanish)">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Modular development of Language Processors from Reusable Semantic Specifications,
@@ -7896,7 +7902,7 @@
 
         
 
-        <div class="col-md-12 pub-list-item" data-list-item data-date="19981001" data-tags="logic propositional-logic" data-type="7" data-text="Lógica proposicional para informática Jose Emilio Labra Gayo Ana I. Fernández 1998 Logic Propositional-Logic Ed. Servitec, Num. 12, ISBN: 84-8416-613-9">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="19981001" data-tags="logic propositional-logic" data-type="7" data-text="Lógica proposicional para informática Jose Emilio Labra Gayo Ana I. Fernández 1998 Logic Propositional Logic Ed. Servitec, Num. 12, ISBN: 84-8416-613-9">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Lógica proposicional para informática,
@@ -7943,7 +7949,7 @@
 
         
 
-        <div class="col-md-12 pub-list-item" data-list-item data-date="19981001" data-tags="logic propositional-logic predicate-logic exercises" data-type="7" data-text="Ejercicios de lógica informática Jose Emilio Labra Gayo Ana I. Fernández 1998 Logic Propositional-Logic Predicate Logic Exercises Ed. Servitec, Num. 9, ISBN: 84-8416-357-1">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="19981001" data-tags="logic propositional-logic predicate-logic exercises" data-type="7" data-text="Ejercicios de lógica informática Jose Emilio Labra Gayo Ana I. Fernández 1998 Logic Propositional Logic Predicate Logic Exercises Ed. Servitec, Num. 9, ISBN: 84-8416-357-1">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Ejercicios de lógica informática,
@@ -7990,7 +7996,7 @@
 
         
 
-        <div class="col-md-12 pub-list-item" data-list-item data-date="19980101" data-tags="modular-monadic-semantics functional-programming programming-language-semantics" data-type="1" data-text="An Implementation of Modular Monadic Semantics using Folds and Monadic Folds Jose Emilio Labra Gayo 1998 Modular-Monadic-Semantics Functional-Programming Programming-Language-Semantics Workshop on Research Themes on Functional Programming, Third International Summer School on Advanced Functional Programming">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="19980101" data-tags="modular-monadic-semantics functional-programming programming-language-semantics" data-type="1" data-text="An Implementation of Modular Monadic Semantics using Folds and Monadic Folds Jose Emilio Labra Gayo 1998 Modular-Monadic-Semantics Functional Programming Programming-Language-Semantics Workshop on Research Themes on Functional Programming, Third International Summer School on Advanced Functional Programming">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	An Implementation of Modular Monadic Semantics using Folds and Monadic Folds,
@@ -8035,7 +8041,7 @@
 
         
 
-        <div class="col-md-12 pub-list-item" data-list-item data-date="19971001" data-tags="functional-programming musical-composition" data-type="1" data-text="Harmony: a functional system for musical composition Jose Emilio Labra Gayo Juan Manuel Cueva Lovelle Luis Ángel Oliveira 1997 Functional-Programming Musical Composition In II Conferencia Latinoamericana de Programación Funcional This paper describes HARMONY: a system that integrates the phases that take part in the creation of a musical composition. The kernel deals with automatic melody generation through fractal algorithms and harmonisation of generated melodies based on traditional theory. The system has been developed in Haskell and works on top of the musical description system Haskore.">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="19971001" data-tags="functional-programming musical-composition" data-type="1" data-text="Harmony: a functional system for musical composition Jose Emilio Labra Gayo Juan Manuel Cueva Lovelle Luis Ángel Oliveira 1997 Functional Programming Musical Composition In II Conferencia Latinoamericana de Programación Funcional This paper describes HARMONY: a system that integrates the phases that take part in the creation of a musical composition. The kernel deals with automatic melody generation through fractal algorithms and harmonisation of generated melodies based on traditional theory. The system has been developed in Haskell and works on top of the musical description system Haskore.">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Harmony: a functional system for musical composition,
@@ -8084,7 +8090,7 @@
 
         
 
-        <div class="col-md-12 pub-list-item" data-list-item data-date="19950101" data-tags="haskell functional-programming lecture-notes" data-type="7" data-text="Introducción al lenguaje Haskell Jose Emilio Labra Gayo 1995 Haskell Functional-Programming Lecture-Notes Cuaderno didáctico, Número 87, Depto. Matemáticas Course notes for the Logic and Functional Programming course. It is mainly a summary of The Gentle Introduction to Haskell in spanish.">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="19950101" data-tags="haskell functional-programming lecture-notes" data-type="7" data-text="Introducción al lenguaje Haskell Jose Emilio Labra Gayo 1995 Haskell Functional Programming Lecture-Notes Cuaderno didáctico, Número 87, Depto. Matemáticas Course notes for the Logic and Functional Programming course. It is mainly a summary of The Gentle Introduction to Haskell in spanish.">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Introducción al lenguaje Haskell,
@@ -8129,7 +8135,7 @@
 
         
 
-        <div class="col-md-12 pub-list-item" data-list-item data-date="19930101" data-tags="logic propositional-logic predicate-logic exercises" data-type="7" data-text="Lógica de predicados de primer orden Jose Emilio Labra Gayo 1993 Logic Propositional-Logic Predicate Logic Exercises Cuaderno didáctico, Número 77, Depto. Matemáticas Lecture notes for the second part of the course Logic. It contains an appendix with a lot of exercises with their solutions.">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="19930101" data-tags="logic propositional-logic predicate-logic exercises" data-type="7" data-text="Lógica de predicados de primer orden Jose Emilio Labra Gayo 1993 Logic Propositional Logic Predicate Logic Exercises Cuaderno didáctico, Número 77, Depto. Matemáticas Lecture notes for the second part of the course Logic. It contains an appendix with a lot of exercises with their solutions.">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Lógica de predicados de primer orden,
@@ -8170,7 +8176,7 @@
 
         
 
-        <div class="col-md-12 pub-list-item" data-list-item data-date="19910101" data-tags="logic propositional-logic predicate-logic exercises" data-type="4" data-text="Simulación Entorno Operativo Unix Jose Emilio Labra Gayo Oliverio González Miguel Riesco Albizu 1991 Logic Propositional-Logic Predicate Logic Exercises Cuaderno didáctico, Número 39, Depto. Matemáticas This is a published version of my Final Year Project for the School of Computer Science Engineering. It presented a system the emulates the Unix Operating environment (its shell and some commands) in Ms-Dos. It was implemented in C.">
+        <div class="col-md-12 pub-list-item" data-list-item data-date="19910101" data-tags="logic propositional-logic predicate-logic exercises" data-type="4" data-text="Simulación Entorno Operativo Unix Jose Emilio Labra Gayo Oliverio González Miguel Riesco Albizu 1991 Logic Propositional Logic Predicate Logic Exercises Cuaderno didáctico, Número 39, Depto. Matemáticas This is a published version of my Final Year Project for the School of Computer Science Engineering. It presented a system the emulates the Unix Operating environment (its shell and some commands) in Ms-Dos. It was implemented in C.">
         <i class="fa fa-file-text-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px; padding-right: 10px;"></i>
      	Simulación Entorno Operativo Unix,
