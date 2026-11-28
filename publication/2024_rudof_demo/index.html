@@ -192,22 +192,33 @@
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+<div itemscope itemtype="https://schema.org/ScholarlyArticle" itemid="http://labra.weso.es/publication/2024_rudof_demo/">
+<link itemprop="url" href="http://labra.weso.es/publication/2024_rudof_demo/">
+<meta itemprop="datePublished" content="2024-05-10">
+<meta itemprop="keywords" content="RDF">
+<meta itemprop="keywords" content="Semantic-Web">
+<meta itemprop="keywords" content="RDF-validation">
+<meta itemprop="keywords" content="ShEx">
+<meta itemprop="keywords" content="Property graphs">
+<meta itemprop="keywords" content="Rust">
+<meta itemprop="keywords" content="Demo">
+
+<div class="pub">
 
   
 
 
   <div class="container pub-title">
     <h1 itemprop="name">rudof: A Rust Library for handling RDF data models and Shapes</h1>
-    <span class="pub-authors" itemprop="author">
+    <span class="pub-authors">
       
-         <a href="/authors/jose-emilio-labra-gayo">Jose Emilio Labra Gayo</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/jose-emilio-labra-gayo/"><a itemprop="url" href="/authors/jose-emilio-labra-gayo/"><span itemprop="name">Jose Emilio Labra Gayo</span></a></span>&nbsp;
       
-         <a href="/authors/%C3%A1ngel-iglesias-pr%C3%A9stamo">Ángel Iglesias Préstamo</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/%C3%A1ngel-iglesias-pr%C3%A9stamo/"><a itemprop="url" href="/authors/%C3%A1ngel-iglesias-pr%C3%A9stamo/"><span itemprop="name">Ángel Iglesias Préstamo</span></a></span>&nbsp;
       
-         <a href="/authors/diego-mart%C3%ADn-fern%C3%A1ndez">Diego Martín Fernández</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/diego-mart%C3%ADn-fern%C3%A1ndez/"><a itemprop="url" href="/authors/diego-mart%C3%ADn-fern%C3%A1ndez/"><span itemprop="name">Diego Martín Fernández</span></a></span>&nbsp;
       
-         <a href="/authors/marc-antoine-arnaud">Marc-Antoine Arnaud</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/marc-antoine-arnaud/"><a itemprop="url" href="/authors/marc-antoine-arnaud/"><span itemprop="name">Marc-Antoine Arnaud</span></a></span>&nbsp;
       
     </span>
     <span class="pull-right">
@@ -261,7 +272,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">In this paper we present rudof, a Rust library for RDF and RDF Data shapes. The library can be used as a command line tool but it can also be invoked from different systems. The flexibility of Rust enables the creation of binaries in Windows, Linux and Mac, as well as offering Python bindings and WebAssembly components. The library supports ShEx and SHACL, as well as other RDF data modeling languages like DCTAP, offering conversion mechanisms between them. It can also be used to generate UML-like visualizations of those data models. </p>
+  <p class="pub-abstract" itemprop="abstract">In this paper we present rudof, a Rust library for RDF and RDF Data shapes. The library can be used as a command line tool but it can also be invoked from different systems. The flexibility of Rust enables the creation of binaries in Windows, Linux and Mac, as well as offering Python bindings and WebAssembly components. The library supports ShEx and SHACL, as well as other RDF data modeling languages like DCTAP, offering conversion mechanisms between them. It can also be used to generate UML-like visualizations of those data models. </p>
 
   
   <div class="row">
@@ -288,7 +299,9 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9"><em>International Semantic Web Conference</em>, ISWC24, Posters and Demos</div>
+        <div class="col-xs-12 col-sm-9">
+          <span itemprop="isPartOf" itemscope itemtype="https://schema.org/CreativeWork"><span itemprop="name"><em>International Semantic Web Conference</em>, ISWC24, Posters and Demos</span></span>
+        </div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -300,8 +313,8 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
-        <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          May, 2024
+        <div class="col-xs-12 col-sm-9">
+          <time datetime="2024-05-10">May, 2024</time>
         </div>
       </div>
     </div>
@@ -314,7 +327,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Tags</div>
-        <div class="col-xs-12 col-sm-9" itemprop="tags">
+        <div class="col-xs-12 col-sm-9">
           
             <a href="/tags/rdf">RDF</a>&nbsp; 
           
@@ -411,6 +424,7 @@
 
   <div class="article-style"></div>
 
+</div>
 </div>
 
 <div class="container">

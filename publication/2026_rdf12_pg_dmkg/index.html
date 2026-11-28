@@ -192,28 +192,32 @@
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+<div itemscope itemtype="https://schema.org/ScholarlyArticle" itemid="http://labra.weso.es/publication/2026_rdf12_pg_dmkg/">
+<link itemprop="url" href="http://labra.weso.es/publication/2026_rdf12_pg_dmkg/">
+<meta itemprop="datePublished" content="2026-09-05">
+
+<div class="pub">
 
   
 
 
   <div class="container pub-title">
     <h1 itemprop="name">Translating RDF 1.2 Graphs to Property Graphs</h1>
-    <span class="pub-authors" itemprop="author">
+    <span class="pub-authors">
       
-         <a href="/authors/maxime-jakubowski">Maxime Jakubowski</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/maxime-jakubowski/"><a itemprop="url" href="/authors/maxime-jakubowski/"><span itemprop="name">Maxime Jakubowski</span></a></span>&nbsp;
       
-         <a href="/authors/dominik-tomaszuk">Dominik Tomaszuk</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/dominik-tomaszuk/"><a itemprop="url" href="/authors/dominik-tomaszuk/"><span itemprop="name">Dominik Tomaszuk</span></a></span>&nbsp;
       
-         <a href="/authors/daniel-fern%C3%A1ndez-%C3%A1lvarez">Daniel Fernández-Álvarez</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/daniel-fern%C3%A1ndez-%C3%A1lvarez/"><a itemprop="url" href="/authors/daniel-fern%C3%A1ndez-%C3%A1lvarez/"><span itemprop="name">Daniel Fernández-Álvarez</span></a></span>&nbsp;
       
-         <a href="/authors/ruben-taelman">Ruben Taelman</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/ruben-taelman/"><a itemprop="url" href="/authors/ruben-taelman/"><span itemprop="name">Ruben Taelman</span></a></span>&nbsp;
       
-         <a href="/authors/ruben-dedecker">Ruben Dedecker</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/ruben-dedecker/"><a itemprop="url" href="/authors/ruben-dedecker/"><span itemprop="name">Ruben Dedecker</span></a></span>&nbsp;
       
-         <a href="/authors/jose-emilio-labra-gayo">Jose Emilio Labra Gayo</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/jose-emilio-labra-gayo/"><a itemprop="url" href="/authors/jose-emilio-labra-gayo/"><span itemprop="name">Jose Emilio Labra Gayo</span></a></span>&nbsp;
       
-         <a href="/authors/katja-hose">Katja Hose</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/katja-hose/"><a itemprop="url" href="/authors/katja-hose/"><span itemprop="name">Katja Hose</span></a></span>&nbsp;
       
     </span>
     <span class="pull-right">
@@ -267,7 +271,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">RDF 1.2 introduces statement-level constructs, such as triple terms, reifiers, and descriptions, that pose new challenges for transforming RDF data into labeled property graphs (LPGs). This work presents and compares three algorithms for translating RDF 1.2 data into LPGs, each interpreting a different amount of the RDF 1.2 reification vocabulary. Algorithm Structural interprets no vocabulary and losslessly supports arbitrary RDF 1.2 graphs by representing triple terms explicitly as nodes; Direct interprets rdf:reifies to recover annotated edges while preserving reifiers as graph objects; and Fold additionally folds reifier descriptions into edge properties, resulting in a more concise, albeit lossy, LPG representation. We define the three translations, analyze which class of RDF 1.2 graphs each preserves, and experimentally evaluate their implementations. The experiments confirm the predicted trade-offs: all variants scale linearly on the tested workloads, the generality of Structural has no runtime penalty, and folding descriptions into edge records can significantly reduce the number of edges on description-heavy data.</p>
+  <p class="pub-abstract" itemprop="abstract">RDF 1.2 introduces statement-level constructs, such as triple terms, reifiers, and descriptions, that pose new challenges for transforming RDF data into labeled property graphs (LPGs). This work presents and compares three algorithms for translating RDF 1.2 data into LPGs, each interpreting a different amount of the RDF 1.2 reification vocabulary. Algorithm Structural interprets no vocabulary and losslessly supports arbitrary RDF 1.2 graphs by representing triple terms explicitly as nodes; Direct interprets rdf:reifies to recover annotated edges while preserving reifiers as graph objects; and Fold additionally folds reifier descriptions into edge properties, resulting in a more concise, albeit lossy, LPG representation. We define the three translations, analyze which class of RDF 1.2 graphs each preserves, and experimentally evaluate their implementations. The experiments confirm the predicted trade-offs: all variants scale linearly on the tested workloads, the generality of Structural has no runtime penalty, and folding descriptions into edge records can significantly reduce the number of edges on description-heavy data.</p>
 
   
   <div class="row">
@@ -294,7 +298,9 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9"><em>2nd International Workshop on Data Management for Knowledge Graphs</em>, DMKG26 co-located with <em>International Semantic Web Conference</em>, ISWC26</div>
+        <div class="col-xs-12 col-sm-9">
+          <span itemprop="isPartOf" itemscope itemtype="https://schema.org/CreativeWork"><span itemprop="name"><em>2nd International Workshop on Data Management for Knowledge Graphs</em>, DMKG26 co-located with <em>International Semantic Web Conference</em>, ISWC26</span></span>
+        </div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -306,8 +312,8 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
-        <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          September, 2026
+        <div class="col-xs-12 col-sm-9">
+          <time datetime="2026-09-05">September, 2026</time>
         </div>
       </div>
     </div>
@@ -320,7 +326,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Tags</div>
-        <div class="col-xs-12 col-sm-9" itemprop="tags">
+        <div class="col-xs-12 col-sm-9">
            
         </div>
       </div>
@@ -403,6 +409,7 @@
 
   <div class="article-style"></div>
 
+</div>
 </div>
 
 <div class="container">

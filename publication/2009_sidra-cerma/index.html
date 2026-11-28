@@ -192,28 +192,34 @@
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+<div itemscope itemtype="https://schema.org/ScholarlyArticle" itemid="http://labra.weso.es/publication/2009_sidra-cerma/">
+<link itemprop="url" href="http://labra.weso.es/publication/2009_sidra-cerma/">
+<meta itemprop="datePublished" content="2009-06-01">
+<meta itemprop="keywords" content="Semantic-web">
+<meta itemprop="keywords" content="Conference">
+
+<div class="pub">
 
   
 
 
   <div class="container pub-title">
     <h1 itemprop="name">A proposal for a Semantic Intelligent Document Repository Architecture</h1>
-    <span class="pub-authors" itemprop="author">
+    <span class="pub-authors">
       
-         <a href="/authors/alejandro-rodr%C3%ADguez">Alejandro Rodríguez</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/alejandro-rodr%C3%ADguez/"><a itemprop="url" href="/authors/alejandro-rodr%C3%ADguez/"><span itemprop="name">Alejandro Rodríguez</span></a></span>&nbsp;
       
-         <a href="/authors/ricardo-colomo">Ricardo Colomo</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/ricardo-colomo/"><a itemprop="url" href="/authors/ricardo-colomo/"><span itemprop="name">Ricardo Colomo</span></a></span>&nbsp;
       
-         <a href="/authors/juan-miguel-g%C3%B3mez">Juan Miguel Gómez</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/juan-miguel-g%C3%B3mez/"><a itemprop="url" href="/authors/juan-miguel-g%C3%B3mez/"><span itemprop="name">Juan Miguel Gómez</span></a></span>&nbsp;
       
-         <a href="/authors/giner-alor-hernandez">Giner Alor-Hernandez</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/giner-alor-hernandez/"><a itemprop="url" href="/authors/giner-alor-hernandez/"><span itemprop="name">Giner Alor-Hernandez</span></a></span>&nbsp;
       
-         <a href="/authors/ruben-posada-gomez">Ruben Posada-Gomez</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/ruben-posada-gomez/"><a itemprop="url" href="/authors/ruben-posada-gomez/"><span itemprop="name">Ruben Posada-Gomez</span></a></span>&nbsp;
       
-         <a href="/authors/jose-emilio-labra-gayo">Jose Emilio Labra Gayo</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/jose-emilio-labra-gayo/"><a itemprop="url" href="/authors/jose-emilio-labra-gayo/"><span itemprop="name">Jose Emilio Labra Gayo</span></a></span>&nbsp;
       
-         <a href="/authors/krishnamurthy-vidyasankar">Krishnamurthy Vidyasankar</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/krishnamurthy-vidyasankar/"><a itemprop="url" href="/authors/krishnamurthy-vidyasankar/"><span itemprop="name">Krishnamurthy Vidyasankar</span></a></span>&nbsp;
       
     </span>
     <span class="pull-right">
@@ -267,7 +273,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">The processing of high amount of documents is a highly complex challenge, which becomes even more complicated when the goal is to extract the semantically relevant data within the documents. The large-scale processing of immense repositories of knowledge requires techniques which perform information extraction to facilitate the subsequent classification and indexing of texts. Having this into account, we propose the use of Dublin Core metadata for the classification of Software Engineering publications. Based on the information obtained from Dublin Core, we present a global repository that is populated automatically, which takes the form of an ontology which represents the distinct areas of Software Engineering knowledge inspired by SWEBOK (Software Engineering Body of Knowledge). Finally, the process of the classification of texts within the ontology is carried out in three steps: keyword analysis, processing of the document. We believe our proposal based on a linguistic text classification method, heuristics, and subsequently the intersection of the three techniques mentioned, generating more precise search results in response to user queries.</p>
+  <p class="pub-abstract" itemprop="abstract">The processing of high amount of documents is a highly complex challenge, which becomes even more complicated when the goal is to extract the semantically relevant data within the documents. The large-scale processing of immense repositories of knowledge requires techniques which perform information extraction to facilitate the subsequent classification and indexing of texts. Having this into account, we propose the use of Dublin Core metadata for the classification of Software Engineering publications. Based on the information obtained from Dublin Core, we present a global repository that is populated automatically, which takes the form of an ontology which represents the distinct areas of Software Engineering knowledge inspired by SWEBOK (Software Engineering Body of Knowledge). Finally, the process of the classification of texts within the ontology is carried out in three steps: keyword analysis, processing of the document. We believe our proposal based on a linguistic text classification method, heuristics, and subsequently the intersection of the three techniques mentioned, generating more precise search results in response to user queries.</p>
 
   
   <div class="row">
@@ -294,7 +300,9 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">In <em>Electronics, Robotics and Automotive Mechanics Conference</em> (CERMA 2009)</div>
+        <div class="col-xs-12 col-sm-9">
+          <span itemprop="isPartOf" itemscope itemtype="https://schema.org/CreativeWork"><span itemprop="name">In <em>Electronics, Robotics and Automotive Mechanics Conference</em> (CERMA 2009)</span></span>
+        </div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -306,8 +314,8 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
-        <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          June, 2009
+        <div class="col-xs-12 col-sm-9">
+          <time datetime="2009-06-01">June, 2009</time>
         </div>
       </div>
     </div>
@@ -320,7 +328,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Tags</div>
-        <div class="col-xs-12 col-sm-9" itemprop="tags">
+        <div class="col-xs-12 col-sm-9">
           
             <a href="/tags/semantic-web">Semantic-web</a>&nbsp; 
           
@@ -399,6 +407,7 @@
 
   <div class="article-style"></div>
 
+</div>
 </div>
 
 <div class="container">

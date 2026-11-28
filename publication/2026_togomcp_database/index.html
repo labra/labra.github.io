@@ -192,24 +192,37 @@
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+<div itemscope itemtype="https://schema.org/ScholarlyArticle" itemid="http://labra.weso.es/publication/2026_togomcp_database/">
+<link itemprop="url" href="http://labra.weso.es/publication/2026_togomcp_database/">
+<meta itemprop="datePublished" content="2026-07-24">
+<meta itemprop="keywords" content="MCP">
+<meta itemprop="keywords" content="Model Context Protocol">
+<meta itemprop="keywords" content="RDF">
+<meta itemprop="keywords" content="TogoMCP">
+<meta itemprop="keywords" content="LLM">
+<meta itemprop="keywords" content="SPARQL">
+<meta itemprop="keywords" content="Knowledge Graphs">
+<meta itemprop="keywords" content="Life Sciences">
+<link itemprop="sameAs" href="https://doi.org/10.1093/database/baag042">
+
+<div class="pub">
 
   
 
 
   <div class="container pub-title">
     <h1 itemprop="name">TogoMCP: natural language querying of life-science knowledge graphs via schema-guided LLMs and the Model Context Protocol</h1>
-    <span class="pub-authors" itemprop="author">
+    <span class="pub-authors">
       
-         <a href="/authors/akira-r-kinjo">Akira R Kinjo</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/akira-r-kinjo/"><a itemprop="url" href="/authors/akira-r-kinjo/"><span itemprop="name">Akira R Kinjo</span></a></span>&nbsp;
       
-         <a href="/authors/yasunori-yamamoto">Yasunori Yamamoto</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/yasunori-yamamoto/"><a itemprop="url" href="/authors/yasunori-yamamoto/"><span itemprop="name">Yasunori Yamamoto</span></a></span>&nbsp;
       
-         <a href="/authors/samuel-bustamante-larriet">Samuel Bustamante-Larriet</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/samuel-bustamante-larriet/"><a itemprop="url" href="/authors/samuel-bustamante-larriet/"><span itemprop="name">Samuel Bustamante-Larriet</span></a></span>&nbsp;
       
-         <a href="/authors/jose-emilio-labra-gayo">Jose-Emilio Labra-Gayo</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/jose-emilio-labra-gayo/"><a itemprop="url" href="/authors/jose-emilio-labra-gayo/"><span itemprop="name">Jose-Emilio Labra-Gayo</span></a></span>&nbsp;
       
-         <a href="/authors/takatomo-fujisawa">Takatomo Fujisawa</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/takatomo-fujisawa/"><a itemprop="url" href="/authors/takatomo-fujisawa/"><span itemprop="name">Takatomo Fujisawa</span></a></span>&nbsp;
       
     </span>
     <span class="pull-right">
@@ -263,7 +276,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">Querying the RDF Portal knowledge graph maintained by DBCLS-which aggregates approximately 60 life-science databases-requires proficiency in both SPARQL and database-specific RDF schemas, placing this resource beyond the reach of most researchers. Large Language Models (LLMs) can, in principle, translate natural-language questions into executable SPARQL, but without schema-level context, they frequently fabricate non-existent predicates or fail to resolve entity names to database-specific identifiers. We present TogoMCP, a system that recasts the LLM as a protocol-driven inference engine orchestrating specialized tools via the Model Context Protocol (MCP). Two mechanisms are essential to its design: (i) the MIE (Metadata-Interoperability-Exchange) file, a concise YAML document that dynamically supplies the LLM with each target database&#39;s structural and semantic context at query time; and (ii) a two-stage workflow separating entity resolution via external REST APIs from schema-guided SPARQL generation. On a benchmark of 50 biologically grounded questions spanning five types and 23 databases, TogoMCP achieved a large improvement over an unaided baseline (Cohen&#39;s $d = 1.82$, Wilcoxon $P &gt; .001$), with win rates exceeding 80% for question types with precise, verifiable answers. An ablation study shows that all component configurations deliver significant improvements, with MIE schema files providing the largest marginal contribution on mean per-question score (Delta = &#43;0.50 relative to a no-MIE condition, two-sided Wilcoxon P = .067; 90% bootstrap CI [&#43;0.04,&#43;0.94] excludes zero); a one-line instruction to load the relevant MIE file recovers the same mean improvement as a full procedural protocol, while the protocol additionally reduces downside risk (loss rate 1.6% vs. 4.8%, Fisher $P = .036$). These results suggest a general design principle: concise, dynamically delivered schema context is more valuable than complex orchestration logic for mean score performance, while procedural guidance plays a complementary role in narrowing variance.</p>
+  <p class="pub-abstract" itemprop="abstract">Querying the RDF Portal knowledge graph maintained by DBCLS-which aggregates approximately 60 life-science databases-requires proficiency in both SPARQL and database-specific RDF schemas, placing this resource beyond the reach of most researchers. Large Language Models (LLMs) can, in principle, translate natural-language questions into executable SPARQL, but without schema-level context, they frequently fabricate non-existent predicates or fail to resolve entity names to database-specific identifiers. We present TogoMCP, a system that recasts the LLM as a protocol-driven inference engine orchestrating specialized tools via the Model Context Protocol (MCP). Two mechanisms are essential to its design: (i) the MIE (Metadata-Interoperability-Exchange) file, a concise YAML document that dynamically supplies the LLM with each target database&#39;s structural and semantic context at query time; and (ii) a two-stage workflow separating entity resolution via external REST APIs from schema-guided SPARQL generation. On a benchmark of 50 biologically grounded questions spanning five types and 23 databases, TogoMCP achieved a large improvement over an unaided baseline (Cohen&#39;s $d = 1.82$, Wilcoxon $P &gt; .001$), with win rates exceeding 80% for question types with precise, verifiable answers. An ablation study shows that all component configurations deliver significant improvements, with MIE schema files providing the largest marginal contribution on mean per-question score (Delta = &#43;0.50 relative to a no-MIE condition, two-sided Wilcoxon P = .067; 90% bootstrap CI [&#43;0.04,&#43;0.94] excludes zero); a one-line instruction to load the relevant MIE file recovers the same mean improvement as a full procedural protocol, while the protocol additionally reduces downside risk (loss rate 1.6% vs. 4.8%, Fisher $P = .036$). These results suggest a general design principle: concise, dynamically delivered schema context is more valuable than complex orchestration logic for mean score performance, while procedural guidance plays a complementary role in narrowing variance.</p>
 
   
   <div class="row">
@@ -290,7 +303,9 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">Database</div>
+        <div class="col-xs-12 col-sm-9">
+          <span itemprop="isPartOf" itemscope itemtype="https://schema.org/Periodical"><span itemprop="name">Database</span></span>
+        </div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -302,8 +317,8 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
-        <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          July, 2026
+        <div class="col-xs-12 col-sm-9">
+          <time datetime="2026-07-24">July, 2026</time>
         </div>
       </div>
     </div>
@@ -316,7 +331,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Tags</div>
-        <div class="col-xs-12 col-sm-9" itemprop="tags">
+        <div class="col-xs-12 col-sm-9">
           
             <a href="/tags/mcp">MCP</a>&nbsp; 
           
@@ -420,6 +435,7 @@
 
   <div class="article-style"></div>
 
+</div>
 </div>
 
 <div class="container">

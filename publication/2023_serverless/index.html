@@ -192,22 +192,39 @@
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+<div itemscope itemtype="https://schema.org/ScholarlyArticle" itemid="http://labra.weso.es/publication/2023_serverless/">
+<link itemprop="url" href="http://labra.weso.es/publication/2023_serverless/">
+<meta itemprop="datePublished" content="2023-09-15">
+<meta itemprop="keywords" content="Serverless">
+<meta itemprop="keywords" content="AWS">
+<meta itemprop="keywords" content="Cloud Computing">
+<meta itemprop="keywords" content="Performance">
+<meta itemprop="keywords" content="Microservices">
+<meta itemprop="keywords" content="Migration">
+<meta itemprop="keywords" content="Software architecture">
+<meta itemprop="keywords" content="FaaS">
+<meta itemprop="keywords" content="Amazon Web Services">
+<meta itemprop="keywords" content="Kubernetes">
+<meta itemprop="keywords" content="DynamoDB">
+<meta itemprop="keywords" content="DocumentDB">
+<meta itemprop="keywords" content="ECS Fargate">
+
+<div class="pub">
 
   
 
 
   <div class="container pub-title">
     <h1 itemprop="name">A comparison between traditional and Serverless technologies in a microservices setting</h1>
-    <span class="pub-authors" itemprop="author">
+    <span class="pub-authors">
       
-         <a href="/authors/juan-mera-men%C3%A9ndez">Juan Mera Menéndez</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/juan-mera-men%C3%A9ndez/"><a itemprop="url" href="/authors/juan-mera-men%C3%A9ndez/"><span itemprop="name">Juan Mera Menéndez</span></a></span>&nbsp;
       
-         <a href="/authors/jose-emilio-labra-gayo">Jose Emilio Labra Gayo</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/jose-emilio-labra-gayo/"><a itemprop="url" href="/authors/jose-emilio-labra-gayo/"><span itemprop="name">Jose Emilio Labra Gayo</span></a></span>&nbsp;
       
-         <a href="/authors/enrique-riesgo-canal">Enrique Riesgo Canal</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/enrique-riesgo-canal/"><a itemprop="url" href="/authors/enrique-riesgo-canal/"><span itemprop="name">Enrique Riesgo Canal</span></a></span>&nbsp;
       
-         <a href="/authors/aitor-echevarr%C3%ADa-fern%C3%A1ndez">Aitor Echevarría Fernández</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/aitor-echevarr%C3%ADa-fern%C3%A1ndez/"><a itemprop="url" href="/authors/aitor-echevarr%C3%ADa-fern%C3%A1ndez/"><span itemprop="name">Aitor Echevarría Fernández</span></a></span>&nbsp;
       
     </span>
     <span class="pull-right">
@@ -261,7 +278,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">Serverless technologies, also known as FaaS (Function as a Service), are promoted as solutions that provide dynamic scalability, speed of development, cost-per-consumption model, and the ability to focus on the code while taking attention away from the infrastructure that is managed by the vendor. A microservices architecture is defined by the interaction and management of the application state by several independent services, each with a well-defined domain. When implementing software architectures based on microservices, there are several decisions to take about the technologies and the possibility of adopting Serverless. In this study, we implement 9 prototypes of the same microservice application using different technologies. Some architectural decisions and their impact on the performance and cost of the result obtained are analysed. We use Amazon Web Services and start with an application that uses a more traditional deployment environment (Kubernetes) and migration to a serverless architecture is performed by combining and analysing the impact (both cost and performance) of the use of different technologies such as AWS ECS Fargate, AWS Lambda, DynamoDB or DocumentDB.</p>
+  <p class="pub-abstract" itemprop="abstract">Serverless technologies, also known as FaaS (Function as a Service), are promoted as solutions that provide dynamic scalability, speed of development, cost-per-consumption model, and the ability to focus on the code while taking attention away from the infrastructure that is managed by the vendor. A microservices architecture is defined by the interaction and management of the application state by several independent services, each with a well-defined domain. When implementing software architectures based on microservices, there are several decisions to take about the technologies and the possibility of adopting Serverless. In this study, we implement 9 prototypes of the same microservice application using different technologies. Some architectural decisions and their impact on the performance and cost of the result obtained are analysed. We use Amazon Web Services and start with an application that uses a more traditional deployment environment (Kubernetes) and migration to a serverless architecture is performed by combining and analysing the impact (both cost and performance) of the use of different technologies such as AWS ECS Fargate, AWS Lambda, DynamoDB or DocumentDB.</p>
 
   
   <div class="row">
@@ -288,7 +305,9 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">In <em>Software Engineering and Databases Conference</em>, JISBD - SISTEDES</div>
+        <div class="col-xs-12 col-sm-9">
+          <span itemprop="isPartOf" itemscope itemtype="https://schema.org/CreativeWork"><span itemprop="name">In <em>Software Engineering and Databases Conference</em>, JISBD - SISTEDES</span></span>
+        </div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -300,8 +319,8 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
-        <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          September, 2023
+        <div class="col-xs-12 col-sm-9">
+          <time datetime="2023-09-15">September, 2023</time>
         </div>
       </div>
     </div>
@@ -314,7 +333,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Tags</div>
-        <div class="col-xs-12 col-sm-9" itemprop="tags">
+        <div class="col-xs-12 col-sm-9">
           
             <a href="/tags/serverless">Serverless</a>&nbsp; 
           
@@ -415,6 +434,7 @@
 
   <div class="article-style"></div>
 
+</div>
 </div>
 
 <div class="container">

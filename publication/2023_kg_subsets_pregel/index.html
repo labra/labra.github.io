@@ -192,18 +192,23 @@
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+<div itemscope itemtype="https://schema.org/ScholarlyArticle" itemid="http://labra.weso.es/publication/2023_kg_subsets_pregel/">
+<link itemprop="url" href="http://labra.weso.es/publication/2023_kg_subsets_pregel/">
+<meta itemprop="datePublished" content="2023-10-02">
+<link itemprop="sameAs" href="https://doi.org/10.1007/978-3-031-47745-4_10">
+
+<div class="pub">
 
   
 
 
   <div class="container pub-title">
     <h1 itemprop="name">Using Pregel to create Knowledge Graphs subsets described by non-recursive Shape Expressions</h1>
-    <span class="pub-authors" itemprop="author">
+    <span class="pub-authors">
       
-         <a href="/authors/%C3%A1ngel-iglesias-pr%C3%A9stamo">Ángel Iglesias Préstamo</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/%C3%A1ngel-iglesias-pr%C3%A9stamo/"><a itemprop="url" href="/authors/%C3%A1ngel-iglesias-pr%C3%A9stamo/"><span itemprop="name">Ángel Iglesias Préstamo</span></a></span>&nbsp;
       
-         <a href="/authors/jose-emilio-labra-gayo">Jose Emilio Labra Gayo</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/jose-emilio-labra-gayo/"><a itemprop="url" href="/authors/jose-emilio-labra-gayo/"><span itemprop="name">Jose Emilio Labra Gayo</span></a></span>&nbsp;
       
     </span>
     <span class="pull-right">
@@ -257,7 +262,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">Knowledge Graphs have been successfully adopted in recent years, existing general-purpose ones, like Wikidata, as well as domain-specific ones, like UniProt. Their increasing size poses new challenges with regards to their practical usage. As an example, Wikidata has been growing the size of its contents and their data since its inception making it difficult to download and process its data. Although the structure of Wikidata items is flexible, it tends to be heterogeneous: the shape of an entity representing a human is distinct from that of a mountain. Recently, Wikidata adopted Entity Schemas to facilitate the definition of different schemas using Shape Expressions, a language that can be used to describe and validate RDF data. In this paper, we present an approach to obtain subsets of knowledge graphs based on Shape Expressions that use an implementation of the Pregel algorithm implemented in Rust. We have applied our approach to obtain subsets of Wikidata and UniProt and present some of these experiments&#39; results.</p>
+  <p class="pub-abstract" itemprop="abstract">Knowledge Graphs have been successfully adopted in recent years, existing general-purpose ones, like Wikidata, as well as domain-specific ones, like UniProt. Their increasing size poses new challenges with regards to their practical usage. As an example, Wikidata has been growing the size of its contents and their data since its inception making it difficult to download and process its data. Although the structure of Wikidata items is flexible, it tends to be heterogeneous: the shape of an entity representing a human is distinct from that of a mountain. Recently, Wikidata adopted Entity Schemas to facilitate the definition of different schemas using Shape Expressions, a language that can be used to describe and validate RDF data. In this paper, we present an approach to obtain subsets of knowledge graphs based on Shape Expressions that use an implementation of the Pregel algorithm implemented in Rust. We have applied our approach to obtain subsets of Wikidata and UniProt and present some of these experiments&#39; results.</p>
 
   
   <div class="row">
@@ -284,7 +289,9 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">In <em>Fifth Ibero-American Knowledge Graph and Semantic Web Conference</em>, KGSWC 23</div>
+        <div class="col-xs-12 col-sm-9">
+          <span itemprop="isPartOf" itemscope itemtype="https://schema.org/CreativeWork"><span itemprop="name">In <em>Fifth Ibero-American Knowledge Graph and Semantic Web Conference</em>, KGSWC 23</span></span>
+        </div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -296,8 +303,8 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
-        <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          October, 2023
+        <div class="col-xs-12 col-sm-9">
+          <time datetime="2023-10-02">October, 2023</time>
         </div>
       </div>
     </div>
@@ -310,7 +317,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Tags</div>
-        <div class="col-xs-12 col-sm-9" itemprop="tags">
+        <div class="col-xs-12 col-sm-9">
            
         </div>
       </div>
@@ -390,6 +397,7 @@
 
   <div class="article-style"></div>
 
+</div>
 </div>
 
 <div class="container">

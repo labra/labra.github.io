@@ -192,20 +192,27 @@
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+<div itemscope itemtype="https://schema.org/ScholarlyArticle" itemid="http://labra.weso.es/publication/2005_formalmethodprogramslicing/">
+<link itemprop="url" href="http://labra.weso.es/publication/2005_formalmethodprogramslicing/">
+<meta itemprop="datePublished" content="2005-10-03">
+<meta itemprop="keywords" content="Functional-programming">
+<meta itemprop="keywords" content="Slicer">
+<meta itemprop="keywords" content="Modular-monadic-semantics">
+
+<div class="pub">
 
   
 
 
   <div class="container pub-title">
     <h1 itemprop="name">A Formal Method for program Slicing</h1>
-    <span class="pub-authors" itemprop="author">
+    <span class="pub-authors">
       
-         <a href="/authors/yingzhou-zhang">Yingzhou Zhang</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/yingzhou-zhang/"><a itemprop="url" href="/authors/yingzhou-zhang/"><span itemprop="name">Yingzhou Zhang</span></a></span>&nbsp;
       
-         <a href="/authors/baowen-xu">Baowen Xu</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/baowen-xu/"><a itemprop="url" href="/authors/baowen-xu/"><span itemprop="name">Baowen Xu</span></a></span>&nbsp;
       
-         <a href="/authors/jose-emilio-labra-gayo">Jose Emilio Labra Gayo</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/jose-emilio-labra-gayo/"><a itemprop="url" href="/authors/jose-emilio-labra-gayo/"><span itemprop="name">Jose Emilio Labra Gayo</span></a></span>&nbsp;
       
     </span>
     <span class="pull-right">
@@ -259,7 +266,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">Program slicing is a well-known program analysis technique that extracts the elements of a program related to a particular computation. Based on modular monadic semantics of a programming language, this paper presents a new formal method for slicing, called modular monadic slicing, by abstracting the computation of slicing as a slice monad transformer. With the use of slice transformer, the feature of program slicing can be combined in a modular way into semantic descriptions of the program analyzed. According to these, this paper gives both monadic dynamic and static slicing algorithms. They compute program slices directly on abstract syntax, without the needs to explicitly construct intermediate structures such as dependence graphs, or to record an execution history in dynamic slicing algorithm.</p>
+  <p class="pub-abstract" itemprop="abstract">Program slicing is a well-known program analysis technique that extracts the elements of a program related to a particular computation. Based on modular monadic semantics of a programming language, this paper presents a new formal method for slicing, called modular monadic slicing, by abstracting the computation of slicing as a slice monad transformer. With the use of slice transformer, the feature of program slicing can be combined in a modular way into semantic descriptions of the program analyzed. According to these, this paper gives both monadic dynamic and static slicing algorithms. They compute program slices directly on abstract syntax, without the needs to explicitly construct intermediate structures such as dependence graphs, or to record an execution history in dynamic slicing algorithm.</p>
 
   
   <div class="row">
@@ -286,7 +293,9 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">In <a href="http://aswec2005.itee.uq.edu.au/home.php" target="_blank">Australian Software Engineering Conference, ASWEC 2005</a></div>
+        <div class="col-xs-12 col-sm-9">
+          <span itemprop="isPartOf" itemscope itemtype="https://schema.org/CreativeWork"><span itemprop="name">In <a href="http://aswec2005.itee.uq.edu.au/home.php" target="_blank">Australian Software Engineering Conference, ASWEC 2005</a></span></span>
+        </div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -298,8 +307,8 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
-        <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          October, 2005
+        <div class="col-xs-12 col-sm-9">
+          <time datetime="2005-10-03">October, 2005</time>
         </div>
       </div>
     </div>
@@ -312,7 +321,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Tags</div>
-        <div class="col-xs-12 col-sm-9" itemprop="tags">
+        <div class="col-xs-12 col-sm-9">
           
             <a href="/tags/functional-programming">Functional-programming</a>&nbsp; 
           
@@ -393,6 +402,7 @@
 
   <div class="article-style"></div>
 
+</div>
 </div>
 
 <div class="container">

@@ -192,20 +192,27 @@
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+<div itemscope itemtype="https://schema.org/ScholarlyArticle" itemid="http://labra.weso.es/publication/2014_shex/">
+<link itemprop="url" href="http://labra.weso.es/publication/2014_shex/">
+<meta itemprop="datePublished" content="2014-09-03">
+<meta itemprop="keywords" content="Semantic web">
+<meta itemprop="keywords" content="ShEx">
+<meta itemprop="keywords" content="RDF Validation">
+
+<div class="pub">
 
   
 
 
   <div class="container pub-title">
     <h1 itemprop="name">Shape Expressions: An RDF validation and transformation language</h1>
-    <span class="pub-authors" itemprop="author">
+    <span class="pub-authors">
       
-         <a href="/authors/eric-prudhommeaux">Eric Prud&#39;hommeaux</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/eric-prudhommeaux/"><a itemprop="url" href="/authors/eric-prudhommeaux/"><span itemprop="name">Eric Prud&#39;hommeaux</span></a></span>&nbsp;
       
-         <a href="/authors/jose-emilio-labra-gayo">Jose Emilio Labra Gayo</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/jose-emilio-labra-gayo/"><a itemprop="url" href="/authors/jose-emilio-labra-gayo/"><span itemprop="name">Jose Emilio Labra Gayo</span></a></span>&nbsp;
       
-         <a href="/authors/harold-solbrig">Harold Solbrig</a>&nbsp;
+         <span itemprop="author" itemscope itemtype="https://schema.org/Person" itemid="http://labra.weso.es/authors/harold-solbrig/"><a itemprop="url" href="/authors/harold-solbrig/"><span itemprop="name">Harold Solbrig</span></a></span>&nbsp;
       
     </span>
     <span class="pull-right">
@@ -259,7 +266,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">RDF is a graph based data model which is widely used for semantic web and linked data applications. In this paper we describe a Shape Expression definition language which enables RDF validation through the declaration of constraints on the RDF model. Shape Expressions can be used to validate RDF data, communicate expected graph patterns for interfaces and generate user interface forms. In this paper we describe the syntax and the formal semantics of Shape Expressions using inference rules. Shape Expressions can be seen as domain specific language to define Shapes of RDF graphs based on regular expressions. Attached to Shape Expressions are semantic actions which provide an extension point for validation or for arbitrary code execution such as those in parser generators. Using semantic actions, it is possible to augment the validation expressiveness of Shape Expressions and to transform RDF graphs in a easy way. We have implemented several validation tools that check if an RDF graph matches against a Shape Expressions schema and infer the corresponding Shapes. We have also implemented two extensions, called GenX and GenJ that leverage the predictability of the graph traversal and create ordered, closed content, XML/Json documents, providing a simple, declarative mapping from RDF data to XML and Json documents.</p>
+  <p class="pub-abstract" itemprop="abstract">RDF is a graph based data model which is widely used for semantic web and linked data applications. In this paper we describe a Shape Expression definition language which enables RDF validation through the declaration of constraints on the RDF model. Shape Expressions can be used to validate RDF data, communicate expected graph patterns for interfaces and generate user interface forms. In this paper we describe the syntax and the formal semantics of Shape Expressions using inference rules. Shape Expressions can be seen as domain specific language to define Shapes of RDF graphs based on regular expressions. Attached to Shape Expressions are semantic actions which provide an extension point for validation or for arbitrary code execution such as those in parser generators. Using semantic actions, it is possible to augment the validation expressiveness of Shape Expressions and to transform RDF graphs in a easy way. We have implemented several validation tools that check if an RDF graph matches against a Shape Expressions schema and infer the corresponding Shapes. We have also implemented two extensions, called GenX and GenJ that leverage the predictability of the graph traversal and create ordered, closed content, XML/Json documents, providing a simple, declarative mapping from RDF data to XML and Json documents.</p>
 
   
   <div class="row">
@@ -286,7 +293,9 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">In <a href="http://2014.semantics.cc/www.semantics.cc/index.html" target="_blank">10th International Conference on Semantic Systems</a>, Leipzig, Germany</div>
+        <div class="col-xs-12 col-sm-9">
+          <span itemprop="isPartOf" itemscope itemtype="https://schema.org/CreativeWork"><span itemprop="name">In <a href="http://2014.semantics.cc/www.semantics.cc/index.html" target="_blank">10th International Conference on Semantic Systems</a>, Leipzig, Germany</span></span>
+        </div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -298,8 +307,8 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
-        <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          September, 2014
+        <div class="col-xs-12 col-sm-9">
+          <time datetime="2014-09-03">September, 2014</time>
         </div>
       </div>
     </div>
@@ -312,7 +321,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Tags</div>
-        <div class="col-xs-12 col-sm-9" itemprop="tags">
+        <div class="col-xs-12 col-sm-9">
           
             <a href="/tags/semantic-web">Semantic web</a>&nbsp; 
           
@@ -397,6 +406,7 @@
 
   <div class="article-style"></div>
 
+</div>
 </div>
 
 <div class="container">
