@@ -2,10 +2,13 @@
 {{ $page := .page }}
 
 <!-- About widget -->
-{{/* The owner of the site as a schema.org Person. The itemid is the URL of
-     the author page, as in the author links of publications and talks.
-     itemref adds the email, telephone and address of the contact widget. */}}
-<div class="row" itemscope itemtype="https://schema.org/Person" itemid="{{ partial "schema_owner_id" . }}" itemref="{{ if $.Site.Params.email }}person-email{{ end }}{{ if $.Site.Params.phone }} person-telephone{{ end }}{{ if $.Site.Params.address}} person-address{{ end }}">
+{{/* The owner of the site as a schema.org Person, the main entity of the
+     home page (see index.html). The itemid is the URL of the author page, as
+     in the author links of publications and talks. */}}
+<div class="row" itemprop="mainEntity" itemscope itemtype="https://schema.org/Person" itemid="{{ partial "schema_owner_id" . }}">
+  {{ with $.Site.Params.email }}<meta itemprop="email" content="{{ . }}">{{ end }}
+  {{ with $.Site.Params.phone }}<meta itemprop="telephone" content="{{ . }}">{{ end }}
+  {{ with $.Site.Params.address }}<meta itemprop="address" content="{{ . }}">{{ end }}
   <div class="col-xs-12 col-md-4">
     <div id="profile">
 

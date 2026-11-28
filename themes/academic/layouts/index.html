@@ -4,6 +4,13 @@
 <!-- Flag for jQuery -->
 <span id="homepage" style="display: none"></span>
 
+{{/* The home page is a schema.org ProfilePage. Its main entity is the
+     Person of the about widget and its parts are the posts of the posts
+     widget. Widgets must not have other itemprop attributes outside an item. */}}
+<div itemscope itemtype="https://schema.org/ProfilePage" itemid="{{ .Permalink }}">
+<link itemprop="url" href="{{ .Permalink }}">
+<meta itemprop="name" content="{{ .Site.Title }}">
+
 <!-- Widgets -->
 {{ range $index, $page := where .Site.RegularPages "Type" "home" }}
   {{ $params := dict "root" $ "page" $page }}
@@ -14,6 +21,7 @@
     </div>
   </section>
 {{ end }}
+</div>{{/* end of the ProfilePage */}}
 
 <!-- Page Footer -->
 {{ partial "footer_container.html" . }}

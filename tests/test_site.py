@@ -1049,6 +1049,21 @@ def item_with_id(path, url):
     return found[0] if found else None
 
 
+def root_items(items):
+    """The top-level items that no other item uses as a value.
+
+    Tools such as validator.schema.org join the items with the same itemid.
+    They show only these root items at the top, and show the other items
+    inside the items that use them. For example, a Person that is also the
+    author of a BlogPosting shows only inside the BlogPosting."""
+    used = set()
+    for item in all_items(items):
+        for _, value, _ in item.properties:
+            if hasattr(value, "id") and value.id:
+                used.add(value.id)
+    return [i for i in items if not (i.id and i.id in used)]
+
+
 def absolute(path):
     """The absolute URL of a site path. Hugo encodes characters such as "á" in URLs."""
     return BASE_URL + quote(unquote(path.lstrip("/")), safe="/#?=&")
@@ -1079,9 +1094,33 @@ class TestSchemaOrg(SiteTestCase):
                 errors = self.vocabulary.check(*parse_microdata(text, absolute(path)))
                 self.assertEqual(errors, [], "\n".join(errors[:10]))
 
+    def test_home_page_is_about_the_owner(self):
+        """The home page is a ProfilePage, the only root item of the page, and
+        its main entity is the owner of the site. If the Person is a root
+        item and the posts use it as author, validator.schema.org shows only
+        the posts."""
+        roots = root_items(microdata("/")[0])
+        self.assertEqual([r.type_names for r in roots], [["ProfilePage"]],
+                         "The home page must have one root item, a ProfilePage")
+        profile = roots[0]
+        self.assertEqual(profile.id, BASE_URL)
+        person = profile.value("mainEntity")
+        self.assertIsNotNone(person, "The ProfilePage has no mainEntity")
+        self.assertEqual(person.type_names, ["Person"])
+        self.assertEqual(person.id, owner_id())
+
+    def test_single_pages_are_roots(self):
+        """The item of a publication, talk, project or post page is a root item."""
+        for section in ("publication", "talk", "project", "post"):
+            for c in pages_of(section):
+                with self.subTest(page=c.url_path):
+                    roots = root_items(microdata(c.url_path)[0])
+                    self.assertIn(absolute(c.url_path), [r.id for r in roots])
+
     def test_home_person(self):
         params = CONFIG["params"]
-        people = [i for i in microdata("/")[0] if "Person" in i.type_names]
+        people = [i for i in all_items(microdata("/")[0]) if "Person" in i.type_names and i.id == owner_id()
+                  and i.text("jobTitle")]
         self.assertEqual(len(people), 1, "The home page must describe one Person")
         person = people[0]
         self.assertEqual(norm_text(person.text("name")), norm_text(params["name"]))

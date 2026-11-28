@@ -24,12 +24,12 @@
 
     {{ if $page.Params.tags }}
       {{ range first $page.Params.count (where (where (where $.Site.RegularPages "Type" "post") ".Params.tags" "intersect" $page.Params.tags) ".Params.notonhomepage" nil) }}
-        {{ $params := dict "post" . "page" $page }}
+        {{ $params := dict "post" . "page" $page "prop" "hasPart" }}
         {{ partial "post_li" $params }}
       {{ end }}
     {{ else }}
       {{ range first $page.Params.count (where (where $.Site.RegularPages "Type" "post") ".Params.notonhomepage" nil) }}
-        {{ $params := dict "post" . "page" $page }}
+        {{ $params := dict "post" . "page" $page "prop" "hasPart" }}
         {{ partial "post_li" $params }}
       {{ end }}
     {{ end }}

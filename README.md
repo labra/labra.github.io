@@ -121,7 +121,7 @@ microdata, so search engines and other tools can read it.
 
 | Page | schema.org type |
 |---|---|
-| Home page (about widget) | `Person` with name, job title, organization, image, social links (`sameAs`), interests (`knowsAbout`), education (`alumniOf`, `hasCredential`), email, telephone and address |
+| Home page | `ProfilePage` with the posts of the posts widget (`hasPart`) and, as `mainEntity`, a `Person` (about widget) with name, job title, organization, image, social links (`sameAs`), interests (`knowsAbout`), education (`alumniOf`, `hasCredential`), email, telephone and address |
 | Publication (page and lists) | From `publication_types`: `ScholarlyArticle` (conference, journal, preprint), `Book`, `Chapter`, `Report`, `Thesis`, `TechArticle` (specification) or `CreativeWork` |
 | Talk (page and lists) | `Event`, with `superEvent` (the event), `location` and `performer` |
 | Project (page and list) | `SoftwareSourceCode`, or `schema_type` in the front matter |
@@ -137,6 +137,13 @@ the home page too.
 
 Talks and posts with no `authors` list have the owner of the site as
 speaker or author. Projects can have an `authors` list too.
+
+Tools such as validator.schema.org join the items with the same `itemid`
+and show at the top only the items that no other item uses. So the home
+page is one `ProfilePage`: if the `Person` was a separate item, the
+validator would show it only inside the posts, as their author. Do not put
+`itemprop` attributes in home page widgets outside an item, because they
+become properties of the `ProfilePage`.
 
 The tests check the microdata of all pages against a copy of the
 schema.org vocabulary in `tests/schemaorg.json`, so they do not need the
