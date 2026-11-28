@@ -1,0 +1,18 @@
+{{- /*
+  The DOI of a publication, for example "10.1145/3447772", or "".
+  The DOI comes from the "doi" field, or from a doi.org or doi.acm.org link
+  in url_pdf, publication or url_custom.
+  Usage: {{ $doi := partial "publication_doi" . }}
+*/ -}}
+{{- $p := . -}}
+{{- $doi := $p.Params.doi | default "" -}}
+{{- if not $doi -}}
+  {{- $links := slice ($p.Params.url_pdf | default "") ($p.Params.publication | default "") -}}
+  {{- range $p.Params.url_custom }}{{ $links = $links | append (.url | default "") }}{{ end -}}
+  {{- range $links -}}
+    {{- if and (not $doi) (findRE `(?i)doi\.(org|acm\.org)/10\.` .) -}}
+      {{- $doi = index (findRE `10\.[0-9]{4,9}/[^\s"<>)\]]+` . 1) 0 | default "" -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return (strings.TrimRight "." (string $doi)) -}}

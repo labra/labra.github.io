@@ -1,0 +1,9 @@
+{{- /* Hidden schema.org metadata of a publication: URL, date, keywords and DOI. */ -}}
+<link itemprop="url" href="{{ .Permalink }}">
+<meta itemprop="datePublished" content="{{ .Date.Format "2006-01-02" }}">
+{{- range .Params.tags }}
+<meta itemprop="keywords" content="{{ . }}">
+{{- end }}
+{{- with partial "publication_doi" . }}
+<link itemprop="sameAs" href="https://doi.org/{{ . }}">
+{{- end }}

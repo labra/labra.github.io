@@ -1,18 +1,19 @@
 {{ $post := .post }}
 {{ $page := .page }}
 
-<div class="article-list-item" itemscope itemprop="blogPost">
+<div class="article-list-item" itemscope itemtype="https://schema.org/BlogPosting" itemid="{{ $post.Permalink }}">
+  {{ partial "article_schema_meta" $post }}
   {{ $preview := $post.Params.header.preview | default true }}
   {{ if and $post.Params.header.image $preview }}
   <a href="{{ $post.Permalink }}">
-    <img src="{{ "/img/" | relURL }}{{ $post.Params.header.image }}" class="article-banner" itemprop="image">
+    <img src="{{ "/img/" | relURL }}{{ $post.Params.header.image }}" class="article-banner">
   </a>
   {{end}}
-  <h3 class="article-title" itemprop="name">
-    <a href="{{ $post.Permalink }}" itemprop="url">{{ $post.Title }}</a>
+  <h3 class="article-title">
+    <a href="{{ $post.Permalink }}"><span itemprop="headline name">{{ $post.Title }}</span></a>
   </h3>
   {{ partial "article_metadata" (dict "content" $post "is_list" 1) }}
-  <div class="article-style" itemprop="articleBody">
+  <div class="article-style" itemprop="description">
     {{ if $post.Params.summary }}
     <p>{{ printf "%s" $post.Params.summary | markdownify }}</p>
     {{ else if $post.Truncated }}

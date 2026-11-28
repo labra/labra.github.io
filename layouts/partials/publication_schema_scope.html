@@ -1,0 +1,3 @@
+{{- /* Attributes for the element of a publication item:
+       itemscope, itemtype and itemid (the URL of the publication page). */ -}}
+{{- return (safeHTMLAttr (printf `itemscope itemtype="https://schema.org/%s" itemid="%s"` (partial "publication_schema_type" .) .Permalink)) -}}

@@ -1,0 +1,22 @@
+{{- /*
+  Hidden schema.org metadata of a project: URL, summary, tags, the
+  external link and the authors (if the project has an "authors" list).
+  The type is "schema_type" in the front matter, or SoftwareSourceCode.
+*/ -}}
+<link itemprop="url" href="{{ .Permalink }}">
+{{- with .Params.summary }}
+<meta itemprop="description" content="{{ . | markdownify | plainify | htmlUnescape }}">
+{{- end }}
+{{- range .Params.tags }}
+<meta itemprop="keywords" content="{{ . }}">
+{{- end }}
+{{- with .Params.external_link }}
+{{- if and (eq (partial "project_schema_type" $) "SoftwareSourceCode") (findRE `^https?://(github\.com|gitlab\.com|bitbucket\.org)/` .) }}
+<link itemprop="codeRepository" href="{{ . }}">
+{{- else }}
+<link itemprop="sameAs" href="{{ . }}">
+{{- end }}
+{{- end }}
+{{- range .Params.authors }}
+{{ partial "schema_person" (dict "name" . "prop" "author" "hidden" true) }}
+{{- end }}

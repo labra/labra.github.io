@@ -1,0 +1,21 @@
+{{- /*
+  The schema.org properties of a publication that the page shows in the
+  same way in all lists: title, authors, publication and year, plus hidden
+  metadata. Put it in an element with the attributes of the partial
+  "publication_schema_scope".
+  Usage: {{ partial "publication_schema" (dict "page" . "link" true) }}
+*/ -}}
+{{- $p := .page -}}
+{{- $typeIndex := "0" -}}
+{{- with $p.Params.publication_types }}{{ $typeIndex = index . 0 | string | strings.TrimSpace }}{{ end -}}
+{{- $prop := cond (eq $typeIndex "10") "editor" "author" -}}
+{{ if .link }}<a href="{{ $p.RelPermalink }}"><span itemprop="name">{{ $p.Title }}</span></a>{{ else }}<span itemprop="name">{{ $p.Title }}</span>{{ end }},
+<span class="pub-list-authors" style="color:blue">
+  {{- range $p.Params.authors }}
+  {{ partial "schema_person" (dict "name" . "prop" $prop) }},
+  {{- end }}
+</span>
+{{ with $p.Params.publication -}}
+<span itemprop="isPartOf" itemscope itemtype="https://schema.org/{{ cond (in (slice "2" "3") $typeIndex) "Periodical" "CreativeWork" }}" style="color: green"><span itemprop="name">{{ markdownify . }}</span></span>
+{{- end }} - <span>{{ $p.Date.Year }}</span>
+{{ partial "publication_schema_meta" $p }}

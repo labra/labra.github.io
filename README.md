@@ -114,6 +114,36 @@ Hugo makes a BibTeX entry for each publication from its front matter
   `institution`, `isbn`, `address`, `editors`. For example, add
   `school = "Universidad de Oviedo"` to the PhD thesis.
 
+## Schema.org microdata
+
+The pages describe their content with [schema.org](https://schema.org/)
+microdata, so search engines and other tools can read it.
+
+| Page | schema.org type |
+|---|---|
+| Home page (about widget) | `Person` with name, job title, organization, image, social links (`sameAs`), interests (`knowsAbout`), education (`alumniOf`, `hasCredential`), email, telephone and address |
+| Publication (page and lists) | From `publication_types`: `ScholarlyArticle` (conference, journal, preprint), `Book`, `Chapter`, `Report`, `Thesis`, `TechArticle` (specification) or `CreativeWork` |
+| Talk (page and lists) | `Event`, with `superEvent` (the event), `location` and `performer` |
+| Project (page and list) | `SoftwareSourceCode`, or `schema_type` in the front matter |
+| Post (page and lists) | `BlogPosting` |
+| Author page | `ProfilePage` with a `Person` as `mainEntity` |
+
+Each person is a `Person` with a link to their author page. The `itemid`
+of a person is the URL of the author page, and the `itemid` of a
+publication, talk, project or post is the URL of its page. So all pages
+use the same identifier for the same thing. The owner of the site
+(`name` in config.toml) has the URL of their author page as `itemid` on
+the home page too.
+
+Talks and posts with no `authors` list have the owner of the site as
+speaker or author. Projects can have an `authors` list too.
+
+The tests check the microdata of all pages against a copy of the
+schema.org vocabulary in `tests/schemaorg.json`, so they do not need the
+network. `tests/microdata.py` reads the microdata. To use a newer
+schema.org version, run `make update-schemaorg`. To check a page with the
+official validator, paste its URL in https://validator.schema.org/.
+
 ## Author pages
 
 Hugo makes a page `/authors/<name>/` for each name in the `authors` list of a

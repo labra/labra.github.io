@@ -1,0 +1,15 @@
+{{- /*
+  A person as schema.org microdata, with a link to the author page.
+  The itemid of the person is the URL of the author page, so all pages use
+  the same identifier for the same person.
+  Usage: {{ partial "schema_person" (dict "name" "Ana" "prop" "author") }}
+  With "hidden" true, the person is only metadata, with no visible text.
+*/ -}}
+{{- $path := printf "/authors/%s/" (urlize .name) -}}
+{{- $url := absURL $path -}}
+{{- with site.GetPage (strings.TrimSuffix "/" $path) }}{{ $path = .RelPermalink }}{{ $url = .Permalink }}{{ end -}}
+{{- if .hidden -}}
+<span itemprop="{{ .prop }}" itemscope itemtype="https://schema.org/Person" itemid="{{ $url }}"><link itemprop="url" href="{{ $path }}"><meta itemprop="name" content="{{ .name }}"></span>
+{{- else -}}
+<span itemprop="{{ .prop }}" itemscope itemtype="https://schema.org/Person" itemid="{{ $url }}"><a itemprop="url" href="{{ $path }}"><span itemprop="name">{{ .name }}</span></a></span>
+{{- end -}}

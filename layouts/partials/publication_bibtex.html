@@ -60,17 +60,7 @@
   {{- $fields = $fields | append (dict "name" "month" "value" (lower ($p.Date.Format "Jan"))) -}}
 {{- end -}}
 
-{{- /* DOI from the "doi" field or from a DOI link. */ -}}
-{{- $doi := $p.Params.doi | default "" -}}
-{{- if not $doi -}}
-  {{- $links := slice ($p.Params.url_pdf | default "") ($p.Params.publication | default "") -}}
-  {{- range $p.Params.url_custom }}{{ $links = $links | append (.url | default "") }}{{ end -}}
-  {{- range $links -}}
-    {{- if and (not $doi) (findRE `(?i)doi\.(org|acm\.org)/10\.` .) -}}
-      {{- $doi = index (findRE `10\.[0-9]{4,9}/[^\s"<>)\]]+` . 1) 0 | default "" -}}
-    {{- end -}}
-  {{- end -}}
-{{- end -}}
+{{- $doi := partial "publication_doi" $p -}}
 
 {{- /* URL: the PDF, or else the page of the publication. */ -}}
 {{- $url := $p.Permalink -}}
@@ -82,6 +72,6 @@
   {{- $value := .value | replaceRE `([&%#$_])` `\$1` | replaceRE `\s+` " " -}}
   {{- if eq $name "month" }}{{ $out = printf "%s  month = %s,\n" $out $value }}{{ else }}{{ $out = printf "%s  %s = {%s},\n" $out $name $value }}{{ end -}}
 {{- end -}}
-{{- with $doi }}{{ $out = printf "%s  doi = {%s},\n" $out (strings.TrimRight "." .) }}{{ end -}}
+{{- with $doi }}{{ $out = printf "%s  doi = {%s},\n" $out . }}{{ end -}}
 {{- $out = printf "%s  url = {%s}\n}\n" $out $url -}}
 {{- return $out -}}

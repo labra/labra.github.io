@@ -1,0 +1,27 @@
+{{- /*
+  Hidden schema.org metadata of a talk (an Event): URL, start and end,
+  the event of the talk (superEvent), the place and the speakers.
+  The speakers are the "authors" of the talk, or else the owner of the site.
+  Usage: {{ partial "talk_schema_meta" (dict "page" . "people" true) }}
+  With "people" false, the template shows the speakers itself.
+*/ -}}
+{{- $p := .page -}}
+<link itemprop="url" href="{{ $p.Permalink }}">
+<meta itemprop="startDate" content="{{ (time.AsTime ($p.Params.time_start | default $p.Date)).Format "2006-01-02T15:04:05" }}">
+{{- with $p.Params.time_end }}
+<meta itemprop="endDate" content="{{ (time.AsTime .).Format "2006-01-02T15:04:05" }}">
+{{- end }}
+{{- with $p.Params.event }}
+<span itemprop="superEvent" itemscope itemtype="https://schema.org/Event"><meta itemprop="name" content="{{ . | markdownify | plainify | htmlUnescape }}">{{ with $p.Params.event_url }}<link itemprop="url" href="{{ . }}">{{ end }}</span>
+{{- end }}
+{{- with $p.Params.location }}
+<span itemprop="location" itemscope itemtype="https://schema.org/Place"><meta itemprop="name" content="{{ . | markdownify | plainify | htmlUnescape }}"></span>
+{{- end }}
+{{- with $p.Params.abstract }}
+<meta itemprop="description" content="{{ . | markdownify | plainify | htmlUnescape }}">
+{{- end }}
+{{- if .people }}
+{{- range ($p.Params.authors | default (slice site.Params.name)) }}
+{{ partial "schema_person" (dict "name" . "prop" "performer" "hidden" true) }}
+{{- end }}
+{{- end }}

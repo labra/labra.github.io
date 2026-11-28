@@ -5,12 +5,16 @@
 
 {{ partial "header_image.html" . }}
 
-<div class="universal-wrapper">
+{{/* The page is a schema.org ProfilePage about one Person. The itemid of
+     the Person is the URL of this page, as in the author links of the
+     publications and talks (partial "schema_person"). */}}
+{{ $name := .Title | default (.Data.Term | humanize | title) }}
+<div class="universal-wrapper" itemscope itemtype="https://schema.org/ProfilePage">
 
-  <h1>{{ .Title | default (.Data.Term | humanize | title) }}</h1>
+  <h1 itemprop="mainEntity" itemscope itemtype="https://schema.org/Person" itemid="{{ .Permalink }}"><span itemprop="name">{{ $name }}</span><link itemprop="url" href="{{ .Permalink }}">{{ if eq (urlize $name) (urlize site.Params.name) }}<link itemprop="sameAs" href="{{ site.BaseURL }}">{{ end }}</h1>
 
   {{ with .Content }}
-  <div class="article-style" itemprop="articleBody">{{ . }}</div>
+  <div class="article-style">{{ . }}</div>
   {{ end }}
 
   {{ $publications := where .Pages "Type" "publication" }}

@@ -2,7 +2,10 @@
 {{ $page := .page }}
 
 <!-- About widget -->
-<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="{{ if $.Site.Params.email }}person-email{{ end }}{{ if $.Site.Params.phone }} person-telephone{{ end }}{{ if $.Site.Params.address}} person-address{{ end }}">
+{{/* The owner of the site as a schema.org Person. The itemid is the URL of
+     the author page, as in the author links of publications and talks.
+     itemref adds the email, telephone and address of the contact widget. */}}
+<div class="row" itemscope itemtype="https://schema.org/Person" itemid="{{ partial "schema_owner_id" . }}" itemref="{{ if $.Site.Params.email }}person-email{{ end }}{{ if $.Site.Params.phone }} person-telephone{{ end }}{{ if $.Site.Params.address}} person-address{{ end }}">
   <div class="col-xs-12 col-md-4">
     <div id="profile">
 
@@ -17,12 +20,20 @@
       <div class="portrait-title">
         <h2 itemprop="name">{{ $.Site.Params.name }}</h2>
         <h3 itemprop="jobTitle">{{ $.Site.Params.role }}</h3>
-        {{ if $.Site.Params.organization }}
-        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+        {{ range $.Site.Params.organizations }}
+        <h3 itemprop="worksFor" itemscope itemtype="https://schema.org/Organization">
+          {{ with .url }}<a href="{{ . }}" target="_blank" itemprop="url">{{ end }}
+            <span itemprop="name">{{ .name }}</span>
+          {{ if .url }}</a>{{ end }}
+        </h3>
+        {{ else }}
+        {{ with $.Site.Params.organization }}
+        <h3 itemprop="worksFor" itemscope itemtype="https://schema.org/Organization">
           {{ with $.Site.Params.organization_url }}<a href="{{ . }}" target="_blank" itemprop="url">{{ end }}
-            <span itemprop="name">{{ $.Site.Params.organization }}</span>
+            <span itemprop="name">{{ . }}</span>
           {{ if $.Site.Params.organization_url }}</a>{{ end }}
         </h3>
+        {{ end }}
         {{ end }}
       </div>
 
@@ -32,7 +43,7 @@
         {{ range $.Site.Params.social }}
         {{ $pack := or .icon_pack "fa" }}
         <li>
-          <a itemprop="sameAs" href="{{ .link | safeURL }}" target="_blank">
+          <a{{ if not (hasPrefix .link "mailto:") }} itemprop="sameAs"{{ end }} href="{{ .link | safeURL }}" target="_blank">
             <i class="{{ $pack }} {{ $pack }}-{{ .icon }} big-icon"></i>
           </a>
         </li>
@@ -41,9 +52,9 @@
 
     </div>
   </div>
-  <div class="col-xs-12 col-md-8" itemprop="description">
+  <div class="col-xs-12 col-md-8">
 
-    {{ $page.Content }}
+    <div itemprop="description">{{ $page.Content }}</div>
 
     <div class="row">
 
@@ -52,7 +63,7 @@
         <h3>{{ i18n "interests" | markdownify }}</h3>
         <ul class="ul-interests">
           {{ range .interests }}
-          <li>{{ . }}</li>
+          <li itemprop="knowsAbout">{{ . }}</li>
           {{ end }}
         </ul>
       </div>
@@ -66,8 +77,8 @@
           <li>
             <i class="fa-li fa fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
-              <p class="institution">{{ .institution }}</p>
+              <p class="course" itemprop="hasCredential" itemscope itemtype="https://schema.org/EducationalOccupationalCredential"><span itemprop="name">{{ .course }}</span>{{ with .year }}, {{ . }}{{ end }}</p>
+              <p class="institution" itemprop="alumniOf" itemscope itemtype="https://schema.org/EducationalOrganization"><span itemprop="name">{{ .institution }}</span></p>
             </div>
           </li>
           {{ end }}

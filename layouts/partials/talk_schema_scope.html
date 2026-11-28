@@ -1,0 +1,3 @@
+{{- /* Attributes for the element of a talk: a schema.org Event with the
+       URL of the talk page as itemid. */ -}}
+{{- return (safeHTMLAttr (printf `itemscope itemtype="https://schema.org/Event" itemid="%s"` .Permalink)) -}}

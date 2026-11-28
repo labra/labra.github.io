@@ -1,0 +1,21 @@
+{{- /*
+  The schema.org type of a publication, from the publication type (see
+  "publication_types" in config.toml).
+*/ -}}
+{{- $typeIndex := "0" -}}
+{{- with .Params.publication_types }}{{ $typeIndex = index . 0 | string | strings.TrimSpace }}{{ end -}}
+{{- $types := dict
+  "0" "CreativeWork"
+  "1" "ScholarlyArticle"
+  "2" "ScholarlyArticle"
+  "3" "ScholarlyArticle"
+  "4" "Report"
+  "5" "Book"
+  "6" "Chapter"
+  "7" "Book"
+  "8" "Thesis"
+  "9" "TechArticle"
+  "10" "Book"
+  "11" "ScholarlyArticle"
+-}}
+{{- return (index $types $typeIndex | default "CreativeWork") -}}

@@ -14,17 +14,18 @@
 
       {{- /* The text of the _index.md file of the section, after the counter. */}}
       {{ with .Content }}
-      <div class="article-style list-intro" itemprop="articleBody">{{ . }}</div>
+      <div class="article-style list-intro">{{ . }}</div>
       {{ end }}
 
       <ul id="container-projects-list" class="fa-ul project-list">
         {{ range .RegularPages.ByDate.Reverse }}
-        <li data-list-item {{ partial "list_item_data" . }}>
+        <li data-list-item {{ partial "list_item_data" . }} {{ partial "project_schema_scope" . }}>
+          {{ partial "project_schema_meta" . }}
           <i class="fa-li fa fa-files-o" aria-hidden="true"
              style="color:#03396c;font-size:80%;padding-top:6px;"></i>
           {{ $url := .RelPermalink }}
           {{ if and (not .Content) .Params.external_link }}{{ $url = .Params.external_link }}{{ end }}
-          <a href="{{ $url }}"{{ if ne $url .RelPermalink }} target="_blank" rel="noopener"{{ end }}>{{ .Title }}</a>
+          <a href="{{ $url }}"{{ if ne $url .RelPermalink }} target="_blank" rel="noopener"{{ end }}><span itemprop="name">{{ .Title }}</span></a>
           {{- with .Params.summary }}: {{ . | markdownify }}{{ end }}
           <p>
             {{ range .GetTerms "tags" }}

@@ -14,7 +14,7 @@
 
       {{- /* The text of the _index.md file of the section, after the counter. */}}
       {{ with .Content }}
-      <div class="article-style list-intro" itemprop="articleBody">{{ . }}</div>
+      <div class="article-style list-intro">{{ . }}</div>
       {{ end }}
 
       <div id="container-talks">
@@ -27,10 +27,11 @@
           <ul class="compact fa-ul">
 
             {{ range .Pages.ByDate.Reverse }}
-            <li data-list-item {{ partial "list_item_data" . }}>
+            <li data-list-item {{ partial "list_item_data" . }} {{ partial "talk_schema_scope" . }}>
+              {{ partial "talk_schema_meta" (dict "page" . "people" true) }}
               <i class="fa-li fa fa-comment-o" aria-hidden="true"
                  style="color:#03396c;font-size:80%;padding-top:6px;"></i>
-              {{ .Title }}{{ with .Params.event }}, <span class="talk-event">{{ . | markdownify }}</span>{{ end }}
+              <span itemprop="name">{{ .Title }}</span>{{ with .Params.event }}, <span class="talk-event">{{ . | markdownify }}</span>{{ end }}
               <p>{{ partial "talk_links" (dict "content" . "is_list" 1) }}</p>
             </li>
             {{ end }}

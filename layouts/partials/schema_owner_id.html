@@ -1,0 +1,5 @@
+{{- /* The itemid of the owner of the site: the URL of the author page. */ -}}
+{{- $path := printf "/authors/%s/" (urlize site.Params.name) -}}
+{{- $url := absURL $path -}}
+{{- with site.GetPage (strings.TrimSuffix "/" $path) }}{{ $url = .Permalink }}{{ end -}}
+{{- return $url -}}

@@ -26,6 +26,10 @@ check-archive-links:
 pin-archive-links:
 	python3 tests/pin_archive_links.py --write
 
+# Make tests/schemaorg.json again from the schema.org vocabulary (needs network access).
+update-schemaorg:
+	python3 tests/update_schemaorg.py
+
 version:
 	@echo "Expected: v$(HUGO_VERSION)"
 	@$(HUGO) version

@@ -26,7 +26,9 @@ import xml.etree.ElementTree as ET
 from datetime import date, datetime
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import unquote, urlparse
+from urllib.parse import quote, unquote, urlparse
+
+from microdata import Vocabulary, all_items, parse as parse_microdata
 
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
@@ -1008,6 +1010,226 @@ class TestBibTeX(SiteTestCase):
             with self.subTest(bad=bad):
                 with self.assertRaises(ValueError):
                     parse_bibtex(bad)
+
+
+# Publication type (see "publication_types" in config.toml) -> schema.org type.
+SCHEMA_PUBLICATION_TYPES = {
+    "0": "CreativeWork",
+    "1": "ScholarlyArticle",
+    "2": "ScholarlyArticle",
+    "3": "ScholarlyArticle",
+    "4": "Report",
+    "5": "Book",
+    "6": "Chapter",
+    "7": "Book",
+    "8": "Thesis",
+    "9": "TechArticle",
+    "10": "Book",
+    "11": "ScholarlyArticle",
+}
+
+_microdata = {}
+
+
+def microdata(path):
+    """The top-level microdata items of a page and its orphan itemprops."""
+    file = site_file(path)
+    if file not in _microdata:
+        _microdata[file] = parse_microdata(file.read_text(encoding="utf-8"), BASE_URL + path.lstrip("/"))
+    return _microdata[file]
+
+
+def items_of_type(path, type_name):
+    items, _ = microdata(path)
+    return [i for i in all_items(items) if type_name in i.type_names]
+
+
+def item_with_id(path, url):
+    found = [i for i in all_items(microdata(path)[0]) if i.id == url]
+    return found[0] if found else None
+
+
+def absolute(path):
+    """The absolute URL of a site path. Hugo encodes characters such as "á" in URLs."""
+    return BASE_URL + quote(unquote(path.lstrip("/")), safe="/#?=&")
+
+
+def html_pages():
+    return sorted(p for p in SITE.rglob("*.html") if "Kactus" not in p.parts)
+
+
+class TestSchemaOrg(SiteTestCase):
+    """The pages describe their content with schema.org microdata.
+
+    The tests check the microdata against a copy of the schema.org vocabulary
+    (tests/schemaorg.json, made by tests/update_schemaorg.py), so they do not
+    need the network.
+    """
+
+    vocabulary = Vocabulary.load()
+
+    def test_all_pages_use_the_vocabulary(self):
+        """Every page has only valid schema.org types and properties."""
+        for file in html_pages():
+            path = "/" + file.relative_to(SITE).as_posix()
+            with self.subTest(page=path):
+                text = file.read_text(encoding="utf-8")
+                if "http-equiv=\"refresh\"" in text:
+                    continue
+                errors = self.vocabulary.check(*parse_microdata(text, absolute(path)))
+                self.assertEqual(errors, [], "\n".join(errors[:10]))
+
+    def test_home_person(self):
+        params = CONFIG["params"]
+        people = [i for i in microdata("/")[0] if "Person" in i.type_names]
+        self.assertEqual(len(people), 1, "The home page must describe one Person")
+        person = people[0]
+        self.assertEqual(norm_text(person.text("name")), norm_text(params["name"]))
+        self.assertEqual(person.id, owner_id())
+        self.assertEqual(person.text("url"), BASE_URL)
+        if params.get("role"):
+            self.assertEqual(norm_text(person.text("jobTitle")), norm_text(params["role"]))
+        for org in params.get("organizations", []):
+            names = [norm_text(o.text("name")) for o in person.values("worksFor")]
+            self.assertIn(norm_text(org["name"]), names)
+        same_as = set(person.values("sameAs"))
+        for social in params.get("social", []):
+            if social["link"].startswith("http"):
+                self.assertIn(social["link"], same_as)
+        for field in ("email", "telephone", "address"):
+            key = {"telephone": "phone"}.get(field, field)
+            if params.get(key):
+                self.assertEqual(norm_text(person.text(field)), norm_text(params[key]))
+        about = next((w for w in pages_of("home") if w.params.get("widget") == "about"), None)
+        if about:
+            topics = [norm_text(t) for t in person.values("knowsAbout")]
+            for interest in about.params.get("interests", {}).get("interests", []):
+                self.assertIn(norm_text(interest), topics)
+            schools = [norm_text(o.text("name")) for o in person.values("alumniOf")]
+            for course in about.params.get("education", {}).get("courses", []):
+                self.assertIn(norm_text(course["institution"]), schools)
+
+    def check_people(self, work, names, prop="author"):
+        """The work has one Person for each name, in order, with a link to the page of the person."""
+        people = work.values(prop)
+        self.assertEqual([norm_text(p.text("name")) for p in people], [norm_text(n) for n in names],
+                         f"Wrong {prop} list")
+        for person in people:
+            self.assertEqual(person.type_names, ["Person"])
+            url = person.text("url")
+            path = local_path(url)
+            self.assertTrue(path and path.startswith("/authors/"), f"No link to the author page: {url}")
+            self.assertTrue(site_file(path).is_file(), f"Broken author link {url}")
+            self.assertEqual(person.id, url, "The itemid of a person is the URL of the author page")
+
+    def check_publication(self, work, c):
+        types = c.params.get("publication_types") or ["0"]
+        expected = SCHEMA_PUBLICATION_TYPES.get(str(types[0]).strip(), "CreativeWork")
+        self.assertEqual(work.type_names, [expected])
+        self.assertEqual(norm_text(work.text("name")), plain_title(c.title))
+        self.assertEqual(work.text("datePublished"), c.date.isoformat())
+        self.assertEqual(work.text("url"), absolute(c.url_path))
+        prop = "editor" if str(types[0]).strip() == "10" else "author"
+        self.check_people(work, c.params.get("authors", []), prop)
+
+    def test_publication_pages(self):
+        for c in pages_of("publication"):
+            with self.subTest(publication=c.path.stem):
+                work = item_with_id(c.url_path, absolute(c.url_path))
+                self.assertIsNotNone(work, "No item with the URL of the page as itemid")
+                self.check_publication(work, c)
+                if c.params.get("abstract", "").strip():
+                    self.assertTrue(work.text("abstract"), "No abstract")
+                keywords = {norm_term(k) for k in work.values("keywords")}
+                self.assertEqual(keywords, {norm_term(t) for t in c.tags})
+                if c.params.get("publication", "").strip():
+                    self.assertTrue(work.value("isPartOf"), "No isPartOf for the publication")
+                bib = site_file(c.url_path + "cite.bib")
+                doi = re.search(r"doi = \{([^}]+)\}", bib.read_text(encoding="utf-8")) if bib.exists() else None
+                if doi:
+                    self.assertIn("https://doi.org/" + doi.group(1), work.values("sameAs"))
+
+    def test_publication_lists(self):
+        """The list of publications and the author pages describe each publication."""
+        lists = ["/publication/"]
+        for c in pages_of("publication"):
+            with self.subTest(publication=c.path.stem):
+                for path in lists:
+                    work = item_with_id(path, absolute(c.url_path))
+                    self.assertIsNotNone(work, f"No item for the publication in {path}")
+                    self.check_publication(work, c)
+
+    def test_talk_pages(self):
+        for c in pages_of("talk"):
+            with self.subTest(talk=c.path.stem):
+                for path in (c.url_path, "/talk/"):
+                    event = item_with_id(path, absolute(c.url_path))
+                    self.assertIsNotNone(event, f"No item for the talk in {path}")
+                    self.assertEqual(event.type_names, ["Event"])
+                    self.assertEqual(norm_text(event.text("name")), plain_title(c.title))
+                    self.assertTrue(event.text("startDate").startswith(
+                        str(c.params.get("time_start") or c.date)[:10]))
+                    self.assertTrue(event.values("performer"), "No performer")
+                    if c.params.get("event", "").strip():
+                        self.assertTrue(event.value("superEvent"), "No superEvent for the event")
+                self.check_people(event, c.params.get("authors") or [CONFIG["params"]["name"]], "performer")
+
+    def test_project_pages(self):
+        for c in pages_of("project"):
+            with self.subTest(project=c.path.stem):
+                for path in (c.url_path, "/project/"):
+                    work = item_with_id(path, absolute(c.url_path))
+                    self.assertIsNotNone(work, f"No item for the project in {path}")
+                    self.assertEqual(work.type_names, [c.params.get("schema_type", "SoftwareSourceCode")])
+                    self.assertEqual(norm_text(work.text("name")), plain_title(c.title))
+                    if c.params.get("summary"):
+                        self.assertEqual(norm_text(work.text("description")), norm_text(c.params["summary"]))
+                    self.assertEqual({norm_term(k) for k in work.values("keywords")}, {norm_term(t) for t in c.tags})
+                    if c.params.get("authors"):
+                        self.check_people(work, c.params["authors"])
+
+    def test_post_pages(self):
+        for c in pages_of("post"):
+            with self.subTest(post=c.path.stem):
+                post = item_with_id(c.url_path, absolute(c.url_path))
+                self.assertIsNotNone(post, "No item with the URL of the page as itemid")
+                self.assertEqual(post.type_names, ["BlogPosting"])
+                self.assertEqual(norm_text(post.text("headline")), plain_title(c.title))
+                self.assertEqual(post.text("datePublished")[:10], c.date.isoformat())
+                self.check_people(post, c.params.get("authors") or [CONFIG["params"]["name"]])
+
+    def test_author_pages(self):
+        """Each author page is a ProfilePage about one Person."""
+        for file in sorted((SITE / "authors").glob("*/index.html")):
+            path = "/" + file.parent.relative_to(SITE).as_posix() + "/"
+            with self.subTest(author=path):
+                pages = [i for i in microdata(path)[0] if "ProfilePage" in i.type_names]
+                self.assertEqual(len(pages), 1)
+                person = pages[0].value("mainEntity")
+                self.assertEqual(person.type_names, ["Person"])
+                self.assertEqual(person.id, absolute(path))
+                self.assertTrue(person.text("name"))
+
+    def test_people_are_consistent(self):
+        """An itemid has the same name in all the pages. Hugo uses one author
+        page for "Labra Gayo" and "Labra-Gayo", so these names are equal here."""
+        names = {}
+        for file in html_pages():
+            path = "/" + file.relative_to(SITE).as_posix()
+            for item in all_items(microdata(path)[0]):
+                if item.id and item.text("name"):
+                    names.setdefault(item.id, set()).add(norm_term(item.text("name")))
+        bad = {k: v for k, v in names.items() if len(v) > 1}
+        self.assertEqual(bad, {}, "Different names for one itemid")
+        self.assertIn(owner_id(), names, "The owner of the site has no itemid")
+
+
+def owner_id():
+    """The itemid of the owner of the site: the URL of the author page."""
+    name = CONFIG["params"]["name"]
+    pages = [p for p in (SITE / "authors").glob("*/index.html")
+             if norm_term(re.sub(r"<[^>]+>", "", re.search(r"<h1[^>]*>(.*?)</h1>", p.read_text(encoding="utf-8"), re.S).group(1))) == norm_term(name)]
+    return absolute("/" + pages[0].parent.relative_to(SITE).as_posix() + "/") if pages else None
 
 
 class TestLinks(SiteTestCase):

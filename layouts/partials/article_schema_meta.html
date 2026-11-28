@@ -1,0 +1,11 @@
+{{- /*
+  Hidden schema.org metadata of a post or an article: URL, tags and
+  authors. The authors are the "authors" list, or else the owner of the site.
+*/ -}}
+<link itemprop="url" href="{{ .Permalink }}">
+{{- range .Params.tags }}
+<meta itemprop="keywords" content="{{ . }}">
+{{- end }}
+{{- range (.Params.authors | default (slice site.Params.name)) }}
+{{ partial "schema_person" (dict "name" . "prop" "author" "hidden" true) }}
+{{- end }}

@@ -1,0 +1,2 @@
+{{- /* Attributes for the element of a project: itemscope, itemtype and itemid (the URL of the page). */ -}}
+{{- return (safeHTMLAttr (printf `itemscope itemtype="https://schema.org/%s" itemid="%s"` (partial "project_schema_type" .) .Permalink)) -}}
