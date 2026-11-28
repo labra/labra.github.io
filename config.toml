@@ -295,12 +295,12 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Publications"
-  url = "#publications"
+  url = "/publication/"
   weight = 2
 
 [[menu.main]]
   name = "Projects"
-  url = "#projects"
+  url = "/project/"
   weight = 4
 
 [[menu.main]]
@@ -310,7 +310,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Talks"
-  url = "#talks"
+  url = "/talk/"
   weight = 6
 
 [[menu.main]]

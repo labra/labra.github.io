@@ -327,6 +327,8 @@ class TestHomePage(SiteTestCase):
                 self.assertTrue(any(h.endswith(m["url"]) and norm_text(t) == norm_text(m["name"]) for h, t in nav))
                 if m["url"].startswith("#"):
                     self.assertIn(m["url"][1:], self.home.sections, f"Menu target {m['url']} has no section")
+                elif local_path(m["url"]):
+                    self.assertTrue(site_file(m["url"]).is_file(), f"Menu target {m['url']} has no page")
 
     def test_about_widget(self):
         about = self.home.elements_in("about")
@@ -684,9 +686,28 @@ class TestListFilters(SiteTestCase):
                 self.assertTrue(dates)
                 self.assertTrue(all(d.startswith(year) for d in dates))
 
-    def test_projects_link(self):
-        """The home page links to the list of projects."""
-        self.assertIn("/project/", linked_paths([page("/")]))
+    def test_home_links_to_lists(self):
+        """The home page links to the lists of publications, talks and projects."""
+        links = linked_paths([page("/")])
+        for path, _, _ in self.LISTS:
+            with self.subTest(list=path):
+                self.assertIn(path, links)
+
+    def test_section_text_after_counter(self):
+        """The text of the _index.md file of a list shows after the counter."""
+        for path, section, _ in self.LISTS:
+            index = CONTENT / section / "_index.md"
+            body = Content(index).body if index.exists() else ""
+            if not body:
+                continue
+            with self.subTest(list=path):
+                text = site_file(path).read_text(encoding="utf-8")
+                intro = re.search(r'<div class="article-style list-intro"[^>]*>(.*?)</div>', text, re.S)
+                self.assertIsNotNone(intro, "The text of _index.md is not on the page")
+                self.assertLess(text.index('class="list-count"'), intro.start(), "The text is not after the counter")
+                shown = {unquote(html.unescape(h)) for h in re.findall(r'href="([^"]+)"', intro.group(1))}
+                for href in re.findall(r"\]\((https?://[^)\s]+)\)", body):
+                    self.assertIn(unquote(href), shown, "A link of _index.md is not on the page")
 
 
 class TestTaxonomies(SiteTestCase):

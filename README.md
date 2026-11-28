@@ -74,6 +74,10 @@ The URL keeps the filters and the order, so you can share a link to a
 filtered list, for example `/publication/#tag=shex`,
 `/publication/#2&tag=rdf&sort=oldest` or `/publication/#q=wikidata`.
 
+The menu items Publications, Talks and Projects go to these pages. The text
+of `content/<section>/_index.md` (for example the "Other lists" links in
+`content/publication/_index.md`) shows after the counter.
+
 To add the filters to another list, call the partial `list_filters` and give
 each item the attribute `data-list-item` and the attributes of the partial
 `list_item_data`. See `layouts/section/project.html` for a short example.

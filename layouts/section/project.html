@@ -8,13 +8,14 @@
     <div class="col-md-12">
       <h1>{{ .Title | default (i18n "projects") }}</h1>
 
-      {{ with .Content }}
-      <div class="article-style" itemprop="articleBody">{{ . }}</div>
-      {{ end }}
-
       {{ partial "list_filters" (dict
            "list" "container-projects-list" "pages" .RegularPages "noun" "projects" "text" "Title, summary or tag"
            "context" .) }}
+
+      {{- /* The text of the _index.md file of the section, after the counter. */}}
+      {{ with .Content }}
+      <div class="article-style list-intro" itemprop="articleBody">{{ . }}</div>
+      {{ end }}
 
       <ul id="container-projects-list" class="fa-ul project-list">
         {{ range .RegularPages.ByDate.Reverse }}

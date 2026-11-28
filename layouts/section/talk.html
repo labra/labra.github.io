@@ -8,13 +8,14 @@
     <div class="col-md-12">
       <h1>{{ .Title | default (i18n "talks") }}</h1>
 
-      {{ with .Content }}
-      <div class="article-style" itemprop="articleBody">{{ . }}</div>
-      {{ end }}
-
       {{ partial "list_filters" (dict
            "list" "container-talks" "pages" .RegularPages "noun" "talks"
            "text" "Title, event, place or abstract" "context" .) }}
+
+      {{- /* The text of the _index.md file of the section, after the counter. */}}
+      {{ with .Content }}
+      <div class="article-style list-intro" itemprop="articleBody">{{ . }}</div>
+      {{ end }}
 
       <div id="container-talks">
       {{ range .RegularPages.GroupByDate "2006" }}
